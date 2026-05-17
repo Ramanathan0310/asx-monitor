@@ -1,0 +1,29 @@
+{
+  "companies": [
+    {"ticker": "MQG", "name": "Macquarie Group"},
+    {"ticker": "LBL", "name": "LaserBond"},
+    {"ticker": "WES", "name": "Wesfarmers"},
+    {"ticker": "APE", "name": "Eagers Automotive"},
+    {"ticker": "SGH", "name": "SGH Limited"},
+    {"ticker": "EOL", "name": "Energy One"},
+    {"ticker": "ALL", "name": "Aristocrat Leisure"},
+    {"ticker": "SNL", "name": "Supply Network"},
+    {"ticker": "CSL", "name": "CSL Limited"},
+    {"ticker": "C79", "name": "Chrysos Corporation"},
+    {"ticker": "CAT", "name": "Catapult Group"},
+    {"ticker": "PME", "name": "Pro Medicus"},
+    {"ticker": "ARB", "name": "ARB Corporation"},
+    {"ticker": "COH", "name": "Cochlear"},
+    {"ticker": "WTC", "name": "WiseTech Global"},
+    {"ticker": "XRF", "name": "XRF Scientific"},
+    {"ticker": "LOV", "name": "Lovisa Holdings"},
+    {"ticker": "REA", "name": "REA Group"},
+    {"ticker": "TNE", "name": "TechnologyOne"},
+    {"ticker": "SOL", "name": "Washington H. Soul Pattinson"},
+    {"ticker": "SDR", "name": "SiteMinder"},
+    {"ticker": "OCL", "name": "Objective Corporation"},
+    {"ticker": "SIG", "name": "Sigma Healthcare"},
+    {"ticker": "RMD", "name": "ResMed"},
+    {"ticker": "MFF", "name": "MFF Capital"}
+  ]
+}

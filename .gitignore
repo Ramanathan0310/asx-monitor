@@ -1,0 +1,23 @@
+# Secrets — never commit
+.env
+.env.local
+*.pem
+*.key
+
+# Virtualenv & caches
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# Local run artefacts (CI uses ubuntu-latest, so these don't apply on cloud)
+logs/
+
+# OS noise
+.DS_Store
+Thumbs.db
+
+# probe.py was a one-off dev helper, not part of the pipeline
+probe.py
+seen_announcements.json.backup
