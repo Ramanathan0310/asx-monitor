@@ -25,7 +25,15 @@ class ResultPack:
 
     @property
     def date_prefix(self) -> str:
-        d = dt.datetime.strptime(self.result_date, "%d/%m/%Y")
+        # Handle both DD/MM/YY and DD/MM/YYYY formats
+        for fmt in ["%d/%m/%Y", "%d/%m/%y"]:
+            try:
+                d = dt.datetime.strptime(self.result_date, fmt)
+                break
+            except Exception:
+                pass
+        else:
+            d = dt.datetime.now()
         return d.strftime("%y%m%d")
 
     @property
