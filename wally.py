@@ -1,4 +1,4 @@
-name: Wally — 52-Week Low Screen
+name: Wally - 52-Week Low Screen
 
 on:
   schedule:
