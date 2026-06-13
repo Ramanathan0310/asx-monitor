@@ -1,0 +1,199 @@
+{
+  "date": "2026-06-13",
+  "threshold": 5.0,
+  "total": 39,
+  "flagged": [
+    {
+      "ticker": "REA.AX",
+      "name": "REA Group",
+      "list": "Portfolio",
+      "data": {
+        "price": 143.0,
+        "low": 140.02,
+        "high": 265.98
+      },
+      "dist": 2.13,
+      "pos": 2.4
+    },
+    {
+      "ticker": "SIG.AX",
+      "name": "Sigma Healthcare",
+      "list": "Portfolio",
+      "data": {
+        "price": 2.64,
+        "low": 2.58,
+        "high": 3.27
+      },
+      "dist": 2.33,
+      "pos": 8.7
+    },
+    {
+      "ticker": "NAB.AX",
+      "name": "NAB",
+      "list": "Watchlist",
+      "data": {
+        "price": 36.5,
+        "low": 35.48,
+        "high": 49.45
+      },
+      "dist": 2.87,
+      "pos": 7.3
+    },
+    {
+      "ticker": "WTC.AX",
+      "name": "WiseTech Global",
+      "list": "Portfolio",
+      "data": {
+        "price": 37.5,
+        "low": 35.54,
+        "high": 121.31
+      },
+      "dist": 5.51,
+      "pos": 2.3
+    },
+    {
+      "ticker": "CAT.AX",
+      "name": "Catapult Group",
+      "list": "Portfolio",
+      "data": {
+        "price": 3.08,
+        "low": 2.86,
+        "high": 7.72
+      },
+      "dist": 7.69,
+      "pos": 4.5
+    },
+    {
+      "ticker": "ARB.AX",
+      "name": "ARB Corporation",
+      "list": "Portfolio",
+      "data": {
+        "price": 18.25,
+        "low": 16.93,
+        "high": 41.34
+      },
+      "dist": 7.8,
+      "pos": 5.4
+    },
+    {
+      "ticker": "WBC.AX",
+      "name": "Westpac",
+      "list": "Watchlist",
+      "data": {
+        "price": 35.0,
+        "low": 32.38,
+        "high": 43.32
+      },
+      "dist": 8.09,
+      "pos": 23.9
+    },
+    {
+      "ticker": "XRO.AX",
+      "name": "Xero",
+      "list": "Watchlist",
+      "data": {
+        "price": 73.5,
+        "low": 67.93,
+        "high": 196.52
+      },
+      "dist": 8.2,
+      "pos": 4.3
+    },
+    {
+      "ticker": "CBA.AX",
+      "name": "Commonwealth Bank",
+      "list": "Watchlist",
+      "data": {
+        "price": 159.51,
+        "low": 146.98,
+        "high": 192.0
+      },
+      "dist": 8.52,
+      "pos": 27.8
+    },
+    {
+      "ticker": "RMD.AX",
+      "name": "ResMed",
+      "list": "Portfolio",
+      "data": {
+        "price": 27.72,
+        "low": 25.5,
+        "high": 45.25
+      },
+      "dist": 8.71,
+      "pos": 11.2
+    },
+    {
+      "ticker": "OCL.AX",
+      "name": "Objective Corporation",
+      "list": "Portfolio",
+      "data": {
+        "price": 10.81,
+        "low": 9.92,
+        "high": 23.1
+      },
+      "dist": 8.97,
+      "pos": 6.8
+    },
+    {
+      "ticker": "SHL.AX",
+      "name": "Sonic Healthcare",
+      "list": "Watchlist",
+      "data": {
+        "price": 20.2,
+        "low": 18.26,
+        "high": 29.24
+      },
+      "dist": 10.62,
+      "pos": 17.7
+    },
+    {
+      "ticker": "ASX.AX",
+      "name": "ASX Ltd",
+      "list": "Watchlist",
+      "data": {
+        "price": 49.2,
+        "low": 44.3,
+        "high": 72.34
+      },
+      "dist": 11.06,
+      "pos": 17.5
+    },
+    {
+      "ticker": "AMC.AX",
+      "name": "Amcor",
+      "list": "Watchlist",
+      "data": {
+        "price": 56.87,
+        "low": 51.2,
+        "high": 76.4
+      },
+      "dist": 11.07,
+      "pos": 22.5
+    },
+    {
+      "ticker": "SGH.AX",
+      "name": "SGH Limited",
+      "list": "Portfolio",
+      "data": {
+        "price": 41.51,
+        "low": 37.26,
+        "high": 55.365
+      },
+      "dist": 11.41,
+      "pos": 23.5
+    },
+    {
+      "ticker": "EOL.AX",
+      "name": "Energy One",
+      "list": "Portfolio",
+      "data": {
+        "price": 12.5,
+        "low": 11.2,
+        "high": 20.19
+      },
+      "dist": 11.61,
+      "pos": 14.5
+    }
+  ]
+}
