@@ -1,4 +1,6 @@
+requests
 anthropic==0.102.0
 playwright==1.59.0
 playwright-stealth==2.0.3
 Markdown==3.10.2
+pypdf>=4.0.0
