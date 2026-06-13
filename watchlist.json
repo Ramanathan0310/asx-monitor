@@ -1,0 +1,11 @@
+{
+  "watchlist": [
+    {"ticker": "SHL", "name": "Sonic Healthcare"},
+    {"ticker": "APA", "name": "APA Group"},
+    {"ticker": "NHC", "name": "New Hope Corporation"},
+    {"ticker": "JBH", "name": "JB Hi-Fi"},
+    {"ticker": "ALL", "name": "Aristocrat Leisure"},
+    {"ticker": "4DX", "name": "4DMedical"},
+    {"ticker": "EIQ", "name": "Echo IQ"}
+  ]
+}
