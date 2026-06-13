@@ -6,43 +6,8 @@
       "ticker": "MQG",
       "name": "Macquarie Group",
       "list": "Portfolio",
-      "count": 7,
+      "count": 2,
       "items": [
-        {
-          "title": "U.S. Interest Expense Just Hit $1.6 Trillion Annually. Peter Schiff Warns a Dollar Crisis Arrives When It Hits $2 Trillion.",
-          "source": "24/7 Wall St.",
-          "url": "https://finance.yahoo.com/m/7f10085f-f0fa-3e30-ab76-0519c0eefb69/u.s.-interest-expense-just.html",
-          "published": "13 Jun 21:32",
-          "channel": "Yahoo Finance"
-        },
-        {
-          "title": "Anthropic had 90 minutes to take down Fable after Trump admin demand",
-          "source": "Axios",
-          "url": "https://finance.yahoo.com/m/87b1ee5a-7b87-3b4f-b50a-248089e06bd9/anthropic-had-90-minutes-to.html",
-          "published": "13 Jun 21:24",
-          "channel": "Yahoo Finance"
-        },
-        {
-          "title": "Qatar earn first ever World Cup point with late goal",
-          "source": "AFP",
-          "url": "https://finance.yahoo.com/m/26f47b81-2c35-3189-a06f-500b2ffe4f2b/qatar-earn-first-ever-world.html",
-          "published": "13 Jun 21:22",
-          "channel": "Yahoo Finance"
-        },
-        {
-          "title": "Trump says US-Iran deal to be signed Sunday, Hormuz to open afterwards",
-          "source": "AFP",
-          "url": "https://finance.yahoo.com/m/69587bb4-1923-31b6-a274-f10de1c915de/trump-says-us-iran-deal-to-be.html",
-          "published": "13 Jun 21:21",
-          "channel": "Yahoo Finance"
-        },
-        {
-          "title": "Man bikes from Pittsburgh to Dallas to watch his home team's World Cup match",
-          "source": "CBS News Videos",
-          "url": "https://finance.yahoo.com/m/168e86a4-f093-3740-8f91-c7b9f89e3348/man-bikes-from-pittsburgh-to.html",
-          "published": "13 Jun 21:19",
-          "channel": "Yahoo Finance"
-        },
         {
           "title": "Macquarie Group (ASX:MQG) Shares Valuation After Strong Full Year Earnings And Final Dividend - simplywall.st",
           "source": "simplywall.st",
@@ -63,86 +28,15 @@
       "ticker": "LBL",
       "name": "LaserBond",
       "list": "Portfolio",
-      "count": 5,
-      "items": [
-        {
-          "title": "U.S. Interest Expense Just Hit $1.6 Trillion Annually. Peter Schiff Warns a Dollar Crisis Arrives When It Hits $2 Trillion.",
-          "source": "24/7 Wall St.",
-          "url": "https://finance.yahoo.com/m/7f10085f-f0fa-3e30-ab76-0519c0eefb69/u.s.-interest-expense-just.html",
-          "published": "13 Jun 21:32",
-          "channel": "Yahoo Finance"
-        },
-        {
-          "title": "Anthropic had 90 minutes to take down Fable after Trump admin demand",
-          "source": "Axios",
-          "url": "https://finance.yahoo.com/m/87b1ee5a-7b87-3b4f-b50a-248089e06bd9/anthropic-had-90-minutes-to.html",
-          "published": "13 Jun 21:24",
-          "channel": "Yahoo Finance"
-        },
-        {
-          "title": "Qatar earn first ever World Cup point with late goal",
-          "source": "AFP",
-          "url": "https://finance.yahoo.com/m/26f47b81-2c35-3189-a06f-500b2ffe4f2b/qatar-earn-first-ever-world.html",
-          "published": "13 Jun 21:22",
-          "channel": "Yahoo Finance"
-        },
-        {
-          "title": "Trump says US-Iran deal to be signed Sunday, Hormuz to open afterwards",
-          "source": "AFP",
-          "url": "https://finance.yahoo.com/m/69587bb4-1923-31b6-a274-f10de1c915de/trump-says-us-iran-deal-to-be.html",
-          "published": "13 Jun 21:21",
-          "channel": "Yahoo Finance"
-        },
-        {
-          "title": "Man bikes from Pittsburgh to Dallas to watch his home team's World Cup match",
-          "source": "CBS News Videos",
-          "url": "https://finance.yahoo.com/m/168e86a4-f093-3740-8f91-c7b9f89e3348/man-bikes-from-pittsburgh-to.html",
-          "published": "13 Jun 21:19",
-          "channel": "Yahoo Finance"
-        }
-      ]
+      "count": 0,
+      "items": []
     },
     {
       "ticker": "WES",
       "name": "Wesfarmers",
       "list": "Portfolio",
-      "count": 7,
+      "count": 2,
       "items": [
-        {
-          "title": "U.S. Interest Expense Just Hit $1.6 Trillion Annually. Peter Schiff Warns a Dollar Crisis Arrives When It Hits $2 Trillion.",
-          "source": "24/7 Wall St.",
-          "url": "https://finance.yahoo.com/m/7f10085f-f0fa-3e30-ab76-0519c0eefb69/u.s.-interest-expense-just.html",
-          "published": "13 Jun 21:32",
-          "channel": "Yahoo Finance"
-        },
-        {
-          "title": "Anthropic had 90 minutes to take down Fable after Trump admin demand",
-          "source": "Axios",
-          "url": "https://finance.yahoo.com/m/87b1ee5a-7b87-3b4f-b50a-248089e06bd9/anthropic-had-90-minutes-to.html",
-          "published": "13 Jun 21:24",
-          "channel": "Yahoo Finance"
-        },
-        {
-          "title": "Qatar earn first ever World Cup point with late goal",
-          "source": "AFP",
-          "url": "https://finance.yahoo.com/m/26f47b81-2c35-3189-a06f-500b2ffe4f2b/qatar-earn-first-ever-world.html",
-          "published": "13 Jun 21:22",
-          "channel": "Yahoo Finance"
-        },
-        {
-          "title": "Trump says US-Iran deal to be signed Sunday, Hormuz to open afterwards",
-          "source": "AFP",
-          "url": "https://finance.yahoo.com/m/69587bb4-1923-31b6-a274-f10de1c915de/trump-says-us-iran-deal-to-be.html",
-          "published": "13 Jun 21:21",
-          "channel": "Yahoo Finance"
-        },
-        {
-          "title": "Man bikes from Pittsburgh to Dallas to watch his home team's World Cup match",
-          "source": "CBS News Videos",
-          "url": "https://finance.yahoo.com/m/168e86a4-f093-3740-8f91-c7b9f89e3348/man-bikes-from-pittsburgh-to.html",
-          "published": "13 Jun 21:19",
-          "channel": "Yahoo Finance"
-        },
         {
           "title": "Is Wesfarmers (ASX:WES) Bunnings Integration Strategy Quietly Redefining Its Diversification Playbook? - simplywall.st",
           "source": "simplywall.st",
@@ -163,86 +57,15 @@
       "ticker": "APE",
       "name": "Eagers Automotive",
       "list": "Portfolio",
-      "count": 5,
-      "items": [
-        {
-          "title": "U.S. Interest Expense Just Hit $1.6 Trillion Annually. Peter Schiff Warns a Dollar Crisis Arrives When It Hits $2 Trillion.",
-          "source": "24/7 Wall St.",
-          "url": "https://finance.yahoo.com/m/7f10085f-f0fa-3e30-ab76-0519c0eefb69/u.s.-interest-expense-just.html",
-          "published": "13 Jun 21:32",
-          "channel": "Yahoo Finance"
-        },
-        {
-          "title": "Anthropic had 90 minutes to take down Fable after Trump admin demand",
-          "source": "Axios",
-          "url": "https://finance.yahoo.com/m/87b1ee5a-7b87-3b4f-b50a-248089e06bd9/anthropic-had-90-minutes-to.html",
-          "published": "13 Jun 21:24",
-          "channel": "Yahoo Finance"
-        },
-        {
-          "title": "Qatar earn first ever World Cup point with late goal",
-          "source": "AFP",
-          "url": "https://finance.yahoo.com/m/26f47b81-2c35-3189-a06f-500b2ffe4f2b/qatar-earn-first-ever-world.html",
-          "published": "13 Jun 21:22",
-          "channel": "Yahoo Finance"
-        },
-        {
-          "title": "Trump says US-Iran deal to be signed Sunday, Hormuz to open afterwards",
-          "source": "AFP",
-          "url": "https://finance.yahoo.com/m/69587bb4-1923-31b6-a274-f10de1c915de/trump-says-us-iran-deal-to-be.html",
-          "published": "13 Jun 21:21",
-          "channel": "Yahoo Finance"
-        },
-        {
-          "title": "Man bikes from Pittsburgh to Dallas to watch his home team's World Cup match",
-          "source": "CBS News Videos",
-          "url": "https://finance.yahoo.com/m/168e86a4-f093-3740-8f91-c7b9f89e3348/man-bikes-from-pittsburgh-to.html",
-          "published": "13 Jun 21:19",
-          "channel": "Yahoo Finance"
-        }
-      ]
+      "count": 0,
+      "items": []
     },
     {
       "ticker": "SGH",
       "name": "SGH Limited",
       "list": "Portfolio",
-      "count": 6,
+      "count": 1,
       "items": [
-        {
-          "title": "U.S. Interest Expense Just Hit $1.6 Trillion Annually. Peter Schiff Warns a Dollar Crisis Arrives When It Hits $2 Trillion.",
-          "source": "24/7 Wall St.",
-          "url": "https://finance.yahoo.com/m/7f10085f-f0fa-3e30-ab76-0519c0eefb69/u.s.-interest-expense-just.html",
-          "published": "13 Jun 21:32",
-          "channel": "Yahoo Finance"
-        },
-        {
-          "title": "Anthropic had 90 minutes to take down Fable after Trump admin demand",
-          "source": "Axios",
-          "url": "https://finance.yahoo.com/m/87b1ee5a-7b87-3b4f-b50a-248089e06bd9/anthropic-had-90-minutes-to.html",
-          "published": "13 Jun 21:24",
-          "channel": "Yahoo Finance"
-        },
-        {
-          "title": "Qatar earn first ever World Cup point with late goal",
-          "source": "AFP",
-          "url": "https://finance.yahoo.com/m/26f47b81-2c35-3189-a06f-500b2ffe4f2b/qatar-earn-first-ever-world.html",
-          "published": "13 Jun 21:22",
-          "channel": "Yahoo Finance"
-        },
-        {
-          "title": "Trump says US-Iran deal to be signed Sunday, Hormuz to open afterwards",
-          "source": "AFP",
-          "url": "https://finance.yahoo.com/m/69587bb4-1923-31b6-a274-f10de1c915de/trump-says-us-iran-deal-to-be.html",
-          "published": "13 Jun 21:21",
-          "channel": "Yahoo Finance"
-        },
-        {
-          "title": "Man bikes from Pittsburgh to Dallas to watch his home team's World Cup match",
-          "source": "CBS News Videos",
-          "url": "https://finance.yahoo.com/m/168e86a4-f093-3740-8f91-c7b9f89e3348/man-bikes-from-pittsburgh-to.html",
-          "published": "13 Jun 21:19",
-          "channel": "Yahoo Finance"
-        },
         {
           "title": "SGH Limited Holds Back as ASX 200 Pushes Higher Before FY26 Results - TechStock\u00b2",
           "source": "TechStock\u00b2",
@@ -256,6 +79,13 @@
       "ticker": "EOL",
       "name": "Energy One",
       "list": "Portfolio",
+      "count": 0,
+      "items": []
+    },
+    {
+      "ticker": "ALL",
+      "name": "Aristocrat Leisure",
+      "list": "Portfolio",
       "count": 5,
       "items": [
         {
@@ -263,70 +93,6 @@
           "source": "24/7 Wall St.",
           "url": "https://finance.yahoo.com/m/7f10085f-f0fa-3e30-ab76-0519c0eefb69/u.s.-interest-expense-just.html",
           "published": "13 Jun 21:32",
-          "channel": "Yahoo Finance"
-        },
-        {
-          "title": "Anthropic had 90 minutes to take down Fable after Trump admin demand",
-          "source": "Axios",
-          "url": "https://finance.yahoo.com/m/87b1ee5a-7b87-3b4f-b50a-248089e06bd9/anthropic-had-90-minutes-to.html",
-          "published": "13 Jun 21:24",
-          "channel": "Yahoo Finance"
-        },
-        {
-          "title": "Qatar earn first ever World Cup point with late goal",
-          "source": "AFP",
-          "url": "https://finance.yahoo.com/m/26f47b81-2c35-3189-a06f-500b2ffe4f2b/qatar-earn-first-ever-world.html",
-          "published": "13 Jun 21:22",
-          "channel": "Yahoo Finance"
-        },
-        {
-          "title": "Trump says US-Iran deal to be signed Sunday, Hormuz to open afterwards",
-          "source": "AFP",
-          "url": "https://finance.yahoo.com/m/69587bb4-1923-31b6-a274-f10de1c915de/trump-says-us-iran-deal-to-be.html",
-          "published": "13 Jun 21:21",
-          "channel": "Yahoo Finance"
-        },
-        {
-          "title": "Man bikes from Pittsburgh to Dallas to watch his home team's World Cup match",
-          "source": "CBS News Videos",
-          "url": "https://finance.yahoo.com/m/168e86a4-f093-3740-8f91-c7b9f89e3348/man-bikes-from-pittsburgh-to.html",
-          "published": "13 Jun 21:19",
-          "channel": "Yahoo Finance"
-        }
-      ]
-    },
-    {
-      "ticker": "ALL",
-      "name": "Aristocrat Leisure",
-      "list": "Portfolio",
-      "count": 8,
-      "items": [
-        {
-          "title": "U.S. Interest Expense Just Hit $1.6 Trillion Annually. Peter Schiff Warns a Dollar Crisis Arrives When It Hits $2 Trillion.",
-          "source": "24/7 Wall St.",
-          "url": "https://finance.yahoo.com/m/7f10085f-f0fa-3e30-ab76-0519c0eefb69/u.s.-interest-expense-just.html",
-          "published": "13 Jun 21:32",
-          "channel": "Yahoo Finance"
-        },
-        {
-          "title": "Anthropic had 90 minutes to take down Fable after Trump admin demand",
-          "source": "Axios",
-          "url": "https://finance.yahoo.com/m/87b1ee5a-7b87-3b4f-b50a-248089e06bd9/anthropic-had-90-minutes-to.html",
-          "published": "13 Jun 21:24",
-          "channel": "Yahoo Finance"
-        },
-        {
-          "title": "Qatar earn first ever World Cup point with late goal",
-          "source": "AFP",
-          "url": "https://finance.yahoo.com/m/26f47b81-2c35-3189-a06f-500b2ffe4f2b/qatar-earn-first-ever-world.html",
-          "published": "13 Jun 21:22",
-          "channel": "Yahoo Finance"
-        },
-        {
-          "title": "Trump says US-Iran deal to be signed Sunday, Hormuz to open afterwards",
-          "source": "AFP",
-          "url": "https://finance.yahoo.com/m/69587bb4-1923-31b6-a274-f10de1c915de/trump-says-us-iran-deal-to-be.html",
-          "published": "13 Jun 21:21",
           "channel": "Yahoo Finance"
         },
         {
@@ -363,86 +129,15 @@
       "ticker": "SNL",
       "name": "Supply Network",
       "list": "Portfolio",
-      "count": 5,
-      "items": [
-        {
-          "title": "U.S. Interest Expense Just Hit $1.6 Trillion Annually. Peter Schiff Warns a Dollar Crisis Arrives When It Hits $2 Trillion.",
-          "source": "24/7 Wall St.",
-          "url": "https://finance.yahoo.com/m/7f10085f-f0fa-3e30-ab76-0519c0eefb69/u.s.-interest-expense-just.html",
-          "published": "13 Jun 21:32",
-          "channel": "Yahoo Finance"
-        },
-        {
-          "title": "Anthropic had 90 minutes to take down Fable after Trump admin demand",
-          "source": "Axios",
-          "url": "https://finance.yahoo.com/m/87b1ee5a-7b87-3b4f-b50a-248089e06bd9/anthropic-had-90-minutes-to.html",
-          "published": "13 Jun 21:24",
-          "channel": "Yahoo Finance"
-        },
-        {
-          "title": "Qatar earn first ever World Cup point with late goal",
-          "source": "AFP",
-          "url": "https://finance.yahoo.com/m/26f47b81-2c35-3189-a06f-500b2ffe4f2b/qatar-earn-first-ever-world.html",
-          "published": "13 Jun 21:22",
-          "channel": "Yahoo Finance"
-        },
-        {
-          "title": "Trump says US-Iran deal to be signed Sunday, Hormuz to open afterwards",
-          "source": "AFP",
-          "url": "https://finance.yahoo.com/m/69587bb4-1923-31b6-a274-f10de1c915de/trump-says-us-iran-deal-to-be.html",
-          "published": "13 Jun 21:21",
-          "channel": "Yahoo Finance"
-        },
-        {
-          "title": "Man bikes from Pittsburgh to Dallas to watch his home team's World Cup match",
-          "source": "CBS News Videos",
-          "url": "https://finance.yahoo.com/m/168e86a4-f093-3740-8f91-c7b9f89e3348/man-bikes-from-pittsburgh-to.html",
-          "published": "13 Jun 21:19",
-          "channel": "Yahoo Finance"
-        }
-      ]
+      "count": 0,
+      "items": []
     },
     {
       "ticker": "CSL",
       "name": "CSL Limited",
       "list": "Portfolio",
-      "count": 8,
+      "count": 3,
       "items": [
-        {
-          "title": "U.S. Interest Expense Just Hit $1.6 Trillion Annually. Peter Schiff Warns a Dollar Crisis Arrives When It Hits $2 Trillion.",
-          "source": "24/7 Wall St.",
-          "url": "https://finance.yahoo.com/m/7f10085f-f0fa-3e30-ab76-0519c0eefb69/u.s.-interest-expense-just.html",
-          "published": "13 Jun 21:32",
-          "channel": "Yahoo Finance"
-        },
-        {
-          "title": "Anthropic had 90 minutes to take down Fable after Trump admin demand",
-          "source": "Axios",
-          "url": "https://finance.yahoo.com/m/87b1ee5a-7b87-3b4f-b50a-248089e06bd9/anthropic-had-90-minutes-to.html",
-          "published": "13 Jun 21:24",
-          "channel": "Yahoo Finance"
-        },
-        {
-          "title": "Qatar earn first ever World Cup point with late goal",
-          "source": "AFP",
-          "url": "https://finance.yahoo.com/m/26f47b81-2c35-3189-a06f-500b2ffe4f2b/qatar-earn-first-ever-world.html",
-          "published": "13 Jun 21:22",
-          "channel": "Yahoo Finance"
-        },
-        {
-          "title": "Trump says US-Iran deal to be signed Sunday, Hormuz to open afterwards",
-          "source": "AFP",
-          "url": "https://finance.yahoo.com/m/69587bb4-1923-31b6-a274-f10de1c915de/trump-says-us-iran-deal-to-be.html",
-          "published": "13 Jun 21:21",
-          "channel": "Yahoo Finance"
-        },
-        {
-          "title": "Man bikes from Pittsburgh to Dallas to watch his home team's World Cup match",
-          "source": "CBS News Videos",
-          "url": "https://finance.yahoo.com/m/168e86a4-f093-3740-8f91-c7b9f89e3348/man-bikes-from-pittsburgh-to.html",
-          "published": "13 Jun 21:19",
-          "channel": "Yahoo Finance"
-        },
         {
           "title": "Up 15% in a week, is it too late to buy rebounding CSL shares? - The Motley Fool Australia",
           "source": "The Motley Fool Australia",
@@ -470,129 +165,22 @@
       "ticker": "C79",
       "name": "Chrysos Corporation",
       "list": "Portfolio",
-      "count": 5,
-      "items": [
-        {
-          "title": "U.S. Interest Expense Just Hit $1.6 Trillion Annually. Peter Schiff Warns a Dollar Crisis Arrives When It Hits $2 Trillion.",
-          "source": "24/7 Wall St.",
-          "url": "https://finance.yahoo.com/m/7f10085f-f0fa-3e30-ab76-0519c0eefb69/u.s.-interest-expense-just.html",
-          "published": "13 Jun 21:32",
-          "channel": "Yahoo Finance"
-        },
-        {
-          "title": "Anthropic had 90 minutes to take down Fable after Trump admin demand",
-          "source": "Axios",
-          "url": "https://finance.yahoo.com/m/87b1ee5a-7b87-3b4f-b50a-248089e06bd9/anthropic-had-90-minutes-to.html",
-          "published": "13 Jun 21:24",
-          "channel": "Yahoo Finance"
-        },
-        {
-          "title": "Qatar earn first ever World Cup point with late goal",
-          "source": "AFP",
-          "url": "https://finance.yahoo.com/m/26f47b81-2c35-3189-a06f-500b2ffe4f2b/qatar-earn-first-ever-world.html",
-          "published": "13 Jun 21:22",
-          "channel": "Yahoo Finance"
-        },
-        {
-          "title": "Trump says US-Iran deal to be signed Sunday, Hormuz to open afterwards",
-          "source": "AFP",
-          "url": "https://finance.yahoo.com/m/69587bb4-1923-31b6-a274-f10de1c915de/trump-says-us-iran-deal-to-be.html",
-          "published": "13 Jun 21:21",
-          "channel": "Yahoo Finance"
-        },
-        {
-          "title": "Man bikes from Pittsburgh to Dallas to watch his home team's World Cup match",
-          "source": "CBS News Videos",
-          "url": "https://finance.yahoo.com/m/168e86a4-f093-3740-8f91-c7b9f89e3348/man-bikes-from-pittsburgh-to.html",
-          "published": "13 Jun 21:19",
-          "channel": "Yahoo Finance"
-        }
-      ]
+      "count": 0,
+      "items": []
     },
     {
       "ticker": "CAT",
       "name": "Catapult Group",
       "list": "Portfolio",
-      "count": 5,
-      "items": [
-        {
-          "title": "U.S. Interest Expense Just Hit $1.6 Trillion Annually. Peter Schiff Warns a Dollar Crisis Arrives When It Hits $2 Trillion.",
-          "source": "24/7 Wall St.",
-          "url": "https://finance.yahoo.com/m/7f10085f-f0fa-3e30-ab76-0519c0eefb69/u.s.-interest-expense-just.html",
-          "published": "13 Jun 21:32",
-          "channel": "Yahoo Finance"
-        },
-        {
-          "title": "Anthropic had 90 minutes to take down Fable after Trump admin demand",
-          "source": "Axios",
-          "url": "https://finance.yahoo.com/m/87b1ee5a-7b87-3b4f-b50a-248089e06bd9/anthropic-had-90-minutes-to.html",
-          "published": "13 Jun 21:24",
-          "channel": "Yahoo Finance"
-        },
-        {
-          "title": "Qatar earn first ever World Cup point with late goal",
-          "source": "AFP",
-          "url": "https://finance.yahoo.com/m/26f47b81-2c35-3189-a06f-500b2ffe4f2b/qatar-earn-first-ever-world.html",
-          "published": "13 Jun 21:22",
-          "channel": "Yahoo Finance"
-        },
-        {
-          "title": "Trump says US-Iran deal to be signed Sunday, Hormuz to open afterwards",
-          "source": "AFP",
-          "url": "https://finance.yahoo.com/m/69587bb4-1923-31b6-a274-f10de1c915de/trump-says-us-iran-deal-to-be.html",
-          "published": "13 Jun 21:21",
-          "channel": "Yahoo Finance"
-        },
-        {
-          "title": "Man bikes from Pittsburgh to Dallas to watch his home team's World Cup match",
-          "source": "CBS News Videos",
-          "url": "https://finance.yahoo.com/m/168e86a4-f093-3740-8f91-c7b9f89e3348/man-bikes-from-pittsburgh-to.html",
-          "published": "13 Jun 21:19",
-          "channel": "Yahoo Finance"
-        }
-      ]
+      "count": 0,
+      "items": []
     },
     {
       "ticker": "PME",
       "name": "Pro Medicus",
       "list": "Portfolio",
-      "count": 7,
+      "count": 2,
       "items": [
-        {
-          "title": "U.S. Interest Expense Just Hit $1.6 Trillion Annually. Peter Schiff Warns a Dollar Crisis Arrives When It Hits $2 Trillion.",
-          "source": "24/7 Wall St.",
-          "url": "https://finance.yahoo.com/m/7f10085f-f0fa-3e30-ab76-0519c0eefb69/u.s.-interest-expense-just.html",
-          "published": "13 Jun 21:32",
-          "channel": "Yahoo Finance"
-        },
-        {
-          "title": "Anthropic had 90 minutes to take down Fable after Trump admin demand",
-          "source": "Axios",
-          "url": "https://finance.yahoo.com/m/87b1ee5a-7b87-3b4f-b50a-248089e06bd9/anthropic-had-90-minutes-to.html",
-          "published": "13 Jun 21:24",
-          "channel": "Yahoo Finance"
-        },
-        {
-          "title": "Qatar earn first ever World Cup point with late goal",
-          "source": "AFP",
-          "url": "https://finance.yahoo.com/m/26f47b81-2c35-3189-a06f-500b2ffe4f2b/qatar-earn-first-ever-world.html",
-          "published": "13 Jun 21:22",
-          "channel": "Yahoo Finance"
-        },
-        {
-          "title": "Trump says US-Iran deal to be signed Sunday, Hormuz to open afterwards",
-          "source": "AFP",
-          "url": "https://finance.yahoo.com/m/69587bb4-1923-31b6-a274-f10de1c915de/trump-says-us-iran-deal-to-be.html",
-          "published": "13 Jun 21:21",
-          "channel": "Yahoo Finance"
-        },
-        {
-          "title": "Man bikes from Pittsburgh to Dallas to watch his home team's World Cup match",
-          "source": "CBS News Videos",
-          "url": "https://finance.yahoo.com/m/168e86a4-f093-3740-8f91-c7b9f89e3348/man-bikes-from-pittsburgh-to.html",
-          "published": "13 Jun 21:19",
-          "channel": "Yahoo Finance"
-        },
         {
           "title": "Pro Medicus (ASX:PME) Shares Valuation After S&P/ASX 50 Removal And Recent Contract Renewals - simplywall.st",
           "source": "simplywall.st",
@@ -613,43 +201,8 @@
       "ticker": "ARB",
       "name": "ARB Corporation",
       "list": "Portfolio",
-      "count": 6,
+      "count": 1,
       "items": [
-        {
-          "title": "U.S. Interest Expense Just Hit $1.6 Trillion Annually. Peter Schiff Warns a Dollar Crisis Arrives When It Hits $2 Trillion.",
-          "source": "24/7 Wall St.",
-          "url": "https://finance.yahoo.com/m/7f10085f-f0fa-3e30-ab76-0519c0eefb69/u.s.-interest-expense-just.html",
-          "published": "13 Jun 21:32",
-          "channel": "Yahoo Finance"
-        },
-        {
-          "title": "Anthropic had 90 minutes to take down Fable after Trump admin demand",
-          "source": "Axios",
-          "url": "https://finance.yahoo.com/m/87b1ee5a-7b87-3b4f-b50a-248089e06bd9/anthropic-had-90-minutes-to.html",
-          "published": "13 Jun 21:24",
-          "channel": "Yahoo Finance"
-        },
-        {
-          "title": "Qatar earn first ever World Cup point with late goal",
-          "source": "AFP",
-          "url": "https://finance.yahoo.com/m/26f47b81-2c35-3189-a06f-500b2ffe4f2b/qatar-earn-first-ever-world.html",
-          "published": "13 Jun 21:22",
-          "channel": "Yahoo Finance"
-        },
-        {
-          "title": "Trump says US-Iran deal to be signed Sunday, Hormuz to open afterwards",
-          "source": "AFP",
-          "url": "https://finance.yahoo.com/m/69587bb4-1923-31b6-a274-f10de1c915de/trump-says-us-iran-deal-to-be.html",
-          "published": "13 Jun 21:21",
-          "channel": "Yahoo Finance"
-        },
-        {
-          "title": "Man bikes from Pittsburgh to Dallas to watch his home team's World Cup match",
-          "source": "CBS News Videos",
-          "url": "https://finance.yahoo.com/m/168e86a4-f093-3740-8f91-c7b9f89e3348/man-bikes-from-pittsburgh-to.html",
-          "published": "13 Jun 21:19",
-          "channel": "Yahoo Finance"
-        },
         {
           "title": "Kalkine ASX Analysis: ARB Corporation (ASX:ARB) Yield Looks Elevated, But What's Behind It? - Kalkine",
           "source": "Kalkine",
@@ -663,43 +216,8 @@
       "ticker": "COH",
       "name": "Cochlear",
       "list": "Portfolio",
-      "count": 7,
+      "count": 2,
       "items": [
-        {
-          "title": "U.S. Interest Expense Just Hit $1.6 Trillion Annually. Peter Schiff Warns a Dollar Crisis Arrives When It Hits $2 Trillion.",
-          "source": "24/7 Wall St.",
-          "url": "https://finance.yahoo.com/m/7f10085f-f0fa-3e30-ab76-0519c0eefb69/u.s.-interest-expense-just.html",
-          "published": "13 Jun 21:32",
-          "channel": "Yahoo Finance"
-        },
-        {
-          "title": "Anthropic had 90 minutes to take down Fable after Trump admin demand",
-          "source": "Axios",
-          "url": "https://finance.yahoo.com/m/87b1ee5a-7b87-3b4f-b50a-248089e06bd9/anthropic-had-90-minutes-to.html",
-          "published": "13 Jun 21:24",
-          "channel": "Yahoo Finance"
-        },
-        {
-          "title": "Qatar earn first ever World Cup point with late goal",
-          "source": "AFP",
-          "url": "https://finance.yahoo.com/m/26f47b81-2c35-3189-a06f-500b2ffe4f2b/qatar-earn-first-ever-world.html",
-          "published": "13 Jun 21:22",
-          "channel": "Yahoo Finance"
-        },
-        {
-          "title": "Trump says US-Iran deal to be signed Sunday, Hormuz to open afterwards",
-          "source": "AFP",
-          "url": "https://finance.yahoo.com/m/69587bb4-1923-31b6-a274-f10de1c915de/trump-says-us-iran-deal-to-be.html",
-          "published": "13 Jun 21:21",
-          "channel": "Yahoo Finance"
-        },
-        {
-          "title": "Man bikes from Pittsburgh to Dallas to watch his home team's World Cup match",
-          "source": "CBS News Videos",
-          "url": "https://finance.yahoo.com/m/168e86a4-f093-3740-8f91-c7b9f89e3348/man-bikes-from-pittsburgh-to.html",
-          "published": "13 Jun 21:19",
-          "channel": "Yahoo Finance"
-        },
         {
           "title": "Kalkine Stock Analysis: Is Cochlear (ASX:COH) a Healthcare Stock Investors Are Watching Closely? - Kalkine",
           "source": "Kalkine",
@@ -720,43 +238,8 @@
       "ticker": "WTC",
       "name": "WiseTech Global",
       "list": "Portfolio",
-      "count": 6,
+      "count": 1,
       "items": [
-        {
-          "title": "U.S. Interest Expense Just Hit $1.6 Trillion Annually. Peter Schiff Warns a Dollar Crisis Arrives When It Hits $2 Trillion.",
-          "source": "24/7 Wall St.",
-          "url": "https://finance.yahoo.com/m/7f10085f-f0fa-3e30-ab76-0519c0eefb69/u.s.-interest-expense-just.html",
-          "published": "13 Jun 21:32",
-          "channel": "Yahoo Finance"
-        },
-        {
-          "title": "Anthropic had 90 minutes to take down Fable after Trump admin demand",
-          "source": "Axios",
-          "url": "https://finance.yahoo.com/m/87b1ee5a-7b87-3b4f-b50a-248089e06bd9/anthropic-had-90-minutes-to.html",
-          "published": "13 Jun 21:24",
-          "channel": "Yahoo Finance"
-        },
-        {
-          "title": "Qatar earn first ever World Cup point with late goal",
-          "source": "AFP",
-          "url": "https://finance.yahoo.com/m/26f47b81-2c35-3189-a06f-500b2ffe4f2b/qatar-earn-first-ever-world.html",
-          "published": "13 Jun 21:22",
-          "channel": "Yahoo Finance"
-        },
-        {
-          "title": "Trump says US-Iran deal to be signed Sunday, Hormuz to open afterwards",
-          "source": "AFP",
-          "url": "https://finance.yahoo.com/m/69587bb4-1923-31b6-a274-f10de1c915de/trump-says-us-iran-deal-to-be.html",
-          "published": "13 Jun 21:21",
-          "channel": "Yahoo Finance"
-        },
-        {
-          "title": "Man bikes from Pittsburgh to Dallas to watch his home team's World Cup match",
-          "source": "CBS News Videos",
-          "url": "https://finance.yahoo.com/m/168e86a4-f093-3740-8f91-c7b9f89e3348/man-bikes-from-pittsburgh-to.html",
-          "published": "13 Jun 21:19",
-          "channel": "Yahoo Finance"
-        },
         {
           "title": "WiseTech Global (ASX:WTC) Is Down 5.8% After Reaffirming FY26 Guidance And Faster e2open Synergies \u2013 Has The Bull Case Changed? - simplywall.st",
           "source": "simplywall.st",
@@ -770,129 +253,22 @@
       "ticker": "XRF",
       "name": "XRF Scientific",
       "list": "Portfolio",
-      "count": 5,
-      "items": [
-        {
-          "title": "U.S. Interest Expense Just Hit $1.6 Trillion Annually. Peter Schiff Warns a Dollar Crisis Arrives When It Hits $2 Trillion.",
-          "source": "24/7 Wall St.",
-          "url": "https://finance.yahoo.com/m/7f10085f-f0fa-3e30-ab76-0519c0eefb69/u.s.-interest-expense-just.html",
-          "published": "13 Jun 21:32",
-          "channel": "Yahoo Finance"
-        },
-        {
-          "title": "Anthropic had 90 minutes to take down Fable after Trump admin demand",
-          "source": "Axios",
-          "url": "https://finance.yahoo.com/m/87b1ee5a-7b87-3b4f-b50a-248089e06bd9/anthropic-had-90-minutes-to.html",
-          "published": "13 Jun 21:24",
-          "channel": "Yahoo Finance"
-        },
-        {
-          "title": "Qatar earn first ever World Cup point with late goal",
-          "source": "AFP",
-          "url": "https://finance.yahoo.com/m/26f47b81-2c35-3189-a06f-500b2ffe4f2b/qatar-earn-first-ever-world.html",
-          "published": "13 Jun 21:22",
-          "channel": "Yahoo Finance"
-        },
-        {
-          "title": "Trump says US-Iran deal to be signed Sunday, Hormuz to open afterwards",
-          "source": "AFP",
-          "url": "https://finance.yahoo.com/m/69587bb4-1923-31b6-a274-f10de1c915de/trump-says-us-iran-deal-to-be.html",
-          "published": "13 Jun 21:21",
-          "channel": "Yahoo Finance"
-        },
-        {
-          "title": "Man bikes from Pittsburgh to Dallas to watch his home team's World Cup match",
-          "source": "CBS News Videos",
-          "url": "https://finance.yahoo.com/m/168e86a4-f093-3740-8f91-c7b9f89e3348/man-bikes-from-pittsburgh-to.html",
-          "published": "13 Jun 21:19",
-          "channel": "Yahoo Finance"
-        }
-      ]
+      "count": 0,
+      "items": []
     },
     {
       "ticker": "LOV",
       "name": "Lovisa Holdings",
       "list": "Portfolio",
-      "count": 5,
-      "items": [
-        {
-          "title": "U.S. Interest Expense Just Hit $1.6 Trillion Annually. Peter Schiff Warns a Dollar Crisis Arrives When It Hits $2 Trillion.",
-          "source": "24/7 Wall St.",
-          "url": "https://finance.yahoo.com/m/7f10085f-f0fa-3e30-ab76-0519c0eefb69/u.s.-interest-expense-just.html",
-          "published": "13 Jun 21:32",
-          "channel": "Yahoo Finance"
-        },
-        {
-          "title": "Anthropic had 90 minutes to take down Fable after Trump admin demand",
-          "source": "Axios",
-          "url": "https://finance.yahoo.com/m/87b1ee5a-7b87-3b4f-b50a-248089e06bd9/anthropic-had-90-minutes-to.html",
-          "published": "13 Jun 21:24",
-          "channel": "Yahoo Finance"
-        },
-        {
-          "title": "Qatar earn first ever World Cup point with late goal",
-          "source": "AFP",
-          "url": "https://finance.yahoo.com/m/26f47b81-2c35-3189-a06f-500b2ffe4f2b/qatar-earn-first-ever-world.html",
-          "published": "13 Jun 21:22",
-          "channel": "Yahoo Finance"
-        },
-        {
-          "title": "Trump says US-Iran deal to be signed Sunday, Hormuz to open afterwards",
-          "source": "AFP",
-          "url": "https://finance.yahoo.com/m/69587bb4-1923-31b6-a274-f10de1c915de/trump-says-us-iran-deal-to-be.html",
-          "published": "13 Jun 21:21",
-          "channel": "Yahoo Finance"
-        },
-        {
-          "title": "Man bikes from Pittsburgh to Dallas to watch his home team's World Cup match",
-          "source": "CBS News Videos",
-          "url": "https://finance.yahoo.com/m/168e86a4-f093-3740-8f91-c7b9f89e3348/man-bikes-from-pittsburgh-to.html",
-          "published": "13 Jun 21:19",
-          "channel": "Yahoo Finance"
-        }
-      ]
+      "count": 0,
+      "items": []
     },
     {
       "ticker": "REA",
       "name": "REA Group",
       "list": "Portfolio",
-      "count": 8,
+      "count": 3,
       "items": [
-        {
-          "title": "U.S. Interest Expense Just Hit $1.6 Trillion Annually. Peter Schiff Warns a Dollar Crisis Arrives When It Hits $2 Trillion.",
-          "source": "24/7 Wall St.",
-          "url": "https://finance.yahoo.com/m/7f10085f-f0fa-3e30-ab76-0519c0eefb69/u.s.-interest-expense-just.html",
-          "published": "13 Jun 21:32",
-          "channel": "Yahoo Finance"
-        },
-        {
-          "title": "Anthropic had 90 minutes to take down Fable after Trump admin demand",
-          "source": "Axios",
-          "url": "https://finance.yahoo.com/m/87b1ee5a-7b87-3b4f-b50a-248089e06bd9/anthropic-had-90-minutes-to.html",
-          "published": "13 Jun 21:24",
-          "channel": "Yahoo Finance"
-        },
-        {
-          "title": "Qatar earn first ever World Cup point with late goal",
-          "source": "AFP",
-          "url": "https://finance.yahoo.com/m/26f47b81-2c35-3189-a06f-500b2ffe4f2b/qatar-earn-first-ever-world.html",
-          "published": "13 Jun 21:22",
-          "channel": "Yahoo Finance"
-        },
-        {
-          "title": "Trump says US-Iran deal to be signed Sunday, Hormuz to open afterwards",
-          "source": "AFP",
-          "url": "https://finance.yahoo.com/m/69587bb4-1923-31b6-a274-f10de1c915de/trump-says-us-iran-deal-to-be.html",
-          "published": "13 Jun 21:21",
-          "channel": "Yahoo Finance"
-        },
-        {
-          "title": "Man bikes from Pittsburgh to Dallas to watch his home team's World Cup match",
-          "source": "CBS News Videos",
-          "url": "https://finance.yahoo.com/m/168e86a4-f093-3740-8f91-c7b9f89e3348/man-bikes-from-pittsburgh-to.html",
-          "published": "13 Jun 21:19",
-          "channel": "Yahoo Finance"
-        },
         {
           "title": "REA Group (ASX:REA) Shares Valuation After Broker Downgrades And Tax Reform Concerns - simplywall.st",
           "source": "simplywall.st",
@@ -920,220 +296,41 @@
       "ticker": "TNE",
       "name": "TechnologyOne",
       "list": "Portfolio",
-      "count": 5,
-      "items": [
-        {
-          "title": "U.S. Interest Expense Just Hit $1.6 Trillion Annually. Peter Schiff Warns a Dollar Crisis Arrives When It Hits $2 Trillion.",
-          "source": "24/7 Wall St.",
-          "url": "https://finance.yahoo.com/m/7f10085f-f0fa-3e30-ab76-0519c0eefb69/u.s.-interest-expense-just.html",
-          "published": "13 Jun 21:32",
-          "channel": "Yahoo Finance"
-        },
-        {
-          "title": "Anthropic had 90 minutes to take down Fable after Trump admin demand",
-          "source": "Axios",
-          "url": "https://finance.yahoo.com/m/87b1ee5a-7b87-3b4f-b50a-248089e06bd9/anthropic-had-90-minutes-to.html",
-          "published": "13 Jun 21:24",
-          "channel": "Yahoo Finance"
-        },
-        {
-          "title": "Qatar earn first ever World Cup point with late goal",
-          "source": "AFP",
-          "url": "https://finance.yahoo.com/m/26f47b81-2c35-3189-a06f-500b2ffe4f2b/qatar-earn-first-ever-world.html",
-          "published": "13 Jun 21:22",
-          "channel": "Yahoo Finance"
-        },
-        {
-          "title": "Trump says US-Iran deal to be signed Sunday, Hormuz to open afterwards",
-          "source": "AFP",
-          "url": "https://finance.yahoo.com/m/69587bb4-1923-31b6-a274-f10de1c915de/trump-says-us-iran-deal-to-be.html",
-          "published": "13 Jun 21:21",
-          "channel": "Yahoo Finance"
-        },
-        {
-          "title": "Man bikes from Pittsburgh to Dallas to watch his home team's World Cup match",
-          "source": "CBS News Videos",
-          "url": "https://finance.yahoo.com/m/168e86a4-f093-3740-8f91-c7b9f89e3348/man-bikes-from-pittsburgh-to.html",
-          "published": "13 Jun 21:19",
-          "channel": "Yahoo Finance"
-        }
-      ]
+      "count": 0,
+      "items": []
     },
     {
       "ticker": "SOL",
       "name": "Washington H. Soul Pattinson",
       "list": "Portfolio",
-      "count": 6,
-      "items": [
-        {
-          "title": "U.S. Interest Expense Just Hit $1.6 Trillion Annually. Peter Schiff Warns a Dollar Crisis Arrives When It Hits $2 Trillion.",
-          "source": "24/7 Wall St.",
-          "url": "https://finance.yahoo.com/m/7f10085f-f0fa-3e30-ab76-0519c0eefb69/u.s.-interest-expense-just.html",
-          "published": "13 Jun 21:32",
-          "channel": "Yahoo Finance"
-        },
-        {
-          "title": "Anthropic had 90 minutes to take down Fable after Trump admin demand",
-          "source": "Axios",
-          "url": "https://finance.yahoo.com/m/87b1ee5a-7b87-3b4f-b50a-248089e06bd9/anthropic-had-90-minutes-to.html",
-          "published": "13 Jun 21:24",
-          "channel": "Yahoo Finance"
-        },
-        {
-          "title": "Qatar earn first ever World Cup point with late goal",
-          "source": "AFP",
-          "url": "https://finance.yahoo.com/m/26f47b81-2c35-3189-a06f-500b2ffe4f2b/qatar-earn-first-ever-world.html",
-          "published": "13 Jun 21:22",
-          "channel": "Yahoo Finance"
-        },
-        {
-          "title": "Trump says US-Iran deal to be signed Sunday, Hormuz to open afterwards",
-          "source": "AFP",
-          "url": "https://finance.yahoo.com/m/69587bb4-1923-31b6-a274-f10de1c915de/trump-says-us-iran-deal-to-be.html",
-          "published": "13 Jun 21:21",
-          "channel": "Yahoo Finance"
-        },
-        {
-          "title": "Man bikes from Pittsburgh to Dallas to watch his home team's World Cup match",
-          "source": "CBS News Videos",
-          "url": "https://finance.yahoo.com/m/168e86a4-f093-3740-8f91-c7b9f89e3348/man-bikes-from-pittsburgh-to.html",
-          "published": "13 Jun 21:19",
-          "channel": "Yahoo Finance"
-        },
-        {
-          "title": "Are CAR shares or SOL shares better value in 2026? - Rask Media",
-          "source": "Rask Media",
-          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQb29aTVJDRlhRNlJKZlNOclhzWEVXckpqbWREZDg4YWdtbjJWX0ZUUGJhTHpTNjJ0dGJpXzgwU1FscDgxODFhbVpKcmh4a1duM3M5Ym5rVlJZa1VJRngtdWVOWTRpdUpGMWhVaVM1NFNwOVlKcmlqNUhPOWRkbVQ1LVFzM3RtMXljNHJoNzB4cG5QbzYyYk5V?oc=5",
-          "published": "11 Jun 21:53",
-          "channel": "Google News"
-        }
-      ]
+      "count": 0,
+      "items": []
     },
     {
       "ticker": "SDR",
       "name": "SiteMinder",
       "list": "Portfolio",
-      "count": 5,
-      "items": [
-        {
-          "title": "U.S. Interest Expense Just Hit $1.6 Trillion Annually. Peter Schiff Warns a Dollar Crisis Arrives When It Hits $2 Trillion.",
-          "source": "24/7 Wall St.",
-          "url": "https://finance.yahoo.com/m/7f10085f-f0fa-3e30-ab76-0519c0eefb69/u.s.-interest-expense-just.html",
-          "published": "13 Jun 21:32",
-          "channel": "Yahoo Finance"
-        },
-        {
-          "title": "Anthropic had 90 minutes to take down Fable after Trump admin demand",
-          "source": "Axios",
-          "url": "https://finance.yahoo.com/m/87b1ee5a-7b87-3b4f-b50a-248089e06bd9/anthropic-had-90-minutes-to.html",
-          "published": "13 Jun 21:24",
-          "channel": "Yahoo Finance"
-        },
-        {
-          "title": "Qatar earn first ever World Cup point with late goal",
-          "source": "AFP",
-          "url": "https://finance.yahoo.com/m/26f47b81-2c35-3189-a06f-500b2ffe4f2b/qatar-earn-first-ever-world.html",
-          "published": "13 Jun 21:22",
-          "channel": "Yahoo Finance"
-        },
-        {
-          "title": "Trump says US-Iran deal to be signed Sunday, Hormuz to open afterwards",
-          "source": "AFP",
-          "url": "https://finance.yahoo.com/m/69587bb4-1923-31b6-a274-f10de1c915de/trump-says-us-iran-deal-to-be.html",
-          "published": "13 Jun 21:21",
-          "channel": "Yahoo Finance"
-        },
-        {
-          "title": "Man bikes from Pittsburgh to Dallas to watch his home team's World Cup match",
-          "source": "CBS News Videos",
-          "url": "https://finance.yahoo.com/m/168e86a4-f093-3740-8f91-c7b9f89e3348/man-bikes-from-pittsburgh-to.html",
-          "published": "13 Jun 21:19",
-          "channel": "Yahoo Finance"
-        }
-      ]
+      "count": 0,
+      "items": []
     },
     {
       "ticker": "OCL",
       "name": "Objective Corporation",
       "list": "Portfolio",
-      "count": 5,
-      "items": [
-        {
-          "title": "U.S. Interest Expense Just Hit $1.6 Trillion Annually. Peter Schiff Warns a Dollar Crisis Arrives When It Hits $2 Trillion.",
-          "source": "24/7 Wall St.",
-          "url": "https://finance.yahoo.com/m/7f10085f-f0fa-3e30-ab76-0519c0eefb69/u.s.-interest-expense-just.html",
-          "published": "13 Jun 21:32",
-          "channel": "Yahoo Finance"
-        },
-        {
-          "title": "Anthropic had 90 minutes to take down Fable after Trump admin demand",
-          "source": "Axios",
-          "url": "https://finance.yahoo.com/m/87b1ee5a-7b87-3b4f-b50a-248089e06bd9/anthropic-had-90-minutes-to.html",
-          "published": "13 Jun 21:24",
-          "channel": "Yahoo Finance"
-        },
-        {
-          "title": "Qatar earn first ever World Cup point with late goal",
-          "source": "AFP",
-          "url": "https://finance.yahoo.com/m/26f47b81-2c35-3189-a06f-500b2ffe4f2b/qatar-earn-first-ever-world.html",
-          "published": "13 Jun 21:22",
-          "channel": "Yahoo Finance"
-        },
-        {
-          "title": "Trump says US-Iran deal to be signed Sunday, Hormuz to open afterwards",
-          "source": "AFP",
-          "url": "https://finance.yahoo.com/m/69587bb4-1923-31b6-a274-f10de1c915de/trump-says-us-iran-deal-to-be.html",
-          "published": "13 Jun 21:21",
-          "channel": "Yahoo Finance"
-        },
-        {
-          "title": "Man bikes from Pittsburgh to Dallas to watch his home team's World Cup match",
-          "source": "CBS News Videos",
-          "url": "https://finance.yahoo.com/m/168e86a4-f093-3740-8f91-c7b9f89e3348/man-bikes-from-pittsburgh-to.html",
-          "published": "13 Jun 21:19",
-          "channel": "Yahoo Finance"
-        }
-      ]
+      "count": 0,
+      "items": []
     },
     {
       "ticker": "SIG",
       "name": "Sigma Healthcare",
       "list": "Portfolio",
-      "count": 5,
+      "count": 1,
       "items": [
-        {
-          "title": "U.S. Interest Expense Just Hit $1.6 Trillion Annually. Peter Schiff Warns a Dollar Crisis Arrives When It Hits $2 Trillion.",
-          "source": "24/7 Wall St.",
-          "url": "https://finance.yahoo.com/m/7f10085f-f0fa-3e30-ab76-0519c0eefb69/u.s.-interest-expense-just.html",
-          "published": "13 Jun 21:32",
-          "channel": "Yahoo Finance"
-        },
-        {
-          "title": "Anthropic had 90 minutes to take down Fable after Trump admin demand",
-          "source": "Axios",
-          "url": "https://finance.yahoo.com/m/87b1ee5a-7b87-3b4f-b50a-248089e06bd9/anthropic-had-90-minutes-to.html",
-          "published": "13 Jun 21:24",
-          "channel": "Yahoo Finance"
-        },
-        {
-          "title": "Qatar earn first ever World Cup point with late goal",
-          "source": "AFP",
-          "url": "https://finance.yahoo.com/m/26f47b81-2c35-3189-a06f-500b2ffe4f2b/qatar-earn-first-ever-world.html",
-          "published": "13 Jun 21:22",
-          "channel": "Yahoo Finance"
-        },
         {
           "title": "Trump says US-Iran deal to be signed Sunday, Hormuz to open afterwards",
           "source": "AFP",
           "url": "https://finance.yahoo.com/m/69587bb4-1923-31b6-a274-f10de1c915de/trump-says-us-iran-deal-to-be.html",
           "published": "13 Jun 21:21",
-          "channel": "Yahoo Finance"
-        },
-        {
-          "title": "Man bikes from Pittsburgh to Dallas to watch his home team's World Cup match",
-          "source": "CBS News Videos",
-          "url": "https://finance.yahoo.com/m/168e86a4-f093-3740-8f91-c7b9f89e3348/man-bikes-from-pittsburgh-to.html",
-          "published": "13 Jun 21:19",
           "channel": "Yahoo Finance"
         }
       ]
@@ -1142,43 +339,8 @@
       "ticker": "RMD",
       "name": "ResMed",
       "list": "Portfolio",
-      "count": 6,
+      "count": 1,
       "items": [
-        {
-          "title": "U.S. Interest Expense Just Hit $1.6 Trillion Annually. Peter Schiff Warns a Dollar Crisis Arrives When It Hits $2 Trillion.",
-          "source": "24/7 Wall St.",
-          "url": "https://finance.yahoo.com/m/7f10085f-f0fa-3e30-ab76-0519c0eefb69/u.s.-interest-expense-just.html",
-          "published": "13 Jun 21:32",
-          "channel": "Yahoo Finance"
-        },
-        {
-          "title": "Anthropic had 90 minutes to take down Fable after Trump admin demand",
-          "source": "Axios",
-          "url": "https://finance.yahoo.com/m/87b1ee5a-7b87-3b4f-b50a-248089e06bd9/anthropic-had-90-minutes-to.html",
-          "published": "13 Jun 21:24",
-          "channel": "Yahoo Finance"
-        },
-        {
-          "title": "Qatar earn first ever World Cup point with late goal",
-          "source": "AFP",
-          "url": "https://finance.yahoo.com/m/26f47b81-2c35-3189-a06f-500b2ffe4f2b/qatar-earn-first-ever-world.html",
-          "published": "13 Jun 21:22",
-          "channel": "Yahoo Finance"
-        },
-        {
-          "title": "Trump says US-Iran deal to be signed Sunday, Hormuz to open afterwards",
-          "source": "AFP",
-          "url": "https://finance.yahoo.com/m/69587bb4-1923-31b6-a274-f10de1c915de/trump-says-us-iran-deal-to-be.html",
-          "published": "13 Jun 21:21",
-          "channel": "Yahoo Finance"
-        },
-        {
-          "title": "Man bikes from Pittsburgh to Dallas to watch his home team's World Cup match",
-          "source": "CBS News Videos",
-          "url": "https://finance.yahoo.com/m/168e86a4-f093-3740-8f91-c7b9f89e3348/man-bikes-from-pittsburgh-to.html",
-          "published": "13 Jun 21:19",
-          "channel": "Yahoo Finance"
-        },
         {
           "title": "ResMed Shares Slide Into The Weekend: What Is The Latest? - thebull.com.au",
           "source": "thebull.com.au",
@@ -1192,86 +354,15 @@
       "ticker": "MFF",
       "name": "MFF Capital",
       "list": "Portfolio",
-      "count": 5,
-      "items": [
-        {
-          "title": "U.S. Interest Expense Just Hit $1.6 Trillion Annually. Peter Schiff Warns a Dollar Crisis Arrives When It Hits $2 Trillion.",
-          "source": "24/7 Wall St.",
-          "url": "https://finance.yahoo.com/m/7f10085f-f0fa-3e30-ab76-0519c0eefb69/u.s.-interest-expense-just.html",
-          "published": "13 Jun 21:32",
-          "channel": "Yahoo Finance"
-        },
-        {
-          "title": "Anthropic had 90 minutes to take down Fable after Trump admin demand",
-          "source": "Axios",
-          "url": "https://finance.yahoo.com/m/87b1ee5a-7b87-3b4f-b50a-248089e06bd9/anthropic-had-90-minutes-to.html",
-          "published": "13 Jun 21:24",
-          "channel": "Yahoo Finance"
-        },
-        {
-          "title": "Qatar earn first ever World Cup point with late goal",
-          "source": "AFP",
-          "url": "https://finance.yahoo.com/m/26f47b81-2c35-3189-a06f-500b2ffe4f2b/qatar-earn-first-ever-world.html",
-          "published": "13 Jun 21:22",
-          "channel": "Yahoo Finance"
-        },
-        {
-          "title": "Trump says US-Iran deal to be signed Sunday, Hormuz to open afterwards",
-          "source": "AFP",
-          "url": "https://finance.yahoo.com/m/69587bb4-1923-31b6-a274-f10de1c915de/trump-says-us-iran-deal-to-be.html",
-          "published": "13 Jun 21:21",
-          "channel": "Yahoo Finance"
-        },
-        {
-          "title": "Man bikes from Pittsburgh to Dallas to watch his home team's World Cup match",
-          "source": "CBS News Videos",
-          "url": "https://finance.yahoo.com/m/168e86a4-f093-3740-8f91-c7b9f89e3348/man-bikes-from-pittsburgh-to.html",
-          "published": "13 Jun 21:19",
-          "channel": "Yahoo Finance"
-        }
-      ]
+      "count": 0,
+      "items": []
     },
     {
       "ticker": "SHL",
       "name": "Sonic Healthcare",
       "list": "Watchlist",
-      "count": 7,
+      "count": 2,
       "items": [
-        {
-          "title": "U.S. Interest Expense Just Hit $1.6 Trillion Annually. Peter Schiff Warns a Dollar Crisis Arrives When It Hits $2 Trillion.",
-          "source": "24/7 Wall St.",
-          "url": "https://finance.yahoo.com/m/7f10085f-f0fa-3e30-ab76-0519c0eefb69/u.s.-interest-expense-just.html",
-          "published": "13 Jun 21:32",
-          "channel": "Yahoo Finance"
-        },
-        {
-          "title": "Anthropic had 90 minutes to take down Fable after Trump admin demand",
-          "source": "Axios",
-          "url": "https://finance.yahoo.com/m/87b1ee5a-7b87-3b4f-b50a-248089e06bd9/anthropic-had-90-minutes-to.html",
-          "published": "13 Jun 21:24",
-          "channel": "Yahoo Finance"
-        },
-        {
-          "title": "Qatar earn first ever World Cup point with late goal",
-          "source": "AFP",
-          "url": "https://finance.yahoo.com/m/26f47b81-2c35-3189-a06f-500b2ffe4f2b/qatar-earn-first-ever-world.html",
-          "published": "13 Jun 21:22",
-          "channel": "Yahoo Finance"
-        },
-        {
-          "title": "Trump says US-Iran deal to be signed Sunday, Hormuz to open afterwards",
-          "source": "AFP",
-          "url": "https://finance.yahoo.com/m/69587bb4-1923-31b6-a274-f10de1c915de/trump-says-us-iran-deal-to-be.html",
-          "published": "13 Jun 21:21",
-          "channel": "Yahoo Finance"
-        },
-        {
-          "title": "Man bikes from Pittsburgh to Dallas to watch his home team's World Cup match",
-          "source": "CBS News Videos",
-          "url": "https://finance.yahoo.com/m/168e86a4-f093-3740-8f91-c7b9f89e3348/man-bikes-from-pittsburgh-to.html",
-          "published": "13 Jun 21:19",
-          "channel": "Yahoo Finance"
-        },
         {
           "title": "Are Sonic Healthcare Ltd (ASX:SHL) shares good value in 2026? - Rask Media",
           "source": "Rask Media",
@@ -1292,43 +383,8 @@
       "ticker": "APA",
       "name": "APA Group",
       "list": "Watchlist",
-      "count": 6,
+      "count": 1,
       "items": [
-        {
-          "title": "U.S. Interest Expense Just Hit $1.6 Trillion Annually. Peter Schiff Warns a Dollar Crisis Arrives When It Hits $2 Trillion.",
-          "source": "24/7 Wall St.",
-          "url": "https://finance.yahoo.com/m/7f10085f-f0fa-3e30-ab76-0519c0eefb69/u.s.-interest-expense-just.html",
-          "published": "13 Jun 21:32",
-          "channel": "Yahoo Finance"
-        },
-        {
-          "title": "Anthropic had 90 minutes to take down Fable after Trump admin demand",
-          "source": "Axios",
-          "url": "https://finance.yahoo.com/m/87b1ee5a-7b87-3b4f-b50a-248089e06bd9/anthropic-had-90-minutes-to.html",
-          "published": "13 Jun 21:24",
-          "channel": "Yahoo Finance"
-        },
-        {
-          "title": "Qatar earn first ever World Cup point with late goal",
-          "source": "AFP",
-          "url": "https://finance.yahoo.com/m/26f47b81-2c35-3189-a06f-500b2ffe4f2b/qatar-earn-first-ever-world.html",
-          "published": "13 Jun 21:22",
-          "channel": "Yahoo Finance"
-        },
-        {
-          "title": "Trump says US-Iran deal to be signed Sunday, Hormuz to open afterwards",
-          "source": "AFP",
-          "url": "https://finance.yahoo.com/m/69587bb4-1923-31b6-a274-f10de1c915de/trump-says-us-iran-deal-to-be.html",
-          "published": "13 Jun 21:21",
-          "channel": "Yahoo Finance"
-        },
-        {
-          "title": "Man bikes from Pittsburgh to Dallas to watch his home team's World Cup match",
-          "source": "CBS News Videos",
-          "url": "https://finance.yahoo.com/m/168e86a4-f093-3740-8f91-c7b9f89e3348/man-bikes-from-pittsburgh-to.html",
-          "published": "13 Jun 21:19",
-          "channel": "Yahoo Finance"
-        },
         {
           "title": "APA\u2019s Pivot Toward Gas Over Renewables Might Change The Case For Investing In APA Group (ASX:APA) - simplywall.st",
           "source": "simplywall.st",
@@ -1342,172 +398,29 @@
       "ticker": "NHC",
       "name": "New Hope Corporation",
       "list": "Watchlist",
-      "count": 5,
-      "items": [
-        {
-          "title": "U.S. Interest Expense Just Hit $1.6 Trillion Annually. Peter Schiff Warns a Dollar Crisis Arrives When It Hits $2 Trillion.",
-          "source": "24/7 Wall St.",
-          "url": "https://finance.yahoo.com/m/7f10085f-f0fa-3e30-ab76-0519c0eefb69/u.s.-interest-expense-just.html",
-          "published": "13 Jun 21:32",
-          "channel": "Yahoo Finance"
-        },
-        {
-          "title": "Anthropic had 90 minutes to take down Fable after Trump admin demand",
-          "source": "Axios",
-          "url": "https://finance.yahoo.com/m/87b1ee5a-7b87-3b4f-b50a-248089e06bd9/anthropic-had-90-minutes-to.html",
-          "published": "13 Jun 21:24",
-          "channel": "Yahoo Finance"
-        },
-        {
-          "title": "Qatar earn first ever World Cup point with late goal",
-          "source": "AFP",
-          "url": "https://finance.yahoo.com/m/26f47b81-2c35-3189-a06f-500b2ffe4f2b/qatar-earn-first-ever-world.html",
-          "published": "13 Jun 21:22",
-          "channel": "Yahoo Finance"
-        },
-        {
-          "title": "Trump says US-Iran deal to be signed Sunday, Hormuz to open afterwards",
-          "source": "AFP",
-          "url": "https://finance.yahoo.com/m/69587bb4-1923-31b6-a274-f10de1c915de/trump-says-us-iran-deal-to-be.html",
-          "published": "13 Jun 21:21",
-          "channel": "Yahoo Finance"
-        },
-        {
-          "title": "Man bikes from Pittsburgh to Dallas to watch his home team's World Cup match",
-          "source": "CBS News Videos",
-          "url": "https://finance.yahoo.com/m/168e86a4-f093-3740-8f91-c7b9f89e3348/man-bikes-from-pittsburgh-to.html",
-          "published": "13 Jun 21:19",
-          "channel": "Yahoo Finance"
-        }
-      ]
+      "count": 0,
+      "items": []
     },
     {
       "ticker": "JBH",
       "name": "JB Hi-Fi",
       "list": "Watchlist",
-      "count": 5,
-      "items": [
-        {
-          "title": "U.S. Interest Expense Just Hit $1.6 Trillion Annually. Peter Schiff Warns a Dollar Crisis Arrives When It Hits $2 Trillion.",
-          "source": "24/7 Wall St.",
-          "url": "https://finance.yahoo.com/m/7f10085f-f0fa-3e30-ab76-0519c0eefb69/u.s.-interest-expense-just.html",
-          "published": "13 Jun 21:32",
-          "channel": "Yahoo Finance"
-        },
-        {
-          "title": "Anthropic had 90 minutes to take down Fable after Trump admin demand",
-          "source": "Axios",
-          "url": "https://finance.yahoo.com/m/87b1ee5a-7b87-3b4f-b50a-248089e06bd9/anthropic-had-90-minutes-to.html",
-          "published": "13 Jun 21:24",
-          "channel": "Yahoo Finance"
-        },
-        {
-          "title": "Qatar earn first ever World Cup point with late goal",
-          "source": "AFP",
-          "url": "https://finance.yahoo.com/m/26f47b81-2c35-3189-a06f-500b2ffe4f2b/qatar-earn-first-ever-world.html",
-          "published": "13 Jun 21:22",
-          "channel": "Yahoo Finance"
-        },
-        {
-          "title": "Trump says US-Iran deal to be signed Sunday, Hormuz to open afterwards",
-          "source": "AFP",
-          "url": "https://finance.yahoo.com/m/69587bb4-1923-31b6-a274-f10de1c915de/trump-says-us-iran-deal-to-be.html",
-          "published": "13 Jun 21:21",
-          "channel": "Yahoo Finance"
-        },
-        {
-          "title": "Man bikes from Pittsburgh to Dallas to watch his home team's World Cup match",
-          "source": "CBS News Videos",
-          "url": "https://finance.yahoo.com/m/168e86a4-f093-3740-8f91-c7b9f89e3348/man-bikes-from-pittsburgh-to.html",
-          "published": "13 Jun 21:19",
-          "channel": "Yahoo Finance"
-        }
-      ]
+      "count": 0,
+      "items": []
     },
     {
       "ticker": "4DX",
       "name": "4DMedical",
       "list": "Watchlist",
-      "count": 5,
-      "items": [
-        {
-          "title": "U.S. Interest Expense Just Hit $1.6 Trillion Annually. Peter Schiff Warns a Dollar Crisis Arrives When It Hits $2 Trillion.",
-          "source": "24/7 Wall St.",
-          "url": "https://finance.yahoo.com/m/7f10085f-f0fa-3e30-ab76-0519c0eefb69/u.s.-interest-expense-just.html",
-          "published": "13 Jun 21:32",
-          "channel": "Yahoo Finance"
-        },
-        {
-          "title": "Anthropic had 90 minutes to take down Fable after Trump admin demand",
-          "source": "Axios",
-          "url": "https://finance.yahoo.com/m/87b1ee5a-7b87-3b4f-b50a-248089e06bd9/anthropic-had-90-minutes-to.html",
-          "published": "13 Jun 21:24",
-          "channel": "Yahoo Finance"
-        },
-        {
-          "title": "Qatar earn first ever World Cup point with late goal",
-          "source": "AFP",
-          "url": "https://finance.yahoo.com/m/26f47b81-2c35-3189-a06f-500b2ffe4f2b/qatar-earn-first-ever-world.html",
-          "published": "13 Jun 21:22",
-          "channel": "Yahoo Finance"
-        },
-        {
-          "title": "Trump says US-Iran deal to be signed Sunday, Hormuz to open afterwards",
-          "source": "AFP",
-          "url": "https://finance.yahoo.com/m/69587bb4-1923-31b6-a274-f10de1c915de/trump-says-us-iran-deal-to-be.html",
-          "published": "13 Jun 21:21",
-          "channel": "Yahoo Finance"
-        },
-        {
-          "title": "Man bikes from Pittsburgh to Dallas to watch his home team's World Cup match",
-          "source": "CBS News Videos",
-          "url": "https://finance.yahoo.com/m/168e86a4-f093-3740-8f91-c7b9f89e3348/man-bikes-from-pittsburgh-to.html",
-          "published": "13 Jun 21:19",
-          "channel": "Yahoo Finance"
-        }
-      ]
+      "count": 0,
+      "items": []
     },
     {
       "ticker": "EIQ",
       "name": "Echo IQ",
       "list": "Watchlist",
-      "count": 7,
+      "count": 2,
       "items": [
-        {
-          "title": "U.S. Interest Expense Just Hit $1.6 Trillion Annually. Peter Schiff Warns a Dollar Crisis Arrives When It Hits $2 Trillion.",
-          "source": "24/7 Wall St.",
-          "url": "https://finance.yahoo.com/m/7f10085f-f0fa-3e30-ab76-0519c0eefb69/u.s.-interest-expense-just.html",
-          "published": "13 Jun 21:32",
-          "channel": "Yahoo Finance"
-        },
-        {
-          "title": "Anthropic had 90 minutes to take down Fable after Trump admin demand",
-          "source": "Axios",
-          "url": "https://finance.yahoo.com/m/87b1ee5a-7b87-3b4f-b50a-248089e06bd9/anthropic-had-90-minutes-to.html",
-          "published": "13 Jun 21:24",
-          "channel": "Yahoo Finance"
-        },
-        {
-          "title": "Qatar earn first ever World Cup point with late goal",
-          "source": "AFP",
-          "url": "https://finance.yahoo.com/m/26f47b81-2c35-3189-a06f-500b2ffe4f2b/qatar-earn-first-ever-world.html",
-          "published": "13 Jun 21:22",
-          "channel": "Yahoo Finance"
-        },
-        {
-          "title": "Trump says US-Iran deal to be signed Sunday, Hormuz to open afterwards",
-          "source": "AFP",
-          "url": "https://finance.yahoo.com/m/69587bb4-1923-31b6-a274-f10de1c915de/trump-says-us-iran-deal-to-be.html",
-          "published": "13 Jun 21:21",
-          "channel": "Yahoo Finance"
-        },
-        {
-          "title": "Man bikes from Pittsburgh to Dallas to watch his home team's World Cup match",
-          "source": "CBS News Videos",
-          "url": "https://finance.yahoo.com/m/168e86a4-f093-3740-8f91-c7b9f89e3348/man-bikes-from-pittsburgh-to.html",
-          "published": "13 Jun 21:19",
-          "channel": "Yahoo Finance"
-        },
         {
           "title": "ASX-listed Echo IQ partners with Mayo Clinic for AI study - grafa.com",
           "source": "grafa.com",
