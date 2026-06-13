@@ -54,11 +54,7 @@ def fetch_announcements(ticker: str, max_pages: int = 3) -> List[Announcement]:
                 if title_text and date_text:
                     # Convert date format from marketindex (e.g. "13 Jun 2026") to DD/MM/YYYY
                     import datetime as dt
-                    try:
-                        d = dt.datetime.strptime(date_text, "%d %b %Y")
-                        date_fmt = d.strftime("%d/%m/%Y")
-                    except Exception:
-                        date_fmt = date_text
+                    date_fmt = date_text  # keep as-is, models.py handles both formats
 
                     announcements.append(Announcement(
                         ticker=ticker.upper(),
