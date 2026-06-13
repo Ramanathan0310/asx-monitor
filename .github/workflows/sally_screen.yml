@@ -1,0 +1,55 @@
+name: Sunday Sally - 52-Week High Screen
+
+on:
+  schedule:
+    # Friday 6pm AEST = 08:00 UTC Friday
+    - cron: "0 8 * * 5"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sally-screen
+  cancel-in-progress: false
+
+jobs:
+  screen:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: |
+          pip install --upgrade pip
+          pip install yfinance matplotlib
+
+      - name: Run Sunday Sally
+        env:
+          SMTP_HOST:     ${{ secrets.SMTP_HOST }}
+          SMTP_PORT:     ${{ secrets.SMTP_PORT }}
+          SMTP_USER:     ${{ secrets.SMTP_USER }}
+          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+          EMAIL_FROM:    ${{ secrets.EMAIL_FROM }}
+          EMAIL_TO:      ${{ secrets.EMAIL_TO }}
+        run: python sally.py
+
+      - name: Commit reports
+        run: |
+          git config user.name "sally-bot"
+          git config user.email "sally-bot@users.noreply.github.com"
+          git add reports/sally_*.json reports/sally_*.html || true
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "Sally screen $(date -u +'%Y-%m-%d') [skip ci]"
+            git push
+          fi
