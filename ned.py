@@ -106,24 +106,111 @@ def load_all_tickers() -> list[dict]:
 # Yahoo Finance news
 # ---------------------------------------------------------------------------
 
+# Claude scoring cache to avoid repeat calls
+_relevance_cache: dict[str, bool] = {}
+_claude_calls = 0
+MAX_CLAUDE_RELEVANCE_CALLS = 50  # cap per run
+
+
+def _is_obvious_match(title: str, ticker: str, name: str) -> bool:
+    """Fast check - no API needed."""
+    t = title.lower()
+    if ticker.lower() in t:
+        return True
+    if f"asx:{ticker.lower()}" in t:
+        return True
+    name_words = [w for w in name.lower().split() if len(w) > 3]
+    if name_words and any(w in t for w in name_words[:2]):
+        return True
+    return False
+
+
+def _claude_score(title: str, ticker: str, name: str) -> bool:
+    """Ask Claude if article is about this company. Returns True if relevant."""
+    global _claude_calls
+    cache_key = f"{ticker}|{title[:80]}"
+    if cache_key in _relevance_cache:
+        return _relevance_cache[cache_key]
+    if _claude_calls >= MAX_CLAUDE_RELEVANCE_CALLS:
+        return False
+    try:
+        import anthropic
+        client = anthropic.Anthropic()
+        _claude_calls += 1
+        resp = client.messages.create(
+            model="claude-haiku-4-5-20251001",
+            max_tokens=5,
+            messages=[{
+                "role": "user",
+                "content": (
+                    f"Is this news article about {name} (ASX: {ticker})? Answer only YES or NO. Headline: {title}"
+                )
+            }]
+        )
+        result = resp.content[0].text.strip().upper().startswith("Y")
+        _relevance_cache[cache_key] = result
+        return result
+    except Exception as e:
+        print(f"    Claude score failed: {e}")
+        return False
+
+
+def _is_relevant(title: str, ticker: str, name: str) -> bool:
+    """Two-stage relevance: fast keyword check first, Claude fallback."""
+    if _is_obvious_match(title, ticker, name):
+        return True
+    # Claude scores ambiguous cases
+    return _claude_score(title, ticker, name)
+
+
 def fetch_yahoo_news(ticker: str, name: str) -> list[dict]:
+    """Use ticker-specific Yahoo Finance news endpoint with strict relevance filtering."""
     cutoff = datetime.now(timezone.utc) - timedelta(hours=LOOKBACK_HOURS)
     results = []
-    for query in [f"{ticker}.AX", name]:
+    yahoo_ticker = f"{ticker}.AX"
+
+    # Primary: ticker-specific endpoint
+    try:
+        url = (f"https://query2.finance.yahoo.com/v1/finance/news"
+               f"?tickers={quote(yahoo_ticker)}&count=10")
+        r = requests.get(url, headers=_HEADERS, timeout=15)
+        r.raise_for_status()
+        data = r.json()
+        items = (data.get("items", {}) or {}).get("result", []) or data.get("news", [])
+        for item in items:
+            pub = item.get("providerPublishTime", 0) or 0
+            pub_dt = datetime.fromtimestamp(pub, tz=timezone.utc) if pub else None
+            if pub_dt and pub_dt < cutoff:
+                continue
+            title = (item.get("title") or item.get("headline") or "").strip()
+            if not title or not _is_relevant(title, ticker, name):
+                continue
+            if any(r2["title"] == title for r2 in results):
+                continue
+            results.append({
+                "title":     title,
+                "source":    item.get("publisher") or item.get("source", "Yahoo Finance"),
+                "url":       item.get("link") or item.get("url", ""),
+                "published": pub_dt.strftime("%d %b %H:%M") if pub_dt else "",
+                "channel":   "Yahoo Finance",
+            })
+    except Exception as e:
+        print(f"    Yahoo news failed ({yahoo_ticker}): {e}")
+
+    # Fallback: search endpoint with strict filter
+    if not results:
         try:
-            url = f"https://query1.finance.yahoo.com/v1/finance/search?q={quote(query)}"
+            url = f"https://query1.finance.yahoo.com/v1/finance/search?q={quote(yahoo_ticker)}&newsCount=8"
             r = requests.get(url, headers=_HEADERS, timeout=15)
             r.raise_for_status()
-            data = r.json()
-            for item in data.get("news", [])[:MAX_ITEMS_PER_TICKER]:
+            for item in r.json().get("news", []):
                 pub = item.get("providerPublishTime", 0)
                 pub_dt = datetime.fromtimestamp(pub, tz=timezone.utc) if pub else None
                 if pub_dt and pub_dt < cutoff:
                     continue
                 title = item.get("title", "").strip()
-                if not title:
+                if not title or not _is_relevant(title, ticker, name):
                     continue
-                # Dedupe by title
                 if any(r2["title"] == title for r2 in results):
                     continue
                 results.append({
@@ -134,9 +221,8 @@ def fetch_yahoo_news(ticker: str, name: str) -> list[dict]:
                     "channel":   "Yahoo Finance",
                 })
         except Exception as e:
-            print(f"    Yahoo news failed ({query}): {e}")
-        if results:
-            break
+            print(f"    Yahoo fallback failed ({yahoo_ticker}): {e}")
+
     return results[:MAX_ITEMS_PER_TICKER]
 
 
@@ -170,9 +256,8 @@ def fetch_google_news(ticker: str, name: str) -> list[dict]:
                     pass
             if pub_dt and pub_dt < cutoff:
                 continue
-            # Filter: must mention ticker or company name
-            combined = title.lower()
-            if ticker.lower() not in combined and name.lower().split()[0].lower() not in combined:
+            # Strict relevance: must mention ticker or first meaningful name word
+            if not _is_relevant(title, ticker, name):
                 continue
             results.append({
                 "title":     title,
