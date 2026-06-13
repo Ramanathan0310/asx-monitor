@@ -1,7 +1,7 @@
 {
   "date": "2026-06-13",
   "threshold": 5.0,
-  "total": 39,
+  "total": 31,
   "flagged": [
     {
       "ticker": "REA.AX",
@@ -26,18 +26,6 @@
       },
       "dist": 2.33,
       "pos": 8.7
-    },
-    {
-      "ticker": "NAB.AX",
-      "name": "NAB",
-      "list": "Watchlist",
-      "data": {
-        "price": 36.5,
-        "low": 35.48,
-        "high": 49.45
-      },
-      "dist": 2.87,
-      "pos": 7.3
     },
     {
       "ticker": "WTC.AX",
@@ -76,42 +64,6 @@
       "pos": 5.4
     },
     {
-      "ticker": "WBC.AX",
-      "name": "Westpac",
-      "list": "Watchlist",
-      "data": {
-        "price": 35.0,
-        "low": 32.38,
-        "high": 43.32
-      },
-      "dist": 8.09,
-      "pos": 23.9
-    },
-    {
-      "ticker": "XRO.AX",
-      "name": "Xero",
-      "list": "Watchlist",
-      "data": {
-        "price": 73.5,
-        "low": 67.93,
-        "high": 196.52
-      },
-      "dist": 8.2,
-      "pos": 4.3
-    },
-    {
-      "ticker": "CBA.AX",
-      "name": "Commonwealth Bank",
-      "list": "Watchlist",
-      "data": {
-        "price": 159.51,
-        "low": 146.98,
-        "high": 192.0
-      },
-      "dist": 8.52,
-      "pos": 27.8
-    },
-    {
       "ticker": "RMD.AX",
       "name": "ResMed",
       "list": "Portfolio",
@@ -148,30 +100,6 @@
       "pos": 17.7
     },
     {
-      "ticker": "ASX.AX",
-      "name": "ASX Ltd",
-      "list": "Watchlist",
-      "data": {
-        "price": 49.2,
-        "low": 44.3,
-        "high": 72.34
-      },
-      "dist": 11.06,
-      "pos": 17.5
-    },
-    {
-      "ticker": "AMC.AX",
-      "name": "Amcor",
-      "list": "Watchlist",
-      "data": {
-        "price": 56.87,
-        "low": 51.2,
-        "high": 76.4
-      },
-      "dist": 11.07,
-      "pos": 22.5
-    },
-    {
       "ticker": "SGH.AX",
       "name": "SGH Limited",
       "list": "Portfolio",
@@ -194,6 +122,18 @@
       },
       "dist": 11.61,
       "pos": 14.5
+    },
+    {
+      "ticker": "JBH.AX",
+      "name": "JB Hi-Fi",
+      "list": "Watchlist",
+      "data": {
+        "price": 77.24,
+        "low": 67.38,
+        "high": 121.0
+      },
+      "dist": 14.63,
+      "pos": 18.4
     }
   ]
 }
