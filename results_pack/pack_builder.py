@@ -24,7 +24,7 @@ _FY_SIGNALS = ["full year", "full-year", "annual", "fy results", "appendix 4e"]
 
 
 def _parse_date(date_str: str) -> dt.date:
-    for fmt in ["%d/%m/%Y", "%Y-%m-%d", "%d %b %Y"]:
+    for fmt in ["%d/%m/%Y", "%d/%m/%y", "%Y-%m-%d", "%d %b %Y"]:
         try:
             return dt.datetime.strptime(date_str, fmt).date()
         except Exception:
