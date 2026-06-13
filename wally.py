@@ -259,10 +259,11 @@ h2   { font-size: 16px; color: #a0a0cc; margin-top: 28px; text-transform: upperc
 .badge-hot  { background: #4a1010; color: #ff6b6b; }
 .badge-warm { background: #4a3010; color: #ffa040; }
 .badge-ok   { background: #103020; color: #40cc80; }
-.stats { display: flex; gap: 24px; margin: 8px 0 10px; }
-.stat  { text-align: center; }
-.stat-val  { font-size: 20px; font-weight: 700; color: #ffffff; }
-.stat-lbl  { font-size: 11px; color: #6666aa; text-transform: uppercase; }
+.stats { display: flex; gap: 0; margin: 12px 0 10px; border-top: 1px solid #2d2d4e; padding-top: 10px; }
+.stat  { text-align: center; flex: 1; min-width: 80px; padding: 0 8px; border-right: 1px solid #2d2d4e; }
+.stat:last-child { border-right: none; }
+.stat-val  { font-size: 18px; font-weight: 700; color: #ffffff; display: block; }
+.stat-lbl  { font-size: 10px; color: #6666aa; text-transform: uppercase; letter-spacing: 0.5px; display: block; margin-top: 2px; }
 .chart { width: 100%; margin: 6px 0 2px; border-radius: 4px; }
 .list-tag { font-size: 11px; color: #555588; margin-left: 6px; }
 .quiet { color: #555566; font-size: 13px; font-style: italic; }
