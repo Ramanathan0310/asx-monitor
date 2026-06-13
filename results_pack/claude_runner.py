@@ -1,6 +1,7 @@
 # results_pack/claude_runner.py - adapted from Jimmy's version (Claude instead of OpenAI)
 from __future__ import annotations
 import base64
+import io
 import json
 import os
 from pathlib import Path
@@ -13,6 +14,22 @@ CLAUDE_MAX_TOKENS = 8000
 MAX_PDF_BYTES    = 30 * 1024 * 1024  # 30MB per PDF
 
 
+def _extract_pdf_text(raw: bytes) -> str:
+    """Extract text from PDF bytes using pypdf."""
+    try:
+        from pypdf import PdfReader
+        reader = PdfReader(io.BytesIO(raw))
+        pages = []
+        for page in reader.pages[:30]:
+            text = page.extract_text() or ""
+            if text.strip():
+                pages.append(text)
+        return "\n".join(pages)
+    except Exception as e:
+        print(f"    [pdf_text] extraction failed: {e}")
+        return ""
+
+
 def _call_claude(system_prompt: str, text_context: str, pdf_items: List[Announcement]) -> str:
     import anthropic
     api_key = os.environ.get("ANTHROPIC_API_KEY", "")
@@ -21,26 +38,46 @@ def _call_claude(system_prompt: str, text_context: str, pdf_items: List[Announce
 
     content: List[Dict] = []
     attached = 0
+    text_fallbacks = []
+
     for ann in pdf_items:
         raw = ann.pdf_bytes
         if not raw or len(raw) > MAX_PDF_BYTES:
             continue
-        content.append({
-            "type": "document",
-            "source": {
-                "type": "base64",
-                "media_type": "application/pdf",
-                "data": base64.standard_b64encode(raw).decode("utf-8"),
-            },
-            "title": ann.title[:200],
-        })
-        attached += 1
+
+        # Try text extraction first
+        extracted = _extract_pdf_text(raw)
+        if extracted and len(extracted) > 200:
+            # Send as text block - more reliable than base64 PDF
+            print(f"    [claude] Text extracted from PDF: {len(extracted)} chars")
+            text_fallbacks.append(
+                f"=== {ann.title} ===\n{extracted[:20000]}\n"
+            )
+            attached += 1
+        else:
+            # Fall back to base64 PDF (for image-based/scanned PDFs)
+            print(f"    [claude] Sending as base64 PDF: {ann.title[:50]}")
+            content.append({
+                "type": "document",
+                "source": {
+                    "type": "base64",
+                    "media_type": "application/pdf",
+                    "data": base64.standard_b64encode(raw).decode("utf-8"),
+                },
+                "title": ann.title[:200],
+            })
+            attached += 1
 
     if attached == 0:
         print("  [claude] No PDFs attached")
         return "__NO_PDFS__"
 
-    content.append({"type": "text", "text": text_context[:30_000]})
+    # Combine text context with any text-extracted PDF content
+    combined_text = text_context[:10_000]
+    if text_fallbacks:
+        combined_text += "\n\n=== EXTRACTED PDF CONTENT ===\n" + "\n".join(text_fallbacks)
+
+    content.append({"type": "text", "text": combined_text[:60_000]})
 
     try:
         client = anthropic.Anthropic(api_key=api_key)
