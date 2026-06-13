@@ -6,8 +6,15 @@
       "ticker": "MQG",
       "name": "Macquarie Group",
       "list": "Portfolio",
-      "count": 2,
+      "count": 3,
       "items": [
+        {
+          "title": "Credo Technology Group Holding (CRDO) Is Up 21.2% After Earnings Beat And DustPhotonics Deal - What's Changed",
+          "source": "Simply Wall St.",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/credo-technology-group-holding-crdo-231348966.html",
+          "published": "13 Jun 23:13",
+          "channel": "Yahoo Finance"
+        },
         {
           "title": "Macquarie Group (ASX:MQG) Shares Valuation After Strong Full Year Earnings And Final Dividend - simplywall.st",
           "source": "simplywall.st",
@@ -86,22 +93,8 @@
       "ticker": "ALL",
       "name": "Aristocrat Leisure",
       "list": "Portfolio",
-      "count": 5,
+      "count": 2,
       "items": [
-        {
-          "title": "U.S. Interest Expense Just Hit $1.6 Trillion Annually. Peter Schiff Warns a Dollar Crisis Arrives When It Hits $2 Trillion.",
-          "source": "24/7 Wall St.",
-          "url": "https://finance.yahoo.com/m/7f10085f-f0fa-3e30-ab76-0519c0eefb69/u.s.-interest-expense-just.html",
-          "published": "13 Jun 21:32",
-          "channel": "Yahoo Finance"
-        },
-        {
-          "title": "Man bikes from Pittsburgh to Dallas to watch his home team's World Cup match",
-          "source": "CBS News Videos",
-          "url": "https://finance.yahoo.com/m/168e86a4-f093-3740-8f91-c7b9f89e3348/man-bikes-from-pittsburgh-to.html",
-          "published": "13 Jun 21:19",
-          "channel": "Yahoo Finance"
-        },
         {
           "title": "Aristocrat Leisure (ASX:ALL) Shares Valuation Check After A$2.5b Buy-Back Extension And Earnings Update - simplywall.st",
           "source": "simplywall.st",
@@ -115,13 +108,6 @@
           "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPWFZyTnFlV1NnYWo0S3RfbEZiS2RQTm9uTkN5a3V5dkNMOUx2WXFaT1M2OTdybm9tdWRqZ25aVlFnZ1ZMbUZLRzZEVS13Ql81M19yWmU3blZIRlgyaHBpU21xcTVvZXcwZFB4Q1FhV19ERmhHU01hX3p1aUN3YjgwVkY3ckxEd2tsRDY4SGNuZW9xQmxoZmFyUEVwck1xcHBvNXllc2JfTnJyVHExQnJtTHRCNzFub1c3ZTdKLXJXczU1Y3NvcDg3TW9YZU9RYnZWbWc?oc=5",
           "published": "12 Jun 09:28",
           "channel": "Google News"
-        },
-        {
-          "title": "Aristocrat Leisure up with A$2.5bn buy-back keeping ASX:ALL in play - Bez Kabli",
-          "source": "Bez Kabli",
-          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPbFoxbzhlLTE5WldWamlzeEYyc05Tb1ZlYUZ5OW1RSkpZUFVoU0JPTzh2M0VKRl9SaVdJUFhYM1RVWkNUVEtDQ25neXNCMndVZjJFQ2o2NUFpTVZyOU5SWEd6MDFmdHZkQThoU0dDaUk5bFNNQlktMFlXbkdmSVhkdmhFenBKc1RDa0RDNGU5amxRMUEwUHc?oc=5",
-          "published": "11 Jun 22:43",
-          "channel": "Google News"
         }
       ]
     },
@@ -129,8 +115,16 @@
       "ticker": "SNL",
       "name": "Supply Network",
       "list": "Portfolio",
-      "count": 0,
-      "items": []
+      "count": 1,
+      "items": [
+        {
+          "title": "Ford Aluminum Supply Restarts Support F-150 Output And Valuation Upside",
+          "source": "Simply Wall St.",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/ford-aluminum-supply-restarts-support-231427764.html",
+          "published": "13 Jun 23:14",
+          "channel": "Yahoo Finance"
+        }
+      ]
     },
     {
       "ticker": "CSL",
@@ -172,8 +166,16 @@
       "ticker": "CAT",
       "name": "Catapult Group",
       "list": "Portfolio",
-      "count": 0,
-      "items": []
+      "count": 1,
+      "items": [
+        {
+          "title": "Advocates of healthy moms and babies march in Detroit",
+          "source": "CBS News Videos",
+          "url": "https://finance.yahoo.com/m/973614e8-01b4-37fa-bcc5-642d936bb182/advocates-of-healthy-moms-and.html",
+          "published": "13 Jun 23:19",
+          "channel": "Yahoo Finance"
+        }
+      ]
     },
     {
       "ticker": "PME",
@@ -238,8 +240,15 @@
       "ticker": "WTC",
       "name": "WiseTech Global",
       "list": "Portfolio",
-      "count": 1,
+      "count": 2,
       "items": [
+        {
+          "title": "WiseTech Global (ASX:WTC) Shares Valuation After Guidance Reaffirmation AI Progress And e2open Synergies - simplywall.st",
+          "source": "simplywall.st",
+          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNZzNvSnpEZU5UOU5FaktKZWRKdGxFNzBjSXpNT0FhUXZVSTdLbGF1V3ByMWpMOHp2dEFXUGZRU1pkRlk2OVNwejNUblZsZUt4NUFselJUajk3VW83MnU1SmdtMlh5OWdVejhEMlpXbkhHVTUzaG95c0M5eHkyMEZRRWtOc3o0eEpMSnl0Zy1WbUt5LWNxeUZuVmRud1k1VkI1TmNBVDBIX2Y5eW1FaXpyVkhfVXdoMTV0RjE2SjQzLUw1QVVBaTFFMGNkbExsX1pQVDVN0gHYAUFVX3lxTE1TTHp1c20wM1owV0R4Sllsa2prRlZiLVMta1RZMElWX3docFphM3ZEM1NwYl9qZkNSUDQzbnRLZjdIUXFXTnFTX2Z3UFd4Q1M3WmtaNzBGT2pQUkx6QkYyNTdFYVZuMTltYUJPS29rQkx5VkJvdzJIWjA3b1VFa0hZVXMwSEZacVRnV1U0UFJwREZsdnd3cEg1Z3c1QlNWLVRCYjVvMGpqQV82MDRSMFY3My1yaG5Ic2tBUExNWFR6eGFrc1RGOXpOMjloaXRFZHZESVhWbnkweg?oc=5",
+          "published": "13 Jun 23:26",
+          "channel": "Google News"
+        },
         {
           "title": "WiseTech Global (ASX:WTC) Is Down 5.8% After Reaffirming FY26 Guidance And Faster e2open Synergies \u2013 Has The Bull Case Changed? - simplywall.st",
           "source": "simplywall.st",
@@ -267,8 +276,15 @@
       "ticker": "REA",
       "name": "REA Group",
       "list": "Portfolio",
-      "count": 3,
+      "count": 4,
       "items": [
+        {
+          "title": "Albemarle (ALB) Stock After 184% One Year Surge Are Recent Gains Already Priced In",
+          "source": "Simply Wall St.",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/albemarle-alb-stock-184-one-231416086.html",
+          "published": "13 Jun 23:14",
+          "channel": "Yahoo Finance"
+        },
         {
           "title": "REA Group (ASX:REA) Shares Valuation After Broker Downgrades And Tax Reform Concerns - simplywall.st",
           "source": "simplywall.st",
@@ -303,8 +319,16 @@
       "ticker": "SOL",
       "name": "Washington H. Soul Pattinson",
       "list": "Portfolio",
-      "count": 0,
-      "items": []
+      "count": 1,
+      "items": [
+        {
+          "title": "CCC Intelligent Solutions (CCC) Stock Valuation After Prolonged Share Price Weakness",
+          "source": "Simply Wall St.",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/ccc-intelligent-solutions-ccc-stock-231402334.html",
+          "published": "13 Jun 23:14",
+          "channel": "Yahoo Finance"
+        }
+      ]
     },
     {
       "ticker": "SDR",
@@ -324,16 +348,8 @@
       "ticker": "SIG",
       "name": "Sigma Healthcare",
       "list": "Portfolio",
-      "count": 1,
-      "items": [
-        {
-          "title": "Trump says US-Iran deal to be signed Sunday, Hormuz to open afterwards",
-          "source": "AFP",
-          "url": "https://finance.yahoo.com/m/69587bb4-1923-31b6-a274-f10de1c915de/trump-says-us-iran-deal-to-be.html",
-          "published": "13 Jun 21:21",
-          "channel": "Yahoo Finance"
-        }
-      ]
+      "count": 0,
+      "items": []
     },
     {
       "ticker": "RMD",
