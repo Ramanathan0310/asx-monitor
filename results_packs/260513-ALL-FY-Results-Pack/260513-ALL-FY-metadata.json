@@ -1,27 +1,30 @@
 {
   "ticker": "ALL",
   "company_name": "Aristocrat Leisure",
-  "result_date": "13/05/26",
+  "result_date": "13/05/2026",
   "result_type": "FY",
   "announcements": [
     {
       "title": "Dividend/Distribution - ALL",
-      "date": "13/05/26",
+      "date": "13/05/2026",
       "url": "https://www.marketindex.com.au/asx/all/announcements/dividend-distribution-all-2A1671771",
+      "pdf_url": null,
       "pdf_downloaded": true,
       "pdf_size_kb": 22
     },
     {
       "title": "HY26 Investor Presentation $",
-      "date": "13/05/26",
+      "date": "13/05/2026",
       "url": "https://www.marketindex.com.au/asx/all/announcements/hy26-investor-presentation-2A1671778",
+      "pdf_url": null,
       "pdf_downloaded": true,
       "pdf_size_kb": 4116
     },
     {
       "title": "HY26 Results Announcement $",
-      "date": "13/05/26",
+      "date": "13/05/2026",
       "url": "https://www.marketindex.com.au/asx/all/announcements/hy26-results-announcement-2A1671770",
+      "pdf_url": null,
       "pdf_downloaded": true,
       "pdf_size_kb": 5027
     }

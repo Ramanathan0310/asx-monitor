@@ -1,5 +1,5 @@
-The documents provided appear to contain no extractable text content — all pages rendered as blank white images. Without access to the actual financial data, commentary, or figures from Aristocrat's HY26 results, I'm not able to produce a credible or accurate investment note.
+The documents provided appear to contain no readable text content — all pages rendered as blank white images. I'm unable to extract any financial data, operational commentary, or guidance from the materials supplied.
 
-To write a quality Strawman note on ALL's HY26 result, I'd need the actual content from the results announcement and investor presentation, including revenue, NPATA, segment performance, cash flow, guidance, and any management commentary.
+Without access to the underlying numbers and disclosures from Aristocrat's HY26 result, I can't produce a credible investment note. Posting speculative commentary under the guise of a results analysis would be misleading to other Strawman members.
 
-If you can provide the text from those documents, I'm happy to write the note straight away.
+If you're able to share the actual text content from the HY26 Results Announcement or Investor Presentation (copy-paste, transcript, or a re-uploaded version with readable text), I'd be glad to produce a proper note.
