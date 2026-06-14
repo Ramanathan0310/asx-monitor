@@ -1,3 +1,3 @@
-The documents provided appear to contain no readable text content — all pages rendered as blank white images. Without access to the actual financial data, I'm unable to produce a fact-based investment note for Aristocrat Leisure's HY26 result.
+# Strawman-Post.md
 
-If you're able to share the underlying text or key figures from the results announcement and investor presentation, I'm happy to write the Strawman note immediately.
+Analysis failed: __LLM_FAILED__
