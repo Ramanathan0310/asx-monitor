@@ -15,8 +15,25 @@ MAX_PDF_BYTES    = 30 * 1024 * 1024  # 30MB per PDF
 
 
 def _extract_pdf_text(raw: bytes) -> str:
-    """Extract text from PDF bytes - tries pdfplumber first, then pypdf."""
-    # Try pdfplumber (handles more PDF types)
+    """Extract text from PDF bytes - tries pymupdf first, then pdfplumber, then pypdf."""
+    # Try pymupdf (best for ASX PDFs with custom fonts)
+    try:
+        import fitz  # pymupdf
+        doc = fitz.open(stream=raw, filetype="pdf")
+        pages = []
+        for page in doc:
+            text = page.get_text()
+            if text.strip():
+                pages.append(text)
+        doc.close()
+        result = "\n".join(pages)
+        if len(result.strip()) > 200:
+            print(f"    [pdf_text] pymupdf extracted {len(result)} chars")
+            return result
+    except Exception as e:
+        print(f"    [pdf_text] pymupdf failed: {e}")
+
+    # Try pdfplumber
     try:
         import pdfplumber
         pages = []
@@ -26,7 +43,7 @@ def _extract_pdf_text(raw: bytes) -> str:
                 if text.strip():
                     pages.append(text)
         result = "\n".join(pages)
-        if result.strip():
+        if len(result.strip()) > 200:
             print(f"    [pdf_text] pdfplumber extracted {len(result)} chars")
             return result
     except Exception as e:
@@ -42,12 +59,13 @@ def _extract_pdf_text(raw: bytes) -> str:
             if text.strip():
                 pages.append(text)
         result = "\n".join(pages)
-        if result.strip():
+        if len(result.strip()) > 200:
             print(f"    [pdf_text] pypdf extracted {len(result)} chars")
             return result
     except Exception as e:
         print(f"    [pdf_text] pypdf failed: {e}")
 
+    print(f"    [pdf_text] all extractors failed - will send as base64")
     return ""
 
 
@@ -61,7 +79,18 @@ def _call_claude(system_prompt: str, text_context: str, pdf_items: List[Announce
     attached = 0
     text_fallbacks = []
 
-    for ann in pdf_items:
+    # Filter out dividend/distribution notices - not useful for financial analysis
+    # and prioritise by size (smaller = more likely text-based)
+    useful_items = [
+        a for a in pdf_items
+        if a.pdf_bytes and len(a.pdf_bytes) > 0
+        and not any(x in a.title.lower() for x in ["dividend", "distribution"])
+    ]
+    # Add dividend back if nothing else
+    if not useful_items:
+        useful_items = [a for a in pdf_items if a.pdf_bytes]
+
+    for ann in useful_items:
         raw = ann.pdf_bytes
         if not raw or len(raw) > MAX_PDF_BYTES:
             continue
