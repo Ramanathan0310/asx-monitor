@@ -9,68 +9,36 @@ from pathlib import Path
 from typing import Optional
 from .models import Announcement, ResultPack
 
-_UA = (
-    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
-    "AppleWebKit/537.36 (KHTML, like Gecko) "
-    "Chrome/131.0.0.0 Safari/537.36"
-)
-
-_ASX_HEADERS = {
-    "User-Agent": _UA,
+_HEADERS = {
+    "User-Agent": (
+        "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
+        "AppleWebKit/537.36 (KHTML, like Gecko) "
+        "Chrome/131.0.0.0 Safari/537.36"
+    ),
     "Accept": "application/pdf,application/octet-stream,*/*",
-    "Accept-Encoding": "identity",  # No compression - get raw PDF bytes
+    "Accept-Encoding": "identity",
     "Referer": "https://www.asx.com.au/",
-    "Origin": "https://www.asx.com.au",
 }
 
 
-def _extract_doc_id(url: str) -> Optional[str]:
-    """Extract ASX document ID from marketindex URL."""
-    m = re.search(r'-([0-9][A-Z][0-9]+)$', url.rstrip('/'))
-    return m.group(1) if m else None
-
-
-def _extract_date_from_ann(ann: Announcement) -> str:
-    """Convert announcement date to YYYYMMDD for ASX URL."""
-    import datetime as dt
-    for fmt in ["%d/%m/%Y", "%d/%m/%y"]:
-        try:
-            d = dt.datetime.strptime(ann.date, fmt)
-            return d.strftime("%Y%m%d")
-        except Exception:
-            pass
-    return ""
-
-
-def _try_asx_direct(doc_id: str, ymd: str) -> Optional[bytes]:
-    """Try downloading directly from ASX announcements platform."""
+def _download_direct(url: str) -> Optional[bytes]:
+    """Try direct HTTP download."""
     import requests
-
-    urls = []
-    if ymd:
-        urls.append(f"https://announcements.asx.com.au/asxpdf/{ymd}/pdf/{doc_id}.pdf")
-    urls.append(f"https://www.asx.com.au/asx/v2/statistics/downloadAnnexure.do?documentId={doc_id}&signedDocumentId=")
-
-    for url in urls:
-        try:
-            print(f"    [pdf] Trying ASX: {url[:90]}")
-            r = requests.get(url, headers=_ASX_HEADERS, timeout=30, allow_redirects=True)
-            print(f"    [pdf] Status: {r.status_code}, CT: {r.headers.get('content-type','')[:50]}, Size: {len(r.content)//1024}KB")
-            data = r.content
-            if r.status_code == 200 and len(data) > 1000 and data[:4] == b"%PDF":
-                print(f"    [pdf] ASX direct OK!")
-                return data
-        except Exception as e:
-            print(f"    [pdf] ASX failed: {e}")
-
+    try:
+        r = requests.get(url, headers=_HEADERS, timeout=60, allow_redirects=True)
+        r.raise_for_status()
+        data = r.content
+        if len(data) > 1000 and data[:4] == b"%PDF":
+            print(f"    [pdf] Direct download OK ({len(data)//1024}KB)")
+            return data
+        print(f"    [pdf] Got {len(data)//1024}KB but not a PDF (first4: {data[:4]})")
+    except Exception as e:
+        print(f"    [pdf] Direct download failed: {e}")
     return None
 
 
-def _try_playwright_intercept(url: str) -> Optional[bytes]:
-    """
-    Use Playwright to load the page and intercept the PDF network response.
-    Tries both marketindex and ASX viewer pages.
-    """
+def _download_via_playwright(url: str) -> Optional[bytes]:
+    """Use Playwright to download PDF via network interception."""
     try:
         from playwright.sync_api import sync_playwright
         from playwright_stealth import Stealth
@@ -78,102 +46,131 @@ def _try_playwright_intercept(url: str) -> Optional[bytes]:
         return None
 
     stealth = Stealth()
-    pdf_bytes_list = []
+    collected = []
 
-    # Also try ASX viewer URL
-    doc_id = _extract_doc_id(url)
-    urls_to_try = [url]
-    if doc_id:
-        urls_to_try.append(f"https://www.asx.com.au/markets/trade-our-cash-market/announcements/{doc_id}")
+    with sync_playwright() as p:
+        browser = p.chromium.launch(headless=True)
+        context = browser.new_context(
+            user_agent=_HEADERS["User-Agent"],
+            viewport={"width": 1920, "height": 1080},
+            locale="en-AU",
+            timezone_id="Australia/Sydney",
+            accept_downloads=True,
+            extra_http_headers={"Accept-Encoding": "identity"},
+        )
+        stealth.apply_stealth_sync(context)
+        page = context.new_page()
 
-    for page_url in urls_to_try:
-        if pdf_bytes_list:
-            break
-
-        with sync_playwright() as p:
-            browser = p.chromium.launch(headless=True)
-            context = browser.new_context(
-                user_agent=_UA,
-                viewport={"width": 1920, "height": 1080},
-                locale="en-AU",
-                timezone_id="Australia/Sydney",
-                accept_downloads=True,
-                extra_http_headers={"Accept-Encoding": "identity"},
-            )
-            stealth.apply_stealth_sync(context)
-            page = context.new_page()
-
-            def on_response(response):
-                try:
-                    if response.status != 200:
-                        return
-                    rurl = response.url
-                    # ONLY accept from the marketindex PDF API endpoint
-                    if "data-api.marketindex.com.au/api/v1/announcements/" not in rurl:
-                        return
-                    if "/pdf" not in rurl.lower():
-                        return
-                    body = response.body()
-                    print(f"    [pdf] Intercepted: {rurl[:80]}")
-                    print(f"    [pdf] Size: {len(body)//1024}KB, First8: {body[:8].hex()}")
-                    if len(body) > 1000 and body[:4] == b"%PDF":
-                        print(f"    [pdf] Valid PDF confirmed")
-                        pdf_bytes_list.append(body)
-                    else:
-                        print(f"    [pdf] Not a valid PDF bytes ({body[:4]}) - skipping")
-                except Exception as e:
-                    if "No data found" not in str(e):
-                        print(f"    [pdf] Response error: {e}")
-
-            page.on("response", on_response)
-
-            def on_download(download):
-                try:
-                    import tempfile, os
-                    tmp = tempfile.mktemp(suffix=".pdf")
-                    download.save_as(tmp)
-                    with open(tmp, "rb") as f:
-                        data = f.read()
-                    os.unlink(tmp)
-                    print(f"    [pdf] Download: {len(data)//1024}KB, First4: {data[:4]}")
-                    if data[:4] == b"%PDF":
-                        pdf_bytes_list.append(data)
-                except Exception as e:
-                    print(f"    [pdf] Download error: {e}")
-
-            page.on("download", on_download)
-
+        def on_response(response):
             try:
-                print(f"    [pdf] Loading: {page_url[:90]}")
-                page.goto(page_url, wait_until="domcontentloaded", timeout=30_000)
-                page.wait_for_timeout(8000)
-            except Exception as e:
-                print(f"    [pdf] Page error: {e}")
-            finally:
-                context.close()
-                browser.close()
+                if response.status != 200:
+                    return
+                rurl = response.url
+                ct = response.headers.get("content-type", "").lower()
+                if "pdf" not in ct and not rurl.lower().endswith(".pdf"):
+                    return
+                body = response.body()
+                if len(body) > 1000 and body[:4] == b"%PDF":
+                    print(f"    [pdf] Intercepted clean PDF: {rurl[:70]} ({len(body)//1024}KB)")
+                    collected.append(body)
+            except Exception:
+                pass
 
-    return pdf_bytes_list[-1] if pdf_bytes_list else None
+        page.on("response", on_response)
+
+        try:
+            page.goto(url, wait_until="networkidle", timeout=30_000)
+            page.wait_for_timeout(3000)
+        except Exception as e:
+            if not collected:
+                print(f"    [pdf] Playwright error: {e}")
+        finally:
+            context.close()
+            browser.close()
+
+    return collected[-1] if collected else None
 
 
-def _fetch_pdf_for_announcement(ann: Announcement) -> Optional[bytes]:
-    """Full pipeline: ASX direct first, then Playwright."""
-    url = ann.url
-    if not url:
-        return None
+def _fetch_pdf(ann: Announcement) -> Optional[bytes]:
+    """Fetch PDF for an announcement - ASX direct URL first, then Playwright."""
 
-    doc_id = _extract_doc_id(url)
-    ymd = _extract_date_from_ann(ann)
-
-    # 1. Try ASX direct download (clean PDF, no compression)
-    if doc_id:
-        data = _try_asx_direct(doc_id, ymd)
+    # 1. If we have a direct PDF URL from ASX API, use it
+    if ann.pdf_url and ann.pdf_url.startswith("http"):
+        print(f"    [pdf] Trying direct URL: {ann.pdf_url[:80]}")
+        data = _download_direct(ann.pdf_url)
         if data:
             return data
 
-    # 2. Playwright interception fallback
-    print(f"    [pdf] Falling back to Playwright...")
-    return _try_playwright_intercept(url)
+    # 2. If URL is a marketindex page, use Playwright interception
+    if ann.url and "marketindex.com.au" in ann.url:
+        print(f"    [pdf] Using Playwright for marketindex page...")
+        # Use Playwright but ONLY intercept from marketindex data-api
+        return _download_marketindex_playwright(ann.url)
+
+    # 3. Try the announcement URL directly
+    if ann.url and ann.url.startswith("http"):
+        print(f"    [pdf] Trying announcement URL: {ann.url[:80]}")
+        data = _download_direct(ann.url)
+        if data:
+            return data
+        data = _download_via_playwright(ann.url)
+        if data:
+            return data
+
+    return None
+
+
+def _download_marketindex_playwright(url: str) -> Optional[bytes]:
+    """Playwright specifically for marketindex - only intercepts data-api PDF endpoint."""
+    try:
+        from playwright.sync_api import sync_playwright
+        from playwright_stealth import Stealth
+    except ImportError:
+        return None
+
+    stealth = Stealth()
+    collected = []
+
+    with sync_playwright() as p:
+        browser = p.chromium.launch(headless=True)
+        context = browser.new_context(
+            user_agent=_HEADERS["User-Agent"],
+            viewport={"width": 1920, "height": 1080},
+            locale="en-AU",
+            timezone_id="Australia/Sydney",
+        )
+        stealth.apply_stealth_sync(context)
+        page = context.new_page()
+
+        def on_response(response):
+            try:
+                rurl = response.url
+                if "data-api.marketindex.com.au/api/v1/announcements/" not in rurl:
+                    return
+                if "/pdf" not in rurl.lower():
+                    return
+                if response.status != 200:
+                    return
+                body = response.body()
+                if len(body) > 1000 and body[:4] == b"%PDF":
+                    print(f"    [pdf] Marketindex API PDF: {len(body)//1024}KB")
+                    collected.append(body)
+            except Exception:
+                pass
+
+        page.on("response", on_response)
+
+        try:
+            page.goto(url, wait_until="domcontentloaded", timeout=30_000)
+            page.wait_for_timeout(8000)
+        except Exception as e:
+            if not collected:
+                print(f"    [pdf] Error: {e}")
+        finally:
+            context.close()
+            browser.close()
+
+    return collected[-1] if collected else None
 
 
 def download_pack_pdfs(
@@ -184,16 +181,17 @@ def download_pack_pdfs(
 ) -> int:
     downloaded = 0
     for ann in pack.announcements:
-        if not ann.url:
+        if not ann.url and not ann.pdf_url:
+            print(f"  [pdf] No URL: {ann.title[:60]}")
             continue
         if dry_run:
             print(f"  [pdf] [DRY-RUN] {ann.title[:60]}")
             continue
 
         print(f"  [pdf] Fetching: {ann.title[:60]}")
-        data = _fetch_pdf_for_announcement(ann)
+        data = _fetch_pdf(ann)
 
-        if data and (data[:3] == b"%PD" or len(data) > 10000):
+        if data:
             if len(data) > max_bytes:
                 print(f"  [pdf] Too large ({len(data)//1024}KB) - skipping")
                 continue
@@ -204,8 +202,6 @@ def download_pack_pdfs(
             ann.pdf_path = str(pdf_path)
             downloaded += 1
             print(f"  [pdf] OK ({len(data)//1024}KB)")
-        elif data:
-            print(f"  [pdf] Invalid PDF bytes: {data[:8].hex()}")
         else:
             print(f"  [pdf] Failed")
 
@@ -225,6 +221,7 @@ def save_pack_metadata(pack: ResultPack, output_folder: Path) -> Path:
                 "title": a.title,
                 "date": a.date,
                 "url": a.url,
+                "pdf_url": a.pdf_url,
                 "pdf_downloaded": a.pdf_bytes is not None,
                 "pdf_size_kb": len(a.pdf_bytes) // 1024 if a.pdf_bytes else 0,
             }
