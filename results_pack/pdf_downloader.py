@@ -76,25 +76,66 @@ def _fetch_pdf_playwright(url: str) -> Optional[bytes]:
     return collected[-1] if collected else None
 
 
+def _build_marketindex_api_url(page_url: str) -> Optional[str]:
+    """
+    Construct the marketindex data-api PDF URL directly.
+    page URL: .../asx/all/announcements/hy26-results-announcement-2A1671770
+    API URL:  https://data-api.marketindex.com.au/api/v1/announcements/XASX:ALL:2A1671770/pdf/
+    """
+    import re
+    # Extract ticker and doc ID from URL
+    # Pattern: /asx/{ticker}/announcements/{slug}-{docId}
+    m = re.search(r'/asx/([^/]+)/announcements/[^/]+-([0-9][A-Z][0-9]+)$', page_url.rstrip('/'))
+    if m:
+        ticker = m.group(1).upper()
+        doc_id = m.group(2)
+        return f"https://data-api.marketindex.com.au/api/v1/announcements/XASX:{ticker}:{doc_id}/pdf/"
+    return None
+
+
+def _download_marketindex_pdf(api_url: str, page_url: str) -> Optional[bytes]:
+    """Download PDF directly from marketindex data-api with correct headers."""
+    try:
+        import requests
+        headers = {
+            "User-Agent": _UA,
+            "Accept": "application/pdf,*/*",
+            "Referer": page_url,
+            "Origin": "https://www.marketindex.com.au",
+        }
+        r = requests.get(api_url, headers=headers, timeout=60)
+        r.raise_for_status()
+        data = r.content
+        print(f"    [pdf] Direct API download: {len(data)//1024}KB, starts: {data[:8]}")
+        if len(data) > 1000 and data[:4] == b"%PDF":
+            return data
+        # Try decompressing if it's gzip encoded
+        if len(data) > 2 and data[0] == 0x1f and data[1] == 0x8b:
+            import gzip
+            data = gzip.decompress(data)
+            print(f"    [pdf] Decompressed gzip: {len(data)//1024}KB")
+            if data[:4] == b"%PDF":
+                return data
+    except Exception as e:
+        print(f"    [pdf] Direct API failed: {e}")
+    return None
+
+
 def _fetch_pdf_for_announcement(ann: Announcement) -> Optional[bytes]:
-    """Fetch PDF using Playwright network interception."""
+    """Fetch PDF - try direct marketindex API first, then Playwright interception."""
     url = ann.url
     if not url:
         return None
 
-    # Try direct download first if URL looks like a PDF
-    if url.lower().endswith(".pdf"):
-        try:
-            import requests
-            r = requests.get(url, headers={"User-Agent": _UA}, timeout=30)
-            r.raise_for_status()
-            data = r.content
-            if len(data) > 1000 and data[:4] == b"%PDF":
-                return data
-        except Exception:
-            pass
+    # Try direct download from marketindex data-api (faster, no browser needed)
+    api_url = _build_marketindex_api_url(url)
+    if api_url:
+        print(f"    [pdf] Trying direct API: {api_url}")
+        data = _download_marketindex_pdf(api_url, url)
+        if data:
+            return data
 
-    # Use Playwright to intercept the PDF from the page
+    # Fall back to Playwright interception
     return _fetch_pdf_playwright(url)
 
 
