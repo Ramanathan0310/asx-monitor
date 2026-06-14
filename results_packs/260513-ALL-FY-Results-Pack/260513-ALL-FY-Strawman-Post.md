@@ -1,3 +1,3 @@
-The documents provided appear to contain no readable text content — all pages are blank white images. Without access to the actual financial data, figures, or commentary from Aristocrat's HY26 results, I'm unable to produce a meaningful or accurate investment note.
+# Strawman-Post.md
 
-If you can share the underlying text or data from these documents (copy-pasted or in another format), I'd be glad to write the Strawman note straight away.
+Analysis failed: __NO_PDFS__
