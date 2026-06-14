@@ -1,9 +1,8 @@
 # -*- coding: utf-8 -*-
 # results_pack/pdf_downloader.py
-# Uses Playwright download handler to get complete uncorrupted PDFs.
+# Downloads PDFs from ASX displayAnnouncement URLs or via Playwright.
 from __future__ import annotations
 import json
-import tempfile
 import time
 from pathlib import Path
 from typing import Optional
@@ -15,12 +14,32 @@ _UA = (
     "Chrome/131.0.0.0 Safari/537.36"
 )
 
+_HEADERS = {
+    "User-Agent": _UA,
+    "Accept": "application/pdf,*/*",
+    "Accept-Encoding": "identity",
+    "Referer": "https://www.asx.com.au/",
+}
 
-def _download_via_playwright(page_url: str) -> Optional[bytes]:
-    """
-    Navigate to marketindex announcement page and click the download button
-    to trigger a proper browser download - giving us complete uncorrupted PDF.
-    """
+
+def _download_direct(url: str) -> Optional[bytes]:
+    """Download PDF via requests."""
+    import requests
+    try:
+        r = requests.get(url, headers=_HEADERS, timeout=60, allow_redirects=True)
+        r.raise_for_status()
+        data = r.content
+        if len(data) > 1000 and data[:4] == b"%PDF":
+            print(f"    [pdf] Direct OK ({len(data)//1024}KB)")
+            return data
+        print(f"    [pdf] Not a PDF (first4: {data[:4]}, size: {len(data)//1024}KB)")
+    except Exception as e:
+        print(f"    [pdf] Direct failed: {e}")
+    return None
+
+
+def _download_playwright(url: str) -> Optional[bytes]:
+    """Download PDF using Playwright - handles consent pages and redirects."""
     try:
         from playwright.sync_api import sync_playwright
         from playwright_stealth import Stealth
@@ -28,122 +47,99 @@ def _download_via_playwright(page_url: str) -> Optional[bytes]:
         return None
 
     stealth = Stealth()
-    result = [None]
+    pdf_bytes = None
 
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=True)
         context = browser.new_context(
             user_agent=_UA,
             viewport={"width": 1920, "height": 1080},
-            locale="en-AU",
-            timezone_id="Australia/Sydney",
             accept_downloads=True,
+            extra_http_headers={"Accept-Encoding": "identity"},
         )
         stealth.apply_stealth_sync(context)
         page = context.new_page()
 
+        collected = []
+
+        def on_response(response):
+            try:
+                if response.status != 200:
+                    return
+                ct = response.headers.get("content-type", "").lower()
+                if "pdf" not in ct and "octet-stream" not in ct:
+                    return
+                body = response.body()
+                if len(body) > 1000 and body[:4] == b"%PDF":
+                    print(f"    [pdf] Intercepted: {response.url[:70]} ({len(body)//1024}KB)")
+                    collected.append(body)
+            except Exception:
+                pass
+
+        page.on("response", on_response)
+
         try:
-            print(f"    [pdf] Loading page: {page_url[:80]}")
-            page.goto(page_url, wait_until="domcontentloaded", timeout=30_000)
-            page.wait_for_timeout(5000)
+            print(f"    [pdf] Playwright loading: {url[:80]}")
+            page.goto(url, wait_until="networkidle", timeout=45_000)
+            page.wait_for_timeout(3000)
 
-            # Try to find and click a download button
-            download_selectors = [
-                "a[download]",
-                "a[href*='download']",
-                "button[class*='download']",
-                "a[class*='download']",
-                "[aria-label*='download' i]",
-                "[title*='download' i]",
-                "a[href*='.pdf']",
-            ]
-
-            for sel in download_selectors:
-                els = page.query_selector_all(sel)
-                for el in els:
+            # Try clicking consent/accept buttons if present
+            if not collected:
+                for sel in ["button:has-text('Accept')", "button:has-text('I agree')",
+                            "input[type='submit']", "a:has-text('View')"]:
                     try:
-                        with page.expect_download(timeout=30_000) as dl_info:
-                            el.click()
-                        download = dl_info.value
-                        with tempfile.NamedTemporaryFile(suffix=".pdf", delete=False) as tmp:
-                            tmp_path = tmp.name
-                        download.save_as(tmp_path)
-                        data = Path(tmp_path).read_bytes()
-                        Path(tmp_path).unlink(missing_ok=True)
-                        if data[:4] == b"%PDF":
-                            print(f"    [pdf] Download button worked: {len(data)//1024}KB")
-                            result[0] = data
-                            return data
+                        btn = page.query_selector(sel)
+                        if btn:
+                            btn.click()
+                            page.wait_for_timeout(3000)
+                            if collected:
+                                break
                     except Exception:
                         continue
-                if result[0]:
-                    break
-
-            # If no download button worked, try fetching the data-api URL directly
-            # using the browser's fetch (which has the right session/cookies)
-            if not result[0]:
-                print(f"    [pdf] No download button found, trying browser fetch...")
-                # Extract the doc ID from page URL
-                import re
-                m = re.search(r'-([0-9][A-Z][0-9]+)$', page_url.rstrip('/'))
-                if m:
-                    doc_id = m.group(1)
-                    # Extract ticker from URL
-                    m2 = re.search(r'/asx/([^/]+)/announcements/', page_url)
-                    ticker = m2.group(1).upper() if m2 else "ALL"
-                    api_url = f"https://data-api.marketindex.com.au/api/v1/announcements/XASX:{ticker}:{doc_id}/pdf/"
-
-                    # Use page.evaluate to fetch via browser (has correct cookies/headers)
-                    js_result = page.evaluate(f"""
-                        async () => {{
-                            const resp = await fetch('{api_url}', {{
-                                headers: {{
-                                    'Accept': 'application/pdf,*/*',
-                                    'Referer': 'https://www.marketindex.com.au/'
-                                }}
-                            }});
-                            if (!resp.ok) return null;
-                            const buf = await resp.arrayBuffer();
-                            const bytes = new Uint8Array(buf);
-                            return Array.from(bytes);
-                        }}
-                    """)
-
-                    if js_result and isinstance(js_result, list):
-                        data = bytes(js_result)
-                        print(f"    [pdf] Browser fetch: {len(data)//1024}KB, first4: {data[:4]}")
-                        if data[:4] == b"%PDF":
-                            result[0] = data
-                            return data
 
         except Exception as e:
-            print(f"    [pdf] Playwright error: {e}")
+            if not collected:
+                print(f"    [pdf] Playwright error: {e}")
         finally:
+            if collected:
+                pdf_bytes = collected[-1]
             context.close()
             browser.close()
 
-    return result[0]
+    return pdf_bytes
 
 
 def _fetch_pdf(ann: Announcement) -> Optional[bytes]:
-    url = ann.url or ann.pdf_url
+    """Fetch PDF - try direct download first, then Playwright."""
+    # Use pdf_url if available (from ASX fetcher), otherwise fall back to url
+    url = ann.pdf_url or ann.url
     if not url:
         return None
 
-    # Direct requests for known PDF URLs
-    if url.lower().endswith(".pdf") and "marketindex" not in url:
-        try:
-            import requests
-            r = requests.get(url, headers={"User-Agent": _UA, "Accept-Encoding": "identity"}, timeout=60)
-            r.raise_for_status()
-            if r.content[:4] == b"%PDF":
-                print(f"    [pdf] Direct download OK ({len(r.content)//1024}KB)")
-                return r.content
-        except Exception as e:
-            print(f"    [pdf] Direct failed: {e}")
+    # Direct download (works for ASX displayAnnouncement URLs)
+    print(f"    [pdf] Trying: {url[:80]}")
+    data = _download_direct(url)
+    if data:
+        return data
 
-    # Playwright download for marketindex pages
-    return _download_via_playwright(url)
+    # Playwright fallback
+    print(f"    [pdf] Trying Playwright...")
+    data = _download_playwright(url)
+    if data:
+        return data
+
+    # If url != pdf_url, try the other one too
+    other = ann.url if url == ann.pdf_url else ann.pdf_url
+    if other and other != url:
+        print(f"    [pdf] Trying alternate URL: {other[:80]}")
+        data = _download_direct(other)
+        if data:
+            return data
+        data = _download_playwright(other)
+        if data:
+            return data
+
+    return None
 
 
 def download_pack_pdfs(
@@ -163,7 +159,7 @@ def download_pack_pdfs(
         print(f"  [pdf] Fetching: {ann.title[:60]}")
         data = _fetch_pdf(ann)
 
-        if data and data[:4] == b"%PDF":
+        if data:
             if len(data) > max_bytes:
                 print(f"  [pdf] Too large ({len(data)//1024}KB)")
                 continue
@@ -174,12 +170,10 @@ def download_pack_pdfs(
             ann.pdf_path = str(pdf_path)
             downloaded += 1
             print(f"  [pdf] OK ({len(data)//1024}KB)")
-        elif data:
-            print(f"  [pdf] Got data but not valid PDF: first4={data[:4]}")
         else:
             print(f"  [pdf] Failed")
 
-        time.sleep(2)
+        time.sleep(1)
 
     return downloaded
 
