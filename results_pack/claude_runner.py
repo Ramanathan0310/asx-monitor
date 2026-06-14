@@ -15,7 +15,24 @@ MAX_PDF_BYTES    = 30 * 1024 * 1024  # 30MB per PDF
 
 
 def _extract_pdf_text(raw: bytes) -> str:
-    """Extract text from PDF bytes using pypdf."""
+    """Extract text from PDF bytes - tries pdfplumber first, then pypdf."""
+    # Try pdfplumber (handles more PDF types)
+    try:
+        import pdfplumber
+        pages = []
+        with pdfplumber.open(io.BytesIO(raw)) as pdf:
+            for page in pdf.pages[:30]:
+                text = page.extract_text() or ""
+                if text.strip():
+                    pages.append(text)
+        result = "\n".join(pages)
+        if result.strip():
+            print(f"    [pdf_text] pdfplumber extracted {len(result)} chars")
+            return result
+    except Exception as e:
+        print(f"    [pdf_text] pdfplumber failed: {e}")
+
+    # Fall back to pypdf
     try:
         from pypdf import PdfReader
         reader = PdfReader(io.BytesIO(raw))
@@ -24,10 +41,14 @@ def _extract_pdf_text(raw: bytes) -> str:
             text = page.extract_text() or ""
             if text.strip():
                 pages.append(text)
-        return "\n".join(pages)
+        result = "\n".join(pages)
+        if result.strip():
+            print(f"    [pdf_text] pypdf extracted {len(result)} chars")
+            return result
     except Exception as e:
-        print(f"    [pdf_text] extraction failed: {e}")
-        return ""
+        print(f"    [pdf_text] pypdf failed: {e}")
+
+    return ""
 
 
 def _call_claude(system_prompt: str, text_context: str, pdf_items: List[Announcement]) -> str:
