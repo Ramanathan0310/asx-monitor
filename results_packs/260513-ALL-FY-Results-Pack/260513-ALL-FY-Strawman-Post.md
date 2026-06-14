@@ -1,3 +1,5 @@
-The documents provided appear to contain no readable text content — all pages rendered as blank white images. Without access to the actual financial data from Aristocrat Leisure's HY26 results, I'm unable to produce a factually grounded investment note.
+The documents provided appear to contain only blank white pages with no readable text or financial data. There is no content available in the uploaded PDFs to analyse and form a genuine investment view.
 
-If you can share the underlying figures (revenue, NPATA, margins, guidance, capital management details), I'm happy to write the note immediately. Alternatively, if there's a rendering issue with the PDFs, re-uploading them in a different format should resolve it.
+To write a credible Strawman note on Aristocrat Leisure's HY26 result, I would need access to the actual financial data, including revenue, NPATA, segment performance, cash flow, and any guidance provided in the announcements.
+
+If you are able to share the actual content from these documents (the PDFs may have rendering or extraction issues), I am happy to produce the note immediately.

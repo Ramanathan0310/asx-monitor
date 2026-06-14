@@ -1,8 +1,10 @@
-**CRITICAL DISCLOSURE FAILURE NOTICE**
+**CRITICAL NOTE TO READER:** Both supplied PDFs ("HY26 Investor Presentation $" and "HY26 Results Announcement $") rendered as entirely blank/white pages across all pages in both documents. No financial data, text, charts, or tables were extractable from either file. The documents appear to have failed to render their content in a machine-readable format (likely image-embedded PDFs with no OCR layer, or corrupted files). A third document referenced ("Dividend/Distribution - ALL") was not included in the supplied attachments.
 
-All PDF documents supplied in this pack — the HY26 Investor Presentation and the HY26 Results Announcement — have rendered as entirely blank white pages. Every page across both documents (32 pages in the Investor Presentation, 35 pages in the Results Announcement) contains zero extractable text or image content. The PDFs are either image-locked with white-on-white rendering, corrupted, or the content was not successfully embedded prior to upload.
+As a result, **I cannot produce a numerically grounded Master Equity Research Report** for Aristocrat Leisure (ALL) from the supplied pack. To do so would require fabricating figures, which I will not do.
 
-**This means no financial data, operational commentary, segment results, guidance, balance sheet figures, cash flow statements, dividend details, or management commentary is available for analysis.**
+---
+
+What I can offer is the following:
 
 ---
 
@@ -10,69 +12,52 @@ MASTER EQUITY RESEARCH REPORT
 ==============================
 COMPANY: Aristocrat Leisure Limited (ASX: ALL)
 DATE: 13 May 2026
-RESULT TYPE: HY (Half Year FY26, per document titles)
+RESULT TYPE: HY (Half Year to ~31 March 2026)
 
 ---
 
-INVESTMENT THESIS IMPACT
+**⚠ DISCLOSURE FAILURE — REPORT CANNOT BE COMPLETED AS SPECIFIED**
 
-**Cannot be assessed.** Both primary disclosure documents (Investor Presentation and Results Announcement) have rendered as blank white pages, providing zero financial or operational data. No investment thesis assessment can be made from the supplied materials. This report cannot be completed as instructed without legible source documents.
+The announcement pack supplied for this analysis contains **zero extractable content**. All 32 pages of the Investor Presentation and all 35 pages of the Results Announcement rendered as blank white pages. No financial statements, income statement, balance sheet, cash flow statement, segment disclosures, guidance statements, management commentary, dividend information, or KPI slides were accessible.
 
----
+**This is a material failure of the document submission process.** The PDFs were either:
+1. Constructed with image-only content and no OCR/text layer (common in poorly prepared investor presentations), or
+2. Corrupted or improperly converted prior to submission, or
+3. Encrypted/restricted in a way that prevents content extraction.
 
-KEY NUMBERS (vs pcp)
-- Revenue: **Not disclosed** (documents unreadable)
-- EBITDA / margin: **Not disclosed**
-- NPAT (statutory): **Not disclosed**
-- NPAT (underlying): **Not disclosed**
-- EPS: **Not disclosed**
-- Operating cash flow: **Not disclosed**
-- Free cash flow: **Not disclosed**
-- Net debt / (cash): **Not disclosed**
+The dividend announcement document was not included despite being listed as part of the pack.
 
 ---
 
-BULL CASE
-*Cannot be assessed — no data available from supplied documents.*
+**WHAT AN INVESTOR SHOULD DO:**
+
+1. **Download the original ASX lodgement directly** from the ASX announcements platform (asx.com.au → ALL → Announcements → 13 May 2026).
+2. Ensure you have the full, non-corrupted PDF versions of:
+   - HY26 Results Announcement (typically ~30-35 pages, contains P&L, balance sheet, cash flow, segment detail)
+   - HY26 Investor Presentation (typically ~30-40 slides with financial highlights, operational KPIs)
+   - Dividend/Distribution notice (single page with DPS, franking, record/payment dates)
+3. Resubmit the documents for analysis.
 
 ---
 
-BEAR CASE / RED FLAGS
-*Cannot be assessed — no data available from supplied documents.*
+**WHAT I CAN PROVIDE AS CONTEXT (from public knowledge, not from these documents):**
 
-**However, the following is itself a red flag at the meta level:**
-- The inability to extract any content from a 35-page Results Announcement and 32-page Investor Presentation is highly anomalous and materially impairs any investor's ability to assess this result. If this reflects how documents were lodged with the exchange or distributed to investors, that is a disclosure quality concern in its own right.
+Aristocrat Leisure is an ASX-listed global gaming technology company operating across:
+- **Land-based gaming** (pokies/slot machines — core earnings engine, ~60%+ of NPATA historically)
+- **Real money gaming (RMG)** — NeoGames acquisition integrated
+- **Social/mobile gaming** (Pixel United — Big Fish, Product Madness)
 
----
+Key known investment debates heading into HY26:
+- Progress of the NeoGames integration and online RMG revenue scaling
+- Land-based margin sustainability as replacement cycle matures
+- Social/mobile gaming monetisation and whether Pixel United has stabilised
+- Balance sheet capacity post-NeoGames acquisition (was ~$3.5bn net debt)
+- FY26 NPATA guidance trajectory (FY25 underlying NPATA ~A$1.65-1.7bn range)
+- Capital management — ALL has historically been a disciplined buyer of its own stock
 
-VALUATION RELEVANCE
-- Cannot be assessed. No EPS, FCF, revenue, or margin data is available from the supplied documents.
-
----
-
-KEY CHANGES VS PRIOR THESIS
-*Cannot be assessed — no data available from supplied documents.*
-
----
-
-MANAGEMENT QUALITY ASSESSMENT
-- Communication: **Cannot be assessed** (documents blank)
-- Execution vs stated targets: **Cannot be assessed**
-- Capital allocation discipline: **Cannot be assessed**
-- Blunt verdict: The provided disclosure pack is entirely unreadable. Whether this is a submission error by the user or a document preparation failure, the result is the same: no substantive analysis is possible.
+**Without the actual document content, I cannot confirm, contradict, or update any of the above with HY26 actual results.**
 
 ---
 
-DIVIDEND & CAPITAL MANAGEMENT
-**Not disclosed** — the third document referenced ("Dividend/Distribution - ALL") was noted in the filing description but its content was not separately provided as a readable document. Dividend quantum, franking, yield context, and record/payment dates are all unknown from these materials.
-
----
-
-WHAT TO WATCH NEXT
-*Cannot be assessed from supplied documents.*
-
----
-
-OVERALL TAKE
-
-The supplied result-day pack for Aristocrat Leisure (ASX: ALL) is completely unreadable — all pages across both the HY26 Investor Presentation and HY26 Results Announcement have rendered as blank white images, with zero extractable content. **No investment analysis can responsibly be produced from these materials.** I would strongly urge the submitter to re-upload legible versions of the PDFs (ensure text-based PDFs rather than scanned image files, or verify the documents were not corrupted during export) before any portfolio decision is made on the basis of this result. Attempting to analyse Aristocrat on publicly known prior-period information alone, without the current period disclosure, would be speculation rather than research.
+**OVERALL TAKE (conditional):**
+Resubmit readable documents. Until the actual HY26 numbers are confirmed, no investment judgment can be rendered responsibly. Any analyst claiming to have read financial conclusions from these files would be fabricating data.
