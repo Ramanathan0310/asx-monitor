@@ -15,10 +15,10 @@ MAX_PDF_BYTES    = 30 * 1024 * 1024  # 30MB per PDF
 
 
 def _extract_pdf_text(raw: bytes) -> str:
-    """Extract text from PDF bytes - tries pymupdf first, then pdfplumber, then pypdf."""
-    # Try pymupdf (best for ASX PDFs with custom fonts)
+    """Extract text from PDF - tries text extraction first, then OCR for image-based PDFs."""
+    # Try pymupdf (best for text-based PDFs)
     try:
-        import fitz  # pymupdf
+        import fitz
         doc = fitz.open(stream=raw, filetype="pdf")
         pages = []
         for page in doc:
@@ -49,7 +49,7 @@ def _extract_pdf_text(raw: bytes) -> str:
     except Exception as e:
         print(f"    [pdf_text] pdfplumber failed: {e}")
 
-    # Fall back to pypdf
+    # Try pypdf
     try:
         from pypdf import PdfReader
         reader = PdfReader(io.BytesIO(raw))
@@ -64,6 +64,32 @@ def _extract_pdf_text(raw: bytes) -> str:
             return result
     except Exception as e:
         print(f"    [pdf_text] pypdf failed: {e}")
+
+    # OCR fallback for image-based PDFs
+    print(f"    [pdf_text] text extraction failed - trying OCR...")
+    try:
+        import fitz
+        import pytesseract
+        from PIL import Image
+        doc = fitz.open(stream=raw, filetype="pdf")
+        pages = []
+        # Only OCR first 15 pages to keep time reasonable
+        for page_num in range(min(15, len(doc))):
+            page = doc[page_num]
+            # Render at 200 DPI for good OCR quality
+            mat = fitz.Matrix(200/72, 200/72)
+            pix = page.get_pixmap(matrix=mat)
+            img = Image.frombytes("RGB", [pix.width, pix.height], pix.samples)
+            text = pytesseract.image_to_string(img)
+            if text.strip():
+                pages.append(text)
+        doc.close()
+        result = "\n".join(pages)
+        if len(result.strip()) > 200:
+            print(f"    [pdf_text] OCR extracted {len(result)} chars from {len(pages)} pages")
+            return result
+    except Exception as e:
+        print(f"    [pdf_text] OCR failed: {e}")
 
     print(f"    [pdf_text] all extractors failed - will send as base64")
     return ""
