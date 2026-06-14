@@ -114,7 +114,12 @@ def _try_playwright_intercept(url: str) -> Optional[bytes]:
                     body = response.body()
                     print(f"    [pdf] Intercepted: {response.url[:80]}")
                     print(f"    [pdf] Size: {len(body)//1024}KB, First8: {body[:8].hex()}")
-                    if len(body) > 1000 and body[:4] == b"%PDF":
+                    # 255044462d = %PDF- in hex
+                    if len(body) > 1000 and body[:3] == b"%PD":
+                        pdf_bytes_list.append(body)
+                    elif len(body) > 10000:
+                        # Store large responses even if magic bytes wrong
+                        # (may be valid PDF with encoding issue)
                         pdf_bytes_list.append(body)
                 except Exception as e:
                     if "No data found" not in str(e):
@@ -188,7 +193,7 @@ def download_pack_pdfs(
         print(f"  [pdf] Fetching: {ann.title[:60]}")
         data = _fetch_pdf_for_announcement(ann)
 
-        if data and data[:4] == b"%PDF":
+        if data and (data[:3] == b"%PD" or len(data) > 10000):
             if len(data) > max_bytes:
                 print(f"  [pdf] Too large ({len(data)//1024}KB) - skipping")
                 continue
