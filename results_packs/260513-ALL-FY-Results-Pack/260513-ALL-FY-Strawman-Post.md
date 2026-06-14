@@ -1,3 +1,3 @@
-# Strawman-Post.md
+The documents provided appear to contain no readable text content — all pages render as blank white images. There is insufficient information available from the supplied PDFs to write a substantive investment note on Aristocrat Leisure's HY26 result.
 
-Analysis failed: __NO_PDFS__
+If you are able to share the actual text content from the results announcement and investor presentation, I would be happy to write the Strawman note based on that information.
