@@ -195,6 +195,17 @@ def download_pack_pdfs(
             if len(data) > max_bytes:
                 print(f"  [pdf] Too large ({len(data)//1024}KB) - skipping")
                 continue
+            # Diagnostic: check PDF structure
+            print(f"  [pdf] First 20 bytes: {data[:20]}")
+            print(f"  [pdf] Last 20 bytes: {data[-20:]}")
+            # Count pages via simple regex
+            import re
+            page_count = len(re.findall(b"/Page\b", data))
+            print(f"  [pdf] Approximate page count: {page_count}")
+            # Check for content streams
+            has_content = b"/Contents" in data or b"stream" in data[:5000]
+            print(f"  [pdf] Has content streams: {has_content}")
+
             ann.pdf_bytes = data
             safe = "".join(c if c.isalnum() or c in ".-_ " else "_" for c in ann.title[:60])
             pdf_path = output_folder / f"{safe}.pdf"
