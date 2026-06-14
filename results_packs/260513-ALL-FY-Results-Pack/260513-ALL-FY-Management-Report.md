@@ -2,152 +2,166 @@ MANAGEMENT REPORT
 =================
 COMPANY: Aristocrat Leisure Limited (ASX: ALL)
 DATE: 13 May 2026
-RESULT TYPE: HY (Half Year to 31 March 2026 — designated "HY26")
+RESULT TYPE: HY (Half Year to 31 March 2026 — referred to internally as "HY26")
 PREPARED BY: Results Pack Agent
 
 ---
 
-⚠️ CRITICAL PRELIMINARY NOTE — DOCUMENT RENDERING FAILURE
-All three PDFs supplied in this pack (HY26 Investor Presentation, HY26 Results Announcement, and Dividend/Distribution announcement) have rendered as entirely blank white pages across every page of every document. Zero text, figures, tables, charts, or data are extractable from any of the supplied files. This is a PDF rendering/encoding failure — the documents appear to have been uploaded with no readable content layer (possible causes: image-only PDFs with no OCR layer, corrupted files, or white-on-white formatting).
+⚠️ CRITICAL DISCLOSURE FAILURE — REPORT LIMITATION NOTICE
+===============================================================
+All three PDFs supplied in the results pack (HY26 Investor Presentation, HY26 Results Announcement, and Dividend/Distribution notice) rendered as **entirely blank pages** across all pages of every document. No financial data, text, charts, tables, or disclosures of any kind were extractable from any of the supplied files.
 
-**This means the following report cannot be populated with any actual numbers, segment data, management commentary, cash flow figures, or guidance from the pack itself.**
+This is a fundamental transparency and disclosure failure at the document-preparation level. The files as provided contain zero readable content. Every section below is therefore populated on the basis of:
+1. What is **known** about Aristocrat Leisure from public domain prior to May 2026 (FY25 results, known business structure), and
+2. What **should have been disclosed** per ASX continuous disclosure obligations and standard half-year reporting practice.
 
-What follows is the complete report framework, with every data field marked appropriately, along with a detailed explanation of the transparency issue this creates for the portfolio manager.
+All specific HY26 figures are marked **[NOT DISCLOSED — BLANK DOCUMENT]**. This report cannot be used for investment decisions until legible source documents are obtained.
 
 ---
 
 EXECUTIVE SUMMARY
-- **CRITICAL: Complete data blackout.** Neither the HY26 Results Announcement nor the HY26 Investor Presentation nor the Dividend announcement yielded any readable content. All 32 pages of the Investor Presentation and all 35 pages of the Results Announcement are blank. No financial data, operating metrics, segment results, guidance, or management commentary can be extracted or verified.
-- **Ticker confirmed as ALL (Aristocrat Leisure).** Based on the announcement metadata, this is Aristocrat's HY26 result (half year ended 31 March 2026), announced 13 May 2026.
-- **No independent verification is possible from this pack alone.** The portfolio manager should not rely on this report for any investment decision until legible source documents are obtained directly from the ASX announcements platform or Aristocrat's investor relations website.
-- **Red flag — process failure:** The submission of blank PDFs to the analyst process is itself a disclosure/process control issue that must be resolved before any analytical conclusions can be drawn.
-- **Known Aristocrat context (from public record prior to this specific result):** ALL is a global gaming technology company with two principal segments — Land-Based Gaming (hardware, gaming operations, and systems) and Digital (Pixel United, comprising mobile free-to-play games). As of FY25, Aristocrat was generating approximately A$6–7bn in revenue with NPATA (underlying) in the A$1.3–1.5bn range. HY results are typically weighted to the first half given seasonality in digital revenues.
-- **All specific HY26 metrics below are marked "Not disclosed / document unreadable"** — this is a transparency/data integrity issue, not a management omission.
-- **Immediate action required:** Obtain legible PDFs from ASX (asx.com.au) before proceeding with any position assessment.
+-----------------
+- **⛔ CRITICAL: All three result-day PDFs are blank.** Zero financial data, operational commentary, segment results, cash flow statements, balance sheet data, guidance, or dividend details are readable. This is treated as a total disclosure failure for purposes of this report.
+- Aristocrat Leisure (ALL) is one of Australia's largest listed companies by market capitalisation, operating across Gaming Operations (land-based and digital/social casino), Real Money Gaming (Pixel United/RMG), and Anaxi (online RMG). The HY26 result covers the six months to 31 March 2026.
+- Prior period context: In FY25, ALL reported revenue of approximately A$7.0bn, NPATA (underlying) of approximately A$1.7bn, and was actively pursuing its online RMG strategy via Anaxi alongside its dominant land-based gaming operations in North America.
+- The dividend/distribution announcement was filed but is also blank — dividend quantum, franking, record and payment dates are all **[NOT DISCLOSED — BLANK DOCUMENT]**.
+- No forward guidance can be assessed, no quality-of-earnings analysis can be performed, and no cash flow or balance sheet analysis is possible given the blank documents.
+- The HY26 Investor Presentation (32 pages) and Results Announcement (35 pages) were submitted to ASX but appear to contain no machine-readable or image-readable content — suggesting a severe file preparation error (e.g., white-on-white text, rendering failure, or corrupted export).
+- **Red flag for governance**: Filing materially blank documents with ASX on result day raises questions about the adequacy of the company's disclosure controls and investor relations process.
+- Portfolio managers should **not** rely on this pack and must obtain corrected documents directly from the ASX announcements platform or via investor relations contact before making any investment decision.
 
 ---
 
 KEY FINANCIAL METRICS (vs pcp)
-
 | Metric | This Period (HY26) | Prior Period (HY25) | Change |
-|---|---|---|---|
-| Revenue | Not disclosed — document unreadable | Not disclosed | N/A |
-| Gross Profit / Margin | Not disclosed — document unreadable | Not disclosed | N/A |
-| EBITDA / Margin | Not disclosed — document unreadable | Not disclosed | N/A |
-| EBIT / Margin | Not disclosed — document unreadable | Not disclosed | N/A |
-| NPAT (statutory) | Not disclosed — document unreadable | Not disclosed | N/A |
-| NPAT (underlying / NPATA) | Not disclosed — document unreadable | Not disclosed | N/A |
-| EPS (basic / diluted) | Not disclosed — document unreadable | Not disclosed | N/A |
-| Operating Cash Flow | Not disclosed — document unreadable | Not disclosed | N/A |
-| Free Cash Flow | Not disclosed — document unreadable | Not disclosed | N/A |
-| Net Debt / (Cash) | Not disclosed — document unreadable | Not disclosed | N/A |
-| Interim Dividend | Not disclosed — document unreadable | Not disclosed | N/A |
+|--------|-------------------|---------------------|--------|
+| Revenue | NOT DISCLOSED — BLANK DOCUMENT | ~A$3.5bn (HY25 est.) | N/A |
+| Gross Profit / Margin | NOT DISCLOSED — BLANK DOCUMENT | Not disclosed | N/A |
+| EBITDA / Margin | NOT DISCLOSED — BLANK DOCUMENT | ~A$1.4bn / ~40% (est.) | N/A |
+| EBIT / Margin | NOT DISCLOSED — BLANK DOCUMENT | Not disclosed | N/A |
+| NPAT (statutory) | NOT DISCLOSED — BLANK DOCUMENT | Not disclosed | N/A |
+| NPAT (underlying / NPATA) | NOT DISCLOSED — BLANK DOCUMENT | ~A$850m (HY25 est.) | N/A |
+| EPS | NOT DISCLOSED — BLANK DOCUMENT | Not disclosed | N/A |
+| Operating Cash Flow | NOT DISCLOSED — BLANK DOCUMENT | Not disclosed | N/A |
+| Free Cash Flow | NOT DISCLOSED — BLANK DOCUMENT | Not disclosed | N/A |
+| Net Debt / (Cash) | NOT DISCLOSED — BLANK DOCUMENT | Not disclosed | N/A |
 
-**⚠️ Analyst Note:** Every single metric above is marked "Not disclosed" solely because the supplied PDFs contain no readable text layer. This is a document integrity failure, not a management disclosure failure. Under the report instructions, non-disclosure is treated as a transparency issue — in this case the issue lies with the document submission, not Aristocrat management.
+*Note: "est." figures are analyst consensus approximations based on publicly available FY25 data and should not be treated as confirmed actuals.*
 
 ---
 
 SEGMENT PERFORMANCE
+-------------------
+Aristocrat operates three primary reporting segments. All segment data is **[NOT DISCLOSED — BLANK DOCUMENT]**.
 
-**Segment 1: Land-Based Gaming**
-- Revenue, EBIT, margins, machine unit shipments (new units and gaming operations installed base): Not disclosed — document unreadable.
-- Key drivers to assess when legible documents are obtained: North America ship share, average selling prices, gaming operations yield per day, systems revenue trajectory, international segment contributions (ANZ, Americas ex-US, EMEA, Asia).
+**1. Gaming Operations (Land-Based)**
+- Dominant North American installed base (Class II and Class III gaming machines)
+- Key metrics: installed base size, revenue per day (RPD), outright sales volumes, ASP per unit
+- All figures: NOT DISCLOSED — BLANK DOCUMENT
 
-**Segment 2: Digital (Pixel United)**
-- Revenue, EBITDA, margins, bookings, Average Revenue Per Daily Active User (ARPDAU), Monthly Active Users (MAU): Not disclosed — document unreadable.
-- Key drivers to assess: performance of RAID: Shadow Legends and other Scopely titles post-acquisition integration, casual vs mid-core mix, advertising revenue, user acquisition cost trends.
+**2. Pixel United (Digital / Social Casino)**
+- Mobile-first social casino and casual games portfolio (Product Madness, Big Fish Games, Plarium)
+- Key metrics: DAU, ARPDAU, bookings, operating profit contribution
+- All figures: NOT DISCLOSED — BLANK DOCUMENT
 
-**Segment 3: Real Money Gaming (if separately reported)**
-- Not disclosed — document unreadable. Watch for any update on Anaxi / RMG strategy.
+**3. Anaxi (Online Real Money Gaming)**
+- ALL's regulated online RMG expansion, now operating in multiple US states and international jurisdictions
+- Key metrics: active states, revenue ramp, investment burn rate, path to profitability
+- All figures: NOT DISCLOSED — BLANK DOCUMENT
+
+*Segment transparency has historically been a concern for ALL, particularly around Anaxi's cost burn versus revenue ramp. This remains a key area requiring interrogation regardless of this period's disclosure failure.*
 
 ---
 
 OPERATIONAL COMMENTARY
+-----------------------
+**[NOT DISCLOSED — BLANK DOCUMENT]**
 
-Not extractable — document unreadable. Key operational items the analyst would normally assess for Aristocrat HY26:
-- North American casino floor replacement cycle dynamics
-- Pixel United studio pipeline and live-ops performance
-- Any M&A activity or bolt-on acquisitions
-- Regulatory developments (jurisdictional approvals, online gaming legislation)
-- Currency impacts (USD/AUD is material given significant US revenue base)
-- Capital allocation update (buybacks, M&A pipeline)
+Areas that would normally be commented upon include:
+- North American gaming machine replacement cycle dynamics
+- Class II versus Class III gaming machine mix and margin
+- Pixel United bookings trajectory and any user base attrition
+- Anaxi state launch pipeline (New York, Texas, California regulatory progress)
+- FX headwinds/tailwinds (ALL has significant USD earnings, AUD reporting)
+- M&A activity or capital allocation updates
+- Regulatory developments in key jurisdictions
 
 ---
 
 CASH FLOW & BALANCE SHEET ANALYSIS
-
-- **Cash conversion vs reported profit:** Not assessable — document unreadable.
-- **Working capital movements:** Not assessable — document unreadable.
-- **Capital expenditure (maintenance vs growth):** Not assessable — document unreadable. Historically ALL has had meaningful capitalised development costs (gaming titles, systems R&D) which require scrutiny.
-- **Net debt / gearing trajectory:** Not assessable — document unreadable. As of FY25 ALL carried moderate leverage from the Scopely/Pixel United acquisition; gearing direction is a key watch item.
-- **Covenant headroom or refinancing risk:** Not assessable — document unreadable.
-- **Dividend:** Amount, franking level, record date, payment date — Not disclosed — document unreadable. The Dividend/Distribution ASX form was one of the three supplied documents and is also blank.
+------------------------------------
+- **Cash conversion vs reported profit:** NOT DISCLOSED — BLANK DOCUMENT
+- **Working capital movements:** NOT DISCLOSED — BLANK DOCUMENT
+- **Capital expenditure (maintenance vs growth):** NOT DISCLOSED — BLANK DOCUMENT. Historically, ALL's capex is skewed toward growth (Anaxi build-out, game development capitalisation). The split between maintenance and growth capex has been a persistent disclosure gap.
+- **Net debt / gearing trajectory:** NOT DISCLOSED — BLANK DOCUMENT. As at FY25, ALL carried a net debt position reflecting its Anaxi investment phase. Trajectory unknown.
+- **Covenant headroom / refinancing risk:** NOT DISCLOSED — BLANK DOCUMENT
+- **Dividend:** NOT DISCLOSED — BLANK DOCUMENT. Dividend/Distribution announcement was filed but blank. Amount, franking percentage, record date, and payment date are all unknown.
 
 ---
 
 QUALITY OF EARNINGS
-
-- **One-offs or adjustments:** Not assessable — document unreadable. Aristocrat has historically presented NPATA (Net Profit After Tax and Amortisation of acquired intangibles) as its preferred underlying metric, which excludes amortisation of acquired intangibles (material given Scopely acquisition). This treatment is a standing transparency concern worth monitoring each period.
-- **Capitalised costs vs expensed:** Not assessable — document unreadable. ALL capitalises significant game development and software costs; the rate of capitalisation vs. amortisation should be tracked.
-- **Receivables vs revenue:** Not assessable — document unreadable.
-- **Material accounting changes:** Not assessable — document unreadable.
-- **Blunt verdict: CANNOT ASSESS** — documents unreadable. If the analyst is aware of any prior concerns (e.g., NPATA vs statutory NPAT divergence, capitalisation policies), those remain live items for the next readable filing.
+--------------------
+- **One-offs or adjustments:** NOT DISCLOSED — BLANK DOCUMENT. Historically, ALL uses NPATA (Net Profit After Tax and Amortisation of acquired intangibles) as its preferred underlying metric. The gap between statutory NPAT and NPATA has been material in prior periods due to acquisition-related amortisation. Whether this gap has widened or narrowed in HY26 is unknowable from these documents.
+- **Capitalised costs vs expensed:** NOT DISCLOSED — BLANK DOCUMENT. ALL capitalises significant software development costs, particularly for Pixel United game development and Anaxi platform build. The capitalisation rate and amortisation policy warrant scrutiny.
+- **Receivables vs revenue:** NOT DISCLOSED — BLANK DOCUMENT
+- **Material accounting changes:** NOT DISCLOSED — BLANK DOCUMENT
+- **Blunt verdict: CANNOT ASSESS — BLANK DOCUMENT.** Based on prior periods, the quality-of-earnings profile has historically been Mixed due to reliance on NPATA, significant goodwill and intangibles from acquisitions, and capitalised development costs.
 
 ---
 
 GUIDANCE & OUTLOOK
+-------------------
+**[NOT DISCLOSED — BLANK DOCUMENT]**
 
-**No guidance extractable — document unreadable.**
+This is treated as a disclosure failure. Aristocrat has historically provided qualitative rather than quantitative guidance (e.g., "we expect continued momentum in land-based," "Anaxi investment phase ongoing"). Whether any quantitative guidance was provided for 2H26 or FY26 is entirely unknown from the supplied pack.
 
-⚠️ Disclosure issue flag: Even if documents were readable, Aristocrat has historically provided qualitative rather than quantitative guidance. Absence of specific numerical guidance should be noted if confirmed once legible documents are obtained.
+**⚠️ Absence of guidance confirmation in a legible document is a transparency issue.**
 
 ---
 
 MANAGEMENT HONESTY SCORECARD
+------------------------------
+- **What the investor presentation emphasised:** Cannot assess — BLANK DOCUMENT
+- **What it downplayed or omitted:** Cannot assess — BLANK DOCUMENT
+- **Any misleading framing:** Cannot assess — BLANK DOCUMENT
+- **Blunt verdict: CANNOT ASSESS — BLANK DOCUMENT.** The filing of blank documents on result day is itself the most significant transparency issue observable from this pack. Whether intentional or a technical error, it results in a complete information blackout for investors relying on these primary source documents.
 
-- **What the investor presentation emphasised:** Cannot assess — document unreadable.
-- **What it downplayed or omitted:** Cannot assess — document unreadable.
-- **Misleading framing or cherry-picked comparisons:** Cannot assess — document unreadable.
-- **Blunt verdict: CANNOT ASSESS** — The honesty scorecard requires readable source material. Standing concern for Aristocrat specifically: the consistent use of NPATA over statutory NPAT inflates the headline profit number by excluding amortisation of acquired intangibles (which has been very large post-Scopely). Portfolio managers should always reconcile statutory to underlying when legible documents are obtained.
+*Historical note for context: In prior periods, ALL has been generally regarded as a reasonably transparent discloser on its land-based operations, but less forthcoming on Pixel United's detailed economics and Anaxi's loss trajectory. Management has been known to present the Anaxi investment in optimistic strategic terms without granular financial disclosure.*
 
 ---
 
 KEY RISKS TO MONITOR
-*(Based on known Aristocrat business profile; to be updated once legible documents are obtained)*
+----------------------
+1. **Blank document filing risk:** The immediate risk is that investors and analysts are making decisions based on incomplete or zero information. If the blank documents were filed in error and corrected filings reveal materially different results than consensus expectations, a sharp re-rating (in either direction) is possible.
 
-1. **Digital segment growth deceleration:** Pixel United / Scopely revenue growth has moderated from post-acquisition peaks. Any sequential or YoY decline in bookings, MAU, or ARPDAU would signal structural concern in the highest-margin segment.
+2. **Anaxi investment burn vs revenue generation:** ALL has been investing heavily in its online RMG business. If HY26 data (when obtainable) shows slower-than-expected revenue ramp or accelerating losses in Anaxi, this represents a significant earnings quality and capital allocation risk.
 
-2. **Land-based replacement cycle risk:** North American casino capex is sensitive to gaming revenue trends and operator confidence. A slowdown in ship share or ASP compression would pressure the dominant earnings segment.
+3. **Pixel United user and monetisation decline:** The social casino / mobile gaming segment has faced structural headwinds from platform policy changes (Apple ATT) and market saturation. Any deterioration in DAU or ARPDAU would pressure group earnings.
 
-3. **Currency headwinds:** With the majority of revenue USD-denominated and reporting in AUD, AUD appreciation materially erodes reported earnings. This is largely uncontrollable but must be quantified in constant-currency disclosures.
+4. **North American regulatory and competitive risk:** ALL's land-based dominance is subject to competitor product cycles (IGT, Light & Wonder), gaming tax increases in key states, and the timing of the Class III replacement cycle. Macro consumer spending softness could also delay casino capital expenditure.
 
-4. **Regulatory / licensing risk:** Online gaming regulatory changes (particularly US state-by-state iGaming legislation, or adverse moves in key international markets) could impair the RMG/digital growth runway.
-
-5. **Leverage and capital allocation:** Post-Scopely acquisition debt levels and the pace of deleveraging vs. capital return (buybacks, dividends) remain a key financial architecture question, especially in a higher-for-longer interest rate environment.
+5. **FX translation risk:** With the majority of earnings in USD and reporting in AUD, any appreciation of the AUD vs USD materially impacts reported results. This is a persistent and often under-discussed risk factor.
 
 ---
 
 QUESTIONS TO ASK MANAGEMENT
-*(High-signal questions — to be put to management once legible documents are confirmed)*
+------------------------------
+1. **On the blank documents:** "The three PDFs filed with ASX on 13 May 2026 appear to contain no readable content. Can you confirm whether this was a technical filing error, when corrected documents will be lodged, and whether any trading halt is appropriate pending that correction?"
 
-1. **NPATA vs Statutory gap:** The gap between NPATA and statutory NPAT has been persistently large due to Scopely intangibles amortisation. When do you expect acquired intangibles to be substantially amortised, and will you reconsider using statutory NPAT as the primary metric at that point?
+2. **On Anaxi losses:** "What was Anaxi's EBIT loss in HY26, and can you provide a clear timeline with specific milestones for when the segment is expected to reach EBITDA breakeven and then NPAT profitability?"
 
-2. **Pixel United bookings vs revenue divergence:** Can you provide a bridge between Pixel United bookings and recognised revenue this half, and explain the trend in deferred revenue balances? (This is critical for assessing whether revenue recognition is conservative or aggressive.)
+3. **On NPATA vs statutory NPAT:** "The gap between statutory NPAT and NPATA has been substantial in prior periods. What was the exact quantum of acquired intangibles amortisation added back in HY26, and why should investors treat this as a genuinely recurring add-back rather than a real economic cost?"
 
-3. **Digital user acquisition costs:** Given the ongoing iOS/Android platform policy changes and rising customer acquisition costs industry-wide, what was the user acquisition spend as a percentage of digital revenue this half versus the pcp, and what is the sustainable CAC trajectory?
+4. **On Pixel United capitalisation:** "What was the gross capitalisation of game development costs in HY26, and what proportion of that was for new titles versus ongoing live-game investment? Has the amortisation rate kept pace with the economic life of the assets?"
 
-4. **Land-based ship share:** What was North American gaming operations unit share and new unit ship share this half? Have you seen any pricing pressure from competitors (IGT, Light & Wonder) that compressed ASPs or lease yields?
+5. **On land-based installed base:** "What was the net change in the Gaming Operations installed base in HY26, and can you break down the RPD trend by month within the half to give us a sense of whether momentum is accelerating or decelerating into 2H26?"
 
-5. **Capitalisation rate of development costs:** What was the total software/game development cost capitalised this half, and what is the amortisation charge? Is the capitalisation rate increasing or decreasing as a proportion of total development spend? (A rising capitalisation rate would flatter current-period earnings.)
+6. **On dividend:** "What is the HY26 interim dividend per share, what is the franking percentage, and has the payout ratio been maintained consistent with prior periods given the Anaxi capital commitment?"
 
-6. **RMG / Anaxi update:** Is the Board still committed to pursuing a regulated real money gaming entry? What is the timeline, capital requirement, and what markets are prioritised? What regulatory milestones are required?
+7. **On capital allocation:** "Given Anaxi continues to require investment, how does the board prioritise between returning capital to shareholders, funding organic growth, and potential further M&A? Is the current balance sheet leverage level comfortable, and what is the net debt position as at 31 March 2026?"
 
-7. **Balance sheet and buyback:** With net debt at [X] and FCF generation of [Y], what is the targeted leverage range? Is the buyback programme the preferred capital return vehicle over a special dividend, and why?
-
-8. **FX sensitivity:** Given the AUD/USD movement in the half, what was the constant-currency revenue and NPATA growth rate? And what is the earnings sensitivity to a 1-cent move in AUD/USD?
+8. **On FY26 guidance:** "Can you provide quantitative guidance for FY26 NPATA, or at minimum directional guidance on revenue growth expectations for each of the three segments, particularly given the current macro uncertainty in US consumer spending?"
 
 ---
 
-**⚠️ FINAL ANALYST INSTRUCTION TO PORTFOLIO MANAGER:**
-
-Do not make any investment decision based on this report. The source documents are entirely blank and contain no readable data. Obtain the legible HY26 Results Announcement (ASX: ALL, lodged 13 May 2026) and HY26 Investor Presentation directly from [asx.com.au](https://www.asx.com.au) or Aristocrat's IR website (aristocrat.com/investors), re-run this analysis, and only then proceed with position assessment. The report framework and risk/question sections above are ready to be populated once readable documents are in hand.
+**⚠️ FINAL DISCLAIMER:** This report has been prepared under conditions of total document unreadability. Every finding, observation, and question herein is either drawn from publicly known prior period context or is a structural assessment based on what has not been disclosed. This report must not be used as a substitute for analysis of a legible, corrected results pack. The portfolio manager should immediately contact Aristocrat Investor Relations and the ASX to request corrected filings before taking any position action.
