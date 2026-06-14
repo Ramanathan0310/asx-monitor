@@ -1,219 +1,101 @@
 # -*- coding: utf-8 -*-
 # results_pack/pdf_downloader.py
-# Extracts real PDF URLs from marketindex announcement pages, then downloads.
+# Uses Playwright to intercept PDF network responses from marketindex pages.
 from __future__ import annotations
-import io
 import json
 import time
 from pathlib import Path
 from typing import Optional
 from .models import Announcement, ResultPack
 
-_HEADERS = {
-    "User-Agent": (
-        "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
-        "AppleWebKit/537.36 (KHTML, like Gecko) "
-        "Chrome/131.0.0.0 Safari/537.36"
-    ),
-}
-
-ASX_BASE = "https://www.asx.com.au"
+_UA = (
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
+    "AppleWebKit/537.36 (KHTML, like Gecko) "
+    "Chrome/131.0.0.0 Safari/537.36"
+)
 
 
-def _resolve_pdf_url(page_url: str) -> Optional[str]:
+def _fetch_pdf_playwright(url: str) -> Optional[bytes]:
     """
-    Visit a marketindex announcement page with Playwright and extract
-    the real ASX PDF download URL.
+    Load the marketindex announcement page with Playwright and intercept
+    any PDF response from the network. This is the only reliable method
+    since the PDF is loaded dynamically via JavaScript.
     """
     try:
         from playwright.sync_api import sync_playwright
         from playwright_stealth import Stealth
     except ImportError:
+        print("    [pdf] playwright not available")
         return None
 
     stealth = Stealth()
-    pdf_url = None
+    collected = []
 
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=True)
         context = browser.new_context(
-            user_agent=_HEADERS["User-Agent"],
-        )
-        stealth.apply_stealth_sync(context)
-        page = context.new_page()
-
-        try:
-            page.goto(page_url, wait_until="domcontentloaded", timeout=30_000)
-            page.wait_for_timeout(2000)
-
-            # Look for ASX PDF links in priority order
-            selectors = [
-                "a[href*='asx.com.au'][href*='.pdf']",
-                "a[href*='asx.com.au/asx/v2/statistics']",
-                "a[href*='.pdf']",
-                "a[href*='asxlisted']",
-                "a[href*='announcement']",
-            ]
-            for sel in selectors:
-                links = page.query_selector_all(sel)
-                for link in links:
-                    href = link.get_attribute("href") or ""
-                    if href and ("asx.com.au" in href or href.endswith(".pdf")):
-                        if not href.startswith("http"):
-                            href = f"{ASX_BASE}{href}"
-                        pdf_url = href
-                        break
-                if pdf_url:
-                    break
-
-            # Also check for redirect via network intercept
-            if not pdf_url:
-                # Try clicking the main download/view button
-                btn = page.query_selector("a.btn, a.button, a[class*='download'], a[class*='view']")
-                if btn:
-                    href = btn.get_attribute("href") or ""
-                    if href:
-                        if not href.startswith("http"):
-                            href = f"{ASX_BASE}{href}"
-                        pdf_url = href
-
-        except Exception as e:
-            print(f"    [resolve] Error: {e}")
-        finally:
-            context.close()
-            browser.close()
-
-    return pdf_url
-
-
-def _download_pdf(url: str) -> Optional[bytes]:
-    """Download a PDF from a direct URL."""
-    try:
-        import requests
-        r = requests.get(url, headers=_HEADERS, timeout=30)
-        r.raise_for_status()
-        data = r.content
-        if len(data) < 500:
-            return None
-        # Check it's actually a PDF
-        if not data[:4] == b'%PDF' and "pdf" not in r.headers.get("content-type", "").lower():
-            return None
-        return data
-    except Exception as e:
-        print(f"    [download] Failed: {e}")
-        return None
-
-
-def _download_pdf_playwright(url: str) -> Optional[bytes]:
-    """Use Playwright to download PDF (handles redirects/consent pages)."""
-    try:
-        from playwright.sync_api import sync_playwright
-        from playwright_stealth import Stealth
-    except ImportError:
-        return None
-
-    stealth = Stealth()
-    pdf_bytes = None
-
-    with sync_playwright() as p:
-        browser = p.chromium.launch(headless=True)
-        context = browser.new_context(
-            user_agent=_HEADERS["User-Agent"],
+            user_agent=_UA,
+            viewport={"width": 1920, "height": 1080},
+            locale="en-AU",
+            timezone_id="Australia/Sydney",
             accept_downloads=True,
         )
         stealth.apply_stealth_sync(context)
         page = context.new_page()
 
-        collected = []
         def on_response(response):
             ct = response.headers.get("content-type", "").lower()
-            if "pdf" in ct and response.status == 200:
+            url_r = response.url.lower()
+            if response.status == 200 and ("pdf" in ct or url_r.endswith(".pdf")):
                 try:
                     body = response.body()
-                    if len(body) > 500:
+                    if len(body) > 1000 and body[:4] == b"%PDF":
+                        print(f"    [pdf] Intercepted PDF: {response.url[:80]} ({len(body)//1024}KB)")
                         collected.append(body)
-                except Exception:
-                    pass
+                except Exception as e:
+                    print(f"    [pdf] Body read error: {e}")
 
         page.on("response", on_response)
 
         try:
-            page.goto(url, wait_until="networkidle", timeout=30_000)
-            page.wait_for_timeout(3000)
-            if collected:
-                pdf_bytes = collected[-1]
+            print(f"    [pdf] Loading: {url[:80]}")
+            page.goto(url, wait_until="networkidle", timeout=45_000)
+            page.wait_for_timeout(5000)
+
+            # If no PDF yet, scroll to trigger lazy loading
+            if not collected:
+                page.evaluate("window.scrollTo(0, document.body.scrollHeight)")
+                page.wait_for_timeout(3000)
+
         except Exception as e:
-            print(f"    [playwright_dl] Error: {e}")
+            print(f"    [pdf] Page load error: {e}")
         finally:
             context.close()
             browser.close()
 
-    return pdf_bytes
-
-
-def _extract_asx_doc_id(url: str):
-    """Extract ASX document ID from marketindex URL e.g. 2A1671770."""
-    import re
-    m = re.search(r"-(\d[A-Z]\d+)$", url.rstrip("/"))
-    return m.group(1) if m else None
-
-
-def _asx_pdf_urls(doc_id: str, date_str: str) -> list:
-    """Generate candidate ASX direct PDF URLs for a document ID."""
-    import re
-    # Parse date from DD/MM/YY or DD/MM/YYYY
-    for fmt in ["%d/%m/%Y", "%d/%m/%y"]:
-        try:
-            import datetime as dt
-            d = dt.datetime.strptime(date_str, fmt)
-            ymd = d.strftime("%Y%m%d")
-            break
-        except Exception:
-            ymd = ""
-
-    urls = []
-    if ymd:
-        urls.append(f"https://www.asx.com.au/asxpdf/{ymd}/pdf/{doc_id}.pdf")
-    urls.append(f"https://www.asx.com.au/asx/v2/statistics/downloadAnnexure.do?documentId={doc_id}&signedDocumentId=")
-    urls.append(f"https://www.asx.com.au/asx/v2/statistics/announcements.do?documentId={doc_id}")
-    return urls
+    return collected[-1] if collected else None
 
 
 def _fetch_pdf_for_announcement(ann: Announcement) -> Optional[bytes]:
-    """Full pipeline: try ASX direct URLs first, then Playwright fallback."""
+    """Fetch PDF using Playwright network interception."""
     url = ann.url
+    if not url:
+        return None
 
-    # If it's already a direct PDF URL
-    if url.lower().endswith(".pdf") or ("asx.com.au" in url and "pdf" in url.lower()):
-        print(f"    [pdf] Direct PDF URL")
-        data = _download_pdf(url)
-        if data:
-            return data
-
-    # Try to extract ASX document ID from marketindex URL
-    doc_id = _extract_asx_doc_id(url)
-    if doc_id:
-        print(f"    [pdf] Doc ID: {doc_id}")
-        for asx_url in _asx_pdf_urls(doc_id, ann.date):
-            print(f"    [pdf] Trying: {asx_url[:80]}")
-            data = _download_pdf(asx_url)
-            if data:
-                print(f"    [pdf] Direct ASX download worked!")
+    # Try direct download first if URL looks like a PDF
+    if url.lower().endswith(".pdf"):
+        try:
+            import requests
+            r = requests.get(url, headers={"User-Agent": _UA}, timeout=30)
+            r.raise_for_status()
+            data = r.content
+            if len(data) > 1000 and data[:4] == b"%PDF":
                 return data
+        except Exception:
+            pass
 
-    # Fall back to Playwright page resolution
-    print(f"    [pdf] Trying Playwright resolution...")
-    pdf_url = _resolve_pdf_url(url)
-    if pdf_url:
-        print(f"    [pdf] Resolved: {pdf_url[:80]}")
-        data = _download_pdf(pdf_url)
-        if data:
-            return data
-        return _download_pdf_playwright(pdf_url)
-
-    # Last resort: Playwright on original page
-    print(f"    [pdf] Playwright direct on page...")
-    return _download_pdf_playwright(url)
+    # Use Playwright to intercept the PDF from the page
+    return _fetch_pdf_playwright(url)
 
 
 def download_pack_pdfs(
@@ -232,8 +114,8 @@ def download_pack_pdfs(
             continue
 
         print(f"  [pdf] Fetching: {ann.title[:60]}")
-
         data = _fetch_pdf_for_announcement(ann)
+
         if data:
             if len(data) > max_bytes:
                 print(f"  [pdf] Too large ({len(data)//1024}KB) - skipping")
