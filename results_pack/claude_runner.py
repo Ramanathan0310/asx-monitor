@@ -10,7 +10,7 @@ from .models import Announcement, ResultPack
 from .prompts import ARTIFACT_SUFFIX, PROMPT_REGISTRY
 
 CLAUDE_MODEL     = "claude-sonnet-4-6"
-CLAUDE_MAX_TOKENS = 8000
+CLAUDE_MAX_TOKENS = 4096  # Reduced to avoid overload errors
 MAX_PDF_BYTES    = 30 * 1024 * 1024  # 30MB per PDF
 
 
@@ -79,16 +79,28 @@ def _call_claude(system_prompt: str, text_context: str, pdf_items: List[Announce
     attached = 0
     text_fallbacks = []
 
-    # Filter out dividend/distribution notices - not useful for financial analysis
-    # and prioritise by size (smaller = more likely text-based)
+    # Filter: skip dividend notices, prioritise substantive docs
     useful_items = [
         a for a in pdf_items
         if a.pdf_bytes and len(a.pdf_bytes) > 0
         and not any(x in a.title.lower() for x in ["dividend", "distribution"])
     ]
-    # Add dividend back if nothing else
     if not useful_items:
         useful_items = [a for a in pdf_items if a.pdf_bytes]
+
+    # Cap total payload to ~15MB across all PDFs to avoid context limit
+    MAX_TOTAL_BYTES = 15 * 1024 * 1024
+    total_bytes = 0
+    capped_items = []
+    for ann in sorted(useful_items, key=lambda a: len(a.pdf_bytes or b"")):
+        sz = len(ann.pdf_bytes or b"")
+        if total_bytes + sz > MAX_TOTAL_BYTES:
+            print(f"    [claude] Skipping {ann.title[:50]} ({sz//1024}KB) - would exceed 15MB cap")
+            break
+        capped_items.append(ann)
+        total_bytes += sz
+    useful_items = capped_items
+    print(f"    [claude] Total PDF payload: {total_bytes//1024}KB across {len(useful_items)} docs")
 
     for ann in useful_items:
         raw = ann.pdf_bytes
@@ -139,7 +151,24 @@ def _call_claude(system_prompt: str, text_context: str, pdf_items: List[Announce
         )
         return (resp.content[0].text or "").strip()
     except Exception as e:
-        print(f"  [claude] API call failed: {e}")
+        err = str(e)
+        print(f"  [claude] API call failed: {err[:200]}")
+        # If overloaded, wait and retry once
+        if "overloaded" in err.lower() or "529" in err:
+            import time
+            print(f"  [claude] API overloaded - waiting 30s and retrying...")
+            time.sleep(30)
+            try:
+                client = anthropic.Anthropic(api_key=api_key)
+                resp = client.messages.create(
+                    model=CLAUDE_MODEL,
+                    max_tokens=CLAUDE_MAX_TOKENS,
+                    system=system_prompt,
+                    messages=[{"role": "user", "content": content}],
+                )
+                return (resp.content[0].text or "").strip()
+            except Exception as e2:
+                print(f"  [claude] Retry also failed: {e2}")
         return "__LLM_FAILED__"
 
 
