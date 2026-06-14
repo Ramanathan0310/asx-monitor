@@ -49,7 +49,7 @@ jobs:
       - name: Install dependencies
         run: |
           pip install --upgrade pip
-          pip install -r requirements.txt pypdf pdfplumber requests
+          pip install -r requirements.txt pypdf pdfplumber pymupdf requests
 
       - name: Install Playwright
         run: python -m playwright install --with-deps chromium
