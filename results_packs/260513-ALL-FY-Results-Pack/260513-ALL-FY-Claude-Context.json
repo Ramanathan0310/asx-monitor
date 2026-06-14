@@ -2,7 +2,7 @@
   "ticker": "ALL",
   "result_date": "13/05/2026",
   "result_type": "FY",
-  "text_context": "Ticker: ALL\nCompany: Aristocrat Leisure\nAnnouncement date: 13/05/2026\nResult type: FY\nDocuments in pack: 3 (0 PDFs attached)\n\nDocument titles:\n  - Dividend/Distribution - ALL\n  - HY26 Investor Presentation $\n  - HY26 Results Announcement $\n",
+  "text_context": "Ticker: ALL\nCompany: Aristocrat Leisure\nAnnouncement date: 13/05/2026\nResult type: FY\nDocuments in pack: 3 (3 PDFs attached)\n\nDocument titles:\n  - Dividend/Distribution - ALL\n  - HY26 Investor Presentation $\n  - HY26 Results Announcement $\n",
   "prompts_run": [
     "management_report",
     "equity_report",

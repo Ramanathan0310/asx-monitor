@@ -1,3 +1,3 @@
-# Strawman-Post.md
+The documents provided appear to be blank — all pages across both PDFs are empty white images with no visible text or data. Without access to the actual financial content from Aristocrat Leisure's HY26 results, I'm unable to produce a factually grounded investment note.
 
-Analysis failed: __NO_PDFS__
+If you're able to share a version of the documents where the content is readable, I'd be glad to write the Strawman note. Alternatively, if you have the key financial figures and notes from the result, paste those in and I can work from that directly.
