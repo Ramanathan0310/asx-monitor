@@ -1,53 +1,72 @@
-I have carefully reviewed all pages of both supplied PDFs (HY26 Investor Presentation and HY26 Results Announcement). Unfortunately, **every single page across both documents renders as a completely blank white image** — no text, tables, charts, or figures are visible. The PDFs appear to have been uploaded with content that is either invisible (white-on-white rendering), image-locked in a format that could not be parsed, or corrupted during upload.
-
-**This is a critical disclosure failure on the part of the submission, not the company.** The documents are unreadable in their current form.
-
-As a result, I am **unable to produce a numbers-first management report** as instructed, because:
-
-- No revenue, profit, or margin figures are accessible
-- No cash flow or balance sheet data is available
-- No segment data can be extracted
-- No guidance or management commentary can be reviewed
-- No dividend details from the third document (Dividend/Distribution - ALL) are readable
+MANAGEMENT REPORT
+=================
+COMPANY: Aristocrat Leisure Limited (ASX: ALL)
+DATE: 13 May 2026
+RESULT TYPE: HY (Half Year to 31 March 2026 — labelled "HY26")
+PREPARED BY: Results Pack Agent
 
 ---
 
-## WHAT I CAN CONFIRM
-
-**Company:** Aristocrat Leisure Limited (**ALL**)
-**Exchange:** ASX
-**Announcement Date:** 13 May 2026
-**Result Type:** HY (Half Year — the documents are titled "HY26", covering the half year ended ~31 March 2026)
-**Note:** The user labelled this as FY, but document titles clearly indicate HY26 — this discrepancy should itself be noted.
+⚠️ **CRITICAL DISCLOSURE FAILURE — REPORT CANNOT BE COMPLETED AS INSTRUCTED**
 
 ---
 
-## RECOMMENDED ACTIONS FOR THE PORTFOLIO MANAGER
+## FATAL DOCUMENT RENDERING ISSUE
 
-1. **Re-upload the PDFs** — ensure they are not password-protected, white-text formatted, or scanned as blank images. Try printing to PDF from the original source.
+All three PDFs supplied in this announcement pack — the **HY26 Investor Presentation**, the **HY26 Results Announcement**, and the **Dividend/Distribution notice** — have rendered as **entirely blank white pages** across every page of every document. No text, figures, tables, charts, or images have been extracted or are readable by this system.
 
-2. **Source the documents directly** from:
-   - ASX announcements: [https://www.asx.com.au/asx/statistics/announcements.do?by=asxCode&asxCode=ALL](https://www.asx.com.au/asx/statistics/announcements.do?by=asxCode&asxCode=ALL)
-   - Aristocrat's investor relations page: [https://www.aristocratleisure.com/investors](https://www.aristocratleisure.com/investors)
+This is a technical failure in the document submission, not a reflection of the company's disclosure. The PDFs appear to have been uploaded in a format (likely image-based or white-on-white rendering) that the system cannot parse.
 
-3. Once readable documents are supplied, I will produce the full Management Report immediately with all sections populated with exact figures, forensic commentary, and the management honesty scorecard.
+**As a result, it is impossible to:**
+- Report any specific financial figures with accuracy
+- Compare this period to the prior corresponding period
+- Assess management framing, spin, or omissions
+- Evaluate cash flow, segment data, guidance, or quality of earnings
+- Confirm dividend amounts, franking levels, or record dates
+
+To proceed with a rigorous, numbers-first management report as specified, **please resubmit the documents in a readable format** (text-selectable PDF, or paste the key financial data directly into the prompt).
 
 ---
 
-## PRELIMINARY CONTEXT (from public knowledge, not from these documents)
+## WHAT CAN BE STATED FROM CONTEXT PROVIDED IN THE PROMPT
 
-For reference only — **do not rely on this for trading decisions** as it may not reflect HY26 actuals:
+The following limited facts were supplied directly in the user's prompt text (not from the PDFs):
 
-Aristocrat Leisure is a global gaming technology company operating across:
-- **Gaming Operations** (land-based recurring revenue machines)
-- **Gaming Machines** (outright machine sales)
-- **Pixel United** (social/mobile gaming — including Product Madness and Plarium)
+| Item | Detail |
+|------|--------|
+| Company | Aristocrat Leisure Limited |
+| Ticker | ASX: ALL |
+| Announcement Date | 13 May 2026 |
+| Result Type | HY (Half Year) — described as "HY26" |
+| Documents | 3 PDFs: Dividend notice, Investor Presentation, Results Announcement |
 
-Key watch items historically for ALL include:
-- Pixel United profitability trajectory and whether mobile gaming headwinds persist
-- Americas Gaming Operations machine count and yield
-- Free cash flow conversion vs. NPATA
-- Capital allocation between M&A, buybacks, and dividends
-- FX headwinds (USD/AUD exposure on North American earnings)
+No financial figures, segment data, cash flow information, guidance statements, or management commentary can be sourced from the blank documents.
 
-Please resubmit the documents in a readable format and I will complete the full report.
+---
+
+## WHAT THIS MEANS FOR PORTFOLIO MANAGERS
+
+1. **Do not rely on any AI-generated figures** for Aristocrat HY26 until readable source documents are reviewed directly.
+
+2. **Aristocrat's HY results are material** — as a ~A$25–30bn market cap company with significant operations across Land-Based Gaming, Digital (Pixel United), and the in-progress iGaming/Real Money Gaming (RMG) division, the HY26 result would be expected to disclose progress on:
+   - RMG regulatory approvals and revenue ramp
+   - Pixel United monetisation trends (bookings vs revenue)
+   - North American gaming operations market share
+   - Capital allocation / buyback progress
+   - Interim dividend quantum and franking
+
+3. **The dividend/distribution notice** was filed separately, which is standard ASX practice, but its contents are also unreadable in this submission.
+
+---
+
+## RECOMMENDED NEXT STEPS
+
+- **Resubmit** the PDFs as text-searchable documents, or
+- **Paste** the key P&L table, cash flow statement, segment table, and management commentary directly into the prompt, or
+- **Provide** the ASX announcement number so the correct filing can be located
+
+Once readable source material is provided, a complete report covering all sections — Executive Summary, Key Financial Metrics, Segment Performance, Cash Flow & Balance Sheet, Quality of Earnings, Guidance, Management Honesty Scorecard, Key Risks, and Questions for Management — will be produced immediately.
+
+---
+
+*This report cannot be completed in good conscience with fabricated or estimated figures. The instruction set explicitly requires exact figures where available and flags non-disclosure as a transparency issue — applying that same standard here, the non-availability of source data precludes substantive analysis.*
