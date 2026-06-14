@@ -151,33 +151,69 @@ def _download_pdf_playwright(url: str) -> Optional[bytes]:
     return pdf_bytes
 
 
+def _extract_asx_doc_id(url: str):
+    """Extract ASX document ID from marketindex URL e.g. 2A1671770."""
+    import re
+    m = re.search(r"-(\d[A-Z]\d+)$", url.rstrip("/"))
+    return m.group(1) if m else None
+
+
+def _asx_pdf_urls(doc_id: str, date_str: str) -> list:
+    """Generate candidate ASX direct PDF URLs for a document ID."""
+    import re
+    # Parse date from DD/MM/YY or DD/MM/YYYY
+    for fmt in ["%d/%m/%Y", "%d/%m/%y"]:
+        try:
+            import datetime as dt
+            d = dt.datetime.strptime(date_str, fmt)
+            ymd = d.strftime("%Y%m%d")
+            break
+        except Exception:
+            ymd = ""
+
+    urls = []
+    if ymd:
+        urls.append(f"https://www.asx.com.au/asxpdf/{ymd}/pdf/{doc_id}.pdf")
+    urls.append(f"https://www.asx.com.au/asx/v2/statistics/downloadAnnexure.do?documentId={doc_id}&signedDocumentId=")
+    urls.append(f"https://www.asx.com.au/asx/v2/statistics/announcements.do?documentId={doc_id}")
+    return urls
+
+
 def _fetch_pdf_for_announcement(ann: Announcement) -> Optional[bytes]:
-    """Full pipeline: resolve URL -> download PDF."""
+    """Full pipeline: try ASX direct URLs first, then Playwright fallback."""
     url = ann.url
 
-    # If it's already a direct PDF URL, download directly
-    if url.lower().endswith(".pdf") or "asx.com.au/asx/v2" in url:
-        print(f"    [pdf] Direct PDF URL detected")
+    # If it's already a direct PDF URL
+    if url.lower().endswith(".pdf") or ("asx.com.au" in url and "pdf" in url.lower()):
+        print(f"    [pdf] Direct PDF URL")
         data = _download_pdf(url)
         if data:
             return data
-        return _download_pdf_playwright(url)
 
-    # Otherwise resolve the PDF URL from the announcement page
-    print(f"    [pdf] Resolving PDF URL from page...")
+    # Try to extract ASX document ID from marketindex URL
+    doc_id = _extract_asx_doc_id(url)
+    if doc_id:
+        print(f"    [pdf] Doc ID: {doc_id}")
+        for asx_url in _asx_pdf_urls(doc_id, ann.date):
+            print(f"    [pdf] Trying: {asx_url[:80]}")
+            data = _download_pdf(asx_url)
+            if data:
+                print(f"    [pdf] Direct ASX download worked!")
+                return data
+
+    # Fall back to Playwright page resolution
+    print(f"    [pdf] Trying Playwright resolution...")
     pdf_url = _resolve_pdf_url(url)
-
     if pdf_url:
         print(f"    [pdf] Resolved: {pdf_url[:80]}")
         data = _download_pdf(pdf_url)
         if data:
             return data
-        # Try Playwright download as fallback
         return _download_pdf_playwright(pdf_url)
-    else:
-        # Last resort: try Playwright directly on the announcement page
-        print(f"    [pdf] No PDF URL found, trying Playwright on page...")
-        return _download_pdf_playwright(url)
+
+    # Last resort: Playwright on original page
+    print(f"    [pdf] Playwright direct on page...")
+    return _download_pdf_playwright(url)
 
 
 def download_pack_pdfs(
