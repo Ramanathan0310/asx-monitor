@@ -107,20 +107,20 @@ def _try_playwright_intercept(url: str) -> Optional[bytes]:
                 try:
                     if response.status != 200:
                         return
-                    ct = response.headers.get("content-type", "").lower()
-                    rurl = response.url.lower()
-                    if not ("pdf" in ct or "octet-stream" in ct or rurl.endswith(".pdf") or "/pdf" in rurl):
+                    rurl = response.url
+                    # ONLY accept from the marketindex PDF API endpoint
+                    if "data-api.marketindex.com.au/api/v1/announcements/" not in rurl:
+                        return
+                    if "/pdf" not in rurl.lower():
                         return
                     body = response.body()
-                    print(f"    [pdf] Intercepted: {response.url[:80]}")
+                    print(f"    [pdf] Intercepted: {rurl[:80]}")
                     print(f"    [pdf] Size: {len(body)//1024}KB, First8: {body[:8].hex()}")
-                    # 255044462d = %PDF- in hex
-                    if len(body) > 1000 and body[:3] == b"%PD":
+                    if len(body) > 1000 and body[:4] == b"%PDF":
+                        print(f"    [pdf] Valid PDF confirmed")
                         pdf_bytes_list.append(body)
-                    elif len(body) > 10000:
-                        # Store large responses even if magic bytes wrong
-                        # (may be valid PDF with encoding issue)
-                        pdf_bytes_list.append(body)
+                    else:
+                        print(f"    [pdf] Not a valid PDF bytes ({body[:4]}) - skipping")
                 except Exception as e:
                     if "No data found" not in str(e):
                         print(f"    [pdf] Response error: {e}")
