@@ -1,0 +1,127 @@
+{
+  "date": "2026-06-16",
+  "threshold": 5.0,
+  "total": 31,
+  "flagged": [
+    {
+      "ticker": "REA.AX",
+      "name": "REA Group",
+      "list": "Portfolio",
+      "data": {
+        "price": 143.86,
+        "low": 140.02,
+        "high": 265.98
+      },
+      "dist": 2.74,
+      "pos": 3.0
+    },
+    {
+      "ticker": "WTC.AX",
+      "name": "WiseTech Global",
+      "list": "Portfolio",
+      "data": {
+        "price": 36.79,
+        "low": 35.54,
+        "high": 121.31
+      },
+      "dist": 3.52,
+      "pos": 1.5
+    },
+    {
+      "ticker": "OCL.AX",
+      "name": "Objective Corporation",
+      "list": "Portfolio",
+      "data": {
+        "price": 10.45,
+        "low": 9.92,
+        "high": 23.1
+      },
+      "dist": 5.34,
+      "pos": 4.0
+    },
+    {
+      "ticker": "CAT.AX",
+      "name": "Catapult Group",
+      "list": "Portfolio",
+      "data": {
+        "price": 3.05,
+        "low": 2.86,
+        "high": 7.72
+      },
+      "dist": 6.64,
+      "pos": 3.9
+    },
+    {
+      "ticker": "EOL.AX",
+      "name": "Energy One",
+      "list": "Portfolio",
+      "data": {
+        "price": 12.0,
+        "low": 11.2,
+        "high": 20.19
+      },
+      "dist": 7.14,
+      "pos": 8.9
+    },
+    {
+      "ticker": "RMD.AX",
+      "name": "ResMed",
+      "list": "Portfolio",
+      "data": {
+        "price": 27.39,
+        "low": 25.5,
+        "high": 45.25
+      },
+      "dist": 7.41,
+      "pos": 9.6
+    },
+    {
+      "ticker": "SHL.AX",
+      "name": "Sonic Healthcare",
+      "list": "Watchlist",
+      "data": {
+        "price": 19.66,
+        "low": 18.26,
+        "high": 29.24
+      },
+      "dist": 7.67,
+      "pos": 12.8
+    },
+    {
+      "ticker": "ARB.AX",
+      "name": "ARB Corporation",
+      "list": "Portfolio",
+      "data": {
+        "price": 18.41,
+        "low": 16.93,
+        "high": 41.34
+      },
+      "dist": 8.74,
+      "pos": 6.1
+    },
+    {
+      "ticker": "SIG.AX",
+      "name": "Sigma Healthcare",
+      "list": "Portfolio",
+      "data": {
+        "price": 2.81,
+        "low": 2.58,
+        "high": 3.27
+      },
+      "dist": 8.91,
+      "pos": 33.3
+    },
+    {
+      "ticker": "SGH.AX",
+      "name": "SGH Limited",
+      "list": "Portfolio",
+      "data": {
+        "price": 41.96,
+        "low": 37.26,
+        "high": 55.365
+      },
+      "dist": 12.61,
+      "pos": 26.0
+    }
+  ]
+}
