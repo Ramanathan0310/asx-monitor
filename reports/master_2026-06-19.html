@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8"><style>
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+       font-size: 15px; line-height: 1.5; color: #e0e0e0;
+       background: #0a0a14; max-width: 820px; margin: 24px auto; padding: 0 20px; }
+h1 { font-size: 24px; color: #ffffff; border-bottom: 2px solid #333366;
+     padding-bottom: 10px; margin-bottom: 6px; }
+h2 { font-size: 17px; color: #aaaadd; margin-top: 32px; text-transform: uppercase;
+     letter-spacing: 1px; border-left: 4px solid #333366; padding-left: 10px; }
+h3 { font-size: 14px; color: #8888bb; margin: 20px 0 8px; }
+.meta { color: #444466; font-size: 13px; margin-bottom: 24px; }
+.priority-bar { display: flex; gap: 16px; flex-wrap: wrap; margin: 16px 0 24px; }
+.priority-item { background: #12121e; border: 1px solid #222244; border-radius: 8px;
+                 padding: 12px 16px; flex: 1; min-width: 160px; }
+.priority-val { font-size: 28px; font-weight: 700; }
+.priority-lbl { font-size: 11px; color: #555577; text-transform: uppercase;
+                letter-spacing: 0.5px; margin-top: 2px; }
+.badge { display: inline-block; font-size: 11px; font-weight: 700;
+         padding: 2px 8px; border-radius: 10px; margin-right: 6px; }
+.card { background: #12121e; border: 1px solid #222244; border-radius: 8px;
+        padding: 12px 16px; margin: 8px 0; }
+.card-urgent { border-left: 4px solid #ff4444; }
+.card-high   { border-left: 4px solid #ff9900; }
+.card-medium { border-left: 4px solid #ffdd00; }
+.card-watch  { border-left: 4px solid #555577; }
+.ticker { font-size: 16px; font-weight: 700; color: #fff; }
+.name   { color: #666688; font-size: 13px; margin-left: 6px; }
+.detail { color: #8888aa; font-size: 13px; margin-top: 4px; }
+table { border-collapse: collapse; width: 100%; margin: 12px 0; font-size: 13px; }
+th, td { padding: 6px 12px; text-align: left; border-bottom: 1px solid #1e1e32; }
+th { color: #666688; font-weight: 600; }
+tr:hover td { background: #14142a; }
+.section-bob  { border-left-color: #4488ff; }
+.section-wally{ border-left-color: #ff4444; }
+.section-sally{ border-left-color: #44cc44; }
+.all-clear { color: #333355; font-size: 13px; font-style: italic; padding: 8px 0; }
+hr { border: none; border-top: 1px solid #1e1e32; margin: 28px 0; }
+.footer { color: #222244; font-size: 12px; margin-top: 24px; }
+</style></head>
+<body>
+<h1>&#x1F9E0; Master Engine - Weekly Investor Briefing</h1>
+<div class="meta">Friday, 19 June 2026 . 22:42 AEST . 13 total flags across all agents</div>
+
+<div class="priority-bar">
+  <div class="priority-item">
+    <div class="priority-val" style="color:#ff4444">4</div>
+    <div class="priority-lbl">Near 52w Low (HOT)</div>
+  </div>
+  <div class="priority-item">
+    <div class="priority-val" style="color:#ff9900">5</div>
+    <div class="priority-lbl">Near 52w Low (WARM)</div>
+  </div>
+  <div class="priority-item">
+    <div class="priority-val" style="color:#44cc44">3</div>
+    <div class="priority-lbl">Near 52w High (HOT)</div>
+  </div>
+  <div class="priority-item">
+    <div class="priority-val" style="color:#f39c12">1</div>
+    <div class="priority-lbl">Near 52w High (WARM)</div>
+  </div>
+  <div class="priority-item">
+    <div class="priority-val" style="color:#4488ff">0</div>
+    <div class="priority-lbl">Key Announcements</div>
+  </div>
+</div>
+<h2>&#x26A1; Priority Action Items</h2>
+
+<div class="card card-urgent">
+  <span class="ticker">REA</span>
+  <span class="name">REA Group</span>
+  <span class="badge" style="background:#1a1a2e;color:#ff4444">Wally</span>
+  <span class="badge" style="background:#1a1a2e;color:#ff4444">URGENT</span>
+  <div class="detail">$140.08 - 0.8% above 52w low of $139.00</div>
+</div>
+<div class="card card-urgent">
+  <span class="ticker">MFF</span>
+  <span class="name">MFF Capital</span>
+  <span class="badge" style="background:#1a1a2e;color:#44cc44">Sally</span>
+  <span class="badge" style="background:#1a1a2e;color:#ff4444">URGENT</span>
+  <div class="detail">$5.10 - 0.8% below 52w high of $5.14</div>
+</div>
+<div class="card card-urgent">
+  <span class="ticker">MQG</span>
+  <span class="name">Macquarie Group</span>
+  <span class="badge" style="background:#1a1a2e;color:#44cc44">Sally</span>
+  <span class="badge" style="background:#1a1a2e;color:#ff4444">URGENT</span>
+  <div class="detail">$249.82 - 1.8% below 52w high of $254.31</div>
+</div>
+<div class="card card-high">
+  <span class="ticker">OCL</span>
+  <span class="name">Objective Corporation</span>
+  <span class="badge" style="background:#1a1a2e;color:#ff4444">Wally</span>
+  <span class="badge" style="background:#1a1a2e;color:#ff9900">HIGH</span>
+  <div class="detail">$10.20 - 2.8% above 52w low of $9.92</div>
+</div>
+<div class="card card-high">
+  <span class="ticker">WTC</span>
+  <span class="name">WiseTech Global</span>
+  <span class="badge" style="background:#1a1a2e;color:#ff4444">Wally</span>
+  <span class="badge" style="background:#1a1a2e;color:#ff9900">HIGH</span>
+  <div class="detail">$36.88 - 3.8% above 52w low of $35.54</div>
+</div>
+<div class="card card-high">
+  <span class="ticker">RMD</span>
+  <span class="name">ResMed</span>
+  <span class="badge" style="background:#1a1a2e;color:#ff4444">Wally</span>
+  <span class="badge" style="background:#1a1a2e;color:#ff9900">HIGH</span>
+  <div class="detail">$26.68 - 4.6% above 52w low of $25.50</div>
+</div>
+<div class="card card-high">
+  <span class="ticker">SOL</span>
+  <span class="name">Washington H. Soul Pattinson</span>
+  <span class="badge" style="background:#1a1a2e;color:#44cc44">Sally</span>
+  <span class="badge" style="background:#1a1a2e;color:#ff9900">HIGH</span>
+  <div class="detail">$44.16 - 2.6% below 52w high of $45.36</div>
+</div>
+<hr>
+<h2 style="border-left-color:#4488ff">&#x1F4E2; Bob - Key Announcements (Last 7 Days)</h2>
+<p class="all-clear">No high-impact announcements in the last 7 days.</p>
+<hr>
+<h2 style="border-left-color:#ff4444">&#x1F4C9; Wally - 52-Week Low Watch</h2>
+<p class="detail">Last run: 2026-06-19 - 31 stocks screened</p>
+<table>
+<tr><th>Ticker</th><th>Name</th><th>List</th><th>Price</th><th>52w Low</th><th>Dist</th><th>Flag</th></tr>
+<tr><td><b>REA</b></td><td>REA Group</td><td>Portfolio</td><td>$140.08</td><td>$139.00</td><td>0.8%</td><td>HOT</td></tr>
+<tr><td><b>OCL</b></td><td>Objective Corporation</td><td>Portfolio</td><td>$10.20</td><td>$9.92</td><td>2.8%</td><td>HOT</td></tr>
+<tr><td><b>WTC</b></td><td>WiseTech Global</td><td>Portfolio</td><td>$36.88</td><td>$35.54</td><td>3.8%</td><td>HOT</td></tr>
+<tr><td><b>RMD</b></td><td>ResMed</td><td>Portfolio</td><td>$26.68</td><td>$25.50</td><td>4.6%</td><td>HOT</td></tr>
+<tr><td><b>SIG</b></td><td>Sigma Healthcare</td><td>Portfolio</td><td>$2.76</td><td>$2.58</td><td>7.0%</td><td>WARM</td></tr>
+<tr><td><b>EOL</b></td><td>Energy One</td><td>Portfolio</td><td>$12.21</td><td>$11.20</td><td>9.0%</td><td>WARM</td></tr>
+<tr><td><b>SHL</b></td><td>Sonic Healthcare</td><td>Watchlist</td><td>$20.05</td><td>$18.26</td><td>9.8%</td><td>WARM</td></tr>
+<tr><td><b>CAT</b></td><td>Catapult Group</td><td>Portfolio</td><td>$3.16</td><td>$2.86</td><td>10.5%</td><td>WARM</td></tr>
+<tr><td><b>XRF</b></td><td>XRF Scientific</td><td>Portfolio</td><td>$1.83</td><td>$1.60</td><td>14.4%</td><td>WARM</td></tr></table>
+<hr>
+<h2 style="border-left-color:#44cc44">&#x1F4C8; Sally - 52-Week High Watch</h2>
+<p class="detail">Last run: 2026-06-19 - 31 stocks screened</p>
+<table>
+<tr><th>Ticker</th><th>Name</th><th>List</th><th>Price</th><th>52w High</th><th>Below High</th><th>Range Pos</th><th>Flag</th></tr>
+<tr><td><b>MFF</b></td><td>MFF Capital</td><td>Portfolio</td><td>$5.10</td><td>$5.14</td><td>0.8%</td><td>95%</td><td>HOT</td></tr>
+<tr><td><b>MQG</b></td><td>Macquarie Group</td><td>Portfolio</td><td>$249.82</td><td>$254.31</td><td>1.8%</td><td>93%</td><td>HOT</td></tr>
+<tr><td><b>SOL</b></td><td>Washington H. Soul Pattinson</td><td>Portfolio</td><td>$44.16</td><td>$45.36</td><td>2.6%</td><td>89%</td><td>HOT</td></tr>
+<tr><td><b>EIQ</b></td><td>Echo IQ</td><td>Watchlist</td><td>$1.23</td><td>$1.46</td><td>15.8%</td><td>82%</td><td>WARM</td></tr></table>
+<hr>
+<div class="footer">
+  Master Engine aggregates Bob (announcements), Wally (52w lows), and Sally (52w highs).
+  Reads JSON reports from the last 7 days. Not financial advice.
+</div>
+</body></html>
