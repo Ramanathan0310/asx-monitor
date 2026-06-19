@@ -6,20 +6,34 @@
       "ticker": "MQG",
       "name": "Macquarie Group",
       "list": "Portfolio",
-      "count": 2,
+      "count": 4,
       "items": [
         {
-          "title": "Macquarie shares climb to fresh all-time high: Buy, sell or hold? - The Motley Fool Australia",
-          "source": "The Motley Fool Australia",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxObFRkamd6X2lKcUdlX0xpMmlBTzU2WVRaUUk2QjZ1cTN2aTF2RHpWd3NQbktzQ1BWUmE4Y1YwTWNqVnFia2lvc3NGc2tjVkJfMGxqejNmeXNEdGJoQnpCRGZhNTBmR1dwVl9HeDZYMUtrTndEUXE5ajE3TXFjS3BQN1Nvc0pYRFNFc0xfT3ZoeWl3NktJdDd0MmRhVGhCdk0?oc=5",
-          "published": "17 Jun 02:29",
+          "title": "RCI Recognizes Sunset World Group's Excellence with the Prestigious Gold Crown and Excellence in Service Awards",
+          "source": "PR Newswire",
+          "url": "https://finance.yahoo.com/media-advertising/articles/rci-recognizes-sunset-world-groups-232900368.html",
+          "published": "19 Jun 23:29",
+          "channel": "Yahoo Finance"
+        },
+        {
+          "title": "Can Asset Management and Private Credit Drive Future Growth for Macquarie Group (ASX: MQG)? - Kalkine",
+          "source": "Kalkine",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPQjVhUHRsLUNBaVBOMnl3N2RlclByZnhPZ3lJOUM5cUxMUms2eU1ZMGN3RlVhYVFRZjRWbzVRMkRxR3RIRGhyVTJDaEJfcy1pSVRqMl9waXRyekFfRlBOdG5scFA5SVYzR0tMRTJzLTRZUVJENzI4dnpYZGRnbmhpUzRha3hvcGxWOC10VW9mUEFLcmFTNExBU2hCNmd3SHFHRm11Y0JnN0huZjNlcEowSHBTa083Rnl0SFJNcVBjcVJFaHM?oc=5",
+          "published": "19 Jun 09:48",
           "channel": "Google News"
         },
         {
-          "title": "ChartWatch ASX Scans: Macquarie Group, Weebit Nano, Aristocrat Leisure, Sunrise Energy Metals, Yancoal Australia - Market Index",
-          "source": "Market Index",
-          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPSzBnVzZvUThPMFdDWUNYZWRoSklnUkJIZWhDQ0RaM1JxaGZzYjUwSmNnSEx3NE1kY0VOQy1obkhvSE1JNFlsM1RSR1lHb1dzZVFGblo4SGJRcF9sUUFLZDN4X0NaTFJ3NDJncmNyLXd1N3l5QUF4cGhGSkctaVJVYkk2Q1FCLWpxcms4X1pVejd5Q3QzcmxLSl9hZU85dmhuLVV0ZnNJdk1nSjJDcnQ3eE9IYks4SDFOeHBpNGY3YURMNUxsN1I2Y2NGU1I0ZGZSYWZkQWY5MnRuUnc?oc=5",
-          "published": "17 Jun 23:15",
+          "title": "An easy way to value ZIP and MQG shares - Rask Media",
+          "source": "Rask Media",
+          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNSHp0QmlnTTY5aC1MSi0wdU96Q1M0QU8ycUJNWXg5ekVfbE13ZjUyQmNzNmJYWklRT1FKRWZIWDR1YUtwV0tIcXJRbFZoU1RUTl9FYUt1OU44VVEwUi1uZWYxNElyUlJUMjRJeHgwTkdUM1hkVG5rLUkydW5Ud3RGcWh2QWZiMGo2VkE?oc=5",
+          "published": "19 Jun 08:14",
+          "channel": "Google News"
+        },
+        {
+          "title": "ASX Preview: Australian Shares Set to Fall as Oil Rises on Ceasefire Doubts; Macquarie Group Completes AU$734 Million Employee Equity Share Purchase - Yahoo Finance Australia",
+          "source": "Yahoo Finance Australia",
+          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxONWdTQVBNcUtBZnNCWHE3QmpVRldyMVZKN2ttYU5pY3JSV2NSQ1J6bHBLakVnY0V2VXpNZ2ZjM0hsTmlseGNGbDRzVXVMMU94LU5fUUhSaTN3S2ptUnNRc0tnUXZQYnZYSk9lUGpIMjRPSWpBV2JjOUxidlFVb0VmdWhmY1lKSnhyTkE?oc=5",
+          "published": "19 Jun 00:15",
           "channel": "Google News"
         }
       ]
@@ -35,8 +49,15 @@
       "ticker": "WES",
       "name": "Wesfarmers",
       "list": "Portfolio",
-      "count": 3,
+      "count": 4,
       "items": [
+        {
+          "title": "Western Midstream Partners (WES) Launches Second Permian Water Treatment Facility",
+          "source": "Simply Wall St.",
+          "url": "https://finance.yahoo.com/energy/articles/western-midstream-partners-wes-launches-230957517.html",
+          "published": "19 Jun 23:09",
+          "channel": "Yahoo Finance"
+        },
         {
           "title": "Wesfarmers\u2019 (ASX:WES) Kmart Bets Bigger on Homewares With New Furniture Store Push - Kalkine",
           "source": "Kalkine",
@@ -45,17 +66,17 @@
           "channel": "Google News"
         },
         {
+          "title": "Wesfarmers (ASX:WES): Bunnings Gets Bigger As Conglomerate Reshapes Its Portfolio - Kalkine Media",
+          "source": "Kalkine Media",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOc2Y5WFczaG9YZWlqZUQybE15US1sRDlRTU5BNVVOWEItWkVtQ2xvMjFMTlJkWmhGWTdkTEEyaGk4LTdKS01EWGlEdXlCZmNQSjRVX3ZOMDY2RGRISXlVVEFnSTlvWlZFajZaNGZHOVBkc0FtS3hRNXozYk1EdmtMeW4yYWgwUG1SLS03NWhQWnZYTnByNUlhLTFfdkNSeUNkRTdyQnRjanRCXzNTcUEzQy1NVDY0VVp6dzBz?oc=5",
+          "published": "19 Jun 09:52",
+          "channel": "Google News"
+        },
+        {
           "title": "Wesfarmers shares have surged 20% in a month. Buy now? - The Motley Fool Australia",
           "source": "The Motley Fool Australia",
           "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNR0U5TUlVcElJOFluMHl3Y0hwQzg0RnVqZ3VodmwtQXFtcU5nYXNZVlE5NW9PMG9jNkxZRUstRVgzUEhvRWZRc1FqREgxb3d1ekRHbmh0cl9CSTNOVlBoOXR3d1NMSVFCQk95eGNhN0RiMW9razFXUWgzMEhTcnFpSXpPNU1EN24tV2FWVm5kUXY?oc=5",
           "published": "18 Jun 21:30",
-          "channel": "Google News"
-        },
-        {
-          "title": "Wesfarmers Stock Rises to A$85.78 as Kmart Opens K Home Concept - Bez Kabli",
-          "source": "Bez Kabli",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPaktFVFZhV0NhWVZDdzd4Q0QyMVFGcnIwcU5rTFBqM0xGZlY2NHRocTFyNHZWWFFUbHdoWkxNZkhJYVpVRkQ4VnpoekpoUlRYVkpaYnZzUVFkRWluSmthNS1EX2NBTUFGMlAwblYwa1AyeWlWM3RhTHdpcERMbGJ4RnMyYURjcEJCbktrTUNPaV9SUQ?oc=5",
-          "published": "18 Jun 18:15",
           "channel": "Google News"
         }
       ]
@@ -79,8 +100,15 @@
       "ticker": "SGH",
       "name": "SGH Limited",
       "list": "Portfolio",
-      "count": 1,
+      "count": 2,
       "items": [
+        {
+          "title": "SGH (ASX:SGH) Shares Could Be 14.2% Undervalued After Broker Resumes Coverage - simplywall.st",
+          "source": "simplywall.st",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQM2d5MUIxWV80NWRxdGJ6ZU1iTUVqQWprR1lXUTl1anh4RzdlMkZLNG5jbmM5YTJFZ3lNajRneHhCSWxtVHFOVV8xZVNpa3ZjemNKSjVkcENPRmMzbm1nRjhuN1VUbHNPdXliV0JlMU8yektnZm03UG4waXZyWFRsbzV4NW8ybl9HaTNyLV9CVEVBcDJYQmNEUjZmbVBDQ3k4Z0luZGxVakVCajZUMGsycjRMSWFlVEVFYkpsTmJDNmFRRUM2ZWNfV1NB0gHPAUFVX3lxTE55UHRUQll1MjhtQWltSVYzWC1aNTVfd3hmMnRGME5EUEMxbDR5RWgyNkMwdGwtYldyMW50b3hGVFdBY3ZFM0pkWWZQZDcxUVlCOTQybmp5QmwweGFjTnhrT3lSUHNVQ0dSUnYzWWE0OGhLd0NVVXhPYTcxX2FGWEdLSnBXUFN3elZPWW1OcFJlVXh1WTNzTXdBTDhiYWkyTW43dnRXb2lqLU8tRGs3NkdGTzdOelZqWW1nMm0yaTYwZUdOYkg0ZDBpRzZhaWx0cw?oc=5",
+          "published": "19 Jun 12:05",
+          "channel": "Google News"
+        },
         {
           "title": "Buy, hold, sell: Flight Centre, SGH, and Navigator Global shares - The Motley Fool Australia",
           "source": "The Motley Fool Australia",
@@ -101,42 +129,21 @@
       "ticker": "ALL",
       "name": "Aristocrat Leisure",
       "list": "Portfolio",
-      "count": 5,
+      "count": 2,
       "items": [
         {
-          "title": "Why CME Is Really Suing the CFTC Over Perps",
-          "source": "Bankless",
-          "url": "https://finance.yahoo.com/m/19862fda-f62c-3a35-80b2-4b57605b5601/why-cme-is-really-suing-the.html",
-          "published": "18 Jun 23:54",
-          "channel": "Yahoo Finance"
-        },
-        {
-          "title": "A.R.I. Sues Drake\u2019s October\u2019s Very Own (OVO) Following Default, Forbearance, and Alleged Non-Payment of Millions in Contractual Obligations",
-          "source": "Business Wire",
-          "url": "https://finance.yahoo.com/small-business/articles/r-sues-drake-october-very-235100130.html",
-          "published": "18 Jun 23:51",
-          "channel": "Yahoo Finance"
-        },
-        {
-          "title": "ChartWatch ASX Scans: Macquarie Group, Weebit Nano, Aristocrat Leisure, Sunrise Energy Metals, Yancoal Australia - Market Index",
-          "source": "Market Index",
-          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPSzBnVzZvUThPMFdDWUNYZWRoSklnUkJIZWhDQ0RaM1JxaGZzYjUwSmNnSEx3NE1kY0VOQy1obkhvSE1JNFlsM1RSR1lHb1dzZVFGblo4SGJRcF9sUUFLZDN4X0NaTFJ3NDJncmNyLXd1N3l5QUF4cGhGSkctaVJVYkk2Q1FCLWpxcms4X1pVejd5Q3QzcmxLSl9hZU85dmhuLVV0ZnNJdk1nSjJDcnQ3eE9IYks4SDFOeHBpNGY3YURMNUxsN1I2Y2NGU1I0ZGZSYWZkQWY5MnRuUnc?oc=5",
-          "published": "17 Jun 23:15",
+          "title": "3 Australian Stocks With Strong Balance Sheets And Gold Exposure - simplywall.st",
+          "source": "simplywall.st",
+          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPNFZ1Y25BSUNvVkN3VG9BRGtuOEFLWmxlR2liUGp1RjRaMEd1NkREZGJ1NUtEeE5LcFdJbkwwMFJ6VnhzeURGdF9rRmctNGNiSGM4eWpWRFRZeWpYYnN2X1pROXVTeEk3MnlIVzBuTGctZUpjeUdQQjE4djVORW5XNWFiZmRxdlhWSkJXTmgzZ2NKU3lESV8yaVgzNzlQVXVIYzUyZm5QZW1CeTk0aUlIcWpzSGdoMjhsVV9EWnptZTVSY0owNkhnalBYRy1EUS1icVdyVlVsZzBKZ9IB2gFBVV95cUxPNFZ1Y25BSUNvVkN3VG9BRGtuOEFLWmxlR2liUGp1RjRaMEd1NkREZGJ1NUtEeE5LcFdJbkwwMFJ6VnhzeURGdF9rRmctNGNiSGM4eWpWRFRZeWpYYnN2X1pROXVTeEk3MnlIVzBuTGctZUpjeUdQQjE4djVORW5XNWFiZmRxdlhWSkJXTmgzZ2NKU3lESV8yaVgzNzlQVXVIYzUyZm5QZW1CeTk0aUlIcWpzSGdoMjhsVV9EWnptZTVSY0owNkhnalBYRy1EUS1icVdyVlVsZzBKZw?oc=5",
+          "published": "19 Jun 22:28",
           "channel": "Google News"
         },
         {
-          "title": "Aristocrat Leisure shares hold near A$53.55 as buyback, July briefing draw focus - Bez Kabli",
+          "title": "Aristocrat Leisure Up 2.6% as Investors Look to Buyback, NFL Slots - Bez Kabli",
           "source": "Bez Kabli",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQVkFuVm9wOEc0OEpsZTdtNXcyLXBLaER0Nms4dldSdU5TVjZ3YkxKZWd6UEpBUmlscUNhMDF6djVTZGk4RFNwY0I5UlJEdFlhUzdIcmw1UHB4S1d3V01sTjNQOU5xeEtoVDF0aGpDMkp0RFVLQlI3NUUxN1Fqd09XRXZQeGtXM2hqRzhFZ1E0VUJFYTMyQlYtRC1relFwLVNjTHpPT3R1aw?oc=5",
-          "published": "18 Jun 20:55",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNS3BwUURrX3g3aVR6cHp3X21ONjlHei1qVjIzTWJjbkhEZTA3U2ZjUWtrMHNHQlZfTC1VTTR1Q3pZUUJQa3JvQmY2WW5hNlZFZEFfLXEyUkNqdEVxcmhkUWxtb00zLXk3c1lZdVkxc215QjNPUWhOWjI1aDBoaWpPQkNOWGxvLXoxNkRBSFZZb0ZGTEot?oc=5",
+          "published": "19 Jun 18:59",
           "channel": "Google News"
-        },
-        {
-          "title": "Why Elon Musk should sell 1.6 billion SpaceX shares right away... (and a major Nasdaq top signal!)",
-          "source": "Market Index",
-          "url": "https://www.youtube.com/watch?v=XNVgE4cMr1k",
-          "published": "17 Jun 07:31",
-          "channel": "YouTube - Market Index"
         }
       ]
     },
@@ -151,13 +158,20 @@
       "ticker": "CSL",
       "name": "CSL Limited",
       "list": "Portfolio",
-      "count": 3,
+      "count": 5,
       "items": [
         {
-          "title": "How much could the CSL share price rise in the next year? - The Motley Fool Australia",
+          "title": "What Does Rising Volume Mean for CSL Limited (ASX:CSL) Investors? - Kalkine",
+          "source": "Kalkine",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQY3pxRWgyXzUzcnhoYjVwN2F4R3BaY3N5U1QyN2pwRmlRYlJPWHh1Nzh2UHpLWDNmNnBmZEJfUm1FYS00bmQweFh4dXFJM3ZJUTFlRDRnOTRrV254RWpnd1lSZUtoR0RoZjRCYmxwQWFFYVFMdE9scEEyM1hCdDJHVGp2bU1xS0E4NnhndzNQNDZZVUpDcjNjVFBlY1otRGRyeHJDag?oc=5",
+          "published": "19 Jun 12:59",
+          "channel": "Google News"
+        },
+        {
+          "title": "The bull and bear case for CSL shares - The Motley Fool Australia",
           "source": "The Motley Fool Australia",
-          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQWmF5eENiTmFtOFZuWFAxekJYdGM1UE1QdHRrQUpvdFIxdFBmMmE5T2RHajZHdHpGUmJSMXROWGU4N3ZhWGw1TklHSWVNX1RkckhuWTE1NnJ5SFM2VjljNFhIM2ZGNHUzdWZiS0Y3VEdKZ2V3UGlTNUlyYUtQVF82ZVMwNTFSUVZyVnpkZ3RDQzRSMGVzcGNR?oc=5",
-          "published": "18 Jun 23:00",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFB5dDQ5bEI2Wlk5ZmUtYUM2MFl1TW0zMkN2LU9FY1RDX1IyWURCMGE1UktQMDVEZm84SHhjRVFXSmlVVW13MW8tWnJwWjZMYXlLdGpScmMzbV9SZEE4cGMzNWwyWkxEMzVOTmNUZnRWMFJ0RXRaRU9xUVJCRXZNUQ?oc=5",
+          "published": "19 Jun 22:15",
           "channel": "Google News"
         },
         {
@@ -168,10 +182,17 @@
           "channel": "Google News"
         },
         {
-          "title": "Investors are buying CSL shares again. Should you? - The Motley Fool Australia",
+          "title": "CSL (ASX:CSL): Biotech Blue Chip Divides Investors as Share-Price Weakness Sparks Debate - Kalkine",
+          "source": "Kalkine",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQODY1eG9QeG5RRVJEcmVJazNtdGxWVFo1eTludkNQVjVhWW1wbjN0UHo3TmdwTzVHcXZXQWxDSGl0RFRTU0JabXlxSVU3Yi1Ua0xnbk1fLTJGNUZ2OFlILWlLRnpKVkNGLVFFSWhVQmFPSjdrSVZoVUhhcnlCeFJWRnJpVjktRGVjNVlRV0VkWUEzdXpaaDdLUHliajM1ZHhxT0pSbFR4UTI4Q0oyTUkwQ2ljNnBzRm9fQ3UzVkUxd24?oc=5",
+          "published": "19 Jun 06:48",
+          "channel": "Google News"
+        },
+        {
+          "title": "How much could the CSL share price rise in the next year? - The Motley Fool Australia",
           "source": "The Motley Fool Australia",
-          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQdFlCb292YjdIVEsyeUE3T1FrT1RzVWR3T1E0bkdrejJMOG9lUzA2aEY2ZGVvMzd1RHpWQkIyWVA4YVdvbE92WWVMN0JGUmphckdRYlk0ODBiNEZaMHAzY1NiVXFmM3ZKUDRmS0Q4N3pBQk5rSnFOczE5OXo0Tk50bk1HbVhRNUZVWEw0dA?oc=5",
-          "published": "17 Jun 19:34",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQWmF5eENiTmFtOFZuWFAxekJYdGM1UE1QdHRrQUpvdFIxdFBmMmE5T2RHajZHdHpGUmJSMXROWGU4N3ZhWGw1TklHSWVNX1RkckhuWTE1NnJ5SFM2VjljNFhIM2ZGNHUzdWZiS0Y3VEdKZ2V3UGlTNUlyYUtQVF82ZVMwNTFSUVZyVnpkZ3RDQzRSMGVzcGNR?oc=5",
+          "published": "18 Jun 23:00",
           "channel": "Google News"
         }
       ]
@@ -187,27 +208,64 @@
       "ticker": "CAT",
       "name": "Catapult Group",
       "list": "Portfolio",
-      "count": 0,
-      "items": []
+      "count": 1,
+      "items": [
+        {
+          "title": "RCI Recognizes Sunset World Group's Excellence with the Prestigious Gold Crown and Excellence in Service Awards",
+          "source": "PR Newswire",
+          "url": "https://finance.yahoo.com/media-advertising/articles/rci-recognizes-sunset-world-groups-232900368.html",
+          "published": "19 Jun 23:29",
+          "channel": "Yahoo Finance"
+        }
+      ]
     },
     {
       "ticker": "PME",
       "name": "Pro Medicus",
       "list": "Portfolio",
-      "count": 0,
-      "items": []
+      "count": 3,
+      "items": [
+        {
+          "title": "Is Pro Medicus (ASX:PME) Worth Adding to Your Watchlist? - Kalkine",
+          "source": "Kalkine",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPVWVlemJ6S0I4ZzZjWlFETjFIa1JZN3NyajlxUm9INk9Ycm5Zd2dINHo3bDlfQjE2N1hheFlOUGV6VkpCVzRlUDVwTnZkOGh0OGloR1l6ZnhWM3VYUmdwcC1SbWVDbkVxSUxBVE1SSmVBTGRESlc5bXUxTzFlSjJtalBYVHpUczNXUEprWktyVmstY05pcHc?oc=5",
+          "published": "19 Jun 10:13",
+          "channel": "Google News"
+        },
+        {
+          "title": "Why Pro Medicus (ASX:PME) Is Leading the Growth Stock Conversation - Kalkine Media",
+          "source": "Kalkine Media",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQOWJpdGozOEtYN0YxZHhwUS1sb3pOQ2w1V3l5c1k4d1FjeU5pWWl3c2U5M3VIMVJfaXJrcmNpU3AwTDVmU3VYWHg2cjZmR3JrV0w0R3AwWTJqaUwyYjVLTnF3TE1CeGtEMVFOSEZ4czh4clhuNkZ1X3dOU081ZDcwMjVHSGVNTF9hOWtKa0hJY1FBNXIxNVlsY0c0QjNxM0lXdFBhYzJJbEw?oc=5",
+          "published": "19 Jun 10:12",
+          "channel": "Google News"
+        },
+        {
+          "title": "Pro Medicus jumps 3.1% to A$172.80 ahead of ASX 50 removal - Bez Kabli",
+          "source": "Bez Kabli",
+          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPZkNDX1lpWktTZjNLRHhjUlBZV2ZsNWpGbzVMaEJWd0owN2tpQUxiZGM0WTlES2t0aG9xbmZ2Snc4bEM5QjhlODJibHBlV0x3eURCaWZxMTlEVWFReUZlQlJoX09RSlFDV05fT19MNEZYTTBpX29wT2xLdHVXSHU3bUlEYzBFN0Z0SEE?oc=5",
+          "published": "19 Jun 19:50",
+          "channel": "Google News"
+        }
+      ]
     },
     {
       "ticker": "ARB",
       "name": "ARB Corporation",
       "list": "Portfolio",
-      "count": 1,
+      "count": 2,
       "items": [
         {
-          "title": "ARB Corporation Director Shona Faber Buys 5,420 Shares On-Market at $18.46 - Kalkine",
+          "title": "Why Are Investors Watching ARB Corporation (ASX:ARB) Shares Closely? - Kalkine",
           "source": "Kalkine",
-          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQMWtrREJUTGMtQWU3Q0VfR1haSUo5UGpvM1g0bjhWSk9IaVJTbGZBZjJ3bTFJcjhULWRITExuNXo5ZzVEbFFIUjRGZnlaWmNoVVc0YmdWMjQ4NS16Y1U1RmdtNTFlYWUwbDRFc1FkZnpBWi01dmdZcWZ4cEFSck1WMUVHZHVzMF9GeWtfZ3E3anlhRFA0MlI5NDNScmVXQ0M5U3o1Z2V2eV8wM1ZSUWh4U0dTNA?oc=5",
-          "published": "17 Jun 06:07",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPUEEwR0NOV2pUdnVuMGJDaXpEcXN0RU9oQ3pzZ3dkTjBtVVhZdC1LV1FOb2lDelJ1dlpQZDgzOVNQc2VpeUtrenJ6cFRhcXd0bG1zem9hdU5pb3g2Q3d2d3RMckdldGN3SzlwWnBoTi1LSEtwMnVEbHZKbGRYclRPS1NuUjFDLVBaTFdEdmdDUVdBaGRaWDlIZVNZdXgzRmJvT3ZiQ2FCd28?oc=5",
+          "published": "19 Jun 13:01",
+          "channel": "Google News"
+        },
+        {
+          "title": "Is ARB Corporation (ASX: ARB) Benefiting From the Growing Outdoor Lifestyle Trend? - Kalkine",
+          "source": "Kalkine",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPbEVrV0NrSDhUMkx0NVVvZFMxYUdDczVvbHZGcW15U3JvREhCS1hIQzBGcHVEaTlEQk1vNWlkd0h4VmZqWDFfajk0NkNTeVVoaUlGNmc3WmQzSzducGtWajBOTTZpUG9Bb3dyd0JKWlIwWVZrMkFwWHJ0UkIwdEJPODN4cDJ1Y1RSWGxTdjk3U3d0cTBXMU9FNmNxaVpvRlBQTVlCc2NjVmtzRE1leGJuMDNRWTcydw?oc=5",
+          "published": "19 Jun 09:49",
           "channel": "Google News"
         }
       ]
@@ -216,27 +274,34 @@
       "ticker": "COH",
       "name": "Cochlear",
       "list": "Portfolio",
-      "count": 3,
+      "count": 4,
       "items": [
+        {
+          "title": "Is Cochlear (ASX:COH) Stock Recovering From Earlier Weakness? - Kalkine",
+          "source": "Kalkine",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNQm5LWjRDaE5sNV9BN2w3OWUwZHBMZGR1QXFOakJiN293Q2RfZFVDU3FLOU00dGlzZXpIS194NjJnd0wwN0gtUmNtYlJwYTMwaTRIZ2xMMm1INWdMZTkzOWZqQnV4TWl6Y1VEMGNLWHpabUlUZFJ4d3VvUVM1bGZaWEVUaHdPbHF5RFVUYmZDU05idmFTNVNycTRsckFlNGM?oc=5",
+          "published": "19 Jun 12:59",
+          "channel": "Google News"
+        },
+        {
+          "title": "Cochlear (ASX:COH) Shares Could Be 44% Below Fair Value After 2026 Guidance Cut - simplywall.st",
+          "source": "simplywall.st",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOWmVpcnJ4MWU2LUp4eGpiYkVxWnRDRHgzY1ZxR1UzRGI0M1Q1WEU3YUhLSlBPR0hrRzZmYk1fbXl5N1l2SWZCb1BtX0xTQVFuWWdsNEZxSS1tb3d3SjdEcFRCaVhDTUJzWVlsMkhPSHlJRWVxakhCRnZWbWoweUlFaFI1VmpNaEpMYjNnODYydlVscWFiSk13T3NoVzEzLXBvOE1FOGZoXzdpN3FkZzdxSnBncnMyNHZoM1RHc1FWdEVIOXlRM3NBX29GZDHSAdIBQVVfeXFMUFZ1UWhjRXlOUnc4LXpPcS1WWTIwREVQZDlZdlFoeDByTnhQY3dKNDJoYXJyS0FZRHhpd1ZkYU43dTFEdldXVF9waUp3VzVQY0tFZmlPTzRqV09QS014RDlHcW9pOU5BNmtNa3h1QXdFVU43bElXb0poWDFOS2YzNHhZWFBqSjRQNDg5X0ZMUm1odE5oV1FEM3Z5Ui1qS0Q0UW1xUG5ncGwyYnNTcWlYV3lwWE12UFZMRWVSMmZkVXE0SzllZl9FT3lTbGhNY0xBQnZn?oc=5",
+          "published": "19 Jun 14:58",
+          "channel": "Google News"
+        },
+        {
+          "title": "Cochlear (ASX:COH): The Shock That Sent a Healthcare Giant Tumbling - Kalkine Media",
+          "source": "Kalkine Media",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPSUlLNm1EVWFSNWNDTFFVQ01fNFdzMUlSOVYwMkd6N3ROdjkwd3BJb2J6VHIzMFFTbDNGb1c2ek5zdkFoNWJ2U1ZoUEd0ejRaNzlqUDh2anh0YjdHc2xUanVjalpzQUgyalV3blFDVmlrWDN5SjlzTnJhRVRIdXdMeGlIQmRsalZ6MGVjcUxUX19zdHYwUVl2dDJ5OFlzU0pvOFBiTUZ6ekpRcUNrbXc?oc=5",
+          "published": "19 Jun 06:55",
+          "channel": "Google News"
+        },
         {
           "title": "ASX: COH \u2014 Cochlear Remains a Healthcare-Tech Giant as Hearing Health Comes Back Into Focus - Kalkine",
           "source": "Kalkine",
           "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPMjlWandrTngyOXozN3gzOTB1LTc2RWRvVHNwUk1MLTZPSW5qY0o5c21saG9jLVlFOWZWZmI1M2RjRnJySDVYZ1JnQ3BScEgtTGw0QlU3UmdUMzkxanNvWDg3RWZJTlNmazgweUQxTHNucTdpN2xKNVUzQ0k5LXR0Ukt6VFdCRld2aE5IY1J5THJrWk5SSXo4NXVlajVlcHczMzhkOVkxLUgwUDNfQ0oyaXdSQXM1SFU3V2o0cUxwVWNUaG1Fd2c?oc=5",
           "published": "18 Jun 14:08",
-          "channel": "Google News"
-        },
-        {
-          "title": "Did Cochlear\u2019s (ASX:COH) Guidance Cut Quietly Recast the Premium Medtech Growth Story? - simplywall.st",
-          "source": "simplywall.st",
-          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQOUl1RGk2U3U0YllNRnhQbDhYVVZPUjhEdVZlcmdZbHpObm5DNHJMWnYycUs0UTZYQ21ybjNEdmwtc3Vsd3JZS1M0b19fVG1DU1Z2bmxONHJ1aWJsV3ZaZVdMcVEwS1dMRHl4T2tXTm5rYzM2SzVDa3J3d2YzOWFkNDNUcmhMbDNrSHpfdl9WVUJ5bEJnWDJ4VEFreHV0NW00YkVFZUtleGpXRW5JSXFpSXdYYjVZY1k5TVAyWU8yYmVxc2U5WGV3UndreTPSAdIBQVVfeXFMUGY2czBjampLZ01RUDY0RmlfSGFpQmhfdk5qOWZRR0UtSEdiVVhCM3k3T3dpaTlvcVlrdWEwd0pIUDNqcFpDdmp0cUtaUm1waHppV19CNXUxQk9TNDF1VTFuNlYyX0lSTkM2NFJvU21ENl8teEtMaE05ZVBWZ2ZLQWJSTFNRMjhSNUJyUWFubW5yWmM4dXEtaUdwWVdPY19RSHBPbGVqWWU5b3BvOUU1Vm9vTk56TVVfZzhjRnA4cjcwMEVTTEVxSWMyX19hMkFCcWp3?oc=5",
-          "published": "18 Jun 12:00",
-          "channel": "Google News"
-        },
-        {
-          "title": "Cochlear (ASX:COH) Guidance Cut Shakes ASX Healthcare - Kalkine Media",
-          "source": "Kalkine Media",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPSWxTODVZRVhyb01MOXE2dW5YUU9aYTVzaW1veE9CSFlRVkFVcWNOV2MtN3FJdHNlMUZaUXluZDJzOXZWc3YtYmVrOXV2MUFldFY2MWFnYmI3QTlBeFlzd2tnd2tfWVZYZXRfSGcydnBsV0diZ3cyZ1NEMTZyLUVNLUpuSGxyN3Rzd3BHV0kzc3VOMnRXWXVEeWFpTTM?oc=5",
-          "published": "17 Jun 04:03",
           "channel": "Google News"
         }
       ]
@@ -248,10 +313,17 @@
       "count": 4,
       "items": [
         {
-          "title": "Do WiseTech Global shares have a moat? - The Motley Fool Australia",
-          "source": "The Motley Fool Australia",
-          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5sd2xMMmpXV2JOUXZFVzdORW9aVlFkek1yUGQtSzRYQ0NhcDZlck4zVldsZXJic242Q0pONC1ScmYyaXBjNmE4dU5UQlc0SFRkaVJ4Q0Q5dnRyeHNyVGh5T3BNV2NzZlU3dmVqSkxVZnhmNnBWcXVUOGZsUzFLUQ?oc=5",
-          "published": "17 Jun 20:30",
+          "title": "2 Northern California universities made U.S. News 'Best Global' list",
+          "source": "USA TODAY",
+          "url": "https://finance.yahoo.com/m/03dc87ea-5af4-3c0e-8a71-547a2ebdc91c/2-northern-california.html",
+          "published": "19 Jun 23:20",
+          "channel": "Yahoo Finance"
+        },
+        {
+          "title": "WiseTech Global (ASX:WTC): The Comeback Story Turning Heads Again - Kalkine Media",
+          "source": "Kalkine Media",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNTUdFSlY4ajlwSV9USUVpN0pLaHN3aEFWdU13Z0h3QVlDck9jUVdFcU9naW1kNENDWnluU1RITUVCRTVzN002d0Z6RlFSS1FkeDByNmQwQmRZWTZjR2xSTnU0NWljeWZzUnZWdmVqaDJDVDF0TE1ha2ZTdHAwUlplU3VGRy0xenVBLW5adW51Q2gyaWtmczk5THh5bi0wT1k2N3k1QnVB?oc=5",
+          "published": "19 Jun 06:14",
           "channel": "Google News"
         },
         {
@@ -259,13 +331,6 @@
           "source": "thebull.com.au",
           "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOOXB3M0ZUTVJ4ZGhqWjQyS1J4T0lSaVNYc2g2eHR2Tm1OS3U3MjQxYjY2UnBMSTVFeDBfUjZFTGRCZHBJU2ZKb283ODNudjF3clExLU54dXRRR3ctRlFPenpKajMwWnNRNGxlTFpLNjRaVjBFVE84RUxnbTJYSkR1ZFQwdGcyZFV3Z2c?oc=5",
           "published": "18 Jun 06:57",
-          "channel": "Google News"
-        },
-        {
-          "title": "WTC share price: why investors like information technology shares - Rask Media",
-          "source": "Rask Media",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPTmI1UWFPcGVMNGVCVmVJVUZGWlRiTUJpOHlqdlk2aXQxLW56R0VfSFBBeXJvdFdNeWlOTGc1aWVBVEUtcVRRMUt4Nmp3dDQ4QU4wbmZ1eEduZlNJUWU1Qks3OUJLYkJkeTdHeDBQYzRlWFpucnBwTHg3NVlpQmtiVHg5RjZJam9vb0JWX1JJd0c5VUlINHp1LTVKUnJBalZiQ3MybHRjRk8xN1Na?oc=5",
-          "published": "18 Jun 08:43",
           "channel": "Google News"
         },
         {
@@ -295,21 +360,28 @@
       "ticker": "REA",
       "name": "REA Group",
       "list": "Portfolio",
-      "count": 3,
+      "count": 4,
       "items": [
         {
-          "title": "Longtime Strip District shops ready for summer surge",
-          "source": "USA TODAY",
-          "url": "https://finance.yahoo.com/m/ae9cf2c1-acd9-3cd6-90c3-d0829a86b834/longtime-strip-district-shops.html",
-          "published": "19 Jun 00:01",
+          "title": "RCI Recognizes Sunset World Group's Excellence with the Prestigious Gold Crown and Excellence in Service Awards",
+          "source": "PR Newswire",
+          "url": "https://finance.yahoo.com/media-advertising/articles/rci-recognizes-sunset-world-groups-232900368.html",
+          "published": "19 Jun 23:29",
           "channel": "Yahoo Finance"
         },
         {
-          "title": "Why CME Is Really Suing the CFTC Over Perps",
-          "source": "Bankless",
-          "url": "https://finance.yahoo.com/m/19862fda-f62c-3a35-80b2-4b57605b5601/why-cme-is-really-suing-the.html",
-          "published": "18 Jun 23:54",
+          "title": "Western Midstream Partners (WES) Launches Second Permian Water Treatment Facility",
+          "source": "Simply Wall St.",
+          "url": "https://finance.yahoo.com/energy/articles/western-midstream-partners-wes-launches-230957517.html",
+          "published": "19 Jun 23:09",
           "channel": "Yahoo Finance"
+        },
+        {
+          "title": "Why Aeris, Newmont, PLS, and REA Group shares are tumbling today - The Motley Fool Australia",
+          "source": "The Motley Fool Australia",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNelJZSEktbEJFMU5oczlmY3Q0dHl2ZkJzdjIwajl6elNndTVXZkpNNndaRGhienRQM2tCTk9KbXBsNlliOExLRDFiVXNWZXZORV9LVzRONDNnTjJnSjJZcVFRcmJhRWVIRm5NUXVmbGpuUXVtcThaSGR5bVZ5a291SGtyYzFRTEVmQ1Vwb2Izekw5UGsxNEQwQlJpeGNrQQ?oc=5",
+          "published": "19 Jun 05:22",
+          "channel": "Google News"
         },
         {
           "title": "What is Bell Potter's updated view on Seek and REA shares? - The Motley Fool Australia",
@@ -324,8 +396,16 @@
       "ticker": "TNE",
       "name": "TechnologyOne",
       "list": "Portfolio",
-      "count": 0,
-      "items": []
+      "count": 1,
+      "items": [
+        {
+          "title": "Western Midstream Partners (WES) Launches Second Permian Water Treatment Facility",
+          "source": "Simply Wall St.",
+          "url": "https://finance.yahoo.com/energy/articles/western-midstream-partners-wes-launches-230957517.html",
+          "published": "19 Jun 23:09",
+          "channel": "Yahoo Finance"
+        }
+      ]
     },
     {
       "ticker": "SOL",
@@ -334,10 +414,10 @@
       "count": 5,
       "items": [
         {
-          "title": "Soul Patts Shares Make New High As Bulls Eye Breakout - thebull.com.au",
-          "source": "thebull.com.au",
-          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQbUNUczJabTh3UlRyc0FIUVFZeER5NVc2M2hjRXFQS2ZMTXozdHZNdEJZQkFMeC12aC1DcTlhdHFzU3g1ZTkzVTdsRU9jeWY5cEptSVBsSHpicjlvZll1RXRZaTNCYS10elFGaE5SNXV4YnVDSm5feVpwRUZDYmY1TXBxY1Q4dlo0M0E?oc=5",
-          "published": "18 Jun 21:01",
+          "title": "Why are Soul Patts shares pushing higher again on Thursday? - The Motley Fool Australia",
+          "source": "The Motley Fool Australia",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOM1RZREJUMlBBcDN0VXZJT29UTjFJcVBGeEFGX0FOQWRkWHNoOFVqaF9OTTVTV3NFSlJCTDJfaXBJcC13YmFYY29iU19raEs4alVsZy1NU2s3X2JDSDZ4V1dSTW13RVA0bm5JRGsxcDl5emItcEphUkdCQ2g2Z0ZPNEtBaGlKanhnaHR1clhXbW1SZDlOTHBqMnBn?oc=5",
+          "published": "18 Jun 00:18",
           "channel": "Google News"
         },
         {
@@ -355,17 +435,17 @@
           "channel": "Google News"
         },
         {
+          "title": "Soul Patts Shares Make New High As Bulls Eye Breakout - thebull.com.au",
+          "source": "thebull.com.au",
+          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQbUNUczJabTh3UlRyc0FIUVFZeER5NVc2M2hjRXFQS2ZMTXozdHZNdEJZQkFMeC12aC1DcTlhdHFzU3g1ZTkzVTdsRU9jeWY5cEptSVBsSHpicjlvZll1RXRZaTNCYS10elFGaE5SNXV4YnVDSm5feVpwRUZDYmY1TXBxY1Q4dlo0M0E?oc=5",
+          "published": "18 Jun 21:01",
+          "channel": "Google News"
+        },
+        {
           "title": "WHSP (ASX:SOL) announces $1.9 billion Brickworks property sale to Goodman (ASX:GMG) - Rask Media",
           "source": "Rask Media",
           "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPNnphVHlyY3N4dHB6QkZZZzlGcDl5WUZRQ0ZmTU5QdEdVRVJsY09MN2x2eENMWVd2VkF5X3RvU19VMzFISldaV0hLRndCc2xteGFsWlVZMkJJX0t0UkVueTNTQTJ3bHlnMVpzUl9Yc3Jvckl4NDA1eWJFOVBiekhfOExLTEFqM1AtX0sxY25NVllNUGRVOWJCbWZOMEMwTEpmWDZvcmlHdE5nYmRjLTA5bGF2dDhLYlZJ?oc=5",
           "published": "18 Jun 08:43",
-          "channel": "Google News"
-        },
-        {
-          "title": "Why are Soul Patts shares pushing higher again on Thursday? - The Motley Fool Australia",
-          "source": "The Motley Fool Australia",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOM1RZREJUMlBBcDN0VXZJT29UTjFJcVBGeEFGX0FOQWRkWHNoOFVqaF9OTTVTV3NFSlJCTDJfaXBJcC13YmFYY29iU19raEs4alVsZy1NU2s3X2JDSDZ4V1dSTW13RVA0bm5JRGsxcDl5emItcEphUkdCQ2g2Z0ZPNEtBaGlKanhnaHR1clhXbW1SZDlOTHBqMnBn?oc=5",
-          "published": "18 Jun 00:18",
           "channel": "Google News"
         }
       ]
@@ -374,8 +454,23 @@
       "ticker": "SDR",
       "name": "SiteMinder",
       "list": "Portfolio",
-      "count": 0,
-      "items": []
+      "count": 2,
+      "items": [
+        {
+          "title": "Is SiteMinder's (ASX:SDR) Watchlist Momentum Reframing Its Recurring Revenue Story? - simplywall.st",
+          "source": "simplywall.st",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNVVNJRi1RWjlQZFJqUkx1N3RQZGV4c0c0VVpmSndTNHNUR3E4cWl2NWZzNy1aMW1oZ1BXRUljU01MLVB1aFdYb0NBNG5mcHhad0dlbXBKdDdTRmszWnhkZ2FZR2NlX0Q2aDN3YTJjcURQcFVuVjRvU2JhY0RIb05kY1dwZVNDUXhNbDRlZ2w5WXplWU0zdUwzWFdjSUo2eFg0TE1HUkhGNldtM1l4YU9xUG1MXy1SMlFGSWxaNTVndWliMjFjRFFDNFNJRUPSAdIBQVVfeXFMTnlvSGFwOElGUEJtR1RQTmJzUEJjbkNFbXQ0TklMb2dGRVNMNG81TnhJY2psM2QwdXN3b0JCZ2EwbjBLUHhNM0lJOUREOGZuNjJPTXIzRnFtUzNnY0ZQNjJyUGZHZzM0ZW1saDV6ZTBBWV9XdGh3WG41NGN4UklFZFlwdVFaVDN2dkc4blZjdDBlLUVkQlUyQVZrbXhvR0RXNDUxMXFhN2pQWnlQaWlrUXRkOVNVRk5PUUtUMFBnSXRiZ19MbGo3U2JLYmVhWTNXeHNB?oc=5",
+          "published": "19 Jun 02:58",
+          "channel": "Google News"
+        },
+        {
+          "title": "Is SiteMinder\u2019s (ASX:SDR) Recurring Revenue Focus Reframing How Investors View Travel Software Risk? - Yahoo Finance",
+          "source": "Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNSkFxckd0WkM0QUNKb3gxQjZrbncxM2h4VGVXMURjMGtlY19wN3oyYXFBbHNPazItNXFjQmpPWTRIVGJJQjBwR0hDREI3TzRLdXhidkR5cWJtYzk4UnNrZ05ObDNobVU5bnJUaGtVMnBlX1huQjBsb2N1WDgyRnVYdl9kM3FoNWJpZHE4R0hVWi1vTi01eWJONWNxSUY4RFViVmFz?oc=5",
+          "published": "19 Jun 13:09",
+          "channel": "Google News"
+        }
+      ]
     },
     {
       "ticker": "OCL",
@@ -388,41 +483,28 @@
       "ticker": "SIG",
       "name": "Sigma Healthcare",
       "list": "Portfolio",
-      "count": 0,
-      "items": []
+      "count": 1,
+      "items": [
+        {
+          "title": "Up 375% in 5-years: Why Sigma Healthcare (ASX:SIG) facing pressure recently? - Kalkine",
+          "source": "Kalkine",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPR0NscjhxNzVLZmhIamhmTzlNdnUzVTJIaDFjeXo1LTg0MG44YjNPMWN1eC04WTduc2VCY3RpV215Z2xxVF9wVTFTWk5ZakdkSlBaRE1zVjRYajlfQzNwb3lsQ1g4dU5mTjZkZVNWYlFpYy1HUnhvMDNSUXg1WTJLNFhjaXB5aG94WkJjd0xoT1pHaDRHMTJpd2ZrR2wyVVRUVjBlX3dpMk5PTEtVczhHOA?oc=5",
+          "published": "19 Jun 09:49",
+          "channel": "Google News"
+        }
+      ]
     },
     {
       "ticker": "RMD",
       "name": "ResMed",
       "list": "Portfolio",
-      "count": 4,
+      "count": 1,
       "items": [
-        {
-          "title": "Are Resmed CDI (ASX:RMD) shares good value in 2026? - Rask Media",
-          "source": "Rask Media",
-          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNSi1GNzZ6WFRoLXB3WXpmd1ZuYXAtZTk1M2U3bG93d1dwZUE5NWhfZnJPWXpWbUlRckxZd0RnY2pDX3VQOGZuQWRObW5GYjJiTWJ5T2Y1OXgwTHpNYXAyOWdrMjFLQUNrNEo5U2lYREJ4WmRRa0RBRTVMVFJOS1ZkalBlaFBlTlhlOTl2MzVUS0pEcGRjTmc?oc=5",
-          "published": "17 Jun 08:08",
-          "channel": "Google News"
-        },
         {
           "title": "Down 30%, should I buy ResMed shares now? - The Motley Fool Australia",
           "source": "The Motley Fool Australia",
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBVa1hfTDh4dHkwZG5hMWtFMHdYUThKRlpfd3VNMTk2TnhFR2k3WGloWmNvd1QtRFhpUml5b0EwZDIyVk15Mlh2bXZieEtaWlpYcXh4MXh1cW8zYVBlSEdSVnhIZ2F5bnlCaXN0MlZ4Q1dBMUlxVE5ILXRFcVIxVVE?oc=5",
           "published": "18 Jun 03:47",
-          "channel": "Google News"
-        },
-        {
-          "title": "ResMed Shares Downgraded: Trimmed Price Target Offers Some Comfort To Bulls - thebull.com.au",
-          "source": "thebull.com.au",
-          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNRFBKeE5SMy0zN2hsWGoyWUZxNEU5WUpGNjRsMkYyWGJaeDVheHlERTM3ajFFOXF5d0tIVEItZlJ6SkFHLXBZS0ZZLV9WeElpdE9vY0tBUEtOcG5vVDUzemRyV2NZRUZwSEFBSkpJcnhaaG9tTmdqd2V3VkxCaHNUQ3RqbGpmQ3dnTUFHbEd1bnB5bVJfYTEyejd4UWJDNlU5ejFDYWp3?oc=5",
-          "published": "17 Jun 19:19",
-          "channel": "Google News"
-        },
-        {
-          "title": "Why Air New Zealand, Emeco, ResMed, and Westgold shares are tumbling today - The Motley Fool Australia",
-          "source": "The Motley Fool Australia",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOVXVPWUp4RVdNcVZyWWNmYVJCQkQxZ1U2RGdzWE1mb0Y0bFJKTlpWY1MtQVhlUTg5eTlQMkJ3anJQOUZ5UVRNWXRjaGRtbC12blowMlhOa1pMOUtWTU93Um1PUlBfVWVVSnRkRndUeGpLWWtQenJKVWl6X3NwczR6WUVzWTZWd1ctY1ZaaTh6dkpodFhGWjloN3hBdXMtdEdWMmVVZFlxNGYxVnc?oc=5",
-          "published": "18 Jun 01:53",
           "channel": "Google News"
         }
       ]
@@ -445,20 +527,41 @@
       "ticker": "APA",
       "name": "APA Group",
       "list": "Watchlist",
-      "count": 2,
+      "count": 5,
       "items": [
         {
-          "title": "Gyeongsangnam-do Content Innovators Capture Japanese Market at CONTENT TOKYO 2026",
-          "source": "Business Wire",
-          "url": "https://finance.yahoo.com/media-advertising/articles/gyeongsangnam-content-innovators-capture-japanese-000000480.html",
-          "published": "19 Jun 00:00",
+          "title": "RCI Recognizes Sunset World Group's Excellence with the Prestigious Gold Crown and Excellence in Service Awards",
+          "source": "PR Newswire",
+          "url": "https://finance.yahoo.com/media-advertising/articles/rci-recognizes-sunset-world-groups-232900368.html",
+          "published": "19 Jun 23:29",
           "channel": "Yahoo Finance"
         },
         {
-          "title": "Why Did APA Group (ASX:APA) Securities Fall Nearly 3% Today? - Kalkine",
+          "title": "APA Group (ASX:APA) Update: Energy Infrastructure Giant Confirms FY26 Distribution Guidance - Kalkine",
           "source": "Kalkine",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNTXk4VkY1U0pXXzNXMzZsWDZhaGZNMXdRMzhLdHUwaU51dW9xLXY2NnRXaFV0NU03ZjVqOXlwbmlSS2otajZDM0h5R0N1dWtnb1hrY3JXcnY5WDhTWlRmaHJPdVd3VmZhM2c3anRYX2VFMHd4SUpPSWRWWGlhYWk0bWl4OGZWN0l6Qk5FU252djZpWXF3VmxwSVJXT2I?oc=5",
-          "published": "17 Jun 12:21",
+          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQM1l2WUFIM2pFdUtaV1FVVFBCQWRpTzgwVktINFp1VGQxMjlBcTZUdnRvRjdZNGc0TEhWd0pSRFFtYnVWZE9NdVhEanh2U2FzTG9fOE5qY3JjM0VjNkh4cXhzbWdKb0xEdTVrLU1kaFg0QjZuTXBDeHY2b0dJczhGcXFVZVBFeUN3bDVYRVBfNlR2QnNIbXlBcTRSbkh3bWtkSXpneFppVkZlMmJYZl9xbVdtWGVBZl8yZDZSUjB6bXM3d0pPMnFmMmRLWDhGZw?oc=5",
+          "published": "19 Jun 03:16",
+          "channel": "Google News"
+        },
+        {
+          "title": "APA Group announces estimated FY26 final distribution, up 1.7% - The Motley Fool Australia",
+          "source": "The Motley Fool Australia",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNUmhRdG85OUpwZHZiVEVmWHh5NTJrcmo1VHl5Uzc5U1A3UDNBYWRiYkxMQ3BZRllfUTBVZ25uZ0I4SlZUSUhQNm44cFExNG5XamJGaUdQYkRiZHZDLWRqdUFrY05ZMExobDNTQlgzalJybS1TeHJmY1NleUFwMkQtNDU0ZWFNdUhSOUpzR2k5TEVhZ0hkREl3QUlmb1k?oc=5",
+          "published": "19 Jun 03:24",
+          "channel": "Google News"
+        },
+        {
+          "title": "APA Group Increases Final Dividend - Moomoo",
+          "source": "Moomoo",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNLUxjNWw5UmhrNHVEMl82a2pBTkQzRWp1YnlmU0xlcE5zWlg2NmFXczRORmRKNV9VMF9DUlAtT2dRcEtsNTJxWlRob0FnVEJWamxqTHlLdUZJcGIxZzByUHV1c3E2ZS1zaUFsckZuZWozSXZOMkwyRUVnRlAwcjhEal93?oc=5",
+          "published": "19 Jun 03:35",
+          "channel": "Google News"
+        },
+        {
+          "title": "Why APA Group ASX 300 Is Facing Fresh Energy Market Scrutiny - Kalkine Media",
+          "source": "Kalkine Media",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPNjc0b21NTjJaeDAyUUY4bzJpTkZvMXBVei13TGpLdkFQWjFSRGk2ZGVUMlZSbWxyLThkUWN3OUlfLXo1dlpoX0ZZTDNmaklZdEQwdXlBa1NYWmJkUDQzU1RjOUZuckpwQjVsMGhoeXR3enphUzc4YmxMZzF1WjNrYlRQTVJDYkI4QzFMTEY2XzVHRGVoWnlpS2Etc1V1OFR6dDVoNQ?oc=5",
+          "published": "19 Jun 07:33",
           "channel": "Google News"
         }
       ]
@@ -474,13 +577,20 @@
       "ticker": "JBH",
       "name": "JB Hi-Fi",
       "list": "Watchlist",
-      "count": 1,
+      "count": 2,
       "items": [
         {
-          "title": "Retail Reality Check: How Wesfarmers And JB Hi-Fi Are Navigating The Spending Squeeze - Kalkine Media",
+          "title": "Can Omnichannel Retailing Help JB Hi-Fi (ASX: JBH) Sustain Its Growth Momentum? - Kalkine",
+          "source": "Kalkine",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNeHhnT2lsQTJKbUFEbXQ4QXJwZVRnUWpTalVJei1hNFIyMkx1eEZjMFU2clgzSmFuMjl5UW1EXzdtUUQ1WVBKeDAwUVpSTWNJaXo4UUVIZGRDVHB0MzNub1pYZE1sbmlYRm9YSndhVDQ1LU5aX1FPTUx1NjIyVmNBVURwZWZjS2V1N3hMNHpzWHlZNWxmckVxWDhfQ011WDVKTjdjT1VNTE5IbHdndXB6U29R?oc=5",
+          "published": "19 Jun 09:49",
+          "channel": "Google News"
+        },
+        {
+          "title": "JB Hi-Fi (ASX:JBH): Can The Retail Momentum Survive A Cautious Consumer? - Kalkine Media",
           "source": "Kalkine Media",
-          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPOVVob2hyS01YOTJjcFU5M2NsSnQ1bDJkQmJnbEdTTVNjSjRGM1dZRS0wTnpibk54WXM0Qjg4bnFlUk55V0x6ZVZndi1zYm9TQ0NTaHBhbzd4SHdvQUlmMzVlWVJ2QUZBWDRVajBXcjB4Wm9OWjJSdHppbkxRLVNxWnFoeWhyU1lpLXBUcUpmdkYwYjJDYnFSdnpUbHB2eS1oaGlTdmY3VTlDOGw0b3EtTE95eXpIel8yVi11S1AzVnEzZldi?oc=5",
-          "published": "18 Jun 08:08",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOUTFqMlhiWHV4NDRPNjJkOVJISWx5NnhuVmE1Sy02Nm1sbG02WDU4bjVNQzdYRGZnQmdPRnhyZ1F2U0JvTTNWVjJLM0c0U2l1Nll1VHF2MXlYVTN0S1VnTkxSbWhUbU5GOG9JMFJtaVJxSS1aNFpNdlREZTJya0xoakZIZU8yUmQ3a28yWVZCTTFkMFU0ZEY2Q3BpVWZ0aGFMcUtlamZQSFBiQUlSRFE?oc=5",
+          "published": "19 Jun 09:52",
           "channel": "Google News"
         }
       ]
@@ -489,8 +599,22 @@
       "ticker": "4DX",
       "name": "4DMedical",
       "list": "Watchlist",
-      "count": 1,
+      "count": 3,
       "items": [
+        {
+          "title": "4DMedical (ASX:4DX): Is Global Expansion Strategy Enough to Put This on Your Watchlist? - Kalkine",
+          "source": "Kalkine",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNcDJiTzhSSkRZZjNkX1c1NWY5a3VUS1ZQcktqRWp2THVpeFU4SFl5SDlRSWN5dVJlM0MzQzZfWkEtWlZxd1NFaFNhX3BXWDhidkNvUVlFRk1pOE9qS0FpcVc1MjdlT3g0WTZOZ0F4QlJsZXpESm1NN296YUNGT3BuWUt3aGtkZmwzWWRHcHBIS2pmR1R5UThNZWQ4QjJVNUFsZkNkR2drb3FNUWhscllRWkREYU5XcjVBTHRiQm5R?oc=5",
+          "published": "19 Jun 10:15",
+          "channel": "Google News"
+        },
+        {
+          "title": "4DMedical (ASX:4DX): Medical Imaging Stock Rises as Health-Tech Investors Take Notice - Kalkine",
+          "source": "Kalkine",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOVzZZLWtDZmpDWjhXNWZIMl9pLWJlTFlCWk0xM2FGRjEyeDZDMGNiSU5jek5pUkNtbnljRHhPUkdjcW9jVEV4NzZJcXdfc1BvWWlFV1RfalVPVGR1ZExUYVFvd1pqRXA3cFdYa3VMTW5ESFVhMkdmbEFrd0F0UnhEWEhsSV8wQURNVFF1NTlIaS1XMlFyVC1BMnhTUlVmX1VuRGQ1SmpzQThwTWo0OFVIQ3NYV0pReXVyX1hGYw?oc=5",
+          "published": "19 Jun 05:36",
+          "channel": "Google News"
+        },
         {
           "title": "4DMedical (ASX:4DX) Climbs Higher as Healthcare Investors Return to the Stock - Kalkine",
           "source": "Kalkine",
