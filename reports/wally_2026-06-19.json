@@ -1,0 +1,115 @@
+{
+  "date": "2026-06-19",
+  "threshold": 5.0,
+  "total": 31,
+  "flagged": [
+    {
+      "ticker": "REA.AX",
+      "name": "REA Group",
+      "list": "Portfolio",
+      "data": {
+        "price": 140.08,
+        "low": 139.0,
+        "high": 265.98
+      },
+      "dist": 0.78,
+      "pos": 0.9
+    },
+    {
+      "ticker": "OCL.AX",
+      "name": "Objective Corporation",
+      "list": "Portfolio",
+      "data": {
+        "price": 10.2,
+        "low": 9.92,
+        "high": 23.1
+      },
+      "dist": 2.82,
+      "pos": 2.1
+    },
+    {
+      "ticker": "WTC.AX",
+      "name": "WiseTech Global",
+      "list": "Portfolio",
+      "data": {
+        "price": 36.88,
+        "low": 35.54,
+        "high": 121.31
+      },
+      "dist": 3.77,
+      "pos": 1.6
+    },
+    {
+      "ticker": "RMD.AX",
+      "name": "ResMed",
+      "list": "Portfolio",
+      "data": {
+        "price": 26.68,
+        "low": 25.5,
+        "high": 45.25
+      },
+      "dist": 4.63,
+      "pos": 6.0
+    },
+    {
+      "ticker": "SIG.AX",
+      "name": "Sigma Healthcare",
+      "list": "Portfolio",
+      "data": {
+        "price": 2.76,
+        "low": 2.58,
+        "high": 3.21
+      },
+      "dist": 6.98,
+      "pos": 28.6
+    },
+    {
+      "ticker": "EOL.AX",
+      "name": "Energy One",
+      "list": "Portfolio",
+      "data": {
+        "price": 12.21,
+        "low": 11.2,
+        "high": 20.19
+      },
+      "dist": 9.02,
+      "pos": 11.2
+    },
+    {
+      "ticker": "SHL.AX",
+      "name": "Sonic Healthcare",
+      "list": "Watchlist",
+      "data": {
+        "price": 20.05,
+        "low": 18.26,
+        "high": 29.24
+      },
+      "dist": 9.8,
+      "pos": 16.3
+    },
+    {
+      "ticker": "CAT.AX",
+      "name": "Catapult Group",
+      "list": "Portfolio",
+      "data": {
+        "price": 3.16,
+        "low": 2.86,
+        "high": 7.72
+      },
+      "dist": 10.49,
+      "pos": 6.2
+    },
+    {
+      "ticker": "XRF.AX",
+      "name": "XRF Scientific",
+      "list": "Portfolio",
+      "data": {
+        "price": 1.83,
+        "low": 1.6,
+        "high": 2.4
+      },
+      "dist": 14.37,
+      "pos": 28.8
+    }
+  ]
+}
