@@ -1,0 +1,404 @@
+{
+  "date": "2026-06-21",
+  "total": 31,
+  "results": [
+    {
+      "ticker": "MQG",
+      "name": "Macquarie Group",
+      "list": "Portfolio",
+      "count": 0,
+      "items": []
+    },
+    {
+      "ticker": "LBL",
+      "name": "LaserBond",
+      "list": "Portfolio",
+      "count": 0,
+      "items": []
+    },
+    {
+      "ticker": "WES",
+      "name": "Wesfarmers",
+      "list": "Portfolio",
+      "count": 1,
+      "items": [
+        {
+          "title": "Buy, hold, sell: CSL, Steadfast, and Wesfarmers shares - The Motley Fool Australia",
+          "source": "The Motley Fool Australia",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNT0dYRkZveG9GcUxMbUlhWE8tX1UyNFRVNEtBeDJjMHpTQTB2X2xJM2VCaktlWEFIMUFNbUNGalNnRno4SmNMY3lITTZPNTVVQ0xlb1ZZeHRtcFhLTUQxeUFmbXN1M1dIWlduWmc3djl0Ykd1eHhiU1ZPamdCdXhmdzJxdk1TMXByLUNna1Fn?oc=5",
+          "published": "21 Jun 03:30",
+          "channel": "Google News"
+        }
+      ]
+    },
+    {
+      "ticker": "APE",
+      "name": "Eagers Automotive",
+      "list": "Portfolio",
+      "count": 0,
+      "items": []
+    },
+    {
+      "ticker": "SGH",
+      "name": "SGH Limited",
+      "list": "Portfolio",
+      "count": 1,
+      "items": [
+        {
+          "title": "CITIWARRANTS 51.3844 SGH MINI SHORT (ASX:SGHKOP) - intelligentinvestor.com.au",
+          "source": "intelligentinvestor.com.au",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQTXVJY2Z2STNNTmRKU2hpSE9MNHJEbWt6enZaaTh5dWlHbmpNRmNaNUlLV1AzT1pPTDhlaGRGVlMtUXItaEFvSzFaaXZSaE8zY3lrZm5TemhpdkhXMVN4LTVpbTFjd05nYkVPVW1vblppWTJGOTU5LVBFTjhCcjhYZ3ZYbkJ4U0FmWlpPZDNKQnJ1TVhTb0E?oc=5",
+          "published": "21 Jun 07:51",
+          "channel": "Google News"
+        }
+      ]
+    },
+    {
+      "ticker": "EOL",
+      "name": "Energy One",
+      "list": "Portfolio",
+      "count": 0,
+      "items": []
+    },
+    {
+      "ticker": "ALL",
+      "name": "Aristocrat Leisure",
+      "list": "Portfolio",
+      "count": 3,
+      "items": [
+        {
+          "title": "Mexican fans rally behind Iran as 'our second team' at World Cup",
+          "source": "AFP",
+          "url": "https://finance.yahoo.com/m/1834cb49-a708-37a4-bb7d-904bdb14a93a/mexican-fans-rally-behind.html",
+          "published": "21 Jun 23:26",
+          "channel": "Yahoo Finance"
+        },
+        {
+          "title": "ChartWatch ASX Scans: CSL, 4DMedical, Pro Medicus, Life360, Aristocrat Leisure, REA Group, Fortifai, Chalice Mining - Market Index",
+          "source": "Market Index",
+          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOdGREekc5bGRMRTFjelhKZVhLZllrejRrd1ZPemFyeHlyRHNxRDZlMVZnbDA5UVVJRkg0NzJYUUFXeGROWWI2WjZ6Z0VWcnRjMXNHLVJ1X3pzbktVRTYtcUEtcV9GZk9CcW1xeDJkRVY1Mzlod1pjR19WS1NjUVdraEF2YXpnQnRVcV9iZmVPa1RZbS1qbFp4ZURPdjFza3FHczg0TVNQQ1JqbUNmdVphT2pGUXlGZHU5b200cmdTRXU2ZDVSOGl1WjBHRWp6dDU5bGs0ZmpVMVdaemM?oc=5",
+          "published": "21 Jun 23:07",
+          "channel": "Google News"
+        },
+        {
+          "title": "Aristocrat Leisure shares edge up 2.6% as buyback remains in spotlight - Bez Kabli",
+          "source": "Bez Kabli",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOZlduREhIdWhkTGdibXFBcjctRjI1TGZxc2ptZUpRQ255T05TcXRxZThSU1N2RzVPU0JnZDRwWWpLR1FkM0kxdkR5b0MzRWRVWkxxWnJCelFhb0pVamVnWXhTQWJBa01xZDBfUDhjUjlDWFRoWVRFUDIyaERkanpFYW1JYjFEZnR2Wm5rb1IzY19tOFJzN1NMS3M2Zw?oc=5",
+          "published": "21 Jun 15:50",
+          "channel": "Google News"
+        }
+      ]
+    },
+    {
+      "ticker": "SNL",
+      "name": "Supply Network",
+      "list": "Portfolio",
+      "count": 0,
+      "items": []
+    },
+    {
+      "ticker": "CSL",
+      "name": "CSL Limited",
+      "list": "Portfolio",
+      "count": 5,
+      "items": [
+        {
+          "title": "Why CSL, Westpac, and this big-name ASX 200 share could be sells - The Motley Fool Australia",
+          "source": "The Motley Fool Australia",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxObG5XYTZtN245bms5RmlrbUZyRVNhS0U2R0doeVc2QVRjQnhtWHZuT01XWVJOd1pUQ3AyazdiQnhvT1hhM2Y2OTJpSkhwajFKaDdGaGFHNk1uNGI0VnNreC1STUo2Q056TUZLV29pSFFqcTZFT2NMOG5iTlh6U056eGYzX1ZxYmEyQUs4eVliYkZ4M2l6S3NvcFZDWWxGczA?oc=5",
+          "published": "21 Jun 22:25",
+          "channel": "Google News"
+        },
+        {
+          "title": "WTC and CSL shares: 2 ASX shares to watch - Rask Media",
+          "source": "Rask Media",
+          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOaENSb3FmRVRUOXJvTWxHblhzZ3BWTGN5T0s5b05rNnk3b0YtMGY1SUF3ZmpXdHB6TnlaOGktR01qNE81OUdtRC03cFNYdE1LN1VpSzVPR19ycFg3MU5OS3JZTFVSMlUzSzZVWjNiNzlldEVUbWczcEFEVGpkdmdEQkswMVlOeTVRV2Z3?oc=5",
+          "published": "20 Jun 02:53",
+          "channel": "Google News"
+        },
+        {
+          "title": "Buy, hold, sell: CSL, Steadfast, and Wesfarmers shares - The Motley Fool Australia",
+          "source": "The Motley Fool Australia",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNT0dYRkZveG9GcUxMbUlhWE8tX1UyNFRVNEtBeDJjMHpTQTB2X2xJM2VCaktlWEFIMUFNbUNGalNnRno4SmNMY3lITTZPNTVVQ0xlb1ZZeHRtcFhLTUQxeUFmbXN1M1dIWlduWmc3djl0Ykd1eHhiU1ZPamdCdXhmdzJxdk1TMXByLUNna1Fn?oc=5",
+          "published": "21 Jun 03:30",
+          "channel": "Google News"
+        },
+        {
+          "title": "If I invest $8,000 in CSL shares, how much passive income will I receive in 2027? - The Motley Fool Australia",
+          "source": "The Motley Fool Australia",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQTDdrR0pfQTZUU21NQ2dSNU82bzNSQm1RMWVYTXFNdmlEOTdPUjQ2Y0pVV0F1SlZBVVl4cWU2YmVfUWdBbGlfaTFSSVhBNnpra1k4SXlxN2VNSUJUc21ObG5jSTN5bTVTdmI2S0JhSWxiZ3pzZm9pLXVfajBaaEtDRkJfbUtDMk45Q3N0MmM5TTFTVGVFTG5yTW5rUFZqbEo2cTBNUFUtdmVuVVoyRGN0dVZwYw?oc=5",
+          "published": "20 Jun 18:30",
+          "channel": "Google News"
+        },
+        {
+          "title": "Is CSL\u2019s (ASX:CSL) Trading Surge and Restructuring Reviving Confidence in Its Core Business Model? - simplywall.st",
+          "source": "simplywall.st",
+          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQVFlxYzNUQ1NFc0JhUmg3N2lKWkhqa3pzUFJoWE5BQ3ZtcWkwOXgzY1FjWWNUUHVIYTItZzBseXM3T1lUeW5CMjFpcElxWHR4amlIcDB6WVQ3bDhZRzN0blBONXloRlVnNklrLWN2aHduR191SVJrTnI2Z003VlhBaWZCbjN6SS1FbDFqMWFnV2NmMTJZTWNOMXEzakk1a0NVSm9RV3UyalZMTjhjZXMxcXN0dGF0RXgzRU5tMWR1Y2M1aUppUGhFWVU4Ty05NzVIWEpieDNYWdIB3AFBVV95cUxOTlRWX3l0enJvTzBHZ1hzbFJTc0hPejZwRVRYUjh6cDFRS21RZ05DOWNQbENISEdZVm5OVU0ybGM2Tm44cHBPV0NIM1VsRWprUTNkUndiN1pnN2pfdVNBZTBQaGpiTGFxZUYzWU1GMlJZNzZDWkZyT1diNl9SVDd1MHFsVHNfMWJKVlF0R25JS1QzUl9DWnBMOEI3NEl2S1VzWGxnWHB6SGQ3VFVudVF2MEpQRURUa2FVT0lkODRKNk4zNGFGUTRsUTNWOHJRNXpGamhmVDVpR3R6czI5?oc=5",
+          "published": "21 Jun 23:31",
+          "channel": "Google News"
+        }
+      ]
+    },
+    {
+      "ticker": "C79",
+      "name": "Chrysos Corporation",
+      "list": "Portfolio",
+      "count": 0,
+      "items": []
+    },
+    {
+      "ticker": "CAT",
+      "name": "Catapult Group",
+      "list": "Portfolio",
+      "count": 0,
+      "items": []
+    },
+    {
+      "ticker": "PME",
+      "name": "Pro Medicus",
+      "list": "Portfolio",
+      "count": 1,
+      "items": [
+        {
+          "title": "ChartWatch ASX Scans: CSL, 4DMedical, Pro Medicus, Life360, Aristocrat Leisure, REA Group, Fortifai, Chalice Mining - Market Index",
+          "source": "Market Index",
+          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOdGREekc5bGRMRTFjelhKZVhLZllrejRrd1ZPemFyeHlyRHNxRDZlMVZnbDA5UVVJRkg0NzJYUUFXeGROWWI2WjZ6Z0VWcnRjMXNHLVJ1X3pzbktVRTYtcUEtcV9GZk9CcW1xeDJkRVY1Mzlod1pjR19WS1NjUVdraEF2YXpnQnRVcV9iZmVPa1RZbS1qbFp4ZURPdjFza3FHczg0TVNQQ1JqbUNmdVphT2pGUXlGZHU5b200cmdTRXU2ZDVSOGl1WjBHRWp6dDU5bGs0ZmpVMVdaemM?oc=5",
+          "published": "21 Jun 23:07",
+          "channel": "Google News"
+        }
+      ]
+    },
+    {
+      "ticker": "ARB",
+      "name": "ARB Corporation",
+      "list": "Portfolio",
+      "count": 0,
+      "items": []
+    },
+    {
+      "ticker": "COH",
+      "name": "Cochlear",
+      "list": "Portfolio",
+      "count": 0,
+      "items": []
+    },
+    {
+      "ticker": "WTC",
+      "name": "WiseTech Global",
+      "list": "Portfolio",
+      "count": 2,
+      "items": [
+        {
+          "title": "Korea Deep Learning Secures Back-to-Back Global AI Benchmark Wins Over Big Tech",
+          "source": "PR Newswire",
+          "url": "https://finance.yahoo.com/technology/ai/articles/korea-deep-learning-secures-back-233000436.html",
+          "published": "21 Jun 23:30",
+          "channel": "Yahoo Finance"
+        },
+        {
+          "title": "Is the only way up for WiseTech shares after a 65% fall? - The Motley Fool Australia",
+          "source": "The Motley Fool Australia",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPQm9YLU9PTXlDR3Vfb2FnSUxsaEgzYUpueGpVdE9FZTBvYnZiZ0NXTGkzdGhGWl81ajJocUlQTDhFeXdaRmVMdWpXRGVXa3FqR0hONnRlRTV3XzZMMktiTVRzVDI1T0dDY0taSFFRSE9vNnZvd0xrcWZvdnJtemlvbDl5SmZyUTRzamhyVmpHWlMtOHM4?oc=5",
+          "published": "21 Jun 20:36",
+          "channel": "Google News"
+        }
+      ]
+    },
+    {
+      "ticker": "XRF",
+      "name": "XRF Scientific",
+      "list": "Portfolio",
+      "count": 0,
+      "items": []
+    },
+    {
+      "ticker": "LOV",
+      "name": "Lovisa Holdings",
+      "list": "Portfolio",
+      "count": 0,
+      "items": []
+    },
+    {
+      "ticker": "REA",
+      "name": "REA Group",
+      "list": "Portfolio",
+      "count": 2,
+      "items": [
+        {
+          "title": "Korea Deep Learning Secures Back-to-Back Global AI Benchmark Wins Over Big Tech",
+          "source": "PR Newswire",
+          "url": "https://finance.yahoo.com/technology/ai/articles/korea-deep-learning-secures-back-233000436.html",
+          "published": "21 Jun 23:30",
+          "channel": "Yahoo Finance"
+        },
+        {
+          "title": "ChartWatch ASX Scans: CSL, 4DMedical, Pro Medicus, Life360, Aristocrat Leisure, REA Group, Fortifai, Chalice Mining - Market Index",
+          "source": "Market Index",
+          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOdGREekc5bGRMRTFjelhKZVhLZllrejRrd1ZPemFyeHlyRHNxRDZlMVZnbDA5UVVJRkg0NzJYUUFXeGROWWI2WjZ6Z0VWcnRjMXNHLVJ1X3pzbktVRTYtcUEtcV9GZk9CcW1xeDJkRVY1Mzlod1pjR19WS1NjUVdraEF2YXpnQnRVcV9iZmVPa1RZbS1qbFp4ZURPdjFza3FHczg0TVNQQ1JqbUNmdVphT2pGUXlGZHU5b200cmdTRXU2ZDVSOGl1WjBHRWp6dDU5bGs0ZmpVMVdaemM?oc=5",
+          "published": "21 Jun 23:07",
+          "channel": "Google News"
+        }
+      ]
+    },
+    {
+      "ticker": "TNE",
+      "name": "TechnologyOne",
+      "list": "Portfolio",
+      "count": 0,
+      "items": []
+    },
+    {
+      "ticker": "SOL",
+      "name": "Washington H. Soul Pattinson",
+      "list": "Portfolio",
+      "count": 1,
+      "items": [
+        {
+          "title": "CAR and Washington H Soul Pattinson & Company Ltd: 2 ASX shares to dig into - Rask Media",
+          "source": "Rask Media",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxONWhtRW8zVnZQUlFjdm1WN09HWE9rVEJZc2dLTlhjSlVGVmRMWUVsX2ZGeWlUeXlvb0lieDJ6YnlRbTAxR2ROSmVWV01zQ2JoQ1hCN3dwTXhNSjdpRnlPODN4Sm4wb3M3TlhoNWFWMi1KUURCRlBtTzRzcUh4ZGdZTW1VUXpfU1RGMmIxdXVIRXRPOVA3SmluRnBDaFMzaDlkYjRpMVJKUWtxVnNoeWNpMUZDMTREQQ?oc=5",
+          "published": "21 Jun 09:11",
+          "channel": "Google News"
+        }
+      ]
+    },
+    {
+      "ticker": "SDR",
+      "name": "SiteMinder",
+      "list": "Portfolio",
+      "count": 4,
+      "items": [
+        {
+          "title": "SiteMinder (ASX:SDR) Shares Could Be 18.3% Below Fair Value After Trading Rally - simplywall.st",
+          "source": "simplywall.st",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNeDNfRG9DVmM3VDV3N0FGVEZyMDJQWEJLVVlJSUZRTFhNS0w4QXlYbVQ3OHlteU9lcVhSNTNNTDdDVFZHX2VwVEJDbFJlaXYyQmdmYkdhUW4tNFZaVENuM0hpQUhSSkZtUXlBeUlwV0d5OUZBeGhmR1MwMjFEQTZkcjBaTkh2bVI1cGtXQUZ0eEd1WUZibVNDM2VBUm45bE5kN3l4R0ZGeF9pdnpPRVFpb1loZF9jN0dfUXZRZlhPbUZUdGg4WDFNR0JrM3rSAdIBQVVfeXFMT1UwNlhmckQ5UlJTR2hzaXZQeW1jODVVa3paODN2THdET3FqOF92dENoaDFmdVJjbzlvTEdNemFGM3YxQkZEbXlMcGdFVl9GR0MzVXJvUGlsWmgycVBQNF80WmYydDBCRGo3T1lFODlWb0NpbHNNNndXQlc4NjZmWnh6bGNUMUF3d1JSX3p2cU9PazBEWlhIXzNkczRqQ1JsUlZrSXEyYXRhbXpDTXBxenJOUWdQUVBFY0kzVGExa3ZTazBHaWhRR2cwQ2tsQVRYVV93?oc=5",
+          "published": "20 Jun 23:49",
+          "channel": "Google News"
+        },
+        {
+          "title": "SiteMinder (ASX:SDR) Shares Could Be 22% Undervalued After Price Spike Draws Fresh Attention - Yahoo Finance",
+          "source": "Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNZzJQZHhLdklTakNLVjZ5QnpCbFBvLVBKeWdVM05VMmYtN1ZMVG50dG5VS3dKOVpFZmllRlhwcncwNjNiVWI0WEV6ck9hbndBdy02NlNCTWRySG1Tc0NLTGwxSWJWaGpRUWlTZ1c2M0txZENEYlc1X3BnSWlfWnV2d3lzYjg5ejhfTjUzUUdwLUJxcThmNHlSaExuNkU?oc=5",
+          "published": "20 Jun 23:07",
+          "channel": "Google News"
+        },
+        {
+          "title": "SiteMinder (ASX:SDR) ASX 300 Rally Raises a Bigger Question - Kalkine Media",
+          "source": "Kalkine Media",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPay1HeVlja0VLSk9wdmZUNGtFaGxKalo2QkNuV21sVDU2UlNCQkRsdWwwdkpwWG5mQ3hWUXZfdGhvTkE2UEhQSy1ibmNWbl9lYkYyVHZsOTJBdk9RcjU4Z3RSYzJjMC1BZmJLclFnTmVFR2Q0ZHl6cEVkT0h2V3VPZ0xpR0FLbnU1N0VyaGJTU0VCMDI5M0QwQTVGeDRzeUVkVVFqWA?oc=5",
+          "published": "21 Jun 03:43",
+          "channel": "Google News"
+        },
+        {
+          "title": "SiteMinder (ASX:SDR): Why Is This Tech Stock Suddenly Back in the Spotlight? - Kalkine Media",
+          "source": "Kalkine Media",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPUHM2S0VPb04wdERrOGZ6WUN6anhTclFQZUdldVVKOE1rdGlVSE5POHozRDgtNUNCdHNCSHU5M2lCOTNheHdMMW1YUFVEZG9TOF9USGdiNE9nOVVoRFpya1YxSmNhWVpvd0VsVC0tbkZReXllX3V4U1pzeUhPNXNKcTJzbVl2dFAyVk5uYmFYZXNCV1pUeDcxM0otTGw2OURxWXM1VGZzUEJZcXBWWlozLTFVc3JDQUpf?oc=5",
+          "published": "21 Jun 04:34",
+          "channel": "Google News"
+        }
+      ]
+    },
+    {
+      "ticker": "OCL",
+      "name": "Objective Corporation",
+      "list": "Portfolio",
+      "count": 0,
+      "items": []
+    },
+    {
+      "ticker": "SIG",
+      "name": "Sigma Healthcare",
+      "list": "Portfolio",
+      "count": 1,
+      "items": [
+        {
+          "title": "Up 375% in 5-years: Why Sigma Healthcare (ASX:SIG) facing pressure recently? - Kalkine",
+          "source": "Kalkine",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPR0NscjhxNzVLZmhIamhmTzlNdnUzVTJIaDFjeXo1LTg0MG44YjNPMWN1eC04WTduc2VCY3RpV215Z2xxVF9wVTFTWk5ZakdkSlBaRE1zVjRYajlfQzNwb3lsQ1g4dU5mTjZkZVNWYlFpYy1HUnhvMDNSUXg1WTJLNFhjaXB5aG94WkJjd0xoT1pHaDRHMTJpd2ZrR2wyVVRUVjBlX3dpMk5PTEtVczhHOA?oc=5",
+          "published": "21 Jun 22:08",
+          "channel": "Google News"
+        }
+      ]
+    },
+    {
+      "ticker": "RMD",
+      "name": "ResMed",
+      "list": "Portfolio",
+      "count": 0,
+      "items": []
+    },
+    {
+      "ticker": "MFF",
+      "name": "MFF Capital",
+      "list": "Portfolio",
+      "count": 1,
+      "items": [
+        {
+          "title": "MFF Capital Investments (ASX:MFF) Shares Could Be 66.9% Undervalued After Its Planned 23% FY26 Dividend Lift - simplywall.st",
+          "source": "simplywall.st",
+          "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPemlWQnVQc0ZyN2plQjdCV1ZzbkVvOXM2bUx2a1NTdkFlRzVYQ1RBTWROWm1zam04b1VlVzhNN193aURCZ08xYVBwU2JjbE1MMWkwOWdQeVVrRi02bE5kV3FvZEx4X1RjR3BFaTFJVDdrcmtfZUdVd29NZElNOTJtNlZ2MFdFNng5YjRJaXBmTmNkUTBWNl9RV2ppcXJfaTQwS3FSVUV4WG5PSWhVR295VzItWG5GWm9lUnhTT0JER1NCM3ZjVHBWd1FoakwyNTZhUm9zZ1gwOUtBUG4xUm41aFJieG1aZm1oTWZzR3NWaVjSAfYBQVVfeXFMTl8yM2djZ3J6M2JVT2JfSEpyNHdBbDE0SURHLXNPczdtZWRRZXNWSGswU3Z1Z2t5WjJYWGhpOWhFN2ExMVFWOUdNTlFweEVfdmY2c3hiN2lFWTBoWlNaQkVFUHBtMkMtNmVLRHVoRDhEc0p0UTBNZXJVOEVzRk96czI2NHVsMU1xUWpMZHN5c2hhTHFvaTBfZWI2YndNZlo3VVBDRHRRMUJQVHRtY1YxeXlpenFSMndfYU1pal85SkYtcTUxczlSemZBQnB1R1BONUM2VGp3OV9hRW00WnpjLXJVclZSeXBsbWFhTFpsSnhLNllrQlFn?oc=5",
+          "published": "21 Jun 07:59",
+          "channel": "Google News"
+        }
+      ]
+    },
+    {
+      "ticker": "SHL",
+      "name": "Sonic Healthcare",
+      "list": "Watchlist",
+      "count": 1,
+      "items": [
+        {
+          "title": "Amcor (ASX:AMC) ASX 200 or Sonic: Which Story Stands Out? - Kalkine Media",
+          "source": "Kalkine Media",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOVFkySlVOMzRST29zWHNDUllKWVQ1UC0yODlvNDRSZmdwSnZBelV1Umg5dFgtR1YwMDNIZUNKOGJnb0dVaGJiNXlWcXp2ZzJtZElFTlF5QnU1ejJMQ1J3a1U0TTUxNGVEdlpydXpDQmo3NkpILWdUM3JRc0lWejEzWHZZenM1a1pYb0JLUTVBVjFnejFhRjVGMjM3LW83cnlpZ1E?oc=5",
+          "published": "21 Jun 17:18",
+          "channel": "Google News"
+        }
+      ]
+    },
+    {
+      "ticker": "APA",
+      "name": "APA Group",
+      "list": "Watchlist",
+      "count": 0,
+      "items": []
+    },
+    {
+      "ticker": "NHC",
+      "name": "New Hope Corporation",
+      "list": "Watchlist",
+      "count": 0,
+      "items": []
+    },
+    {
+      "ticker": "JBH",
+      "name": "JB Hi-Fi",
+      "list": "Watchlist",
+      "count": 0,
+      "items": []
+    },
+    {
+      "ticker": "4DX",
+      "name": "4DMedical",
+      "list": "Watchlist",
+      "count": 1,
+      "items": [
+        {
+          "title": "4DMedical (ASX:4DX) Shares Could Be 59.1% Undervalued After Philips Webinar Interest - simplywall.st",
+          "source": "simplywall.st",
+          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPSVN1ejNKZm16SXBZVVVGRnMtM05RZm95ay10UG9hZnZLLVZYYmhzZEh2OHBwbEVldmRRTXZtcVVoZDd1RXh5T1VEMjdfWHNManlsdDg4QWRvX0VyVnI5YXAwRW5YQ3VDQ0NaMUhxZHY4V3RuMkRGTUxVVGFIeFdLMFhUQzZkS2hGVk4xRkRjTU0xbXd1S3ZkcE9WaW5jTWRya0JwWkJsX1FtOWpQUUR6bU9UVDVDa1UybHdjRF82MG1ITFphTFJ1Rm9idWNJZ9IB0wFBVV95cUxQbVRZVEo3VjZJQjZQT0dZenltWTNYejRxY2pWelZOQy1CQ1dXeXFPRV9RRFhsdDhSWkhpb19FWFAyMFIxcFg2U2JnNjJTeFYxMVdXUXJ1aGM2ZjRYQjc0ZFpkRVZvOTVabWZ5NUE5c0pWOGlDRWRHUzNiWkduZXE0SEI0MzNhenhvUUM4cGpCVVdKUFhMc0tMa01GTVNSSEhUVmlSOGZfRXBfOHA1VnVJblp6QktYU1dxZVBSNmVRajdlMzZmUkNCX2pWT1owa3UzcEh3?oc=5",
+          "published": "20 Jun 15:49",
+          "channel": "Google News"
+        }
+      ]
+    },
+    {
+      "ticker": "EIQ",
+      "name": "Echo IQ",
+      "list": "Watchlist",
+      "count": 0,
+      "items": []
+    }
+  ]
+}
