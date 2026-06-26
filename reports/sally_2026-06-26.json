@@ -1,0 +1,80 @@
+{
+  "date": "2026-06-26",
+  "total": 31,
+  "hot": [
+    {
+      "ticker": "SOL.AX",
+      "name": "Washington H. Soul Pattinson",
+      "list": "Portfolio",
+      "data": {
+        "price": 45.43,
+        "low": 34.78,
+        "high": 45.64
+      },
+      "dist_to_high": 0.46,
+      "pos": 98.1
+    },
+    {
+      "ticker": "MFF.AX",
+      "name": "MFF Capital",
+      "list": "Portfolio",
+      "data": {
+        "price": 5.07,
+        "low": 4.31,
+        "high": 5.14
+      },
+      "dist_to_high": 1.36,
+      "pos": 91.6
+    },
+    {
+      "ticker": "MQG.AX",
+      "name": "Macquarie Group",
+      "list": "Portfolio",
+      "data": {
+        "price": 249.36,
+        "low": 187.31,
+        "high": 254.31
+      },
+      "dist_to_high": 1.95,
+      "pos": 92.6
+    },
+    {
+      "ticker": "APA.AX",
+      "name": "APA Group",
+      "list": "Watchlist",
+      "data": {
+        "price": 10.77,
+        "low": 8.14,
+        "high": 11.1
+      },
+      "dist_to_high": 2.97,
+      "pos": 88.9
+    },
+    {
+      "ticker": "WES.AX",
+      "name": "Wesfarmers",
+      "list": "Portfolio",
+      "data": {
+        "price": 90.74,
+        "low": 70.8,
+        "high": 95.175
+      },
+      "dist_to_high": 4.66,
+      "pos": 81.8
+    }
+  ],
+  "warm": [
+    {
+      "ticker": "EIQ.AX",
+      "name": "Echo IQ",
+      "list": "Watchlist",
+      "data": {
+        "price": 1.59,
+        "low": 0.165,
+        "high": 1.875
+      },
+      "dist_to_high": 15.2,
+      "pos": 83.3
+    }
+  ]
+}
