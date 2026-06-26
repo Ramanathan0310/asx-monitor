@@ -1,0 +1,127 @@
+{
+  "date": "2026-06-26",
+  "threshold": 5.0,
+  "total": 31,
+  "flagged": [
+    {
+      "ticker": "REA.AX",
+      "name": "REA Group",
+      "list": "Portfolio",
+      "data": {
+        "price": 133.88,
+        "low": 131.44,
+        "high": 265.98
+      },
+      "dist": 1.86,
+      "pos": 1.8
+    },
+    {
+      "ticker": "OCL.AX",
+      "name": "Objective Corporation",
+      "list": "Portfolio",
+      "data": {
+        "price": 10.23,
+        "low": 9.92,
+        "high": 23.1
+      },
+      "dist": 3.13,
+      "pos": 2.4
+    },
+    {
+      "ticker": "EOL.AX",
+      "name": "Energy One",
+      "list": "Portfolio",
+      "data": {
+        "price": 11.8,
+        "low": 11.2,
+        "high": 20.19
+      },
+      "dist": 5.36,
+      "pos": 6.7
+    },
+    {
+      "ticker": "CAT.AX",
+      "name": "Catapult Group",
+      "list": "Portfolio",
+      "data": {
+        "price": 2.91,
+        "low": 2.74,
+        "high": 7.72
+      },
+      "dist": 6.2,
+      "pos": 3.4
+    },
+    {
+      "ticker": "SIG.AX",
+      "name": "Sigma Healthcare",
+      "list": "Portfolio",
+      "data": {
+        "price": 2.8,
+        "low": 2.58,
+        "high": 3.2
+      },
+      "dist": 8.53,
+      "pos": 35.5
+    },
+    {
+      "ticker": "WTC.AX",
+      "name": "WiseTech Global",
+      "list": "Portfolio",
+      "data": {
+        "price": 31.39,
+        "low": 28.76,
+        "high": 121.31
+      },
+      "dist": 9.14,
+      "pos": 2.8
+    },
+    {
+      "ticker": "XRF.AX",
+      "name": "XRF Scientific",
+      "list": "Portfolio",
+      "data": {
+        "price": 1.785,
+        "low": 1.6,
+        "high": 2.4
+      },
+      "dist": 11.56,
+      "pos": 23.1
+    },
+    {
+      "ticker": "ARB.AX",
+      "name": "ARB Corporation",
+      "list": "Portfolio",
+      "data": {
+        "price": 19.0,
+        "low": 16.93,
+        "high": 41.34
+      },
+      "dist": 12.23,
+      "pos": 8.5
+    },
+    {
+      "ticker": "SHL.AX",
+      "name": "Sonic Healthcare",
+      "list": "Watchlist",
+      "data": {
+        "price": 20.58,
+        "low": 18.26,
+        "high": 29.24
+      },
+      "dist": 12.71,
+      "pos": 21.1
+    },
+    {
+      "ticker": "RMD.AX",
+      "name": "ResMed",
+      "list": "Portfolio",
+      "data": {
+        "price": 29.2,
+        "low": 25.5,
+        "high": 45.25
+      },
+      "dist": 14.51,
+      "pos": 18.7
+    }
+  ]
+}
