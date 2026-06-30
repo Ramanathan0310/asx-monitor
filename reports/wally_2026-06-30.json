@@ -1,0 +1,115 @@
+{
+  "date": "2026-06-30",
+  "threshold": 5.0,
+  "total": 31,
+  "flagged": [
+    {
+      "ticker": "OCL.AX",
+      "name": "Objective Corporation",
+      "list": "Portfolio",
+      "data": {
+        "price": 10.47,
+        "low": 9.92,
+        "high": 23.1
+      },
+      "dist": 5.54,
+      "pos": 4.2
+    },
+    {
+      "ticker": "REA.AX",
+      "name": "REA Group",
+      "list": "Portfolio",
+      "data": {
+        "price": 138.63,
+        "low": 131.07,
+        "high": 265.98
+      },
+      "dist": 5.77,
+      "pos": 5.6
+    },
+    {
+      "ticker": "CAT.AX",
+      "name": "Catapult Group",
+      "list": "Portfolio",
+      "data": {
+        "price": 2.97,
+        "low": 2.74,
+        "high": 7.72
+      },
+      "dist": 8.39,
+      "pos": 4.6
+    },
+    {
+      "ticker": "SIG.AX",
+      "name": "Sigma Healthcare",
+      "list": "Portfolio",
+      "data": {
+        "price": 2.8,
+        "low": 2.58,
+        "high": 3.2
+      },
+      "dist": 8.53,
+      "pos": 35.5
+    },
+    {
+      "ticker": "XRF.AX",
+      "name": "XRF Scientific",
+      "list": "Portfolio",
+      "data": {
+        "price": 1.75,
+        "low": 1.6,
+        "high": 2.4
+      },
+      "dist": 9.37,
+      "pos": 18.7
+    },
+    {
+      "ticker": "ARB.AX",
+      "name": "ARB Corporation",
+      "list": "Portfolio",
+      "data": {
+        "price": 18.92,
+        "low": 16.93,
+        "high": 41.34
+      },
+      "dist": 11.75,
+      "pos": 8.2
+    },
+    {
+      "ticker": "EOL.AX",
+      "name": "Energy One",
+      "list": "Portfolio",
+      "data": {
+        "price": 12.65,
+        "low": 11.2,
+        "high": 20.19
+      },
+      "dist": 12.95,
+      "pos": 16.1
+    },
+    {
+      "ticker": "SNL.AX",
+      "name": "Supply Network",
+      "list": "Portfolio",
+      "data": {
+        "price": 32.0,
+        "low": 27.9,
+        "high": 41.655
+      },
+      "dist": 14.7,
+      "pos": 29.8
+    },
+    {
+      "ticker": "SHL.AX",
+      "name": "Sonic Healthcare",
+      "list": "Watchlist",
+      "data": {
+        "price": 20.97,
+        "low": 18.26,
+        "high": 29.24
+      },
+      "dist": 14.84,
+      "pos": 24.7
+    }
+  ]
+}
