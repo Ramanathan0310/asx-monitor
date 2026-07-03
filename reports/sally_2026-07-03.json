@@ -1,0 +1,56 @@
+{
+  "date": "2026-07-03",
+  "total": 31,
+  "hot": [
+    {
+      "ticker": "MFF.AX",
+      "name": "MFF Capital",
+      "list": "Portfolio",
+      "data": {
+        "price": 5.21,
+        "low": 4.31,
+        "high": 5.23
+      },
+      "dist_to_high": 0.38,
+      "pos": 97.8
+    },
+    {
+      "ticker": "MQG.AX",
+      "name": "Macquarie Group",
+      "list": "Portfolio",
+      "data": {
+        "price": 251.65,
+        "low": 187.31,
+        "high": 254.31
+      },
+      "dist_to_high": 1.05,
+      "pos": 96.0
+    },
+    {
+      "ticker": "SOL.AX",
+      "name": "Washington H. Soul Pattinson",
+      "list": "Portfolio",
+      "data": {
+        "price": 45.5,
+        "low": 34.78,
+        "high": 46.79
+      },
+      "dist_to_high": 2.76,
+      "pos": 89.3
+    }
+  ],
+  "warm": [
+    {
+      "ticker": "EIQ.AX",
+      "name": "Echo IQ",
+      "list": "Watchlist",
+      "data": {
+        "price": 1.65,
+        "low": 0.165,
+        "high": 1.875
+      },
+      "dist_to_high": 12.0,
+      "pos": 86.8
+    }
+  ]
+}
