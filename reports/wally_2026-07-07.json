@@ -1,0 +1,103 @@
+{
+  "date": "2026-07-07",
+  "threshold": 5.0,
+  "total": 31,
+  "flagged": [
+    {
+      "ticker": "ARB.AX",
+      "name": "ARB Corporation",
+      "list": "Portfolio",
+      "data": {
+        "price": 18.15,
+        "low": 16.93,
+        "high": 41.34
+      },
+      "dist": 7.21,
+      "pos": 5.0
+    },
+    {
+      "ticker": "XRF.AX",
+      "name": "XRF Scientific",
+      "list": "Portfolio",
+      "data": {
+        "price": 1.72,
+        "low": 1.6,
+        "high": 2.4
+      },
+      "dist": 7.5,
+      "pos": 15.0
+    },
+    {
+      "ticker": "EOL.AX",
+      "name": "Energy One",
+      "list": "Portfolio",
+      "data": {
+        "price": 12.15,
+        "low": 11.2,
+        "high": 20.19
+      },
+      "dist": 8.48,
+      "pos": 10.6
+    },
+    {
+      "ticker": "SIG.AX",
+      "name": "Sigma Healthcare",
+      "list": "Portfolio",
+      "data": {
+        "price": 2.82,
+        "low": 2.58,
+        "high": 3.2
+      },
+      "dist": 9.3,
+      "pos": 38.7
+    },
+    {
+      "ticker": "REA.AX",
+      "name": "REA Group",
+      "list": "Portfolio",
+      "data": {
+        "price": 143.67,
+        "low": 131.07,
+        "high": 265.98
+      },
+      "dist": 9.61,
+      "pos": 9.3
+    },
+    {
+      "ticker": "JBH.AX",
+      "name": "JB Hi-Fi",
+      "list": "Watchlist",
+      "data": {
+        "price": 75.89,
+        "low": 67.38,
+        "high": 121.0
+      },
+      "dist": 12.63,
+      "pos": 15.9
+    },
+    {
+      "ticker": "CAT.AX",
+      "name": "Catapult Group",
+      "list": "Portfolio",
+      "data": {
+        "price": 3.1,
+        "low": 2.74,
+        "high": 7.72
+      },
+      "dist": 13.14,
+      "pos": 7.2
+    },
+    {
+      "ticker": "SNL.AX",
+      "name": "Supply Network",
+      "list": "Portfolio",
+      "data": {
+        "price": 31.75,
+        "low": 27.9,
+        "high": 41.655
+      },
+      "dist": 13.8,
+      "pos": 28.0
+    }
+  ]
+}
