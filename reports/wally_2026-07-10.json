@@ -1,0 +1,91 @@
+{
+  "date": "2026-07-10",
+  "threshold": 5.0,
+  "total": 31,
+  "flagged": [
+    {
+      "ticker": "ARB.AX",
+      "name": "ARB Corporation",
+      "list": "Portfolio",
+      "data": {
+        "price": 17.7,
+        "low": 16.93,
+        "high": 41.34
+      },
+      "dist": 4.55,
+      "pos": 3.2
+    },
+    {
+      "ticker": "EOL.AX",
+      "name": "Energy One",
+      "list": "Portfolio",
+      "data": {
+        "price": 11.89,
+        "low": 11.2,
+        "high": 20.19
+      },
+      "dist": 6.16,
+      "pos": 7.7
+    },
+    {
+      "ticker": "C79.AX",
+      "name": "Chrysos Corporation",
+      "list": "Portfolio",
+      "data": {
+        "price": 5.3,
+        "low": 4.89,
+        "high": 10.13
+      },
+      "dist": 8.38,
+      "pos": 7.8
+    },
+    {
+      "ticker": "XRF.AX",
+      "name": "XRF Scientific",
+      "list": "Portfolio",
+      "data": {
+        "price": 1.74,
+        "low": 1.6,
+        "high": 2.4
+      },
+      "dist": 8.75,
+      "pos": 17.5
+    },
+    {
+      "ticker": "SIG.AX",
+      "name": "Sigma Healthcare",
+      "list": "Portfolio",
+      "data": {
+        "price": 2.87,
+        "low": 2.58,
+        "high": 3.2
+      },
+      "dist": 11.24,
+      "pos": 46.8
+    },
+    {
+      "ticker": "REA.AX",
+      "name": "REA Group",
+      "list": "Portfolio",
+      "data": {
+        "price": 148.35,
+        "low": 131.07,
+        "high": 265.98
+      },
+      "dist": 13.18,
+      "pos": 12.8
+    },
+    {
+      "ticker": "SNL.AX",
+      "name": "Supply Network",
+      "list": "Portfolio",
+      "data": {
+        "price": 31.87,
+        "low": 27.9,
+        "high": 41.655
+      },
+      "dist": 14.23,
+      "pos": 28.9
+    }
+  ]
+}
