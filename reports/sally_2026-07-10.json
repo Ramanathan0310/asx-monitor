@@ -1,0 +1,44 @@
+{
+  "date": "2026-07-10",
+  "total": 31,
+  "hot": [
+    {
+      "ticker": "MQG.AX",
+      "name": "Macquarie Group",
+      "list": "Portfolio",
+      "data": {
+        "price": 254.49,
+        "low": 187.31,
+        "high": 254.49
+      },
+      "dist_to_high": 0.0,
+      "pos": 100.0
+    },
+    {
+      "ticker": "MFF.AX",
+      "name": "MFF Capital",
+      "list": "Portfolio",
+      "data": {
+        "price": 5.18,
+        "low": 4.35,
+        "high": 5.38
+      },
+      "dist_to_high": 3.72,
+      "pos": 80.6
+    }
+  ],
+  "warm": [
+    {
+      "ticker": "EIQ.AX",
+      "name": "Echo IQ",
+      "list": "Watchlist",
+      "data": {
+        "price": 1.66,
+        "low": 0.165,
+        "high": 1.875
+      },
+      "dist_to_high": 11.47,
+      "pos": 87.4
+    }
+  ]
+}
