@@ -1,0 +1,127 @@
+{
+  "date": "2026-07-13",
+  "threshold": 5.0,
+  "total": 31,
+  "flagged": [
+    {
+      "ticker": "ARB.AX",
+      "name": "ARB Corporation",
+      "list": "Portfolio",
+      "data": {
+        "price": 18.03,
+        "low": 16.93,
+        "high": 41.34
+      },
+      "dist": 6.5,
+      "pos": 4.5
+    },
+    {
+      "ticker": "EOL.AX",
+      "name": "Energy One",
+      "list": "Portfolio",
+      "data": {
+        "price": 11.97,
+        "low": 11.2,
+        "high": 20.19
+      },
+      "dist": 6.88,
+      "pos": 8.6
+    },
+    {
+      "ticker": "XRF.AX",
+      "name": "XRF Scientific",
+      "list": "Portfolio",
+      "data": {
+        "price": 1.74,
+        "low": 1.6,
+        "high": 2.4
+      },
+      "dist": 8.75,
+      "pos": 17.5
+    },
+    {
+      "ticker": "RMD.AX",
+      "name": "ResMed",
+      "list": "Portfolio",
+      "data": {
+        "price": 28.57,
+        "low": 25.5,
+        "high": 45.25
+      },
+      "dist": 12.04,
+      "pos": 15.5
+    },
+    {
+      "ticker": "C79.AX",
+      "name": "Chrysos Corporation",
+      "list": "Portfolio",
+      "data": {
+        "price": 5.5,
+        "low": 4.89,
+        "high": 10.13
+      },
+      "dist": 12.47,
+      "pos": 11.6
+    },
+    {
+      "ticker": "SIG.AX",
+      "name": "Sigma Healthcare",
+      "list": "Portfolio",
+      "data": {
+        "price": 2.92,
+        "low": 2.58,
+        "high": 3.2
+      },
+      "dist": 13.18,
+      "pos": 54.8
+    },
+    {
+      "ticker": "APE.AX",
+      "name": "Eagers Automotive",
+      "list": "Portfolio",
+      "data": {
+        "price": 20.91,
+        "low": 18.39,
+        "high": 35.64
+      },
+      "dist": 13.7,
+      "pos": 14.6
+    },
+    {
+      "ticker": "SNL.AX",
+      "name": "Supply Network",
+      "list": "Portfolio",
+      "data": {
+        "price": 31.79,
+        "low": 27.9,
+        "high": 41.655
+      },
+      "dist": 13.94,
+      "pos": 28.3
+    },
+    {
+      "ticker": "REA.AX",
+      "name": "REA Group",
+      "list": "Portfolio",
+      "data": {
+        "price": 149.72,
+        "low": 131.07,
+        "high": 265.98
+      },
+      "dist": 14.23,
+      "pos": 13.8
+    },
+    {
+      "ticker": "SHL.AX",
+      "name": "Sonic Healthcare",
+      "list": "Watchlist",
+      "data": {
+        "price": 20.93,
+        "low": 18.26,
+        "high": 29.24
+      },
+      "dist": 14.62,
+      "pos": 24.3
+    }
+  ]
+}
