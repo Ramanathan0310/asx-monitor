@@ -1,0 +1,79 @@
+{
+  "date": "2026-07-16",
+  "threshold": 5.0,
+  "total": 31,
+  "flagged": [
+    {
+      "ticker": "ARB.AX",
+      "name": "ARB Corporation",
+      "list": "Portfolio",
+      "data": {
+        "price": 17.5,
+        "low": 16.93,
+        "high": 41.34
+      },
+      "dist": 3.37,
+      "pos": 2.3
+    },
+    {
+      "ticker": "EOL.AX",
+      "name": "Energy One",
+      "list": "Portfolio",
+      "data": {
+        "price": 11.29,
+        "low": 10.92,
+        "high": 20.19
+      },
+      "dist": 3.39,
+      "pos": 4.0
+    },
+    {
+      "ticker": "XRF.AX",
+      "name": "XRF Scientific",
+      "list": "Portfolio",
+      "data": {
+        "price": 1.705,
+        "low": 1.6,
+        "high": 2.4
+      },
+      "dist": 6.56,
+      "pos": 13.1
+    },
+    {
+      "ticker": "C79.AX",
+      "name": "Chrysos Corporation",
+      "list": "Portfolio",
+      "data": {
+        "price": 5.43,
+        "low": 4.89,
+        "high": 10.13
+      },
+      "dist": 11.04,
+      "pos": 10.3
+    },
+    {
+      "ticker": "RMD.AX",
+      "name": "ResMed",
+      "list": "Portfolio",
+      "data": {
+        "price": 28.34,
+        "low": 25.5,
+        "high": 45.25
+      },
+      "dist": 11.14,
+      "pos": 14.4
+    },
+    {
+      "ticker": "SIG.AX",
+      "name": "Sigma Healthcare",
+      "list": "Portfolio",
+      "data": {
+        "price": 2.94,
+        "low": 2.58,
+        "high": 3.2
+      },
+      "dist": 13.95,
+      "pos": 58.1
+    }
+  ]
+}
