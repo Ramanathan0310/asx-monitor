@@ -1,0 +1,139 @@
+{
+  "date": "2026-07-23",
+  "threshold": 5.0,
+  "total": 31,
+  "flagged": [
+    {
+      "ticker": "EOL.AX",
+      "name": "Energy One",
+      "list": "Portfolio",
+      "data": {
+        "price": 10.87,
+        "low": 10.545,
+        "high": 20.19
+      },
+      "dist": 3.08,
+      "pos": 3.4
+    },
+    {
+      "ticker": "ARB.AX",
+      "name": "ARB Corporation",
+      "list": "Portfolio",
+      "data": {
+        "price": 18.08,
+        "low": 16.93,
+        "high": 41.34
+      },
+      "dist": 6.79,
+      "pos": 4.7
+    },
+    {
+      "ticker": "RMD.AX",
+      "name": "ResMed",
+      "list": "Portfolio",
+      "data": {
+        "price": 27.54,
+        "low": 25.5,
+        "high": 45.25
+      },
+      "dist": 8.0,
+      "pos": 10.3
+    },
+    {
+      "ticker": "XRF.AX",
+      "name": "XRF Scientific",
+      "list": "Portfolio",
+      "data": {
+        "price": 1.735,
+        "low": 1.6,
+        "high": 2.4
+      },
+      "dist": 8.44,
+      "pos": 16.9
+    },
+    {
+      "ticker": "WTC.AX",
+      "name": "WiseTech Global",
+      "list": "Portfolio",
+      "data": {
+        "price": 31.48,
+        "low": 28.76,
+        "high": 121.31
+      },
+      "dist": 9.46,
+      "pos": 2.9
+    },
+    {
+      "ticker": "SIG.AX",
+      "name": "Sigma Healthcare",
+      "list": "Portfolio",
+      "data": {
+        "price": 2.87,
+        "low": 2.58,
+        "high": 3.2
+      },
+      "dist": 11.24,
+      "pos": 46.8
+    },
+    {
+      "ticker": "LOV.AX",
+      "name": "Lovisa Holdings",
+      "list": "Portfolio",
+      "data": {
+        "price": 21.62,
+        "low": 19.3,
+        "high": 43.68
+      },
+      "dist": 12.02,
+      "pos": 9.5
+    },
+    {
+      "ticker": "SNL.AX",
+      "name": "Supply Network",
+      "list": "Portfolio",
+      "data": {
+        "price": 31.67,
+        "low": 27.9,
+        "high": 41.655
+      },
+      "dist": 13.51,
+      "pos": 27.4
+    },
+    {
+      "ticker": "JBH.AX",
+      "name": "JB Hi-Fi",
+      "list": "Watchlist",
+      "data": {
+        "price": 76.71,
+        "low": 67.38,
+        "high": 121.0
+      },
+      "dist": 13.85,
+      "pos": 17.4
+    },
+    {
+      "ticker": "SHL.AX",
+      "name": "Sonic Healthcare",
+      "list": "Watchlist",
+      "data": {
+        "price": 20.8,
+        "low": 18.26,
+        "high": 29.24
+      },
+      "dist": 13.91,
+      "pos": 23.1
+    },
+    {
+      "ticker": "APE.AX",
+      "name": "Eagers Automotive",
+      "list": "Portfolio",
+      "data": {
+        "price": 21.23,
+        "low": 18.47,
+        "high": 35.64
+      },
+      "dist": 14.94,
+      "pos": 16.1
+    }
+  ]
+}
