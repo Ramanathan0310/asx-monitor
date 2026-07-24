@@ -1,0 +1,810 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8"><style>
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+       font-size: 15px; line-height: 1.5; color: #e0e0e0;
+       background: #0a0a18; max-width: 820px; margin: 24px auto; padding: 0 20px; }
+h1 { font-size: 22px; color: #fff; border-bottom: 2px solid #2a2a4e; padding-bottom: 8px; }
+h2 { font-size: 15px; color: #aaaadd; margin-top: 26px; text-transform: uppercase;
+     letter-spacing: 1px; }
+.meta { color: #444466; font-size: 13px; margin-bottom: 20px; }
+.company-block { background: #10101e; border: 1px solid #1e1e3a; border-radius: 8px;
+                 padding: 14px 16px; margin: 10px 0; }
+.company-header { font-size: 16px; font-weight: 700; color: #fff; margin-bottom: 10px; }
+.company-name { color: #666688; font-size: 13px; margin-left: 6px; font-weight: 400; }
+.list-tag { font-size: 11px; color: #333366; margin-left: 8px; }
+.news-item { border-left: 3px solid #2a2a4e; padding: 6px 10px; margin: 6px 0;
+             background: #0c0c1a; border-radius: 0 4px 4px 0; }
+.news-item:hover { border-left-color: #4444aa; }
+.news-title a { color: #8888ff; text-decoration: none; font-size: 14px; }
+.news-title a:hover { text-decoration: underline; color: #aaaaff; }
+.news-meta { font-size: 11px; color: #444466; margin-top: 2px; }
+.channel-yt  { color: #ff4444; }
+.channel-gn  { color: #4488ff; }
+.channel-lw  { color: #44aaff; }
+.channel-yf  { color: #aa44ff; }
+.channel-sa  { color: #44ffaa; }
+.no-news { color: #2a2a4a; font-size: 13px; font-style: italic; padding: 4px 0; }
+.summary-bar { display: flex; gap: 16px; flex-wrap: wrap; margin: 14px 0; }
+.summary-item { background: #10101e; border: 1px solid #1e1e3a; border-radius: 6px;
+                padding: 10px 14px; text-align: center; }
+.summary-val { font-size: 22px; font-weight: 700; color: #8888ff; }
+.summary-lbl { font-size: 11px; color: #444466; text-transform: uppercase; }
+hr { border: none; border-top: 1px solid #1a1a30; margin: 24px 0; }
+</style></head>
+<body>
+<h1>&#x1F4F0; Ned - News Digest</h1>
+<div class="meta">Friday, 24 July 2026 . 23:33 AEST . Last 48h . Sources: Yahoo Finance, Google News, Livewire, Stock Analysis, YouTube</div>
+
+<div class="summary-bar">
+  <div class="summary-item"><div class="summary-val">31</div>
+    <div class="summary-lbl">Stocks Scanned</div></div>
+  <div class="summary-item"><div class="summary-val">27</div>
+    <div class="summary-lbl">With News</div></div>
+  <div class="summary-item"><div class="summary-val">77</div>
+    <div class="summary-lbl">Total Articles</div></div>
+  <div class="summary-item"><div class="summary-val">4</div>
+    <div class="summary-lbl">No Coverage</div></div>
+</div>
+
+<div class="company-block">
+  <div class="company-header">
+    MQG
+    <span class="company-name">Macquarie Group</span>
+    <span class="list-tag">Portfolio</span>
+  </div>
+  
+<div class="news-item">
+  <div class="news-title"><a href="https://news.google.com/rss/articles/CBMixgFBVV95cUxNQ3FPeHd1SV92d3B5cGZUdnNDd3Z1WFRZbVM4REE3Vksta0d0THpBcC00bGlBX0J6OU9JeG1pQmFJbVF2dWZsbEo3OC10LUFqb0xZVGpjUE9ZS1N6WEdIT2VNMjhRa2NaaDZuQ3A2bEt5MDFtUHQ1bVoyZjhmXzUydTFZXzM0WW5lWXFSbnpkbHFMTWx1V2FxekhIc1FIZy1Ob1BFdm0xc3RSLXpxWXhXaXRISGM0TzJHcFJ0d2F3c0RRWWhETWc?oc=5" target="_blank">Macquarie Group (ASX:MQG): How the Investment Bank Has Continued to Outpace the Broader Market - Kalkine</a></div>
+  <div class="news-meta">
+    <span class="channel-gn">Google News</span>
+    <span style="color:#333355"> | Kalkine - 24 Jul 11:14</span>
+  </div>
+</div>
+<div class="news-item">
+  <div class="news-title"><a href="https://news.google.com/rss/articles/CBMi5gFBVV95cUxNV0hIUGUzQllTOXlVMk1MQ2Y2bWx4NDBLT3I5dGVWX1dsZFR4VEs1d01CUEQ4aVBZVGpSU0ZQMTR0ZHFSWTFiYnlkaE92ZVE0LXQ2YXF5bmduOE1FS3luZG5kOU9wa1BBVWVsaFZVUDlIYTJ0T2Zmd3pMYzRzXzRmOFlYVURyZFQxYjY2eDhXaWY0OGJ3SmlRU3ZGT3ZFNVd4X2JwUXo3dktMb05zaFc1RGw3R04zbHFUQ1k4bkVQNm55dUVod1pkMFpoRHo1LXA2Y1kwZjRnTWp5WDJDZ0t1ZVFMeU5LQdIB6wFBVV95cUxNbTJiS2Y2d2dWdU9vQzdHZnFvamYzVlFia0VPSWN1YUJZSEZrU3BPTmZMUVJURC0xOHhNM2lyUXNvQVI5ZjhNdUgtZXRnd1hhVGIzWk5QZG81dl9LMUVuaWhqN0NzVGhGS2ZNbEp1dDRaQTZERmhzaVVBOFE2WVltQVdvT3NUVnlIMEVraktMNFVUN1lBZ2V3SDRXb2c0UjVvRWFtMnlFcFRvdGNoRU5UV2JSVzVuQ1hjbDRFWkQ5cHFtYmdCaWxsVG5makZSVkNiVkJYRWJvMEJlTWZjamI3T2MxbzMwZ3dZUERj?oc=5" target="_blank">How Investors Are Reacting To Macquarie Group (ASX:MQG) CEO Transition And Rejected Constitution Change - simplywall.st</a></div>
+  <div class="news-meta">
+    <span class="channel-gn">Google News</span>
+    <span style="color:#333355"> | simplywall.st - 24 Jul 06:38</span>
+  </div>
+</div>
+<div class="news-item">
+  <div class="news-title"><a href="https://news.google.com/rss/articles/CBMiwwFBVV95cUxNYWZoSllvaW1zTDRtbkJHZGNPTnJEdjVlY21adUpYb09qOU8tWEhZOXJKbGh2WEVxejRzSWZHaUFuQnl0YU85TU5yeUtfb09zM29rZXdBY1JEbkR4VGhhRDFrYnRJYkloVzBVNXJvTl83eWFfb1lCWV9kM2l4b0NHZ3pMQjNwTnN1RkJ4RGRfRmJPZVZwTGZsMUVlMjRhTnREMDRvMk9VSnZUb21hUUV2bXN4WnlHcGJPTGs2cVJJR0VvZnM?oc=5" target="_blank">Macquarie Group (ASX:MQG) Shares Closed in Green Today: Key Factors Investors Are Assessing - Kalkine</a></div>
+  <div class="news-meta">
+    <span class="channel-gn">Google News</span>
+    <span style="color:#333355"> | Kalkine - 24 Jul 13:41</span>
+  </div>
+</div>
+<div class="news-item">
+  <div class="news-title"><a href="https://news.google.com/rss/articles/CBMiqwFBVV95cUxOZFhDQVM4dDBYeDE5MGdWMXJlSVMwR0FsZTdJWHRGcXRNdjRwbWhyb2RLSGUtMHBIWWxjRG5jTGVRQjEzVDVGdHdTNmwyZkFpbjlXcHQ4X0RnQmNGc2xzanpTZ2hqQnB5RWJwelhLQUhTWE9vbHVSUVZVM09GYnJDT2puWm5EYm9razhJdWN6bU9CNjlxRzNabE9Ja0RLOHpQRzRQdmwtWWFmUFE?oc=5" target="_blank">Macquarie (ASX:MQG) share price in focus on AGM update, CEO retirement - Rask Media</a></div>
+  <div class="news-meta">
+    <span class="channel-gn">Google News</span>
+    <span style="color:#333355"> | Rask Media - 22 Jul 23:49</span>
+  </div>
+</div>
+<div class="news-item">
+  <div class="news-title"><a href="https://news.google.com/rss/articles/CBMihwFBVV95cUxPZkdyakhPcG93djR2Zlh2QVA5MWV1blRoQncyaDJiM01CRURTRmhyeEhuZ1M1S2lJTWNSWXNpeHRFYVIzaWlWQzh2cGp6cTlMSHQ0UGlYME9FRllORHV3cWRtRkZoNmt2Z18xZnlKUVI3SUtXdVpKT2VEZS05enA1dF9MQzhjamM?oc=5" target="_blank">Macquarie Group names Greg Ward as next CEO as Shemara Wikramanayake retires - Yahoo Finance Australia</a></div>
+  <div class="news-meta">
+    <span class="channel-gn">Google News</span>
+    <span style="color:#333355"> | Yahoo Finance Australia - 24 Jul 01:12</span>
+  </div>
+</div>
+</div>
+<div class="company-block">
+  <div class="company-header">
+    LBL
+    <span class="company-name">LaserBond</span>
+    <span class="list-tag">Portfolio</span>
+  </div>
+  
+<div class="news-item">
+  <div class="news-title"><a href="https://news.google.com/rss/articles/CBMipwFBVV95cUxQTU1PS05QYnhQaW81SFdHNzNCMnpveFM3N3VlMW9yV2lINXVfZzV0MVpaeVB0RlJfTUhSUGUzbUMzaTlxWnpZcDF2NWJ6MUUxREVMNTdxRUpWT0NsUTdqWklRQTA1QnlRb0Z1SUdNQ0RWQXA3UVJuNUtHWmIwRTRxWXpoaEVRMDdhR19NYVhwWXRoZVVwUW5iUEg1dHJPVmJDdTI4djctcw?oc=5" target="_blank">Enterprise value to revenue forward of Laserbond Limited – ASX:LBL - TradingView</a></div>
+  <div class="news-meta">
+    <span class="channel-gn">Google News</span>
+    <span style="color:#333355"> | TradingView - 24 Jul 05:54</span>
+  </div>
+</div>
+<div class="news-item">
+  <div class="news-title"><a href="https://news.google.com/rss/articles/CBMijgFBVV95cUxPSEEyajZnaE9vaFJsVEdnREcxZ1lwY3IzZVVPRVRmMTdJOEJkRTY0N1E0OTJES2xRczMyRlhhdGpRWG1QOHF0aWd0Xy1keTVqUDZ5bDhBamNuVDZ0czB2NEh6OERlSnhSWl9EaDRNWGVxRGJ1ZlBmMGw0Y05TX1BNREJHRFd5SDJPZ0UtdFlR?oc=5" target="_blank">Why Is LaserBond (ASX:LBL) In Smallcap Focus? - Kalkine Media</a></div>
+  <div class="news-meta">
+    <span class="channel-gn">Google News</span>
+    <span style="color:#333355"> | Kalkine Media - 24 Jul 06:26</span>
+  </div>
+</div>
+<div class="news-item">
+  <div class="news-title"><a href="https://news.google.com/rss/articles/CBMijwFBVV95cUxQcmdXMXlLRkRldmh0OTJlb0lXaUhJVU81cUxKVDk2WVhGNTgwSzd5RFlPMjg4NzYxOWxaV19WbWh0RnNtRFRQOFV1NlFMaXJNaHlaWUE5LTRCbUFxNmx2V2VpYlhKLXVTdmpCc0wyMVFBaXRaYktkcE9sU1FiLWc0Q0dPbldQcExxNFVBeFltMA?oc=5" target="_blank">Is LaserBond (ASX:LBL) A Quality Microcap Signal? - Kalkine Media</a></div>
+  <div class="news-meta">
+    <span class="channel-gn">Google News</span>
+    <span style="color:#333355"> | Kalkine Media - 23 Jul 06:23</span>
+  </div>
+</div>
+</div>
+<div class="company-block">
+  <div class="company-header">
+    WES
+    <span class="company-name">Wesfarmers</span>
+    <span class="list-tag">Portfolio</span>
+  </div>
+  
+<div class="news-item">
+  <div class="news-title"><a href="https://news.google.com/rss/articles/CBMingFBVV95cUxNRGFhQzB2RzJCT1BQZFRNdkRRdWFGZ1ltbVhpWF8wSmJJbDg1aWhteU54dUs1TC1RUkctVWJZR3VXTlNRTkt5NHpKeTFBMFhxMDkzM21Zbmw3SmpfaXZjOFlTOElXZ3N0TFpHVFpzdkxqUllENTItaFlOX2lfcHVJaFJaNkFqM1hVZ2I0LVFyaWRVbDVqbTRqY05IQ2hKdw?oc=5" target="_blank">How Is Wesfarmers (ASX:WES) Expanding Beyond Traditional Retail? - Kalkine</a></div>
+  <div class="news-meta">
+    <span class="channel-gn">Google News</span>
+    <span style="color:#333355"> | Kalkine - 24 Jul 15:24</span>
+  </div>
+</div>
+<div class="news-item">
+  <div class="news-title"><a href="https://news.google.com/rss/articles/CBMiqAFBVV95cUxONXoxZXYwOVpQZ0NCSVRlT3hUZlo2dGZSaFNEd2N0XzE1MnZhX0paZEQ0dnJycFl2aWJ5LTlZa1JmTHloYm93U3JzUVBQc0Rtc2pYNnZTN1QxYnNMbld4dDY4TXZvQ0ZTY2lsdjd2ZHBYLTRXV1M2UG90aXhJd00tMzRsam1Xbi0zRXFmN1dpRjlpWG1qdElpVWNkNHU3S1ZzTWpTVmxqNEo?oc=5" target="_blank">Could Wesfarmers (ASX:WES) Be the Retail Signal the ASX Is Missing? - Kalkine Media</a></div>
+  <div class="news-meta">
+    <span class="channel-gn">Google News</span>
+    <span style="color:#333355"> | Kalkine Media - 24 Jul 10:19</span>
+  </div>
+</div>
+<div class="news-item">
+  <div class="news-title"><a href="https://news.google.com/rss/articles/CBMitAFBVV95cUxNWEVNTDl4V011OC1uTVpSU2wwMTE5b3pfNzFsVUpwN0JJQ1FPMUJFaDcwZE5pNGhpaVZDUW01SXBQeFVEMXd1NGFIWXZBNTVpX21JdjRUTFd3LUlMVGUzRVlYZVNoUzVkcW9TbzBlZ3N4aFVzbzlPUnJPeEFEYkFJUWJ2TjhlS21OV0s3emU4dHRSZXJ4bWswYVZZUzVMUk9LWTlhRWwzdlJyRGhUM1dDWkR0MnQ?oc=5" target="_blank">Wesfarmers Agrees to Sell Cm3 Contractor Management Software Business to Achilles - Moomoo</a></div>
+  <div class="news-meta">
+    <span class="channel-gn">Google News</span>
+    <span style="color:#333355"> | Moomoo - 24 Jul 04:23</span>
+  </div>
+</div>
+<div class="news-item">
+  <div class="news-title"><a href="https://news.google.com/rss/articles/CBMijAFBVV95cUxQWWZJM3hFR196Y1UycElsWjFheTROdzE2bFVtREdYSzcyTzF2MTZLVUtFSzRDX1dRcjJ3X0NhbEx2RkpIa2dOQ012ZmpnYUVoN1h2dzlJTU1yTXhVVzQ5Ni12NjRSdWtTbThIdnBOckNFem5BYTJtejBoRUl1b0dESG1CTzdxUU1vNHYxUQ?oc=5" target="_blank">WES shares: your next blue chip investment? - Rask Media</a></div>
+  <div class="news-meta">
+    <span class="channel-gn">Google News</span>
+    <span style="color:#333355"> | Rask Media - 24 Jul 07:46</span>
+  </div>
+</div>
+<div class="news-item">
+  <div class="news-title"><a href="https://news.google.com/rss/articles/CBMipAFBVV95cUxPS0pXTXYzRzd4SS1JdHdSNGlCMzNseldhOUR5WGxTN3RYam1BOUtXdDY1MjdDYVZSd2E2cDYwS1JGcF9UYXZoVmhITkNtYkIwYlR1Ym9lRTBOTmVDNHRmTTBacEIySU5qeVVmQUVtMTFGeE03WTVlVWpER2M4dUk5Z1dPUkZUUndDeWt6dTFBNGs5WnVuUzhlQVpzY2NCa1I3WWJmdQ?oc=5" target="_blank">Wesfarmers (ASX:WES): Is Kmart's AI Chatbot Rewriting Retail Recruitment? - Kalkine</a></div>
+  <div class="news-meta">
+    <span class="channel-gn">Google News</span>
+    <span style="color:#333355"> | Kalkine - 24 Jul 02:33</span>
+  </div>
+</div>
+</div>
+<div class="company-block">
+  <div class="company-header">
+    APE
+    <span class="company-name">Eagers Automotive</span>
+    <span class="list-tag">Portfolio</span>
+  </div>
+  
+<div class="news-item">
+  <div class="news-title"><a href="https://news.google.com/rss/articles/CBMitgFBVV95cUxOVjZjM0hKOE1EaVJ4Nmh6bFBkQ2tZSTBfdi1tb0tWeHNzeVBwZEdUNF92T21PSnI1bi1DTENROTczNUluM0IyMTNEdjJLRVk1NXE3VGdIOGhEM1FLS3JrdFRBZm5MNU1Fc3Nhbk1ZazBERmdOWVZUMWZDS1lBODdxbDNtTVRPTUJWYnJtNWlqSUlfRWwyWldqcnFvMG9Bckd4Tlc1SldhZnJkTzVQSnJQY0pyMGtaQQ?oc=5" target="_blank">Eagers Automotive (ASX:APE) Moves Slightly Higher as Auto Sector Remains in Focus - Kalkine</a></div>
+  <div class="news-meta">
+    <span class="channel-gn">Google News</span>
+    <span style="color:#333355"> | Kalkine - 24 Jul 06:55</span>
+  </div>
+</div>
+</div>
+<div class="company-block">
+  <div class="company-header">
+    EOL
+    <span class="company-name">Energy One</span>
+    <span class="list-tag">Portfolio</span>
+  </div>
+  
+<div class="news-item">
+  <div class="news-title"><a href="https://news.google.com/rss/articles/CBMivAFBVV95cUxQNzZNQzYwdGlCS2xlQkZhN3BhLXJmc2w5ak5VcklnY3U1ODJKVHJKOFRxcURpSk5CUXhSQTVxNkVSMmNJY3VPOU91SlRIQ3RiUzdiSGk2UzJyS25HV3M0M0tzdjNfYWdTWkdJMWhmejdtSHJ4blY5dnZSQlp2YVJ0N1NrSnpTek11anR0MkhEdXBnQU5QXzNZeThJaUo0TFpfS0Y1OFdmcW9jQ3lDNG5QMU1JdUJINnZfMDNyYw?oc=5" target="_blank">Energy One (ASX:EOL) Falls as Energy Software Stocks Are Caught in the Tech Sell-Off - Kalkine</a></div>
+  <div class="news-meta">
+    <span class="channel-gn">Google News</span>
+    <span style="color:#333355"> | Kalkine - 24 Jul 05:48</span>
+  </div>
+</div>
+</div>
+<div class="company-block">
+  <div class="company-header">
+    ALL
+    <span class="company-name">Aristocrat Leisure</span>
+    <span class="list-tag">Portfolio</span>
+  </div>
+  
+<div class="news-item">
+  <div class="news-title"><a href="https://finance.yahoo.com/markets/stocks/articles/why-booz-allen-hamilton-bah-232108790.html" target="_blank">Why Booz Allen Hamilton (BAH) Stock Is Up Today</a></div>
+  <div class="news-meta">
+    <span class="channel-yf">Yahoo Finance</span>
+    <span style="color:#333355"> | StockStory - 24 Jul 23:21</span>
+  </div>
+</div>
+<div class="news-item">
+  <div class="news-title"><a href="https://news.google.com/rss/articles/CBMiugFBVV95cUxNMnZIQWJTaGZHM2g5T1N3a0RMdEthOXdzd3FMb0pBN0tQTXlHQmJLdTU4ZXNkZktUSnJBNVV6SnczR0NlNGIwWGFqcmR4c1o1QlRfZjViOEJDLXhhNHh3SUpRdzVBb3NfQk11dEtZX3hMR1hmMXJndkljTVIzcS1YSjA4YkVDZXFrWE9VOWhQMzVkMVJoRDNxYWRGZUVNUS1iUVpkc0RrTERlU3RxLVFnMFViNjQ4M1REMVE?oc=5" target="_blank">Why Is Aristocrat Leisure (ASX:ALL) in Focus Following Its Latest Investor Updates? - Kalkine</a></div>
+  <div class="news-meta">
+    <span class="channel-gn">Google News</span>
+    <span style="color:#333355"> | Kalkine - 24 Jul 09:22</span>
+  </div>
+</div>
+<div class="news-item">
+  <div class="news-title"><a href="https://news.google.com/rss/articles/CBMivAFBVV95cUxQZzk2dHpsZWo0VmtaanA2QzE1bjhHX3pYdVZwTWR6dFFqNWlXcWd5ZFg1WFh0QzNNX1BSUnIyclpfZWMxWFB5OW9WQjNWQzRyY1pZSXdJQURxM0ZvNGNCb3A5TFBLLXg4QWtEX3NzbVQ3emZDTWc2Q0RLSTRjNzZSVlRiaW1QOFNuUTFQTUJrdDBSUjVsQ1FtaXNlRGQxZS1DcFByZlJPVHc0WEhaQ2Q2YU81RldzU1FRc3l1NA?oc=5" target="_blank">Aristocrat Leisure (ASX:ALL): What Does the Recent Share Price Trend Mean for Investors? - Kalkine</a></div>
+  <div class="news-meta">
+    <span class="channel-gn">Google News</span>
+    <span style="color:#333355"> | Kalkine - 23 Jul 03:13</span>
+  </div>
+</div>
+</div>
+<div class="company-block">
+  <div class="company-header">
+    SNL
+    <span class="company-name">Supply Network</span>
+    <span class="list-tag">Portfolio</span>
+  </div>
+  
+<div class="news-item">
+  <div class="news-title"><a href="https://news.google.com/rss/articles/CBMiswFBVV95cUxNR00xVmdwdzdjWGt3eG9USUhVbkh1Tks5NFc4SHRTRUJwR3dxaUJvbFJBYnJqWWctRGt0X0NGemxoOHdZcGktUVlRWjJnMnZBY3hCM2RySzh6Q2I3cHo1eDZTUDBJSy1QcW9VZ3dob3RoMnM0M0pKUXhVMjE5NWlqRmlpQk42NEFUQzhnTlljUVhuTkljSi1zN0VJdVdueG0ycWtNWkRWYVdXdGZaWE5hSjBHSQ?oc=5" target="_blank">Supply Network Details FY2026 Growth Initiatives Amidst Global Headwinds - Sharecafe</a></div>
+  <div class="news-meta">
+    <span class="channel-gn">Google News</span>
+    <span style="color:#333355"> | Sharecafe - 24 Jul 03:49</span>
+  </div>
+</div>
+<div class="news-item">
+  <div class="news-title"><a href="https://news.google.com/rss/articles/CBMiuAFBVV95cUxOU05LRUZ6YjE5TThzVlI1YlRHeWVHV2dUUjQxLU1EdlJkZFVNOVY3aTZtRkdWdFVSSFBEb29mbGFrTGh2WTRpWnRJWkRqR0tqRjVYVlAxT1RLN2xqdVpTRkppY1Z0dDU0RFVLMHA1ZWptTlNubUI2ckNOUXNRNXlraTU3QjRVaGVBOFhtYVdlZWU2SFhTWVU5SkdHVGV0RzU2TWlFdFRqWjZienZtc0hCZFhLSHhoSEFm?oc=5" target="_blank">Supply Network Reports Strong Preliminary FY26 Results, Boosts Final Dividend - Sharecafe</a></div>
+  <div class="news-meta">
+    <span class="channel-gn">Google News</span>
+    <span style="color:#333355"> | Sharecafe - 24 Jul 03:33</span>
+  </div>
+</div>
+</div>
+<div class="company-block">
+  <div class="company-header">
+    CSL
+    <span class="company-name">CSL Limited</span>
+    <span class="list-tag">Portfolio</span>
+  </div>
+  
+<div class="news-item">
+  <div class="news-title"><a href="https://news.google.com/rss/articles/CBMirgFBVV95cUxOeW5nZHZlZFJmNkxjV0pWbERWcDlwZ0o3ZXVSdmJ6WENKVWtPUDhsZ1dYSWtoVi00bTRjSlRZSmVRdUJ4SWVqNFNBZEVjc1MzS3NKYnRzck5CV04teUxlTG1lMk5BeUJ2NUtqSjRTVFBMMFFPQVYyaUk3SFlBcGRkbHh5cWJVOGZVTnhFNWcwbVB0d1RXOGh1LW90clh0SDVrNndfYlJTdks5M1NlVEE?oc=5" target="_blank">Can CSL (ASX:CSL) Continue Strengthening Its Global Healthcare Leadership? - Kalkine</a></div>
+  <div class="news-meta">
+    <span class="channel-gn">Google News</span>
+    <span style="color:#333355"> | Kalkine - 24 Jul 15:25</span>
+  </div>
+</div>
+<div class="news-item">
+  <div class="news-title"><a href="https://news.google.com/rss/articles/CBMihwFBVV95cUxNbUlIZmJENVRUeGJVUVdmd2lfV0ZqUjlIX2VCQVJvNlVzTHRBYUxjd0FSeEJ5RU5KZW1iRXo0QlpabTVRd3IwaVRuN3AwTzZqLXdtQ20wbFZDNmFCS3QxcGRyVS15SnBIcmVfcjFiUG50dy1uMl9ZNmhwd2FkLTNUZkh0WHlxSms?oc=5" target="_blank">How high does UBS think CSL shares will go? - The Motley Fool Australia</a></div>
+  <div class="news-meta">
+    <span class="channel-gn">Google News</span>
+    <span style="color:#333355"> | The Motley Fool Australia - 24 Jul 21:30</span>
+  </div>
+</div>
+<div class="news-item">
+  <div class="news-title"><a href="https://news.google.com/rss/articles/CBMiwAFBVV95cUxNUE9SMmFfUkFnZHliU2pQdDl2TFl2dEd3c0EwSUNpUmp1OE51YTVSVzZ1ejk2Q0g4Vk5LTGxpU3NfN2ZwS09tQVhDQVFmZVRIVE1ZLURraldFdzBjNGZ6RERQU2tfR3YxTHFoak5OSFNMOU9sdFY5QjRnckpBX1RlZTFZTldua3JPU2o2RjEzb1FpV3ZFbGw5YzFwdmZ3ZVcyXzhIeWFoZEN0d3VUZnFQVXgybjRVWEMwVHFDY25UMjc?oc=5" target="_blank">CSL Ltd (ASX:CSL) Slips Lower — What Investors Should Know About the Global Biotech Giant - Kalkine</a></div>
+  <div class="news-meta">
+    <span class="channel-gn">Google News</span>
+    <span style="color:#333355"> | Kalkine - 23 Jul 11:36</span>
+  </div>
+</div>
+</div>
+<div class="company-block">
+  <div class="company-header">
+    C79
+    <span class="company-name">Chrysos Corporation</span>
+    <span class="list-tag">Portfolio</span>
+  </div>
+  
+<div class="news-item">
+  <div class="news-title"><a href="https://news.google.com/rss/articles/CBMipgFBVV95cUxOd1F1eU9lb1NjTXhnaHlXUUdZS0htdFpydlZHV1JvSzhhZjNSRnVIenVnRktaN05nOXB5V2JucUJoQWozRzg5clVWeml3T0ZNaFBrMThGTU0xcTlQNFFvakFQMzVONzEyeDVRUnAzcV9XUXgtR1d6UWVIVTVIUWNLS3FQclJBZTU2TlVEajM5TjZuY1FmOFpsU2RPVDhxb3pYLTloSjVn?oc=5" target="_blank">Chrysos Corporation (ASX:C79) Rises: Mining Tech Company Outperforms - Kalkine</a></div>
+  <div class="news-meta">
+    <span class="channel-gn">Google News</span>
+    <span style="color:#333355"> | Kalkine - 23 Jul 02:33</span>
+  </div>
+</div>
+</div>
+<div class="company-block">
+  <div class="company-header">
+    CAT
+    <span class="company-name">Catapult Group</span>
+    <span class="list-tag">Portfolio</span>
+  </div>
+  
+<div class="news-item">
+  <div class="news-title"><a href="https://news.google.com/rss/articles/CBMiuwFBVV95cUxOUXl3dFBGaTZ0QkVheEhCdmRraUI4SU1wWXhsYWZ5YTZJTzA0alpJekVFbG02ZmtyQjRFLUJocTNTX3N1WkxLYUJ5U0YxMTU2dzB2cEdwdUQxTVZZVlVZVmFWZW11Ml82dUN3QUVVOWxISk96aHYwOWZFWDZDcFQ1bl9NQThCRFRFRDNpV3FZR3VCZ1Q1NTkwd3lwZmU5U3UyVXROZUxtQWlQeVE1TGJWSndDOWI5Ql9MVDA0?oc=5" target="_blank">Catapult Sports (ASX:CAT): Elite Sports Analytics Company Eases in Soft Tech Session - Kalkine</a></div>
+  <div class="news-meta">
+    <span class="channel-gn">Google News</span>
+    <span style="color:#333355"> | Kalkine - 23 Jul 03:37</span>
+  </div>
+</div>
+<div class="news-item">
+  <div class="news-title"><a href="https://news.google.com/rss/articles/CBMiiwFBVV95cUxQbnl0MFptOGlIRWotemFIT05HY0V3VnA3S1FfUFR5bjR5bUt2MUxVSG1JZUVoU04yei1lV3o3aWpEQjZEM0xqU3AwSW0zdDAtanVCTENTZFNTaV9xdkJTRlVZanJSazhpRjdkcHVXS2RaWkRpQjN1WVo2T3lfX1FGcU90b19qMHlKZDRJ?oc=5" target="_blank">What Keeps Catapult (ASX:CAT) in Growth Talk? - Kalkine Media</a></div>
+  <div class="news-meta">
+    <span class="channel-gn">Google News</span>
+    <span style="color:#333355"> | Kalkine Media - 23 Jul 05:06</span>
+  </div>
+</div>
+</div>
+<div class="company-block">
+  <div class="company-header">
+    PME
+    <span class="company-name">Pro Medicus</span>
+    <span class="list-tag">Portfolio</span>
+  </div>
+  
+<div class="news-item">
+  <div class="news-title"><a href="https://news.google.com/rss/articles/CBMinAFBVV95cUxNMFFsMHhfRlVZb3hJTGV5ZkZVVXltMzJFbjdvaExuQlZQb2JucUdpUVM0SW5oS1J2WE1hTmNqNko1c1NHQTdxZ1VfRXp4Z2R2R25ZZEtnRWNReERXM3BPbXNTQXc2T2c3TmVvRmxzNUNhOW9PVHFiQWRWV0NlTlNqdURnSUxURjJmTUM1b1dCWVBBbk5palM3T1FfNjQ?oc=5" target="_blank">PME share price: why investors like healthcare shares - Rask Media</a></div>
+  <div class="news-meta">
+    <span class="channel-gn">Google News</span>
+    <span style="color:#333355"> | Rask Media - 24 Jul 22:52</span>
+  </div>
+</div>
+<div class="news-item">
+  <div class="news-title"><a href="https://news.google.com/rss/articles/CBMipgFBVV95cUxQS25CVEdfWUtpX2w3Nk1Mbkxfc3B1dk1Rb0xmMGR6VXdPMEQ1b1RHbWxjNTM2N2xPZVU0aHdXbm5McW9la0FFbzlpWXNCWGI1dFVmeDhjaXpuOVA1TWNoMVlKQ012cTlNQU5IbDZlVWZQOTJTOE1PUm9LU291S3cxM0E1RHllVDNlaGxFckJ1b0g5UEFyd08yM201bmJvX2pkaGYxcUJB?oc=5" target="_blank">Pro Medicus Shares Continue To Break Lower: The Latest - thebull.com.au</a></div>
+  <div class="news-meta">
+    <span class="channel-gn">Google News</span>
+    <span style="color:#333355"> | thebull.com.au - 23 Jul 08:22</span>
+  </div>
+</div>
+<div class="news-item">
+  <div class="news-title"><a href="https://news.google.com/rss/articles/CBMi1AFBVV95cUxOY05yMzVxYnZIamx0NTNrOTdocnJOTW00dzhMcXNDTXMtc3lTNmpOdkhua2V1dVpnYVRIMU1hcWtadmdVblVsNXgxNXVVc3ZWd05ieVdJVkdrY2o5Zm9FRTduZ2s3QnhiT0w2ZkdwVjRhYzdrbUdGbnJuUW9Kc2NlYWlzSXhOQjFlcnNjbXc1T3hxcDFOUXg2dkU2b0RwdWRoV3ExQVMwU3o2QVd0U21nU1RPYWt3c1ZPRWFYaFh3Uy03SlJSTVRZRW5DOFFxQmRaZkVXeA?oc=5" target="_blank">ChartWatch ASX Scans: Pro Medicus, 4DMedical, Wisetech Global, Xero, JB HI-FI, Premier Investments, Car Group - Market Index</a></div>
+  <div class="news-meta">
+    <span class="channel-gn">Google News</span>
+    <span style="color:#333355"> | Market Index - 23 Jul 23:35</span>
+  </div>
+</div>
+<div class="news-item">
+  <div class="news-title"><a href="https://news.google.com/rss/articles/CBMisAFBVV95cUxQcmZxSmpESXpYNFF3SC1rQkFTNkJYZDB5MWhGQmdvcTQ3TlVLRm5oZXVwMjh3QkhBS3pFZFFHMDlzYWNkT2xjcU4xdThQVmZuQ0VVdjBnNUJlbkFscmRGVlF2Y3VmWUlWSEhYdTdnWDR4SjVfYXl1TFRHVDVDaVhkTFh4cEx5Z0hLc0FCSDlEQzFmWlU4TTQwN1lzc204R3dKYno5c2pnZzlqR2pTSHdTYg?oc=5" target="_blank">Could Pro Medicus (ASX:PME) Be Approaching a Crucial Growth-Stock Moment? - Kalkine Media</a></div>
+  <div class="news-meta">
+    <span class="channel-gn">Google News</span>
+    <span style="color:#333355"> | Kalkine Media - 24 Jul 03:48</span>
+  </div>
+</div>
+<div class="news-item">
+  <div class="news-title"><a href="https://news.google.com/rss/articles/CBMi2AFBVV95cUxPM19mdmNvMm1ITkdYM3RTQUNiWXpyX2JHWjQ4QTV6bTMya0xfM3JSYTlEc2RwaGRwNHF5QXh5OFJlNVU4eGhrS3Q1MEk5eXE2YlZSZGtxT2JVV2w2MFRSdmRudzJ0Ml8xQXUtLTdxX05RREVXLVpHX2JrVGJHVU9rOHJSS2hLWnJXNURyMEVQSWZEeDRhX3dMeS11MTZWN0lHcnVxUkVjZmEtUFVtN2U0ZkhRUVQ2R0Y1TGNrRk83RlJXdnhsVWc0dC1EZlJIcDJjLUZ0T00tTFE?oc=5" target="_blank">Pro Medicus (ASX:PME) Is Down Sharply Today — Should Investors Reassess the Medical Imaging Software Leader? - Kalkine</a></div>
+  <div class="news-meta">
+    <span class="channel-gn">Google News</span>
+    <span style="color:#333355"> | Kalkine - 23 Jul 11:41</span>
+  </div>
+</div>
+</div>
+<div class="company-block">
+  <div class="company-header">
+    ARB
+    <span class="company-name">ARB Corporation</span>
+    <span class="list-tag">Portfolio</span>
+  </div>
+  
+<div class="news-item">
+  <div class="news-title"><a href="https://news.google.com/rss/articles/CBMiygFBVV95cUxPTi1NelY2ajZCb0k3ZXBDQkxTV1FsME96YnEzM1JWcVR6SlhwWEphMWpmU0pEM1RjaUNmb3Q0Uk5Qcm1rTm95S3dPMUlpWU9nM3AzRlY4S3p3RXFFbGUwQW5SZjl4MWZxLWU2NWtMSG9YZTJEdUw1aHZFbzhuWjItTGU0MHVvVDQzSWtHclM5MGNpX1JZVWVtQnYxUTF2RGsxUF9ibnZZa3RBdUVEV1RFM0dncUZHb0VnR0U5N1FuUHJ2RnlPc3dTR1Vn?oc=5" target="_blank">ARB Corporation (ASX:ARB) Declines Again as Investors Watch Valuation and Industry Challenges - Kalkine</a></div>
+  <div class="news-meta">
+    <span class="channel-gn">Google News</span>
+    <span style="color:#333355"> | Kalkine - 24 Jul 13:42</span>
+  </div>
+</div>
+<div class="news-item">
+  <div class="news-title"><a href="https://news.google.com/rss/articles/CBMitgFBVV95cUxQZVU2Z2I5eTMyeUI2Qm5CdEQwUE5vQ0Nyelo3VmU3WktTem96Z1dzNE9qTW0zY0NzX0IyNXhweWI0VWNvanFnbEU0cVAyRVVMNElHMkhKSE5HamN3TzA0aXFaeVJjTUVDYmVpSE1YeXNUZzJJR1dUSHcyS2hCSGUxd0VqaGU3TjM2aFlqSXlTTUlFYVRna2dlMlMzUlNOREhsWkpaU1RUN0haSnFtS05LTlM3RGh6dw?oc=5" target="_blank">Why Is ARB Corporation (ASX:ARB) in Focus Following Its Latest Business Update? - Kalkine</a></div>
+  <div class="news-meta">
+    <span class="channel-gn">Google News</span>
+    <span style="color:#333355"> | Kalkine - 24 Jul 09:22</span>
+  </div>
+</div>
+</div>
+<div class="company-block">
+  <div class="company-header">
+    COH
+    <span class="company-name">Cochlear</span>
+    <span class="list-tag">Portfolio</span>
+  </div>
+  
+<div class="news-item">
+  <div class="news-title"><a href="https://news.google.com/rss/articles/CBMiywFBVV95cUxQQ19iOUdoWlVTbnY4Sm5FRnE3c3d6QTlVOTQyUlloNHhiQzlIb2ZsWU1PRTVncGlsRjZzdTZDRGJOaGZMUFE1eHI5XzdIUzg2eERzV1p5SEFOd2dSM3VuSVdOZWJYQl9nbG1LSThoWG5MU3dTcHN6ampkSnZ6TTFJRGFzU0JmYy1VQ3lOdW9CQzYzQ1pSa3EzbW9EMFo4cE5DTHVJeFhnSkNaRDdSN21tTHQtLUV5eUhSMUsyV0NIbkkwSWFOQmJoS0FlQQ?oc=5" target="_blank">Cochlear (ASX:COH) Down 64% Over One Year as Market Reassesses Valuation and Growth Expectations - Kalkine</a></div>
+  <div class="news-meta">
+    <span class="channel-gn">Google News</span>
+    <span style="color:#333355"> | Kalkine - 24 Jul 09:56</span>
+  </div>
+</div>
+<div class="news-item">
+  <div class="news-title"><a href="https://news.google.com/rss/articles/CBMizAFBVV95cUxQXzJSeENzSFJtY19hMjdxSFEtdFF1VElGVzZ3RHR0WF9idVRpaGZJRk4yS3V6VHIzVGdYQlYzblpUV21IS21nN2l6Qk56XzJLYjBDYWUya0ExdU9kLUpqd29nVmROY2hjb2FYeGhvdHpOWlUxdm1HcEVubWpHbnFnRFRDOHpSZ2JXT3RTbldydzVxOHN6b2R4RUhJZ3plazZ4YjloSWlQOFdxNUxhMk84OWx1bjcxei1LeGRXT0dkRkVSdE9LUHpLdlA4bjDSAdIBQVVfeXFMT0kwcWR1NkdkVkxJNi1udFpEOUFrZ0hsN1hSNTJzZHl4b3ZqOFlNYmZxX3ZuSTZ5OUVSYm82T0V4bGY1ZFNfNVVJMzlZaTF5aTFnZG1aU2hRTTVlLTVha0JhSHZIa2NubUxzNVN3VllPZ0l4czZGQ0s5cGsxNkFjRmUxSEszcnNXN0JXYW5YcHBWck1QVmJzQ05xV1lmMU1WMll6MVUwTGk3am1Vczlwa2Nrb3puYjNtRjV1Ym9jUm5hMkwwdmRuV3Etb1oySkV1MkNn?oc=5" target="_blank">Cochlear (ASX:COH) Is Down 9.1% After FDA Clearance For Osia 3 Sound Processor - Has The Bull Case Changed? - simplywall.st</a></div>
+  <div class="news-meta">
+    <span class="channel-gn">Google News</span>
+    <span style="color:#333355"> | simplywall.st - 24 Jul 02:43</span>
+  </div>
+</div>
+<div class="news-item">
+  <div class="news-title"><a href="https://news.google.com/rss/articles/CBMikwFBVV95cUxPUVhWLUxaUzQ1WFR6NlprWjdIWEhBQnktdFU3NGRLaTYwTTFqMWxpVXF5bThmNG8zNEhGZVRjNDdEYzNWTVc5QVQ5eWU2czZIUE90bVB2YjJNTnJ6RGs2SFYtdU4ta3ItR2JMZlJZc2Vva0RPR3YzeHBWdDlqblhpYld3dHphb0VCUmpzdmtqRWRlTTg?oc=5" target="_blank">Australian Shares Fall; Cochlear Confirms US Duty-Free Access for Hearing Implant Systems - Yahoo Finance Australia</a></div>
+  <div class="news-meta">
+    <span class="channel-gn">Google News</span>
+    <span style="color:#333355"> | Yahoo Finance Australia - 24 Jul 06:34</span>
+  </div>
+</div>
+<div class="news-item">
+  <div class="news-title"><a href="https://news.google.com/rss/articles/CBMixwFBVV95cUxPY1VMdGdPNDM3cjE2WXNld3NPbjVHbUNvbUdJbHllRDdGMjZmR0RpRFZtSXZKNExNc1liNndVbzJjVFQtMktfa21yaDhpSG4wYmVWQk0xbFAwWnJxellVY3hPWVZXM01TT1d4TG0tQndpNG9iU2hiZ180d0UwZUJLVUtlcHhYQUstZi1jRlMwdUJIbUJLV0t4aTh5TUJjSnFueTA2bmRrblBBYmlVcVRlUG5NQlF2Uy1JQm90WURKOG14Y3ZkZEtj?oc=5" target="_blank">Cochlear (ASX:COH) Barely Moves Today — Is Now the Time to Reassess the Hearing Implant Leader? - Kalkine</a></div>
+  <div class="news-meta">
+    <span class="channel-gn">Google News</span>
+    <span style="color:#333355"> | Kalkine - 23 Jul 11:35</span>
+  </div>
+</div>
+</div>
+<div class="company-block">
+  <div class="company-header">
+    WTC
+    <span class="company-name">WiseTech Global</span>
+    <span class="list-tag">Portfolio</span>
+  </div>
+  
+<div class="news-item">
+  <div class="news-title"><a href="https://news.google.com/rss/articles/CBMitgFBVV95cUxQVlRBLUdBU3U3Z1FuWGFtUi1WT2xnb0Q3T3BkVjNLUFFmMmxoWkVodW96N201RXBGaHhnbTdlcGVVSEJBODN5dTJfaWVXUUNNVm85TnVBOEd0clYxZDBNSFoxVnhaQ2ZlNTYtY3NqOFhOT2RRX1NtM1c2bXd5RV9IbGlTTmVsV1NJMGhaUUVRVFlFR2lkWnNEX19Fa21uMXZsR2xjcnZsbmdoNkhyUzNpMTIwMC1tdw?oc=5" target="_blank">WiseTech Global (ASX:WTC) Declines Amid Broad Weakness in ASX Technology Stocks - Kalkine</a></div>
+  <div class="news-meta">
+    <span class="channel-gn">Google News</span>
+    <span style="color:#333355"> | Kalkine - 24 Jul 05:56</span>
+  </div>
+</div>
+<div class="news-item">
+  <div class="news-title"><a href="https://news.google.com/rss/articles/CBMigwFBVV95cUxQbjl0NWV5VFpKeWM5X3hWSERabG1JbXUwQmFnbEl2V0E0dDE3OXBHeW5rLXp4V3QxeUoxVkdoYzZXOE1NdjdLNlVCNGNsTnM3RE0yTXo3OTIxOFk1QkU3UndiX0EtUGFQRHNXb2plSGJRZmFPM2xrR29JR2VocllGSDlxOA?oc=5" target="_blank">WiseTech Shares Lag The ASX 200 Today: The Latest - thebull.com.au</a></div>
+  <div class="news-meta">
+    <span class="channel-gn">Google News</span>
+    <span style="color:#333355"> | thebull.com.au - 23 Jul 08:37</span>
+  </div>
+</div>
+<div class="news-item">
+  <div class="news-title"><a href="https://news.google.com/rss/articles/CBMieEFVX3lxTE5yQld4NmplX2RzR3RuR24wSnZpRjJPTlNRVDhZOWtWRzlydS1MVUo1N29vYUZsNmYwZlZEbEdKSjlURy1ydDVpczVWU0czaXVjUkNuOW5QQ1FmYndMQVdPLUM0OEF2bV8xVTBFTndIbzdiZWI4OE9DOA?oc=5" target="_blank">WiseTech (ASX:WTC) buys FRDM.ai for US$24m and finally names the VerifyWise engine - Stocks Down Under</a></div>
+  <div class="news-meta">
+    <span class="channel-gn">Google News</span>
+    <span style="color:#333355"> | Stocks Down Under - 23 Jul 00:34</span>
+  </div>
+</div>
+<div class="news-item">
+  <div class="news-title"><a href="https://news.google.com/rss/articles/CBMi1AFBVV95cUxOY05yMzVxYnZIamx0NTNrOTdocnJOTW00dzhMcXNDTXMtc3lTNmpOdkhua2V1dVpnYVRIMU1hcWtadmdVblVsNXgxNXVVc3ZWd05ieVdJVkdrY2o5Zm9FRTduZ2s3QnhiT0w2ZkdwVjRhYzdrbUdGbnJuUW9Kc2NlYWlzSXhOQjFlcnNjbXc1T3hxcDFOUXg2dkU2b0RwdWRoV3ExQVMwU3o2QVd0U21nU1RPYWt3c1ZPRWFYaFh3Uy03SlJSTVRZRW5DOFFxQmRaZkVXeA?oc=5" target="_blank">ChartWatch ASX Scans: Pro Medicus, 4DMedical, Wisetech Global, Xero, JB HI-FI, Premier Investments, Car Group - Market Index</a></div>
+  <div class="news-meta">
+    <span class="channel-gn">Google News</span>
+    <span style="color:#333355"> | Market Index - 23 Jul 23:35</span>
+  </div>
+</div>
+<div class="news-item">
+  <div class="news-title"><a href="https://news.google.com/rss/articles/CBMinwFBVV95cUxPRXkydVVCeEw2V19TVm1GQXZlbUE5Z1BCYjJ6Zk90aThIQXA3ZXh5X2JVVG42cW84VFAycnRBcXBTRXhyZ2xMTkNIU3k3VDRYbEVGYkxZTGxjcTN3V3p0TlZEc0JIT293QnhUZ25XajcyZlphWTJaYkp1UHZMVmVPWC1SejFnOURzY29veHFqbGl1MDdwellaS1FtbkE4TFE?oc=5" target="_blank">WiseTech Global Shares Fall 4% Amid Broader Tech Weakness - Moomoo</a></div>
+  <div class="news-meta">
+    <span class="channel-gn">Google News</span>
+    <span style="color:#333355"> | Moomoo - 24 Jul 02:56</span>
+  </div>
+</div>
+</div>
+<div class="company-block">
+  <div class="company-header">
+    XRF
+    <span class="company-name">XRF Scientific</span>
+    <span class="list-tag">Portfolio</span>
+  </div>
+  
+<div class="news-item">
+  <div class="news-title"><a href="https://news.google.com/rss/articles/CBMirwFBVV95cUxQeGQycTRNcHV3XzR6aW9JNXVJdG9UN3VXUUFKZS1pUVhsWUJxbVc2TFd5dWZrQzVjY1BrcjZUOFh0SGFIeWxmdDg5a20zemhObEFCa1gzVGdFeEhQeFBUTWx4cGRSLTVUMmF2ZnVSQkxBSUNXLVJ1T1ZTbHU4TUNfSnRNUWdJR1hJeEE0dFlPZWlJZGNodlVyUlhxU0tWZmpxeFZmYmVpN1FOMlBra1o4?oc=5" target="_blank">XRF Scientific (ASX:XRF) Stock Is Higher Today — What's Driving the Interest? - Kalkine</a></div>
+  <div class="news-meta">
+    <span class="channel-gn">Google News</span>
+    <span style="color:#333355"> | Kalkine - 23 Jul 11:17</span>
+  </div>
+</div>
+</div>
+<div class="company-block">
+  <div class="company-header">
+    REA
+    <span class="company-name">REA Group</span>
+    <span class="list-tag">Portfolio</span>
+  </div>
+  
+<div class="news-item">
+  <div class="news-title"><a href="https://finance.yahoo.com/m/b0fb90c2-c1e2-3e90-847b-2bcbcdcab079/andy-reid%2C-patrick-mahomes.html" target="_blank">Andy Reid, Patrick Mahomes react to Mahomes' clearance to practice</a></div>
+  <div class="news-meta">
+    <span class="channel-yf">Yahoo Finance</span>
+    <span style="color:#333355"> | NFL Highlights - 24 Jul 23:13</span>
+  </div>
+</div>
+<div class="news-item">
+  <div class="news-title"><a href="https://news.google.com/rss/articles/CBMimwFBVV95cUxNRWJfNXlMVXR2Ulo5TEpWcTI5T0ZrREQzY0Z0N0RUNUh1a01jZnp3RGc4UVBPLTRvQXo2RUlhaWc5SGxEVWo1Y0FXX2JDTVlyelpJWlVIaFAzSWgwYS00OWJmbHZzRjZ6b1FlTHZrNjdKdEJpR3pZMl9oOU9IMnZVSjBxajdPOWlEX2tUbnNadUxHN0lpM2pMRHUwcw?oc=5" target="_blank">SA house prices rise again – one suburb’s growth stuns experts - realestate.com.au</a></div>
+  <div class="news-meta">
+    <span class="channel-gn">Google News</span>
+    <span style="color:#333355"> | realestate.com.au - 24 Jul 14:35</span>
+  </div>
+</div>
+<div class="news-item">
+  <div class="news-title"><a href="https://news.google.com/rss/articles/CBMiqAFBVV95cUxNN0NwelJkR01lU01ndmc3di1TYkhNUWQ4alI2dE1XY1M3S1JGRkNLdFFnbm5pZWlfTWx1cHRlZFN0ek5tMFN1dXpvLWFYN2JwcUxJX2h3NkZsOG8xeGQ2QjhJOEdhU2VHXzJWOHVnUlpyeWVTQkNOSU9ralJ4d3luWG0yT2ppaE8tZEcybW5aWVF4enctU2ZWbTFVdXdNTi1EUWU3Rl80cFk?oc=5" target="_blank">Research deems Newtown houses ‘undervalued’ and poised for price growth - realestate.com.au</a></div>
+  <div class="news-meta">
+    <span class="channel-gn">Google News</span>
+    <span style="color:#333355"> | realestate.com.au - 24 Jul 02:29</span>
+  </div>
+</div>
+<div class="news-item">
+  <div class="news-title"><a href="https://news.google.com/rss/articles/CBMizgFBVV95cUxPeHZydEFwNDBLaEFqTmlYQVEwYnhDc0ViVWR5eHRPS0JLRnF2QlF5aVNEc3pLWEFzdXVKQkNoS1A2UktJSWVsa2xTZUFRZFlTSElkbEFDV1M5MjhOOWpENkdGLTNEUzI0bEpwREJUMVJ2VktvQUl3aFhfUF9MOUVUY1doa3lkRXZ5UmljOHFrSkl2TVFoQXZBSlB4TS1jV2wyaS03M0xJd1dmNGFhcms3VnlwQ296MGNISzlNa3YyRjJVNTR4X0JhSkdhWDVqdw?oc=5" target="_blank">REA Group to Release Full Year Results on 6 August 2026 with Live Briefing from CEO and CFO - Kalkine</a></div>
+  <div class="news-meta">
+    <span class="channel-gn">Google News</span>
+    <span style="color:#333355"> | Kalkine - 23 Jul 00:16</span>
+  </div>
+</div>
+</div>
+<div class="company-block">
+  <div class="company-header">
+    TNE
+    <span class="company-name">TechnologyOne</span>
+    <span class="list-tag">Portfolio</span>
+  </div>
+  
+<div class="news-item">
+  <div class="news-title"><a href="https://news.google.com/rss/articles/CBMixAFBVV95cUxQSEdVT2J4elVnd0hyTkd2bms0em5qakQxZzZyV2ZEUmhDSi1NQTRzR096SzZCV29DVUpRaHJxSjBsWjJfUmlIUGRQWVVic0J5VEt1VjA3SXhUdF9sQzlnalVkbkFvM2lkelhIci1hM0NBU3VXR283RGxmRnBxQUlFRVVxZ05saXZKSkZkX3FyOE9pM29CUHNKZ2ZBWnQwcl9rNlcwd3NWQlJDSzVYMF9WbzdXdzJWVTJURFhEVWIzRnJ6T1BX?oc=5" target="_blank">TechnologyOne (ASX:TNE) Shares Fall as AI-Spending Concerns Weigh on ASX Technology Stocks - Kalkine</a></div>
+  <div class="news-meta">
+    <span class="channel-gn">Google News</span>
+    <span style="color:#333355"> | Kalkine - 23 Jul 10:10</span>
+  </div>
+</div>
+<div class="news-item">
+  <div class="news-title"><a href="https://news.google.com/rss/articles/CBMivgFBVV95cUxNTkRwX1B5d3A0c1Voem5HMUg1Sm9yLUNZZzgtT090VTVzN1p3RXNXVnhfa09pcFZ6dWhEWWw2Ukg2aGFiUkxrNjRWa1dtMjJ3S0FLMzFPSGo1X1pCeGZ1LUNGQTdjT2p6QW42U3VMZWVjc0pLeV9HbWZ0S0NkdEJQaG9yeG9Gb1JHTEFMV19JdGJsRXc1NkhRLVBnZWxkWm5jWS1FdTZhU2xkRDBRSUtKbm5MX3dkaS1naUFVRjR3?oc=5" target="_blank">Why Is TechnologyOne (ASX:TNE) Suddenly at the Centre of the Technology Debate? - Kalkine Media</a></div>
+  <div class="news-meta">
+    <span class="channel-gn">Google News</span>
+    <span style="color:#333355"> | Kalkine Media - 24 Jul 10:29</span>
+  </div>
+</div>
+<div class="news-item">
+  <div class="news-title"><a href="https://news.google.com/rss/articles/CBMiugFBVV95cUxOejZSX1pDREdTaXdwUFQ3aFYtS0VMTjd1aHZoTVpnUm94UjVvYm9qMDgxUVh5R1ZNZFFZZFJ6ZUNBZ1E0UGF4ajNhZXg5V01fTXJ0cHYtYTdtNGFLYlRfR3RtZGlFU2VOT1FsRHR2b1FlcWk4Unp2OWY5bFpqMjdUMTgtbUxwZnF4QTZSbmxwTFVNdDNMT3FOWkItbEp6bWdYZEliV3IwWG1qQS1Xd3ltNjZGY0FwR01SNEE?oc=5" target="_blank">Technology One (ASX:TNE) Falls as Domestic Software Names Follow Wall Street Lower - Kalkine</a></div>
+  <div class="news-meta">
+    <span class="channel-gn">Google News</span>
+    <span style="color:#333355"> | Kalkine - 24 Jul 05:52</span>
+  </div>
+</div>
+<div class="news-item">
+  <div class="news-title"><a href="https://news.google.com/rss/articles/CBMiqwFBVV95cUxORm5SUW9XZDdnMzNtS3B5THJmVWY1QkhkY2ZZaHp3aGhZc1FnQzJIYXo5VGUtRmVvWV9kdHJULWZTbjdQZkdiV2VXN2hZcHVfTU00dlNFYjRFcDBvMmxCaTVoTENDYVNJVHpmR0JucWx1MGwyV25XUzVzazljZUhrTV8xdG1zQzdEWVRhRXNLUHdsWGtuWjZmNDBOUnFSTkFNcDNSVUZZS2VIZ00?oc=5" target="_blank">Why Does TechnologyOne (ASX:TNE) Keep Returning to the ASX Spotlight? - Kalkine Media</a></div>
+  <div class="news-meta">
+    <span class="channel-gn">Google News</span>
+    <span style="color:#333355"> | Kalkine Media - 24 Jul 03:48</span>
+  </div>
+</div>
+<div class="news-item">
+  <div class="news-title"><a href="https://news.google.com/rss/articles/CBMivwFBVV95cUxPTWpndnZxQ0UzbFd6a0hVeGtVdnk2Y3VHT09PWElidVc5NlowRTdaS3ZjUEduaU41cTc1SHR4T2s1bmFzX3YtQkpXMEhCTTh2eHBNa29ZZ3dGc3NjN0M1ZkladGRYR2NzQnVXSjViN0twWWVFLTQwb1J2R2xZOXU2REhPWmxxZkhHbjNtNktuYmptZENEV1c3aHY3RWRlNEJCRXIwT2lxQ0VDQndTOTlUS1hCSFZDTWtQQTRtMTFnSQ?oc=5" target="_blank">TechnologyOne (ASX:TNE) Falls 3.65%—Is Profit-Taking Still Weighing on the Software Stock? - Kalkine</a></div>
+  <div class="news-meta">
+    <span class="channel-gn">Google News</span>
+    <span style="color:#333355"> | Kalkine - 23 Jul 13:09</span>
+  </div>
+</div>
+</div>
+<div class="company-block">
+  <div class="company-header">
+    SOL
+    <span class="company-name">Washington H. Soul Pattinson</span>
+    <span class="list-tag">Portfolio</span>
+  </div>
+  
+<div class="news-item">
+  <div class="news-title"><a href="https://news.google.com/rss/articles/CBMilwFBVV95cUxNSGoxYm5pcjdHWE5LZGhmUWhWRDFMQWpCcnRCVXhYQUxUX0NYUWJVVWNQY0llYmtxWGh1TTlhelRUX1NSZmozcTFNOWVPR0htYm1yeTdmd3BZSzBCSGtCM3lGM1JOeElNY1F1azlndUM3aHQ0djBHY3NGcHo2RDJjMXhwS0RjUXd4N2RXZ1cxcV8xdmtBTXBV?oc=5" target="_blank">Are SOL shares or NWL shares better value in 2026? - Rask Media</a></div>
+  <div class="news-meta">
+    <span class="channel-gn">Google News</span>
+    <span style="color:#333355"> | Rask Media - 23 Jul 21:10</span>
+  </div>
+</div>
+</div>
+<div class="company-block">
+  <div class="company-header">
+    SDR
+    <span class="company-name">SiteMinder</span>
+    <span class="list-tag">Portfolio</span>
+  </div>
+  
+<div class="news-item">
+  <div class="news-title"><a href="https://news.google.com/rss/articles/CBMiuwFBVV95cUxOOEprT2xMRl9tZUlPbndLNlVfalR6cVNTVlg2TWJwUzNqRGwza2w3QWs0U29XYWxTZ2o2TXdtTkxIVW9WVU5kRFYwanJIWmhfZ2QyaGwyU2FJa1lxQ3c4Vk9RUTFEWU5VeUtBa21JNVR1M1VGY0wxREVCOFJxdXMzem1GTW0xZkVGY1RHbk9vTXR3RWFwaGtUWk5PWDhkdnM0S04wOVNUQ2VvOWVNTURUTGM5eERPWUdBeU1Z?oc=5" target="_blank">SiteMinder (ASX:SDR) Drops as Hospitality Technology Stocks Join the Sector Retreat - Kalkine</a></div>
+  <div class="news-meta">
+    <span class="channel-gn">Google News</span>
+    <span style="color:#333355"> | Kalkine - 24 Jul 05:52</span>
+  </div>
+</div>
+<div class="news-item">
+  <div class="news-title"><a href="https://news.google.com/rss/articles/CBMiugFBVV95cUxNQzZFOHVMcnRGWUJZQ3RTRWhjRGdBYjY0VF90MENFVXdfTjVqeTByOXNZLWpjclVBOVZfZjZ4MmFQdkZlNU0zWXdJN2dYa19ZeUZsamc2dHJCWmJ1RHl0WDlYWFFLc2xKR3hDMDllUFprZE12WVI1VldmeUd1RUlCcjV3djBBVnZFbmdJVkFBTno5SWw4M2d6QlVpUk9JTUxZUEhZSVJEYVdZUHdEYTdsSkxCcTNtSlNXTEE?oc=5" target="_blank">SiteMinder (ASX:SDR): Hotel Software Platform Holds Firm Amid Technology Sector Dip - Kalkine</a></div>
+  <div class="news-meta">
+    <span class="channel-gn">Google News</span>
+    <span style="color:#333355"> | Kalkine - 23 Jul 03:43</span>
+  </div>
+</div>
+</div>
+<div class="company-block">
+  <div class="company-header">
+    OCL
+    <span class="company-name">Objective Corporation</span>
+    <span class="list-tag">Portfolio</span>
+  </div>
+  
+<div class="news-item">
+  <div class="news-title"><a href="https://news.google.com/rss/articles/CBMiygFBVV95cUxNRmVUVXBFVlU0WEpKVjVNWFcybk94WE5ZREtGNUtpWFpRZ2hxU3pQWkVoR3VHdXpkQ01CdXpKYURiZ1liTV9FMUh0ak41YUN4NGI1a2hRZG1INW9BaDR2VVV4Q0d3bWxGNmlON3VHdTRndnBPTzl1ZXJXQ3FSV1hoeHdPY2dxVEJzSVRudFJnUFI4STljaG50cFNDWmFJU2dmQzc1SHVjUDF2Umx5eFVSVlhZNGVuS3BadWFVR0NrQjBjQ3hJN1F1ZEt3?oc=5" target="_blank">Objective Corporation (ASX:OCL) Drops Again: What Are Investors Watching in Enterprise Software? - Kalkine</a></div>
+  <div class="news-meta">
+    <span class="channel-gn">Google News</span>
+    <span style="color:#333355"> | Kalkine - 24 Jul 13:40</span>
+  </div>
+</div>
+<div class="news-item">
+  <div class="news-title"><a href="https://news.google.com/rss/articles/CBMiwAFBVV95cUxQT3lkdFFuZUdaNk9BM05nbld4ZHZiQnVYb0l1MFdmY194UGgzeThIUlAwWHRFcXQ4Y1Y5bGVCYnJITjluUGkwaTRwWTNGeWxtbnpUcjVwUWs3SjlwMkVmSDdqMW1zbnpXVWlITHNKVm90ZmxEaTVLSjhGUWJ6S3l4WnhGWXh4NF83eVNJbm0xNXZmM1h0SDc1Qkk0dF9vTk52UWl3a2ZmSmFjQ2JMWHc1ay1mdjVLdTV6RUtKLWV3SnY?oc=5" target="_blank">Objective Corporation (ASX:OCL) Holds Near Flat as Government Software Proves Resilient - Kalkine</a></div>
+  <div class="news-meta">
+    <span class="channel-gn">Google News</span>
+    <span style="color:#333355"> | Kalkine - 24 Jul 05:52</span>
+  </div>
+</div>
+<div class="news-item">
+  <div class="news-title"><a href="https://news.google.com/rss/articles/CBMivAFBVV95cUxOSWFPNExTQzdwOGpZQktjb1k3czcxSnluUTE0RWthejF0Y1B0SDhqTTdzaFVJNEhTNEhGQnFaY0F4MF81S0g4UVNUcnZoX2U5cXg0ay02UUZaNE5POVBJX3N3SEZ5Vk9EeVFBajBVTzRyVXh5dm5YMVpxaC02Vl81ZkNCSmVzUTNCZ2JDby1KZ1RTWWRUdGo4cWhrbFF5NElpb1lPUm9nSGZDUzRKMU1tVmVCaEpDUG5yRDN5Rg?oc=5" target="_blank">Objective Corporation (ASX:OCL): Government Software Specialist Eases in Tech Session - Kalkine</a></div>
+  <div class="news-meta">
+    <span class="channel-gn">Google News</span>
+    <span style="color:#333355"> | Kalkine - 23 Jul 03:43</span>
+  </div>
+</div>
+</div>
+<div class="company-block">
+  <div class="company-header">
+    SIG
+    <span class="company-name">Sigma Healthcare</span>
+    <span class="list-tag">Portfolio</span>
+  </div>
+  
+<div class="news-item">
+  <div class="news-title"><a href="https://news.google.com/rss/articles/CBMi1gFBVV95cUxOSHRlT0I1ZkszVG9lVTkyMnFuUHo3RTE5LURMYUM0WDhDbUJoOE5qek55S0RHWTkwT0FYaWxpRmRZREZDdkkwbDNucjVNaUoyak16U21DRmlPeWV0eDRjZ0VTVTJVNzFQZUpHY1o2VUd1QmxBbGJEVThuWEh5SDNtRWQzY0RpNGNTNF95LWh6eXV4alU5Q0hxWWRxVWN6NnkyRDNIa0pxRkFVazJPbHZqUXpyNEhHSmgxNV9rU1VmUE1jcE0xUGFSUUtwUGllZFpMaFZkeTBR?oc=5" target="_blank">Sigma Healthcare (ASX:SIG) Edges Lower — Is the Pharmacy Distribution Giant Still a Story Worth Following? - Kalkine</a></div>
+  <div class="news-meta">
+    <span class="channel-gn">Google News</span>
+    <span style="color:#333355"> | Kalkine - 23 Jul 11:43</span>
+  </div>
+</div>
+</div>
+<div class="company-block">
+  <div class="company-header">
+    RMD
+    <span class="company-name">ResMed</span>
+    <span class="list-tag">Portfolio</span>
+  </div>
+  
+<div class="news-item">
+  <div class="news-title"><a href="https://news.google.com/rss/articles/CBMirAFBVV95cUxQMHo2REN1cUt6MkhQckFucTA2cVpGZHFrVlF2ekFZazAwUktEd1p1OXpJOHVsVVc1enJ3YkF2Sy1zLWNSLWZFSDRSN1RaWEpSUDJDeUFYOG9vX2lKdDhGQlhORW9BdF92dk02TmRhUHhBekd6ZEFNX2NBaV96aF94X1p2X2d0UHlDUWxFeklsZnpuaDNDS0VTNmVYdHdRaklNZk5PNVc3NnlNeDlS?oc=5" target="_blank">Could ResMed (ASX:RMD) Be Approaching a Crucial Healthcare Moment? - Kalkine Media</a></div>
+  <div class="news-meta">
+    <span class="channel-gn">Google News</span>
+    <span style="color:#333355"> | Kalkine Media - 24 Jul 03:51</span>
+  </div>
+</div>
+<div class="news-item">
+  <div class="news-title"><a href="https://news.google.com/rss/articles/CBMiuAFBVV95cUxQYk1fYmxaXzJBZEFRWU5KS1I4ZEVmbk94cGd1UjBJWXBxdnNfYVlYOXBxTVBycURlX3NlTWhMYWE0RGVGOGhLS0tyZ0MySDJIZUY4aVJwTVlYcEJ6SklfN0lwWFJScUN2MnM1VjBfSnhVby1Nb0JfdUpzdjVCMTQyT3prMk5SOGEwZHVhcWZ4YWRkRDRsUjJKOUpWWl9BcUd3ek42X08xX3lWU1FoYXZxaUFYelM1YTlm?oc=5" target="_blank">ResMed (ASX:RMD) Moves Lower Today — Is the Sleep Apnoea Giant Still Worth Watching? - Kalkine</a></div>
+  <div class="news-meta">
+    <span class="channel-gn">Google News</span>
+    <span style="color:#333355"> | Kalkine - 23 Jul 11:43</span>
+  </div>
+</div>
+<div class="news-item">
+  <div class="news-title"><a href="https://news.google.com/rss/articles/CBMiiwFBVV95cUxPT2NsNGFzWVhVLWVRejdpSUJyMkxCMkxLN252eU1NeXJFbXNLcE4tcGNMYWpGaE1sa2NfUVk5bVBNMHJ4ZDNOY1diMnRLR2JOTjFzTHlteXg2RGlQbHFKX1FMcVU5dzJrWml6T1Y2LVlDUXBYSllVekg3QUFEMU0zdWU4T1ViWklfdkUw?oc=5" target="_blank">What Puts ResMed (ASX:RMD) Back in Focus? - Kalkine Media</a></div>
+  <div class="news-meta">
+    <span class="channel-gn">Google News</span>
+    <span style="color:#333355"> | Kalkine Media - 23 Jul 05:10</span>
+  </div>
+</div>
+</div>
+<div class="company-block">
+  <div class="company-header">
+    MFF
+    <span class="company-name">MFF Capital</span>
+    <span class="list-tag">Portfolio</span>
+  </div>
+  
+<div class="news-item">
+  <div class="news-title"><a href="https://news.google.com/rss/articles/CBMiwAFBVV95cUxPb0pLUnRibno5alp0ZDl2el9rYTBTdzZvVW5nZVFOOEtwTkFyVmwxS21xWmNLZFlQQUluSUZ0UnVNLUlQcWkyZXE0d0xiSFBPS3cwQkZabUZTdWxRUVJxMnEzbWRmaFF6dVJ0X1ViYmpuVEYyNENBRTBibC03U0hZblh6YmoyWEp4LXFia2NMLVlaTDJfYmFDUld1SU80RURRUEJBNXBZZlo4UmNoWm1KYzl3X0wzeFJ5VXgxeUR0REk?oc=5" target="_blank">MFF Capital Investments (ASX:MFF) Shares Slip as Investors Monitor Portfolio Performance - Kalkine</a></div>
+  <div class="news-meta">
+    <span class="channel-gn">Google News</span>
+    <span style="color:#333355"> | Kalkine - 24 Jul 09:57</span>
+  </div>
+</div>
+<div class="news-item">
+  <div class="news-title"><a href="https://news.google.com/rss/articles/CBMivAFBVV95cUxOZEtyWndKX3ZoWjJDOWdveWgwdG1QWHdDQmN5Mk5POUNmMXN2Nm5LLWVjeVZaVWo0RTBFd1BxUlB5Tk1yUnRmLWRYWHRkZjNOYktxQkd3QnVzak9sZXBla29HRy11aFFzcVhWWXVuRzM2d1U5YURBSFZsbG5zeXRZcVl5MDlyVWVMbDI0YjdSX1lkc2o5LTVwampFMHRNRHFOMVgyUEJINHF1MGY2emcxaS1HSnk5OUs2VlFqdQ?oc=5" target="_blank">Sally Annabelle Chaplain Increases Holdings in MFF Capital Investments Limited - Kalkine</a></div>
+  <div class="news-meta">
+    <span class="channel-gn">Google News</span>
+    <span style="color:#333355"> | Kalkine - 24 Jul 02:41</span>
+  </div>
+</div>
+<div class="news-item">
+  <div class="news-title"><a href="https://news.google.com/rss/articles/CBMi5AFBVV95cUxOUGhSeDlrVFl3aFBHRUEwNmtEU0xGa3ViVkZOTVcyZDhXVkUyNlNROW12SG1tMzhFeENEMHJ6Qm5nbVEteFRYOHdSVEZka3NJZkhZaFFtRzhWOEpWczNlMl80ajM0ai1zZmU1NG0ybk85QXBCeVViYXhCczlLT1pkYm9CNzFJRTlTbkV6Z3Y0VmlLQnN3S2FwWXVSVEFQTm5PbzMwQllhUVhfdHJTSlhkRkxMVjFHNk5KQkhQY0tDLUg4WUVDNlZxcXZlb05idEkxVXJkUzJtaDlXRVdqSV9MbEFSWVQ?oc=5" target="_blank">Chris Mackay Boosts Montaka Fund Holdings via Distribution Reinvestment, MFF Capital Investments Reports - Kalkine Media</a></div>
+  <div class="news-meta">
+    <span class="channel-gn">Google News</span>
+    <span style="color:#333355"> | Kalkine Media - 23 Jul 06:04</span>
+  </div>
+</div>
+</div>
+<div class="company-block">
+  <div class="company-header">
+    SHL
+    <span class="company-name">Sonic Healthcare</span>
+    <span class="list-tag">Watchlist</span>
+  </div>
+  
+<div class="news-item">
+  <div class="news-title"><a href="https://news.google.com/rss/articles/CBMimAFBVV95cUxOaGx6NmU3TjlFVk9DczRUbE00VGJsVmtsc2RqeF9xcmNITXlPQ0U1N2hDc3NtYUVvUXBlMkV3NVhKbVg5UzVoTkNCOGJFVXVvUEJQbzE2RDFrcmV1S1pQSjQ5RndSZmkwMnBncXhIMmtpc2pHc2dLSVFRbjVIajVnNDV5bTFDV2hNZklvRENSOHVmTnFQaFlrdg?oc=5" target="_blank">ASX healthcare share remains undervalued ahead of earnings - Morningstar Australia</a></div>
+  <div class="news-meta">
+    <span class="channel-gn">Google News</span>
+    <span style="color:#333355"> | Morningstar Australia - 24 Jul 03:24</span>
+  </div>
+</div>
+<div class="news-item">
+  <div class="news-title"><a href="https://news.google.com/rss/articles/CBMitgFBVV95cUxNaDg4MFpKRDQ5ZmREdEJucTZhbG5zU3RYMVpRbjlUMGRTemsxT2Vxc0xKNUY1MFp2VzlXaVlIU2VvNTl4T0dpV2xmRmMyTmFjaWFGQXU4eFdtQU9TTkZTcnJ3OXRaUEJKVWhNakxSTVpXdG5wSERZSHZ6eUlIYVpGSlA0Ul92QlFXZ3dybXk3SU8wZG5LaVlvR1FvRkNlajlMZHlUcncyZFBGQWVZWWt5VG1UMVQ1dw?oc=5" target="_blank">Sonic Healthcare (ASX:SHL): What Does the Recent Share Price Performance Suggest? - Kalkine</a></div>
+  <div class="news-meta">
+    <span class="channel-gn">Google News</span>
+    <span style="color:#333355"> | Kalkine - 23 Jul 03:14</span>
+  </div>
+</div>
+</div>
+<div class="company-block">
+  <div class="company-header">
+    NHC
+    <span class="company-name">New Hope Corporation</span>
+    <span class="list-tag">Watchlist</span>
+  </div>
+  
+<div class="news-item">
+  <div class="news-title"><a href="https://news.google.com/rss/articles/CBMitgFBVV95cUxPWUlkbVM2U2wxX0t5c2g2MTRDSDZ5OFJBaHUzSk04Y2ozemZUMkhNc01Fa2EtTTBscFl2bzFfMzBfdTVtMGRMNjNILVh5N2stOHowMmhKQjg5NDZVemRPVF9jNllhWS1TellWRXAxcVlHS0NPYlU4NEozR3o3Y2tsU3FOU1dFRWZ3cWI1cjJPRDYySXMydkwxOS1mSEdhSl9OaWJocGNKYm83QXUza3E5R2JVOWJnUQ?oc=5" target="_blank">New Hope Corporation (ASX:NHC): The Coal Producer That Has Quietly Beaten the Market - Kalkine</a></div>
+  <div class="news-meta">
+    <span class="channel-gn">Google News</span>
+    <span style="color:#333355"> | Kalkine - 24 Jul 11:14</span>
+  </div>
+</div>
+<div class="news-item">
+  <div class="news-title"><a href="https://news.google.com/rss/articles/CBMiugFBVV95cUxNNEdZTWlIVkxXVXM2QXZYUU1tS2xxWWxBc0tRN0RFdnl2Sm1nMXJMQTJJVE1YRnlhM0g4bHFyNXp4dG51UXBsYlNZd2g3UV9SdzNpb0lCQ1JFYk1meFZDZGR6SXhtYi1xSWlpbUdlOW9ldjgtMjFBVS15eTJqdlU2RFA5THVCekdFRTI2bmtlMGZ0QkkxNFItc0NaR2JFRldNV2ctOWlpUWVkWjd0UmNsMlpLUVhGeUFjdWc?oc=5" target="_blank">New Hope Corporation Ltd (ASX:NHC) Trades Higher as Coal Miners Attract Buyer Interest - Kalkine</a></div>
+  <div class="news-meta">
+    <span class="channel-gn">Google News</span>
+    <span style="color:#333355"> | Kalkine - 23 Jul 10:12</span>
+  </div>
+</div>
+</div>
+<div class="company-block">
+  <div class="company-header">
+    JBH
+    <span class="company-name">JB Hi-Fi</span>
+    <span class="list-tag">Watchlist</span>
+  </div>
+  
+<div class="news-item">
+  <div class="news-title"><a href="https://news.google.com/rss/articles/CBMiiwFBVV95cUxQLV9tNnk0Q3NDeGJzX2IwcVdBNF9zaWpOeGFvaTNzcS1YY3A3N205S0toNnpOWmdweUZkUGtnRVZVT0hMV0RPckJXeFRNTVVlR3p2alZFME0wU3pVYlFTeUFSTDJKNVFkcXItZU5yajRuakxKTHV6ZWFZSDJYQ3hjWXdUczJpZ3ppVUww?oc=5" target="_blank">JBH and ALL shares: 2 ASX shares to watch - Rask Media</a></div>
+  <div class="news-meta">
+    <span class="channel-gn">Google News</span>
+    <span style="color:#333355"> | Rask Media - 24 Jul 20:10</span>
+  </div>
+</div>
+<div class="news-item">
+  <div class="news-title"><a href="https://news.google.com/rss/articles/CBMipgFBVV95cUxOUnZQdHhPWEJXTXJtUW9rdW9DMDJySjZLY0tOQ1hXUUg5OFFjUkhFb09rMUFDRXk0S0o1UzF3bHVEbFhfU21rS1Fza0M5ZWJhVVNQMlhsVmVSRXFKZGV1NGxPV0JPcGQyekJCZlktTHF4R0VnZXUyRG4xZnhsdUdLZHM1SmwzTVhBSUxmWE1fREgwek9VbXNBRXpDbGllY1AwMEJwVzdR?oc=5" target="_blank">Is JB Hi-Fi (ASX:JBH) the ASX Name Investors Are Underestimating? - Kalkine Media</a></div>
+  <div class="news-meta">
+    <span class="channel-gn">Google News</span>
+    <span style="color:#333355"> | Kalkine Media - 24 Jul 10:20</span>
+  </div>
+</div>
+<div class="news-item">
+  <div class="news-title"><a href="https://news.google.com/rss/articles/CBMie0FVX3lxTFAwRkNfSE02ZGF2Z2VubmhESXhzRFQzYXlsLVRvRXJZeGROZklQcXpuNUJqTVExVEN2NVF2MDh5M1JJS01WaHhKVkhNNV9oRmhSSEQ2YXlFWm1HUklxZ3NUNXZnRjZpcXFCOWpYVjUwMTRUS2Uzblg4YWZVTQ?oc=5" target="_blank">A deep dive into JBH shares - Rask Media</a></div>
+  <div class="news-meta">
+    <span class="channel-gn">Google News</span>
+    <span style="color:#333355"> | Rask Media - 24 Jul 09:58</span>
+  </div>
+</div>
+<div class="news-item">
+  <div class="news-title"><a href="https://news.google.com/rss/articles/CBMi1AFBVV95cUxOY05yMzVxYnZIamx0NTNrOTdocnJOTW00dzhMcXNDTXMtc3lTNmpOdkhua2V1dVpnYVRIMU1hcWtadmdVblVsNXgxNXVVc3ZWd05ieVdJVkdrY2o5Zm9FRTduZ2s3QnhiT0w2ZkdwVjRhYzdrbUdGbnJuUW9Kc2NlYWlzSXhOQjFlcnNjbXc1T3hxcDFOUXg2dkU2b0RwdWRoV3ExQVMwU3o2QVd0U21nU1RPYWt3c1ZPRWFYaFh3Uy03SlJSTVRZRW5DOFFxQmRaZkVXeA?oc=5" target="_blank">ChartWatch ASX Scans: Pro Medicus, 4DMedical, Wisetech Global, Xero, JB HI-FI, Premier Investments, Car Group - Market Index</a></div>
+  <div class="news-meta">
+    <span class="channel-gn">Google News</span>
+    <span style="color:#333355"> | Market Index - 23 Jul 23:35</span>
+  </div>
+</div>
+<div class="news-item">
+  <div class="news-title"><a href="https://news.google.com/rss/articles/CBMiiwFBVV95cUxOU1ZrMWNHNXVLaEhvdzVURUlqZlU3bl9sUC1kOWtEdlpXMGdhS0haRUZJcXBFRWE0Q0RyQ1hGSGh5M25IbDJyMmVWQlV5Tkd0VTF1MlA2ZHh1dnVNTks5Z2lqVVlzb0RhNFRucUcydDZUN2xJZmdSNC1PMmZvNzROZDVuSXhLX0xWUHJr?oc=5" target="_blank">Is JB Hi-Fi (ASX:JBH) Testing Shopper Nerves? - Kalkine Media</a></div>
+  <div class="news-meta">
+    <span class="channel-gn">Google News</span>
+    <span style="color:#333355"> | Kalkine Media - 23 Jul 06:55</span>
+  </div>
+</div>
+</div>
+<div class="company-block">
+  <div class="company-header">
+    4DX
+    <span class="company-name">4DMedical</span>
+    <span class="list-tag">Watchlist</span>
+  </div>
+  
+<div class="news-item">
+  <div class="news-title"><a href="https://news.google.com/rss/articles/CBMirAFBVV95cUxPUzJmREI0ZEppY2NNaUJYOFNmN2ZQZjFhTFNseWdRSVVCU0N6X0NJWFhOSWpkWEpjOTFiVkh0S2M4WDE3TjdMcGcxbWI3QnhxZ0ZIdHpKMlBrRWVNbGhlS2w0ampabjQ4UEJCc1ZsNmw5eXM2TDg4VWNMbXpiWXI2VHNrSnZwSk10N2VmaUtDbGVXRXgtZjJpNjVNMF9BYUFaazI5VThxMmtCYTNY?oc=5" target="_blank">4DMedical (ASX:4DX) Shares Closed Down Today: What Are Investors Watching? - Kalkine</a></div>
+  <div class="news-meta">
+    <span class="channel-gn">Google News</span>
+    <span style="color:#333355"> | Kalkine - 24 Jul 15:15</span>
+  </div>
+</div>
+<div class="news-item">
+  <div class="news-title"><a href="https://news.google.com/rss/articles/CBMi2gFBVV95cUxQQXdGRnpGU3ZLQ25oUW5TTHBMaG5CLVFwOHRUVm9kQ08wTE1FdC1oUzlaOWI1SWViUWJLSkxoYkV6R0NlMklmeXd3Um5PMDg1MFZxWGxzMGZkUGFUVm9YSmM4TXhHTEU4dkstdExaQVVVSTFfMHp4OXlrNk9VcXhFTEZYOEN3eDRWYnNyM3otSVBSa3lzTHItZ3ZxZnA4NUlHZGZOU25zMUFOYnpYLUNNNGp0d29LZDhSYVg4MXM5MWNoTGx3VDVPY2pyYUtxcFVRSVBRS0Rtd3dPZw?oc=5" target="_blank">4DMedical (ASX:4DX): The Lung Imaging Technology Company Redefining What an ASX Healthcare Rally Looks Like - Kalkine</a></div>
+  <div class="news-meta">
+    <span class="channel-gn">Google News</span>
+    <span style="color:#333355"> | Kalkine - 24 Jul 07:48</span>
+  </div>
+</div>
+<div class="news-item">
+  <div class="news-title"><a href="https://news.google.com/rss/articles/CBMixwFBVV95cUxPUVYwX2tSTjg3bHN4RGlDREZCSHl4cVl1aXFRaTdzNmt6aWo2UjdMZm8yc015ZDZYMnNhRVJoYmxVV25wcHo2eUlJWFdna0FVejhLNVRxRk1FWUJuSzU0R2xjbDNIRHhNaWV4cU9vX3pvcjd3M2FyVzZHZkt4Q1lPUk5ubTk2YUZ2QkNReE8wczZVUTM5NmQxMkhFdkpjSGtCR0NUa090cmpPZWl1QklkLXNVb2kzYlN4dUN1QXI2NTV4ck9vT3Nj?oc=5" target="_blank">4DMedical (ASX:4DX) Pulls Back Today — Is the Lung Imaging Technology Still a Compelling Story? - Kalkine</a></div>
+  <div class="news-meta">
+    <span class="channel-gn">Google News</span>
+    <span style="color:#333355"> | Kalkine - 23 Jul 11:23</span>
+  </div>
+</div>
+</div>
+<p class="no-news">No recent coverage: SGH, LOV, APA, EIQ</p>
+<hr>
+<p style="color:#1a1a30;font-size:12px">
+  Ned scans Yahoo Finance, Google News RSS, Livewire Markets, Stock Analysis, and YouTube
+  for news published in the last 48 hours. Not financial advice.
+</p>
+</body></html>
