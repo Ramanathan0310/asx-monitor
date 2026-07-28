@@ -1,0 +1,115 @@
+{
+  "date": "2026-07-28",
+  "threshold": 5.0,
+  "total": 31,
+  "flagged": [
+    {
+      "ticker": "EOL.AX",
+      "name": "Energy One",
+      "list": "Portfolio",
+      "data": {
+        "price": 10.79,
+        "low": 10.4,
+        "high": 20.19
+      },
+      "dist": 3.75,
+      "pos": 4.0
+    },
+    {
+      "ticker": "XRF.AX",
+      "name": "XRF Scientific",
+      "list": "Portfolio",
+      "data": {
+        "price": 1.705,
+        "low": 1.6,
+        "high": 2.4
+      },
+      "dist": 6.56,
+      "pos": 13.1
+    },
+    {
+      "ticker": "ARB.AX",
+      "name": "ARB Corporation",
+      "list": "Portfolio",
+      "data": {
+        "price": 18.32,
+        "low": 16.93,
+        "high": 41.34
+      },
+      "dist": 8.21,
+      "pos": 5.7
+    },
+    {
+      "ticker": "RMD.AX",
+      "name": "ResMed",
+      "list": "Portfolio",
+      "data": {
+        "price": 28.0,
+        "low": 25.5,
+        "high": 45.25
+      },
+      "dist": 9.8,
+      "pos": 12.7
+    },
+    {
+      "ticker": "SIG.AX",
+      "name": "Sigma Healthcare",
+      "list": "Portfolio",
+      "data": {
+        "price": 2.86,
+        "low": 2.58,
+        "high": 3.2
+      },
+      "dist": 10.85,
+      "pos": 45.2
+    },
+    {
+      "ticker": "LOV.AX",
+      "name": "Lovisa Holdings",
+      "list": "Portfolio",
+      "data": {
+        "price": 21.4,
+        "low": 19.3,
+        "high": 43.68
+      },
+      "dist": 10.88,
+      "pos": 8.6
+    },
+    {
+      "ticker": "WTC.AX",
+      "name": "WiseTech Global",
+      "list": "Portfolio",
+      "data": {
+        "price": 32.12,
+        "low": 28.76,
+        "high": 120.84
+      },
+      "dist": 11.68,
+      "pos": 3.6
+    },
+    {
+      "ticker": "JBH.AX",
+      "name": "JB Hi-Fi",
+      "list": "Watchlist",
+      "data": {
+        "price": 75.65,
+        "low": 67.38,
+        "high": 121.0
+      },
+      "dist": 12.27,
+      "pos": 15.4
+    },
+    {
+      "ticker": "C79.AX",
+      "name": "Chrysos Corporation",
+      "list": "Portfolio",
+      "data": {
+        "price": 5.61,
+        "low": 4.92,
+        "high": 10.13
+      },
+      "dist": 14.02,
+      "pos": 13.2
+    }
+  ]
+}
