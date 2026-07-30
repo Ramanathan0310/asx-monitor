@@ -1,0 +1,43 @@
+{
+  "date": "2026-07-30",
+  "threshold": 5.0,
+  "total": 31,
+  "flagged": [
+    {
+      "ticker": "EOL.AX",
+      "name": "Energy One",
+      "list": "Portfolio",
+      "data": {
+        "price": 10.85,
+        "low": 10.28,
+        "high": 20.19
+      },
+      "dist": 5.54,
+      "pos": 5.8
+    },
+    {
+      "ticker": "XRF.AX",
+      "name": "XRF Scientific",
+      "list": "Portfolio",
+      "data": {
+        "price": 1.7,
+        "low": 1.6,
+        "high": 2.4
+      },
+      "dist": 6.25,
+      "pos": 12.5
+    },
+    {
+      "ticker": "SIG.AX",
+      "name": "Sigma Healthcare",
+      "list": "Portfolio",
+      "data": {
+        "price": 2.96,
+        "low": 2.58,
+        "high": 3.2
+      },
+      "dist": 14.73,
+      "pos": 61.3
+    }
+  ]
+}
