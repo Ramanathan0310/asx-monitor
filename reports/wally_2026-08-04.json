@@ -1,0 +1,31 @@
+{
+  "date": "2026-08-04",
+  "threshold": 5.0,
+  "total": 31,
+  "flagged": [
+    {
+      "ticker": "XRF.AX",
+      "name": "XRF Scientific",
+      "list": "Portfolio",
+      "data": {
+        "price": 1.72,
+        "low": 1.6,
+        "high": 2.4
+      },
+      "dist": 7.5,
+      "pos": 15.0
+    },
+    {
+      "ticker": "LBL.AX",
+      "name": "LaserBond",
+      "list": "Portfolio",
+      "data": {
+        "price": 0.55,
+        "low": 0.485,
+        "high": 0.67
+      },
+      "dist": 13.4,
+      "pos": 35.1
+    }
+  ]
+}
