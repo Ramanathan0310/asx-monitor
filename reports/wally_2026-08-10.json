@@ -1,0 +1,31 @@
+{
+  "date": "2026-08-10",
+  "threshold": 5.0,
+  "total": 31,
+  "flagged": [
+    {
+      "ticker": "SIG.AX",
+      "name": "Sigma Healthcare",
+      "list": "Portfolio",
+      "data": {
+        "price": 2.96,
+        "low": 2.58,
+        "high": 3.2
+      },
+      "dist": 14.73,
+      "pos": 61.3
+    },
+    {
+      "ticker": "XRF.AX",
+      "name": "XRF Scientific",
+      "list": "Portfolio",
+      "data": {
+        "price": 1.84,
+        "low": 1.6,
+        "high": 2.4
+      },
+      "dist": 15.0,
+      "pos": 30.0
+    }
+  ]
+}
