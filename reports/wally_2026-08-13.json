@@ -1,0 +1,31 @@
+{
+  "date": "2026-08-13",
+  "threshold": 5.0,
+  "total": 31,
+  "flagged": [
+    {
+      "ticker": "SGH.AX",
+      "name": "SGH Limited",
+      "list": "Portfolio",
+      "data": {
+        "price": 41.02,
+        "low": 37.26,
+        "high": 52.0
+      },
+      "dist": 10.09,
+      "pos": 25.5
+    },
+    {
+      "ticker": "XRF.AX",
+      "name": "XRF Scientific",
+      "list": "Portfolio",
+      "data": {
+        "price": 1.83,
+        "low": 1.6,
+        "high": 2.4
+      },
+      "dist": 14.37,
+      "pos": 28.8
+    }
+  ]
+}
