@@ -1,0 +1,67 @@
+{
+  "date": "2026-08-20",
+  "threshold": 5.0,
+  "total": 31,
+  "flagged": [
+    {
+      "ticker": "JBH.AX",
+      "name": "JB Hi-Fi",
+      "list": "Watchlist",
+      "data": {
+        "price": 70.21,
+        "low": 67.38,
+        "high": 120.51
+      },
+      "dist": 4.2,
+      "pos": 5.3
+    },
+    {
+      "ticker": "LBL.AX",
+      "name": "LaserBond",
+      "list": "Portfolio",
+      "data": {
+        "price": 0.52,
+        "low": 0.485,
+        "high": 0.67
+      },
+      "dist": 7.22,
+      "pos": 18.9
+    },
+    {
+      "ticker": "SGH.AX",
+      "name": "SGH Limited",
+      "list": "Portfolio",
+      "data": {
+        "price": 40.94,
+        "low": 37.26,
+        "high": 52.0
+      },
+      "dist": 9.88,
+      "pos": 25.0
+    },
+    {
+      "ticker": "SIG.AX",
+      "name": "Sigma Healthcare",
+      "list": "Portfolio",
+      "data": {
+        "price": 2.9,
+        "low": 2.58,
+        "high": 3.2
+      },
+      "dist": 12.4,
+      "pos": 51.6
+    },
+    {
+      "ticker": "ARB.AX",
+      "name": "ARB Corporation",
+      "list": "Portfolio",
+      "data": {
+        "price": 19.33,
+        "low": 16.93,
+        "high": 41.34
+      },
+      "dist": 14.18,
+      "pos": 9.8
+    }
+  ]
+}
