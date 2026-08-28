@@ -1,0 +1,91 @@
+{
+  "date": "2026-08-28",
+  "threshold": 5.0,
+  "total": 31,
+  "flagged": [
+    {
+      "ticker": "JBH.AX",
+      "name": "JB Hi-Fi",
+      "list": "Watchlist",
+      "data": {
+        "price": 67.435,
+        "low": 66.02,
+        "high": 120.0
+      },
+      "dist": 2.14,
+      "pos": 2.6
+    },
+    {
+      "ticker": "SIG.AX",
+      "name": "Sigma Healthcare",
+      "list": "Portfolio",
+      "data": {
+        "price": 2.7,
+        "low": 2.58,
+        "high": 3.2
+      },
+      "dist": 4.65,
+      "pos": 19.4
+    },
+    {
+      "ticker": "SGH.AX",
+      "name": "SGH Limited",
+      "list": "Portfolio",
+      "data": {
+        "price": 39.62,
+        "low": 37.26,
+        "high": 52.0
+      },
+      "dist": 6.33,
+      "pos": 16.0
+    },
+    {
+      "ticker": "SHL.AX",
+      "name": "Sonic Healthcare",
+      "list": "Watchlist",
+      "data": {
+        "price": 19.99,
+        "low": 18.26,
+        "high": 24.27
+      },
+      "dist": 9.47,
+      "pos": 28.8
+    },
+    {
+      "ticker": "LBL.AX",
+      "name": "LaserBond",
+      "list": "Portfolio",
+      "data": {
+        "price": 0.54,
+        "low": 0.485,
+        "high": 0.67
+      },
+      "dist": 11.34,
+      "pos": 29.7
+    },
+    {
+      "ticker": "WES.AX",
+      "name": "Wesfarmers",
+      "list": "Portfolio",
+      "data": {
+        "price": 79.39,
+        "low": 70.8,
+        "high": 94.7
+      },
+      "dist": 12.13,
+      "pos": 35.9
+    },
+    {
+      "ticker": "XRF.AX",
+      "name": "XRF Scientific",
+      "list": "Portfolio",
+      "data": {
+        "price": 1.815,
+        "low": 1.6,
+        "high": 2.4
+      },
+      "dist": 13.44,
+      "pos": 26.9
+    }
+  ]
+}
