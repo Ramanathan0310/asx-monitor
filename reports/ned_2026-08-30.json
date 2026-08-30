@@ -1,0 +1,487 @@
+{
+  "date": "2026-08-30",
+  "total": 31,
+  "results": [
+    {
+      "ticker": "MQG",
+      "name": "Macquarie Group",
+      "list": "Portfolio",
+      "count": 2,
+      "items": [
+        {
+          "title": "MQG and JBH shares: 2 ASX shares to watch - Rask Media",
+          "source": "Rask Media",
+          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOVDlRQWpuaWx3ZUlURzllekUwV0pBOG5PMkdHWTNUV2tRbjlBU216RVdGaGV4b25reGNIRU1nSy12anluUUF2OUg3Y2QxN1F5SlpzVVJ1MGMxbFpRMDJ4WmhWU2RLdWdSRUJBZDlSMW9rbXFlTDk2SkFrd09maXN3Vm1oQzFReDN6ODI4?oc=5",
+          "published": "29 Aug 20:15",
+          "channel": "Google News"
+        },
+        {
+          "title": "MQG:ASX Announcement - Ceasing to be a substantial holder for JDO - 28 Aug 2026 - Market Index",
+          "source": "Market Index",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOQVJlTnRXUXZoTGhkbWUyRHNWQU0zd1NqOUY0NHB5amZYalVGY2VHZkFuOGI0SHFHZVZwSU1oS0RyakdUd0wwaU1FcFI5YzhTSFBDS19YYWJQNkg2bmQ3R2JWNlp5bVpTNFVoUmI5SzFUb2QyOWhTcTlxWVBGUjNaMm9SWndwNVZyblF2ZFBKcGZtbjM0WTBJRUE5Y3ppRnpuN2hBaDQwWXA?oc=5",
+          "published": "29 Aug 05:15",
+          "channel": "Google News"
+        }
+      ]
+    },
+    {
+      "ticker": "LBL",
+      "name": "LaserBond",
+      "list": "Portfolio",
+      "count": 0,
+      "items": []
+    },
+    {
+      "ticker": "WES",
+      "name": "Wesfarmers",
+      "list": "Portfolio",
+      "count": 1,
+      "items": [
+        {
+          "title": "Buy, hold, sell: Netwealth, Sigma Healthcare, and Wesfarmers shares - The Motley Fool Australia",
+          "source": "The Motley Fool Australia",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQLWpYSFFXZUIxUmVYZzBlQlRNbDVPUzh3cFpiYkh0T1hzOXFFenRRZFczbFdnOHVIV0lncmo1WXU2T2dPS0xQQjhENDdnZGVxRVp0Z21TNUs4RzJiYXN6YnBYc2xfWE9vZ0VKRnhJOF90bVNnQlB1enVJNnR6YVJwVUFaeU80LUJWREZhYTVlNUc3b2h5d2dIc3Q4dmVMYTQ?oc=5",
+          "published": "28 Aug 05:19",
+          "channel": "Google News"
+        }
+      ]
+    },
+    {
+      "ticker": "APE",
+      "name": "Eagers Automotive",
+      "list": "Portfolio",
+      "count": 0,
+      "items": []
+    },
+    {
+      "ticker": "SGH",
+      "name": "SGH Limited",
+      "list": "Portfolio",
+      "count": 2,
+      "items": [
+        {
+          "title": "CITIWARRANTS 56.0288 SGH MINI SHORT (ASX:SGHKOR) - intelligentinvestor.com.au",
+          "source": "intelligentinvestor.com.au",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNRW16X1VJRTBXcFIzbDMzNEZzU0xrVDFyb0V4YUFvZTBCYzUxb0UyT2FnbDBXT2Vwc3dlYnhLbU1VM1lNQnJfZVRXWGZqNnprU3I0UHMtSmJNT3BpWmNlcmRaY1JuWDhUX29QcXJZUWd2YkFCVTJfcXd0anlmck1hd2RzbnFHT0FxcFJRbjVpS2xEb095Wmc?oc=5",
+          "published": "29 Aug 02:49",
+          "channel": "Google News"
+        },
+        {
+          "title": "SGH:ASX Announcement - Update - Notification of buy-back - SGH - 28 Aug 2026 - Market Index",
+          "source": "Market Index",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQUURzVmFlSWJZVVRteXhIYmppQkNJanh0dEQ3MVl1ZE02T1Z2b2FiM2poSEpGSUtNUUczUldKYVAtUU1ZdDlkOWFTS0xuYnNEVEc0RnM5MUdVWnJUUkJLdlRWMUtla09hX04wSkhpUUhSY2lLcHhYUGRVRmdZb2F3VS0xTkxZcW1WUGQtNm9lcGZnRWs4VXFIWXZkTzRKZw?oc=5",
+          "published": "28 Aug 10:48",
+          "channel": "Google News"
+        }
+      ]
+    },
+    {
+      "ticker": "EOL",
+      "name": "Energy One",
+      "list": "Portfolio",
+      "count": 0,
+      "items": []
+    },
+    {
+      "ticker": "ALL",
+      "name": "Aristocrat Leisure",
+      "list": "Portfolio",
+      "count": 0,
+      "items": []
+    },
+    {
+      "ticker": "SNL",
+      "name": "Supply Network",
+      "list": "Portfolio",
+      "count": 0,
+      "items": []
+    },
+    {
+      "ticker": "CSL",
+      "name": "CSL Limited",
+      "list": "Portfolio",
+      "count": 3,
+      "items": [
+        {
+          "title": "A quick way to value the CSL share price - Rask Media",
+          "source": "Rask Media",
+          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQNm9LVmFKTThndWpWWXYtdHJfVkVwVDhkT0loa0g3U3YyQ2ZMcjA5ZFpmMmE5c1Q5aGFZaGJtaFVTWnpVTnRLd0NMVlEyUmhIQ1FsMnVHbDJPcTB0alNER3VtTHFqU2VYR1hZQ0taa2piWFZMcnRNNzlRd3ZSN3ZSQ25nQWZiTU1uNnNFOA?oc=5",
+          "published": "28 Aug 04:05",
+          "channel": "Google News"
+        },
+        {
+          "title": "CSL (ASX:CSL) FY26 Results Highlight Business Reset, Efficiency Improvements and Future Growth Opportunities - Kalkine",
+          "source": "Kalkine",
+          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOaDRETlNNUFQ4dzNZTjYycnp4S1N2UGxUY3dBdlc4TXZpV3FUR1NBakprX1YyN25xZ1NhcGJrTXA4WDN5MHhTMVlXNGFpTXdfdUw5dFRQUkREbUdWclA2Yk5kS3VMVjZWNmRULUZibFVaUHl1QmRFTlpzZGRTYkx5TFlPYXpoU0tPWkhiVnZSLVlyMHlCR3lxemNsc25kNXhON1ZULTF2alpzU1NMN2F4Z2dtcWVCQW1YVFV3eVdVYl9saDNwN3d3b29xbTJaY2hnZWVMWTZ6M2owYjA?oc=5",
+          "published": "28 Aug 07:22",
+          "channel": "Google News"
+        },
+        {
+          "title": "CSL:ASX Announcement - Appendix 3Y - Carolyn Hewson AO - 27 Aug 2026 - Market Index",
+          "source": "Market Index",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPalhRejI1WG5GeGh1N0NOVlNQbFBEdld6bUN4WmZNWUh3Ujd1dTJna2FJaWUtLWV3dDlTWW1Gb1hxOENqQ1dCU3J4SUpCZ1BzR1AydmdOTWwxYUlJZ0oycEZ6OVlSMWFTV2tZeEswckZ4MktUdS1UclJBT2hNMXZmVlZPMVZxaUdOVEdlLTEtckFTMlZiTmc?oc=5",
+          "published": "28 Aug 08:15",
+          "channel": "Google News"
+        }
+      ]
+    },
+    {
+      "ticker": "C79",
+      "name": "Chrysos Corporation",
+      "list": "Portfolio",
+      "count": 0,
+      "items": []
+    },
+    {
+      "ticker": "CAT",
+      "name": "Catapult Group",
+      "list": "Portfolio",
+      "count": 0,
+      "items": []
+    },
+    {
+      "ticker": "PME",
+      "name": "Pro Medicus",
+      "list": "Portfolio",
+      "count": 1,
+      "items": [
+        {
+          "title": "Pro Medicus (ASX:PME) Reports Record FY2026 Revenue of A$261.7 Million and Signs A$548 Million in Contracts - Kalkine",
+          "source": "Kalkine",
+          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPNVduQ3B4QW5hSkJ0WlZabDRZYVNDd3BCZm1kWlc0anVjdnVFa2M3SDRXSVptZDZqM1BXeUZTamVNYzNRd01BUGF1SnlFaFk4blZVNVJpRzdlZTZJVzlGNmZrMmd6VmRocm9MRUNSdnp0Zy1RN2lSbHdjMHBobGZ6RXJVX1FmaWZYczhmT0RRczhHX3N0bHFKYnQ1ODRiTjZzQVAtZHh4TTRxNUZYUWVEWFd4SDFZR0xINlJQdm93VUpsZXpvbkZ2UXlPYzFoamxJNlNGODdhaw?oc=5",
+          "published": "30 Aug 00:00",
+          "channel": "Google News"
+        }
+      ]
+    },
+    {
+      "ticker": "ARB",
+      "name": "ARB Corporation",
+      "list": "Portfolio",
+      "count": 0,
+      "items": []
+    },
+    {
+      "ticker": "COH",
+      "name": "Cochlear",
+      "list": "Portfolio",
+      "count": 2,
+      "items": [
+        {
+          "title": "Cochlear Stock And Two ASX Cash Flow Picks Trading Below Fair Value - simplywall.st",
+          "source": "simplywall.st",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPbXU4aTRZMmJfaGxfemh3NWZZYmZ6ckZEejV1eERnVHlEWDdCZG1WSjJ5YS1lYTJ5aFZhazNzb2FzTkdtaGEtWkxEZWtUNXZNRkNSRGVqbWZnaS1IS1RWbW5iVUdnSldDWnVIc0RLUi13Z0VrNm1fTXNaY3NCWkdmc0NxZEtxSU9jLXhEWHVqUjRKQ0VqdWkzeTItNnF1cDlTSXQ0TXluYjluYnNQUWpEaVhfUTFVMDRfSlBsWGFuZE1HOE1wRGotUEI0SGzSAdIBQVVfeXFMTlN2am91bFh1dG1nZGpYTGk2cjBsTmhENmlsMy00enhDYmZ0UTBPWlRKS2FhaG9jNU1UaTg2TzZCb3h4RjhNR3RlRi1haURVY2szOUVxbTFCQkYtNkZkWmxTd0VkNDBFRmt1bU1TMkVpc25wdjFuMWt5RVN2ZlA1eVpHVllMbllaM0wxUWt2SUdsOVkyeU5XNkswTE8xYTllUnIwM2ZESUdXbkR1OEtLcVg3MENjUWpMS09OR0Iwam9FMlN0TFpIbEdtakVyc09SMi1n?oc=5",
+          "published": "30 Aug 00:16",
+          "channel": "Google News"
+        },
+        {
+          "title": "Why Investors Are Watching Cochlear (ASX:COH) After FY26 Results? - Kalkine",
+          "source": "Kalkine",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQdW9PM0E2QUtjMWJyWXAweFVvV3BVS3VqYXdRQWVtMkk0RUNqTi0wMl9razVaeUo0TmFyVEhFOFV6SENxdzg0dkRPOHEzN1lfOVEzZlZMMzFjQVhZYXl1WTY1UHcxLTM4aTgxeHlLa3kxMUNXMWhvaVdRc3ROZVprZmpYRXhhM3dUNW9VRnoyNW40TUMwZm9hel80RnZnZVd6OFE?oc=5",
+          "published": "28 Aug 07:23",
+          "channel": "Google News"
+        }
+      ]
+    },
+    {
+      "ticker": "WTC",
+      "name": "WiseTech Global",
+      "list": "Portfolio",
+      "count": 2,
+      "items": [
+        {
+          "title": "How Investors Are Reacting To WiseTech Global (ASX:WTC) FY26 Results And Higher Final Dividend - simplywall.st",
+          "source": "simplywall.st",
+          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNX21WN1piMEZoMngtbUsyYjI2aktsamZueHFNdEZSeUgySjlYcHBtX3UtbF8zR2d6LU9jaE1YTnYxMlFuTjBITXktVlBXazZZMm4zMmQ4Zmt2WHJOQUc5TXBoTlAzaWVGT2s0d2tFZTFGUHlGbE5tWWk0MFE1dUQ5M0pHUE5Ka21IUS1lSTlzZjhaVGpRVlFkc2hHUmVrWU8zWnhoNG8tbVlxNG1lanR4UlcwRnFFY3hJMWVtMU5iaEZjSGNZdjhZdzVZb1lsYzBEMmtB0gHYAUFVX3lxTE5teHlDQTF6U0VwZzNxU2NBUlJ5ZHJBaUxad3lpempBVEYtUHc1U1NsSkNMRXdvWHVKQmpyTkMyQ2VoOFVxWk0zMkw4UnByTXFfMHRzd185d0FhT19QMk40MU9fUks5Vm0wTm5aVWxiWXlObEZSTGY4alJkN0JiM0tRUGhaWlNYeFphUlpteHdvajN6WWFVMVFUcUFJb2RxamQzOUlvemFJWUVkZzNyQkc3NWJSMnN3akFfNWE0SUFuQklfMlRuNGFQMkttSy1FZTcyRkZ6YUM4bQ?oc=5",
+          "published": "29 Aug 20:30",
+          "channel": "Google News"
+        },
+        {
+          "title": "WiseTech Global (ASX: WTC) Surges 5% After Record Revenue Growth \u2014 Can AI and e2open Sustain Momentum? - Kalkine",
+          "source": "Kalkine",
+          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOWU5weWNiNlAybkpmM01ZeW1CdTZCMHlGTGJNNklpTlByVzBYMWtxZXhYY09LMVhkR0tpaDdyT0xIbG9qaFBkakFjOUxzX2Q1MVk3UkhUYU1aajRzbWhyWFIwR05uRTJZSnFZZGltRDI4RjZnRWdwclM3WVo5dC1WMVBmWDhveWhTVFR0UXdEcVJBVXlQeEd4dXJyelNIa09jNmQ5eERTSW1Yb0s1VkZpdEhGYkNSS0xrWFlZQ3BiVXNUcVNZTkZ2Ti1jSUJIS0E?oc=5",
+          "published": "28 Aug 10:18",
+          "channel": "Google News"
+        }
+      ]
+    },
+    {
+      "ticker": "XRF",
+      "name": "XRF Scientific",
+      "list": "Portfolio",
+      "count": 0,
+      "items": []
+    },
+    {
+      "ticker": "LOV",
+      "name": "Lovisa Holdings",
+      "list": "Portfolio",
+      "count": 0,
+      "items": []
+    },
+    {
+      "ticker": "REA",
+      "name": "REA Group",
+      "list": "Portfolio",
+      "count": 2,
+      "items": [
+        {
+          "title": "The \u201cWelcome to Medicare\u201d Visit Is Free Once in Your First 12 Months. A Sore Knee Can Still Create a Bill.",
+          "source": "24/7 Wall St.",
+          "url": "https://finance.yahoo.com/m/920ef7a4-9c3d-3387-a6cf-343532b37d43/the-%E2%80%9Cwelcome-to-medicare%E2%80%9D.html",
+          "published": "30 Aug 00:05",
+          "channel": "Yahoo Finance"
+        },
+        {
+          "title": "How REA Group\u2019s New Chief AI Officer Role Could Shape REA Group (ASX:REA) Investors - simplywall.st",
+          "source": "simplywall.st",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOSnUydktxcFJVWjl5QzRDZkdMT3prc2hOeFJkRWQtcm5UVUlMcXhxNmh3a0dOYUFDYzlfOERtSUZKZlY4THY1UlJoR2ZSU3JuOS1CZDBTRFEzdnBCXzV6dDBFUC1YckhCQzZmbGdPWmlHRFRuV0o3blQ3NUVuVGVZZEc1Y1lWaXFZWVVrYnhfM3dSdGxTSlNGTjZFaG93UjJoLXNTWjREbkhoRVNpZEVzelNlZlRIV1Z1OTBBeXE5SmREZjhhSjg00gHMAUFVX3lxTE0yVHNwZnRsdGhJZTl2ZVpFeEJvZkFwZE1Ta1k2QS1QRXhoZTBCVVhGUlBuaGRObzRMc3JjUEdMR0gwRXJ6ZG5oUVE3WE5Qb0N1emEtZnFFM0ozTG52cHc3c2pGSER3SkpGanBJcVo5Q1AtZDVxdmNwZE1va3NLUG1xSnNpTDhJcUczMmlnc0NNRHo5VU9mT1ExNHVUTE9GMXltVmdIaVhONWVPVEpkbWhrN0VtVlRHQlF0TUNlaC1qSTk5UWJvZll0eXc1cQ?oc=5",
+          "published": "29 Aug 09:04",
+          "channel": "Google News"
+        }
+      ]
+    },
+    {
+      "ticker": "TNE",
+      "name": "TechnologyOne",
+      "list": "Portfolio",
+      "count": 1,
+      "items": [
+        {
+          "title": "TechnologyOne (ASX: TNE) Climbs 5.3% \u2014 Why This ASX Software Powerhouse Keeps Defying Gravity - Kalkine",
+          "source": "Kalkine",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNR1hVbi1wVEd3TDF0RkhnRFF0TXBTZWN2T0VhU0FYZldlUGt0YlBfczJKZ3N6OHhQZXZlMUZKSjNMWnFvS09Wa3FEM3V5RkJqYXBuUlJXMC13Zzh5YzRkeTBDVERrRXZzcFNXWk1PRlhPcjE5c2x0dThNVV9KTUJFeXo4TlFjNVA2RWMyb1NkTjh6MFU3cTBzSVZvMlgzNjNTbnlkQXhKVWRsaFRjeENwMUlCLUVuaC1VbEFLSkRybnhmbW8?oc=5",
+          "published": "28 Aug 10:18",
+          "channel": "Google News"
+        }
+      ]
+    },
+    {
+      "ticker": "SOL",
+      "name": "Washington H. Soul Pattinson",
+      "list": "Portfolio",
+      "count": 1,
+      "items": [
+        {
+          "title": "Are CAR shares or SOL shares better value in 2026? - Rask Media",
+          "source": "Rask Media",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNRHBLSGVEQnB6LUJpZnFVcVdoblNhSllUZnBlakdMLWZmalVoRno3X1FHTWNsckNNbzY2SnNBSHhYbTNKeWlyYjlIeERZZW9pNlVPeUZYWkIxUUM0Nk9Wd2JJSzNiTGFUbER5dkYxVWpFbkNFN3Ffbm1YWENadUQyTEhRYnBjVnVpeFNDU2lyLU9aeVNVYVpr?oc=5",
+          "published": "28 Aug 20:03",
+          "channel": "Google News"
+        }
+      ]
+    },
+    {
+      "ticker": "SDR",
+      "name": "SiteMinder",
+      "list": "Portfolio",
+      "count": 1,
+      "items": [
+        {
+          "title": "SiteMinder (ASX: SDR) Climbs 4.1% \u2014 Is Global Travel-Tech Growth Back in the Driver\u2019s Seat? - Kalkine",
+          "source": "Kalkine",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxONkdhNHctamNHX1JjbUJrSng0eUtTbVVia3hBbWY0UnNGenVwcl81YVhHVm8tWWpVOWFPZFRtamQxSGZleWZWVGRqclBlTmtoTnExTE1QazlvSXZCaWtBWm1KaU8zbjE4YmJ4cWRtRHlDVVFDNFFFVWRWNlpSMWo5THdhWUF5ZTE5RTFQTnVibzB0RnBXNHNYMW1nTVBwN21MMTNVMTY0NjNCUmdBRnE0QkFoUmF6RlJh?oc=5",
+          "published": "28 Aug 10:18",
+          "channel": "Google News"
+        }
+      ]
+    },
+    {
+      "ticker": "OCL",
+      "name": "Objective Corporation",
+      "list": "Portfolio",
+      "count": 1,
+      "items": [
+        {
+          "title": "Objective (ASX:OCL) Shares Face Contract Churn After 35% Slide - simplywall.st",
+          "source": "simplywall.st",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPeEM3Mlgwa05IRmxFOUpYZU5wcHVFaEcybXNlQnpKTGkyRXFMWkhRWnV3LU1yajh0b3lSVlJMZmpla1JPdHNLV2hreS1lb0JmM0NOLWdyZlpCQWhhVE9qdHk5YTZJRW93YUpiSElENGZzV1M3M05CY0hwTzVpNC1fRE4xbkhYb3dIeTQ4aGRGMUU2MjIydC1XUjFlaTV3ZEFaV1ZDZWszTF9DRVRqRFhRNXpPRU8xZmlWdENieG1aSmM3QU1VMUFNcdIBzgFBVV95cUxOMUhUc05PTV9QZS1RbWJaaUNlZWxwZEVsMktyZklaWmhLQkNuUVdQZ3pQVlRvUklraUJ4RVRacl9WSFVJWTh3Y0VJeXdLZjdYYjAwQ1pzenRMR3F2VGNIQ1BYRkRSMDFQU01ZNmhuX1lJdlZCNWJ4Skh3RldDR1MxQnBMWEVwN2NRekQ5YzhqSVdMOWpyM0VRazE3RGlrNERPQzFjZDBmbE56Rmlha3ZWOEROWkpybUs2amxvOUgwMWhMV21DRHZuSXJNNHZ5UQ?oc=5",
+          "published": "28 Aug 20:17",
+          "channel": "Google News"
+        }
+      ]
+    },
+    {
+      "ticker": "SIG",
+      "name": "Sigma Healthcare",
+      "list": "Portfolio",
+      "count": 4,
+      "items": [
+        {
+          "title": "SIG:ASX Announcement - Dividend/Distribution - SIG - 27 Aug 2026 - Market Index",
+          "source": "Market Index",
+          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQbmpBZTVEdW1pTVFZemRpdHk2WVVyV2lxSzFVMzdKSW9mUUNRbHcxa0YtWVRyX05FTGdQdHBFWFRVOVlkMkJCV001WGNQMTJydTFCY3BxZlpBUHBCT3psenlZOWlubHJFQ1NZYW9wNWF4dUw4eGM4SnVvMWd5YXpiNENuUDdyS0NnVldUbFVrWQ?oc=5",
+          "published": "28 Aug 01:45",
+          "channel": "Google News"
+        },
+        {
+          "title": "Scott Power: Strong results give ASX healthcare something to celebrate - Stockhead",
+          "source": "Stockhead",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPcm5ra3Vqc0phaXUwT3k5R2xjT3MzbGI4YTBwckhxaFNFOVZPdElPT2tSQlhuUWZEb2RQRUczVXdLTzQ0Wmx4N1Q1aHF4N3lWNUdqRTdxMGQwaFYxOVhvaEdQSVpYcGtmWXR3SkFwQUw1UzRkeER3QnQ5LVRhSXB3NlhpdDBnVkpWSWN6WVA4ZVQ1OXNCVklJc3lfMjd3dERpVENRZU5B?oc=5",
+          "published": "28 Aug 07:20",
+          "channel": "Google News"
+        },
+        {
+          "title": "SIG:ASX Announcement - Sigma Full Year Results Presentation - 27 Aug 2026 - Market Index",
+          "source": "Market Index",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQU3NBaS1JMFdfMm84Q1ZxeDZCMllSLXFLc0lsMFFmNDZoLUNiSzJFcmstZWlIR0szQ0hSamFqamRlb3Zzb1RKY3ZLTDEtX05zQXN6OEJOM3dzWFNGZ3lTdGU1V1I0d1YxSVhhTko3bHh5T2RCVVlzRy1SR2lPOTNIcGFoMnN2VkVyd19IVlZ4UWVVNVZFLUphS2VTRTRQYW8?oc=5",
+          "published": "28 Aug 02:11",
+          "channel": "Google News"
+        },
+        {
+          "title": "Sigma Healthcare (ASX:SIG) Strengthens Pharmacy Infrastructure Through Scale, Integration and International Expansion - Kalkine",
+          "source": "Kalkine",
+          "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQVzVXQmI2V1RLYnp4R0FxTzBROWlmVHhhcHJhclhfZlVZeUZvVFhYelBQejBjbzVIS0Z3cWFvcXdaZm5fcjVtbUg4UG9IUEh4SS1iME9YU1Rwc2RxYVNMeGFaZEZtYVl0Si1lY01oNTZxV25qQ0E5aG9JT3Zod09fWHEtM2szOHIzLTlCdUpGNVVrcnJvRy1lTWxPdnNiT2JfcnlJN1FpWXp6OFg5MlcwNktld2U2eDZXMndiZVl5QXNkMDF0cjFraWhOUHViSTVoQ1FucHdPSEMtMXV0TWpnZm5COGZKQ1U?oc=5",
+          "published": "28 Aug 07:23",
+          "channel": "Google News"
+        }
+      ]
+    },
+    {
+      "ticker": "RMD",
+      "name": "ResMed",
+      "list": "Portfolio",
+      "count": 2,
+      "items": [
+        {
+          "title": "ResMed (ASX:RMD) Builds on Respiratory Care Momentum as New Technologies and Healthcare Demand Drive Growth - Kalkine",
+          "source": "Kalkine",
+          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOYXRzTjEtU3ptU291WUJRZkhMSGJTRm9MLVF5bGJJT1FyMDlWQ25LQXE5ZFZqLWJILVJBMlRkNlZpRElvaFZOWTdqR1B4azBOTUZ6N3IyU3BmZDQxTWx3aFF5V3hfaDkxZTNJSHRLVWdDQmRoVUt1MHowbVNEa2wxTXlhR2UzbnZseVJzcEpCLXNmcUp4R0VVc1V4VXBhb3FJVjFRRkpnOEhoQ3lyczY1T2xmZVpraDdRQlpSeWE5Q1NXWHdJTzlLNUk3eEwzTVV3emk0elBBdmg1TkU?oc=5",
+          "published": "28 Aug 07:23",
+          "channel": "Google News"
+        },
+        {
+          "title": "RMD:ASX Announcement - LR 1.15.3 Compliance - 28 Aug 2026 - Market Index",
+          "source": "Market Index",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOQ1YzQUhmckhYbkRqZFBObG5fdEdldU1yZnJwVWprdWZlT2Znc3BJMFpiM0N6NXE0a2cxVDJaTE02Ui1vVG10b3ZWT1N1Uk41Ui1pTlJLeEZOV2kxSEczU29IejdzeXE5OThTNUdodHlqNjlIdlptOTFvMGNEOENwQWg1TWxyOGNo?oc=5",
+          "published": "28 Aug 04:46",
+          "channel": "Google News"
+        }
+      ]
+    },
+    {
+      "ticker": "MFF",
+      "name": "MFF Capital",
+      "list": "Portfolio",
+      "count": 0,
+      "items": []
+    },
+    {
+      "ticker": "SHL",
+      "name": "Sonic Healthcare",
+      "list": "Watchlist",
+      "count": 3,
+      "items": [
+        {
+          "title": "Why Sonic Healthcare (ASX:SHL) Is Back In The Spotlight - simplywall.st",
+          "source": "simplywall.st",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOOUFTbVprdms4a1J6TWU2VHZDZTZ1VGU2Z2dfVHc2QUE2dWcyU3BnSGpWSzJXNHRBMUhXU1BxaENPaWlYSmxXcUIzc3I2amdxbnVQeURwbERkY0dBYkpZdlUzS3gzN2ltMjd0Uk9tTXp4ZnNxcGdZbEx4MWItSmJYVUNld1MzZ3plakVJeFloTGpVbU5PSl9Idm5Sd3BHRmhMWnM0SGY1OUFRal80MjR5Zkt4Q1RvTFM4YnpwMi1EcmlmUW12TG1Gd3pjd1HSAdIBQVVfeXFMTXRINV8wemVsMlhpYjQwb1ZYeGNXOUVSc2xDMFY4cW1jRkVYS2NZM21vMVhraWlGTU1TeGsybnlIX3FiaExJSDFSSlJ1YjdiRzNnUm1scF9wYVFhRTdsOVo5MjlQMHYxbEFkTVl0Qk01ZnotejBocVM1Q3d1cVlIbW03Z2dGaVVNLUt1NnhoMDZnWUphTUpuNTVOeW43UFRxUjdab2JfaUZRbHphTG5YRkJsOEJyNmJxUGV0R0o1YmdFWjdPYjdGWENGSXgyQzBzMFVR?oc=5",
+          "published": "28 Aug 20:39",
+          "channel": "Google News"
+        },
+        {
+          "title": "Sonic Healthcare (ASX:SHL) Gains Attention as Diagnostics Growth Remains in Focus - Kalkine",
+          "source": "Kalkine",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPNGptZk9yMlNGS2cxbnVoWWhjQk1UaWt2VjBWa3ZaN1YxMWp6YVcwN1o2RHNUTk1QWlJ1YU03eWplNUkzSXhidkRnVHVxWDB4MG9ESGJPb0dFRnEydXZJSjRxcjkzcXZDMWdmZHFSVWM0dXlfY1kxZEc2MzIyLXdzSmo1Zi1UX1hyckw2M3RyZUpzak5fNFdsbWJGTzF6OUV1bk5nY2N5S2lER2wyaHhlWXpSbzVqUGVp?oc=5",
+          "published": "28 Aug 07:23",
+          "channel": "Google News"
+        },
+        {
+          "title": "SHL share price: why investors like healthcare shares - Rask Media",
+          "source": "Rask Media",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNak1jc3M0ODlhSmlXLVJZSUlRTkludFNxSG5yR3o4dmFjNTlYM3JkZlM4Q0g0cGdwYXdBZXdhQWxaS1p6OHNZSXJyN2J6UFNiUGgycE1HQ01lMUxTNFBQTGlMMnc3Q1ZfNUtGcWpoYkdNYXVaNzJDRG9OdmtNbUhBZ2FhVl9aT283WnlOQTZBSTdwVWhyRTB0b2Z3NHE?oc=5",
+          "published": "28 Aug 23:00",
+          "channel": "Google News"
+        }
+      ]
+    },
+    {
+      "ticker": "APA",
+      "name": "APA Group",
+      "list": "Watchlist",
+      "count": 0,
+      "items": []
+    },
+    {
+      "ticker": "NHC",
+      "name": "New Hope Corporation",
+      "list": "Watchlist",
+      "count": 2,
+      "items": [
+        {
+          "title": "(AMEX: NHC) Share Price, NHC Stock News, NHC Share Price & Updates - Kalkine",
+          "source": "Kalkine",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5mZEgzLVVvV3ZtaWtDUDFoRmZDcW9zZEtmOFg5TlZTMnQ2MGhiZHVjNWxYeHJCMnZVNS1hQnQwNVlpNjdUUVJpcFd6eFdzeGl5UXc?oc=5",
+          "published": "29 Aug 09:42",
+          "channel": "Google News"
+        },
+        {
+          "title": "New Hope Corporation Ltd (AX: NHC) Share Price, NHC Stock News, NHC Share Price & Updates - Kalkine",
+          "source": "Kalkine",
+          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9wT1FITUVscFZmdFptd0FKOWVnWW1LWkVQaWRKamR4U3gwSnI3WVZoU1hsdFNkM3hadVBnWk1LMk1iNFB1Z09MTlo1Y2MyZzQ?oc=5",
+          "published": "28 Aug 06:10",
+          "channel": "Google News"
+        }
+      ]
+    },
+    {
+      "ticker": "JBH",
+      "name": "JB Hi-Fi",
+      "list": "Watchlist",
+      "count": 3,
+      "items": [
+        {
+          "title": "JB Hi-Fi (ASX:JBH), Why Is Its Latest Update Drawing Attention? - simplywall.st",
+          "source": "simplywall.st",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPTzZpVDFMdW1EQXVEb3BrTVZhbnNRWVVvQkZyNG1vTnVlVW14Z1dBVUNCMW8yM0R5RjA0b1ZOQklibXpZR1FXc1o3ZXhRS3hGUlA4WC1sSkpwQW5ueHJraW8xTUVaT1oydXpxZ2lPMDV5NjFkdTJBZVpBeXlpM1UxTWZBSkRqWktBVVUzN2ZKRnFEZVJBVkJuTXFFTjZ2czVZVjVJT1RtU3RQM2NCTU1ua01PcHh0SHNZVWNOOVRDR3dSRmtu0gHKAUFVX3lxTE4wbXdXVHV0LTJaakhtMmIwN3JlUHFCcGphRmthc1FYRzdkank1QzJVUmk5a1doRGN0WUlfcTBFMDN3Y3pYTFZHSFFpbFlrcVFaM1BiY3JWMG1RcXRQYWJVQkdfTG1wZHNXemljQmxWT2J3Q1ZTUDJkNkJPTmhOU0gyd3dmQXBDOW5kTTRwS3V6Mmpaakx2YnZIU3RpTjkzQmdJeXlMa2djSmk4VVpoeGJNNW00TGFxOHRrQ1ViN0t1MVBSRXl6bXZYcWc?oc=5",
+          "published": "29 Aug 12:26",
+          "channel": "Google News"
+        },
+        {
+          "title": "MQG and JBH shares: 2 ASX shares to watch - Rask Media",
+          "source": "Rask Media",
+          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOVDlRQWpuaWx3ZUlURzllekUwV0pBOG5PMkdHWTNUV2tRbjlBU216RVdGaGV4b25reGNIRU1nSy12anluUUF2OUg3Y2QxN1F5SlpzVVJ1MGMxbFpRMDJ4WmhWU2RLdWdSRUJBZDlSMW9rbXFlTDk2SkFrd09maXN3Vm1oQzFReDN6ODI4?oc=5",
+          "published": "29 Aug 20:15",
+          "channel": "Google News"
+        },
+        {
+          "title": "JBH:ASX Announcement - Notice of Date of 2026 AGM - 28 Aug 2026 - Market Index",
+          "source": "Market Index",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPUkFaYXY4TmtSUzJMS2tOUlZkRVZkYmMtdmhaNnBUVHBfM3ZnbTVmM0drd282UjZFajMyZ2hhd3BBTXdHZmV6bDkxbFYxd1ljWERvOVNiQ1NkQ2lRTkZYLTdhZC13c28wWUM0SGZvZzEtUXdTMzk5MFZMSDdxUWdIWnpHeEF5YlZ6SVR3WlFFbWlvUQ?oc=5",
+          "published": "28 Aug 02:52",
+          "channel": "Google News"
+        }
+      ]
+    },
+    {
+      "ticker": "4DX",
+      "name": "4DMedical",
+      "list": "Watchlist",
+      "count": 1,
+      "items": [
+        {
+          "title": "4DMedical share price rises as FY26 revenue climbs, losses moderate - The Motley Fool Australia",
+          "source": "The Motley Fool Australia",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQbjJwRHBUUmxmc3BwVkx1NEY2U0hUUldacWJmbV9rRVJ6cXRYd1hEemNUU1RoQ0NJZ0VKdVdvQmpMdzJ5NmZ4UC05b053aUt3bGNVOERZaVlhUDV1aU1zd0xvdllzS2Vfc0NiNlJQX1J5UGFBMTVHY2o3bE5UdDFYOHlhMUV3akRmT2JVbWxtXzhjT1FvR1lPNkZVc2ZKeEZpZWR3Xw?oc=5",
+          "published": "28 Aug 01:31",
+          "channel": "Google News"
+        }
+      ]
+    },
+    {
+      "ticker": "EIQ",
+      "name": "Echo IQ",
+      "list": "Watchlist",
+      "count": 1,
+      "items": [
+        {
+          "title": "EIQ:ASX Announcement - Preliminary Final Report - 28 Aug 2026 - Market Index",
+          "source": "Market Index",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPZDJzSHRkU1lnVGp1YnV0MlpvQXVMYWFaLTJXU0tmMDRCWGN6Um5ETEgtNUx6bjk4UkUtblF1YlVZVVNSQ3NTRUZNdnVrN3JuM2VmYkZOZ0djNkNiUzlYTlYtVlgtZG9CLXhNbGNrazdWbjZlLTVqZEZlZE4yX19UVlBRMXdfY0xoMXJobnhCRHg?oc=5",
+          "published": "28 Aug 06:05",
+          "channel": "Google News"
+        }
+      ]
+    }
+  ]
+}
