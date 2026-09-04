@@ -1,0 +1,746 @@
+{
+  "date": "2026-09-04",
+  "total": 31,
+  "results": [
+    {
+      "ticker": "MQG",
+      "name": "Macquarie Group",
+      "list": "Portfolio",
+      "count": 2,
+      "items": [
+        {
+          "title": "East Side Games Group Announces Cost Reduction Initiatives to Strengthen Financial Position",
+          "source": "CNW Group",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/east-side-games-group-announces-235800993.html",
+          "published": "03 Sep 23:58",
+          "channel": "Yahoo Finance"
+        },
+        {
+          "title": "What Does Macquarie Group (ASX:MQG)'s Strong FY Result and Share Price Mean for Market participants? - Kalkine Media",
+          "source": "Kalkine Media",
+          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOQkJfb250bFZQbld4OTM2elFrS3dmTUJPU0JsVHpYcjRvSHFneEtLVjJEMk1RMzc2eDN6YlJESU56MEhORHMzcW51N05WR2tfX1E4VGg2OFh1MHRWTGI5eWttOVQ2MEZqbmd2TjltYkZvUkZ2NVE2V1hCeHZxMWVKaUlQYlprNVFqMGg2UU0za0t0bHlBVmY4aUUtN2RVQndBX2FibW5XLXZZVzMtR3U2WlZKQ2VPcks5LXd4aElpb2VzbEgyckVWb3pYanlsdE9ldUlWdGZMWQ?oc=5",
+          "published": "03 Sep 04:11",
+          "channel": "Google News"
+        }
+      ]
+    },
+    {
+      "ticker": "LBL",
+      "name": "LaserBond",
+      "list": "Portfolio",
+      "count": 0,
+      "items": []
+    },
+    {
+      "ticker": "WES",
+      "name": "Wesfarmers",
+      "list": "Portfolio",
+      "count": 6,
+      "items": [
+        {
+          "title": "Wesfarmers (ASX:WES): Diversified Portfolio Meets a Changing Consumer Market - Kalkine",
+          "source": "Kalkine",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOR0F4cWIzcEdPQUpDeGtoOF90S1BkRThLVi0wbEt2V0VWSWJOWHQzZi1PcnBZNjVpSk9YbG5SVGNuQjNIMVVPeW5jSi1pRHU4V053aTZwQy15bzVPTk5NTVM0b3FUY1BnMWt1UnNvU2Q4Qy10dWtyeTM5MkZnSE9fcHhQSzJfNGl1YTZPMEN1RmtyellVb1JCREZTbjMtYWM1Mm5ZSmRpU1JGRHktdUE?oc=5",
+          "published": "03 Sep 02:48",
+          "channel": "Google News"
+        },
+        {
+          "title": "If I buy $4,000 of Wesfarmers shares, how much dividend income will I receive? - The Motley Fool Australia",
+          "source": "The Motley Fool Australia",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOdUJPRVJjcE1hcFVEMkJLRGYweXBkcWVRejIzLVdJYXFDZFdJTnJ3NE91dk5LdGRpXy0yU2E4ZkpVWVBQNGZEM3lLNXYwdHRqVF96RHhNbXlhbGZham1jX1NiZ0ZSQ3hYcXhrS2tpTzhzX0xKWm1GTFFPY2ktajZRZm9kZXVZdDByOHJ2Zk82NDRFM2N3MVBrZ2dOenJfaDZCSE93YnQxcWlSM1RlR3JN?oc=5",
+          "published": "03 Sep 22:32",
+          "channel": "Google News"
+        },
+        {
+          "title": "What Could Put Wesfarmers (ASX:WES) in Focus Among Dividend Stocks? - Kalkine Media",
+          "source": "Kalkine Media",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNSTVaX2lmQXh3RUxHaUg3UVpnS1ZkWU1VYTRGeHBuQVRGUExxZjRaVnNkaVJoMThyZnhkbTk0SEdqc19rU3ZsTjQ0cFp4Njh3eHZ6OHVFS1NzU0lPT0FwemNHWDNJUVIxNjZCRFlCNUw5Q0d3TjRqNHVoTnhKRjFzNWpJOXhUSFh1cTFWZUNETHIxUGk4M041U3EzbXNhS0xiSVlzTlVPb2JJamc?oc=5",
+          "published": "03 Sep 02:52",
+          "channel": "Google News"
+        },
+        {
+          "title": "Buy, hold, sell: Flight Centre, Qantas, and Wesfarmers shares - The Motley Fool Australia",
+          "source": "The Motley Fool Australia",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNRWFCOTlYa3dJckhfbnJOaWxaZzVxNDdZQmVMYjJTTzJFeFdqTlJMTGhCUUxtcHZVa3pXam00MHpuTFhvV2MtUm41LVMzNGVkN1laTk5BVGxWTnNTUUpmcC1hYnRTbkN4aVplUGxmREoxRC1RU0FGQlJzXzM2VGZnazRYVjUwaUhtRGFUcjdsT0Fod3F6U01r?oc=5",
+          "published": "03 Sep 22:30",
+          "channel": "Google News"
+        },
+        {
+          "title": "Wesfarmers (ASX:WES): Leadership Transition and Retail Strength Shape Investor Focus - Kalkine",
+          "source": "Kalkine",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNS0VKQ2tGMUpadFA1SUxkNGNDRTlIcTB5bnJ0OFJhVS1JNkxWcE5FYlROeFpYV2pLSjVqbDU4dWJBcUVQVHk4X1FmZG41YWwzRWhDNDFoUENpSUx1R2VEbUN0LVRmQ09wMmZWNEJRYjZNdExTdUItQ196a1ZjYzljS0s2empSXzRCMllaSFlUemplMFhLTExxWTR2cUJpLUl6Vlh2eEc1bzdVSHRLektGdHYydTF3UTNw?oc=5",
+          "published": "02 Sep 08:42",
+          "channel": "Google News"
+        },
+        {
+          "title": "Is this the end for the stock market? This expert analyst is loading up on cash \ud83d\udcb0",
+          "source": "Market Index",
+          "url": "https://www.youtube.com/watch?v=eDTrkJCfvRE",
+          "published": "02 Sep 07:44",
+          "channel": "YouTube - Market Index"
+        }
+      ]
+    },
+    {
+      "ticker": "APE",
+      "name": "Eagers Automotive",
+      "list": "Portfolio",
+      "count": 5,
+      "items": [
+        {
+          "title": "Eagers Automotive (ASX:APE) Broadens Its Growth Platform with Canada Expansion - Kalkine",
+          "source": "Kalkine",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNalBqNHc3ZUdsaW1YYjNac1lCNHk5cmZrSWVVaWNmUDZrWGZBZnV2c2hyZDlpWHNBWWNrTVM2TWlfXzh2cFdsVEE3dE1xMFEwOWU4YkJNdGFtMmJUaEhsbFBnekwybmU4dlZJT3VVQ2NFa3BLYXREdThPLVllZFhuYmNuVENaUGhBVmFoX1IxVF8zdDl3VmFGUnR2bkRtVjR0M0ZDVWl5dmhKX2N3OExjZ0Fn?oc=5",
+          "published": "03 Sep 02:47",
+          "channel": "Google News"
+        },
+        {
+          "title": "Does Eagers Automotive\u2019s Higher Interim Dividend Reveal a Shift in Capital Priorities for ASX:APE? - simplywall.st",
+          "source": "simplywall.st",
+          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQT2hEazlBc1luOTFncjFWVjRMaWxIRDZSOXY1M1pMak0ydTZFMzFrRDJxaHRWLWtjVUd3cU9uaHdEUjItS2NRNzJpYjZfVFVDQWdLZGlpWWhhQ2lEUXZ5alBIM3VzNXRGNWNqeGRuNHlzY05FY1N2c3RjdllwZmpZQ3BLMld0MGlGMXJjdGJCVkl2eHlMZGpoSUd4bnNXQnB2cFJ4X2FDa1J1bnNOTVlad29pUVItc1hoNUZBTzdpbGVndG9GUXMyWHdGem14NU9jcjhBOGJKWGPSAdgBQVVfeXFMUE9oRGs5QXNZbjkxZ3IxVlY0TGlsSEQ2Ujl2NTNaTGpNMnU2RTMxa0QycWh0Vi1rY1VHd3FPbmh3RFIyLUtjUTcyaWI2X1RVQ0FnS2RpaVloYUNpRFF2eWpQSDN1czV0RjVjanhkbjR5c2NORWNTdnN0Y3ZZcGZqWUNwSzJXdDBpRjFyY3RiQlZJdnh5TGRqaElHeG5zV0JwdnBSeF9hQ2tSdW5zTk1ZWndvaVFSLXNYaDVGQU83aWxlZ3RvRlFzMlh3RnpteDVPY3I4QThiSlhj?oc=5",
+          "published": "03 Sep 02:41",
+          "channel": "Google News"
+        },
+        {
+          "title": "Eagers Automotive Limited (ASX:APE) Ex-Dividend Tomorrow: Stocks in Focus - Kalkine",
+          "source": "Kalkine",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPdU0tX3E5QVB1c2xySUtEbGhwTWN4QTl0U2FRN3F2YldmMjY2dkp0S1lybEJZeGZrMVY1N3JsS1NfRU5relYtTXBfa21zdjBCR2pxNmoycGNKcERtSmRYTkI2cElud1RnWTNGT28zeW1lT0ROU3BvS29ud2FpdlhFMUdvNzMwNUpVSWZnR1M3QVBkNTlPN2NBa1h1LTdMNUhhVnRxNG4ta09WNFNybkZGOWxUNA?oc=5",
+          "published": "03 Sep 06:28",
+          "channel": "Google News"
+        },
+        {
+          "title": "APE:ASX Announcement - Update - Notification of buy-back - APE - 02 Sep 2026 - Market Index",
+          "source": "Market Index",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNM013YTdYa3ByS213bGxyMTFYOXZKVzBLRXpPdFo1a0tpT2lvdkFMNnZLYk1DaW5hc1B3Q0RNRkhGcWk2STJWYVNRMFFBanUta1JoMVozaFBxcUdYSWtkdExUX18xX2stYXB4RDNydE00b2FBeXdHWkpnRlVKMjk0REtLM1ZfZmVCSEVhR1VkUS1uTWJsTE5BXzNNdENhdw?oc=5",
+          "published": "02 Sep 13:15",
+          "channel": "Google News"
+        },
+        {
+          "title": "ASX Fuel and Auto Giants: Ampol (ASX:ALD), Eagers Automotive (ASX:APE) and Viva Energy (ASX:VEA) Go Ex-Dividend Tomorrow - Kalkine",
+          "source": "Kalkine",
+          "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQa0NvVDhjSkpEWlN5Z1A2d2xCNUpQWG95QVVxd1YycmtPWU5QM1I4VFNkUEtZX1V5Zlg1aFpZdjJKTm9ZVXY1czdaZXQzU3B2ZWthSlRCbzR0RXE3d1VxOC1kN3ZWbHo2SVlmd3dfM2RsWE1ndWszREhzRmF4QzVCV0NjM3FRSDVVb09WRzRaUm9fSVFyMy1zdDk3MFdVX2Jydldybi1YcXgteXNvdTktbkdRelhJVkNTenpHRGJHUjN6QXIzTG1qRTdpSVRWanZBMVkxUHVsUUhMbHFkZWVVSFFUUTNnem51?oc=5",
+          "published": "03 Sep 08:43",
+          "channel": "Google News"
+        }
+      ]
+    },
+    {
+      "ticker": "SGH",
+      "name": "SGH Limited",
+      "list": "Portfolio",
+      "count": 2,
+      "items": [
+        {
+          "title": "What Does SGH\u2019s (ASX:SGH) FY26 Performance Show About Its Industrial Portfolio? - Kalkine",
+          "source": "Kalkine",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQbmdCMFdNc3NlQXhnREZ5N0JLZjRHd0hHUjhpbGs1SFoyN3dtVzI5VE9FR0w1WlROY3pOeVB3XzZDZ2U0REo2RUYzMl9WeS00X29VN0szLWZGXzgzbDdzM3h5MTVMaEJFUC1jUmlRVHVVdi0tYmtYMlJTbTNkUlUzU2VMdXRnRlQ2SkFQMzR3aFFDY3Rob2lNTF82MEU4VDlaRG0ybTduZ1ZQa3Y1V194cVV5YXg?oc=5",
+          "published": "03 Sep 03:16",
+          "channel": "Google News"
+        },
+        {
+          "title": "SGH Limited Shares: Can Contract Wins and Execution Drive the Next Breakout? - Kalkine",
+          "source": "Kalkine",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOZ0pnRFFzd0VpejJOZVRfRmQ2TVl5cXhoNmhhUDVZMC04MzNSc0FLVDBxTmxCeHh2XzJPTkNnNGhmZ2E5d0Z0QmdGeEZ3aTJiV2FWaEctSG5qYWtCTXFCQmxjRm5xUEFxUWNFNFpULUp3VTFNMTdsSG92blFjd2hXTVYxNDlObXMxMENuVkg2M203STduRzVkYkFXU2FvenlBbGxfNUc2em5Vb3BLN2RGUXlUM1pUQQ?oc=5",
+          "published": "02 Sep 07:32",
+          "channel": "Google News"
+        }
+      ]
+    },
+    {
+      "ticker": "EOL",
+      "name": "Energy One",
+      "list": "Portfolio",
+      "count": 1,
+      "items": [
+        {
+          "title": "Energy One (ASX:EOL) Targets Greater European Scale After FY26 Progress and GMSL Agreement - Kalkine",
+          "source": "Kalkine",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQeXhRTjFjOEozOTVnNFlxa3lBRGZ3MFdsMnh4Q1JyYmRHdHc3MnFuSVhNUXp0bjk0SWxsSEpOaTZOc3BLSDQ1WlNkUWJ4MGJqb19VcmxOZGJwOFhrZE9rOGt2Zm1pQ1Bxeldia2hLenZCS19VelpLWjlrOWp4eXhNWDJQc0M3ek9Pa0o1U3hMbmtVYlpzTEdqcXB6Z3IxczVybWRydkUwenJnam9ROHF0WkVrQjlydWVCVm0xNUlJMS00MHBV?oc=5",
+          "published": "03 Sep 08:15",
+          "channel": "Google News"
+        }
+      ]
+    },
+    {
+      "ticker": "ALL",
+      "name": "Aristocrat Leisure",
+      "list": "Portfolio",
+      "count": 3,
+      "items": [
+        {
+          "title": "Aristocrat Leisure (ASX:ALL): Buy-Back Activity Meets Broader Gaming Growth - Kalkine",
+          "source": "Kalkine",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNZFpwdDhjc2NOa3l1TDl2UDNmajRLOW5WWEVhYXBUeFhMTFplbWlYd1ZMUXhhZVBxNUlrTVVZLUtpeUpjTzdzLVRHOFNXRFJ2OUJuVTRYMW93bTdycGpKN3kwRHRKNEVYUThFYWdrYy1UclI1ampUUHhiTDFWd0hpYTFvUjZsNFR3eVpTbFRHclVZOHlZMXFfdG1DV2FSQ2U4YnpyTmtfRnRVYVh5?oc=5",
+          "published": "03 Sep 02:48",
+          "channel": "Google News"
+        },
+        {
+          "title": "What Does Aristocrat Leisure (ASX:ALL)'s Dispute Settlement and Digital Arm Exit Mean for Market participants? - Kalkine Media",
+          "source": "Kalkine Media",
+          "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOLTRrOWVPaWhEcTV4M09MODVhdktBT1hyZFVlWHR3VUdzRmVGSjVLZzBydDFjb1Z4VDVWTVdsRWl1WHFvYlAyMzZUcXZpeGhYUWEyWkxuaGJVOHlFazlXU0ZWNWlXSklpZEJ4a3VIMjMtaEZLS3BSWFI1NzEydDFVTnFvMGlMbUpmSE9NWllTU0pwQ1pnT3FOVTQ0aW5BbGcweG9Md3QyZkwwQVcxOVJVRlpmRUI1Y1p2QjNSai14dDdQQnAzWk5DbjVIbGs4NzNkUWVVZVNzc29jMm5fZzJUYXVKTQ?oc=5",
+          "published": "03 Sep 04:10",
+          "channel": "Google News"
+        },
+        {
+          "title": "Could Aristocrat Leisure Limited Be the Next ASX Stock to Surprise Investors? - Kalkine",
+          "source": "Kalkine",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQMXQ5XzMyRHZQdTkxdW0xYkRiVU9HUUpxb0dNQlhpQlE3bXpZOVdBdGR0RDYxSnlnX0pHV0xBWGhOeVAwdGlGc2hPSjRkazhOSzZjbGRISnNZTUNOYW9NMEhSNzRha1hNM05JNzBvdU8td3c3TjMxWjM0NmVXdDNkWnVJa09ZNVlHNFN0dHJnWXVvSjVFcnFBSDFWQ3lJMHU3SktNSmgzLXI5MzE0Um5OUTdYeDRTN0lM?oc=5",
+          "published": "02 Sep 07:31",
+          "channel": "Google News"
+        }
+      ]
+    },
+    {
+      "ticker": "SNL",
+      "name": "Supply Network",
+      "list": "Portfolio",
+      "count": 3,
+      "items": [
+        {
+          "title": "What Does Supply Network\u2019s (ASX:SNL) FY26 Result Show About Its Growth Strategy? - Kalkine",
+          "source": "Kalkine",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOUGNrY1JtV2hIZG1Cb2VLNTZMV2xGdmV4aTY1YnFacFFfOXo4RmJ3dURVQTVQTDFPRk5wWHl2THpDeHZwMEdYcHJlQjNlTUxjSHpiTFlaanQtckxLSkFUVzRSWGxTLXV5Unl0NjRQWHZJcHV5REg2OGxxU3ZaZzVnSE5qVmM0Xy0tNWVncml6RnNYX01FY1lWYnZ5T3dvcXQyRnZ6RnRxMzdFYU5maUJPZUR3?oc=5",
+          "published": "03 Sep 03:07",
+          "channel": "Google News"
+        },
+        {
+          "title": "Supply Network (ASX:SNL) Posts Full Year Growth, Is The Valuation Too Expensive? - simplywall.st",
+          "source": "simplywall.st",
+          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNakRJRmtfUm9vYW1lMXIxbmNJLWdrWVN1eEJxTTR2X3lUOVNqZG41Zy1ONV9TRGdnblMwSWNEQ1JOS3hsLS1YcHZhM2xwS0lYbGNUVjFKd0k1ZUctc2VpNU04MTJZZURNR1Y5aTB4TGtFS0ZhZTNwQ3dvX2ZwMHF0SXlyanNBeWRoeEdzWno1ZVA5dVpZREJiWEJYT1BBQ1pOZVNJZFVkR0U3alRWbzd4d2pMVHdSVXZRVVprVnNIczlJWnVGa3VVZzBnbG5HaW_SAdQBQVVfeXFMT2g3TGVhbFFaRVZ6bXM1Y1hqc2FGMlNtSDY3RFFSdElqMFdwYXZsYkg3cVZZUWp6WGJ1cmYwcXM0WWRBRmpVdHlLZGlvNHhReHkyeXRLT1QzekRBV091SGY3d1AxZ19Xb2Q1T1VnUDlzU1V3YTNYMmFKVXgxTFppQ0Z6Znh3eGJRRlVkb0NOV1l0WElGelQ2NXRMMC1FNnNTdFZGOVpZdU9HTEZjUEtGdTJISGxNZTdKOGJUdnc2Zks1VkJhUTFlWGFYbTVHdzB0V19hMmI?oc=5",
+          "published": "02 Sep 21:46",
+          "channel": "Google News"
+        },
+        {
+          "title": "Supply Network Limited: Could Australia's Infrastructure and Capex Cycle Power the Next Re-Rating? - Kalkine",
+          "source": "Kalkine",
+          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPaFVYenpMdWxNS01QZjhrRnpxdW5XZG1jZ2k4aXoxRm5Sb3FfQURKc0dkcFI2TGFCNmIySWl5MzFCWGZlRDB5RHVQV2VycHBSNjNQTlAxS2c1dmswMThYdHBsdVZYcFNpQ3pLMUhkOXBCVXQ2aEdmcXpGNGtVSzB3VmRFNXRVakU1alJzRW01cnRnLUVIOVYyZE1mU2o5YXYxcUhwcFdWamRpMHlBdk92bGFQTkFDSmVORm96VHpFaWJqbHhGVGRUdm1RMUVqQVV3?oc=5",
+          "published": "02 Sep 08:45",
+          "channel": "Google News"
+        }
+      ]
+    },
+    {
+      "ticker": "CSL",
+      "name": "CSL Limited",
+      "list": "Portfolio",
+      "count": 6,
+      "items": [
+        {
+          "title": "How CSL shares skyrocketed 39% in August - The Motley Fool Australia",
+          "source": "The Motley Fool Australia",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxORnRPb2JWeEQyMXlKOC1zbzhUaW9Ybk0xVWR2eXNfekZjcEJ5WWE5TUlmX2FXNFlRR3RuMkx6R1dxaXI2aE8yNmtncDBNZjVVdU5zZjFSQVpwUUt1VkpFUU5SQ3pBY0d1OURCNWZrQnBGcFRHTElKSnpxc2FtaGlMXw?oc=5",
+          "published": "03 Sep 04:19",
+          "channel": "Google News"
+        },
+        {
+          "title": "CSL shares rebound 86%: Is the ASX biotech stock a buy, sell or hold for September? - The Motley Fool Australia",
+          "source": "The Motley Fool Australia",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOS3A5LUFEbzgwUGwzdTJzMTU2ckdiRzBtVlVNYnRLS0RxcXBrVHlEWDF6U0xpcWUzZFZDSERoWVl4Mm1SQXNTbHpHdUJ5aFR2Q2wtWlU5cnkyM0pDcC14MmpoUUQtdE50WDRCTXktV2VEaC1VNERBTld1RURDOHZrN09PUklZYjByTGhxbTh4Rnk2bG1YaE9fTzBSempjZ1pNNXE0SUh0Q29EME5BT0UyZklnWkpxUQ?oc=5",
+          "published": "02 Sep 02:32",
+          "channel": "Google News"
+        },
+        {
+          "title": "CSL Limited Notifies Cessation of 665 Rights Under Long-Term Incentive Plan - Kalkine",
+          "source": "Kalkine",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQQlI1alFPcVU1RmdWZFRZOFJNYmJnSVgxUjJScVFCRVZ4eThYX3lyRmhSc21wbjF5TTBzd19rU24ydXNFNzZqaGV5TnRGMkdFY0ZZRXpDSURNajAxNUJaWF9hWVhrYzIxamtlVkNROGlKUVpmQk9DdnVma3hmUWpPcDA2Q3ZlejdISFZsYVljekNmTzVsVkhSbFoxMzFPSGRXYk9xeDFUYlM5NXFXaDEydU1zckREbVpm?oc=5",
+          "published": "03 Sep 23:15",
+          "channel": "Google News"
+        },
+        {
+          "title": "Vanguard Group Raises Stake in CSL Limited to 7.001% Voting Power - Kalkine",
+          "source": "Kalkine",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNU0lvcUNlQkdpdkd3Nk9aM0ltQ2E4UXJxMDNuX2x5dkY3WUxiMWtHSEttbmV4aGlfNDRxbHlmOGZVOU9ENGhZUFJkU25JS2ZIb2s1ZnQtakQzcUNLcjMwbXg3YlZGa3ZqY2lwSzVmY2tLSlMyNnFvYVp3WWJ0NU1oNU9ITTNVOFZCN0Z4TEhXM2xWeTc0M05FTlZhZm04ZDZTU0hUUDVsTFI?oc=5",
+          "published": "03 Sep 23:15",
+          "channel": "Google News"
+        },
+        {
+          "title": "Why Are CSL (ASX:CSL) and Cochlear Leading Today's ASX Uptrends? - Kalkine Media",
+          "source": "Kalkine Media",
+          "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxNOGM1SjNrV3ZyMEY3d0JxWUl1d3g3T3FWR1NiZi1OekhNQzZmQXZSRmJOWHUwOGNzMG1PYXdkN01sNlk4ejZwc0lTU3UzM3FOWUxZa3Q4ZGxFYUgwYmpBdFhwcjVENWVKN01nTHh0RENUSXNrNjc3TnI0ZlhMWjhIUjNFcnV4NzJtcUhlWGE2T0F6VmJLbFFCeEpDRmJPN3ZfdWtoTVJzZHhGNUU0N2VTTlF3LXA3SjZ3bVpkMHdwU1poaVNBc1JYSDFablVGWUJTTHhlQVRSRmpvTmdYTGlfRkdhSHZRcjRGNU5vbGk0SlVEYnR4enJGQ2pYN0V4VWhhNW9jQmdNYWxsbEZIY3c?oc=5",
+          "published": "03 Sep 23:47",
+          "channel": "Google News"
+        },
+        {
+          "title": "Is this the end for the stock market? This expert analyst is loading up on cash \ud83d\udcb0",
+          "source": "Market Index",
+          "url": "https://www.youtube.com/watch?v=eDTrkJCfvRE",
+          "published": "02 Sep 07:44",
+          "channel": "YouTube - Market Index"
+        }
+      ]
+    },
+    {
+      "ticker": "C79",
+      "name": "Chrysos Corporation",
+      "list": "Portfolio",
+      "count": 0,
+      "items": []
+    },
+    {
+      "ticker": "CAT",
+      "name": "Catapult Group",
+      "list": "Portfolio",
+      "count": 2,
+      "items": [
+        {
+          "title": "East Side Games Group Announces Cost Reduction Initiatives to Strengthen Financial Position",
+          "source": "CNW Group",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/east-side-games-group-announces-235800993.html",
+          "published": "03 Sep 23:58",
+          "channel": "Yahoo Finance"
+        },
+        {
+          "title": "Is Catapult Group (ASX:CAT) in Focus Among Growth Stocks? - Kalkine Media",
+          "source": "Kalkine Media",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNUFNSa2ZPcld0ZjJFZjZhY1MtMURtRVA5NjFIS01LMG8wMkM5YmdDQ0Z6RDJNYjNmQV9sbllFMm1Ib2EtWGF2c3hlNFRzUEM3VzB6X3Z0MG83Rnc0VjV0RnJndWFsM183NnI4YmJKa2c2TnJxQnQ0dmRLTFo2YUpGOXBMcjNyc2FENVVBZ0N2ZXpLbG41MEkxeFpSSQ?oc=5",
+          "published": "03 Sep 03:25",
+          "channel": "Google News"
+        }
+      ]
+    },
+    {
+      "ticker": "PME",
+      "name": "Pro Medicus",
+      "list": "Portfolio",
+      "count": 3,
+      "items": [
+        {
+          "title": "How much would $10,000 invested 10 years ago in Pro Medicus shares be worth today? - The Motley Fool Australia",
+          "source": "The Motley Fool Australia",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPWkRIU0U3WDEyc2ZOYkRsaHl6X0w2czJSOEc2OVd4T1g0Vk0zVEEyWVV0eXd3NUN1STUzTHY4UXkwd0lab1IwUUdrS08wMHUyWmhYdzJrR1lxeXRuSUlJRDBLYVhSRUNuQWdrS0ZrMUVDUndLQThBcXVUTmJDRlU2akZMZlU4MFU4STNVTnR4VU1LQjBKTFZzd2RZVkNic2gyWEFYSG9pcHNndnVINF9nU2VfbFQ5QQ?oc=5",
+          "published": "02 Sep 22:15",
+          "channel": "Google News"
+        },
+        {
+          "title": "6 key numbers to value PME shares - raskmedia.com.au",
+          "source": "raskmedia.com.au",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOOWNaZk9fOW5CdzM5TG8tNm45d1JNRmZ2M1R4bmwtT2dvOU9Qc2g3RksxZFNHY1FxNDdwU1Vpd2U1akF6Y3FKdmx3QmYxLWRITEtnTWJVdmdEcnVYWVIyU1Z6Q3FBd19PVUlha2RGaE5oQlF1a0NRanJXVlNhbTFtQnJKOA?oc=5",
+          "published": "02 Sep 05:14",
+          "channel": "Google News"
+        },
+        {
+          "title": "How Did Pro Medicus (ASX:PME) Move Into AI Stocks Focus? - Kalkine Media",
+          "source": "Kalkine Media",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOZ09GZmRidTlYTVROcVVBaVZLVjYyRE1UamlMSjRnM25MbVBtZDloazFCM0xBMzlqTWRzdGxBckxGanhnN2NsMlhIM1JOV2llN1FXMkFrUndpaDdUS2c5NU9nLWVpYTRORWhONS1KRWNhcnFCNGU5U3BkWHl2cnhHcW1FUDNVaGZGbzN3WFZ6bVNneF9maEsxbjVnNk0wanRSWEZkZkd3N29tQ21KUWdlcA?oc=5",
+          "published": "03 Sep 02:18",
+          "channel": "Google News"
+        }
+      ]
+    },
+    {
+      "ticker": "ARB",
+      "name": "ARB Corporation",
+      "list": "Portfolio",
+      "count": 2,
+      "items": [
+        {
+          "title": "ARB Corporation (ASX:ARB): Softer Sales, Favourable Balance Sheet and Growth Priorities Remains on Investor Radar - Kalkine",
+          "source": "Kalkine",
+          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPelROLW1MMkJRMTRKNXZvWnR6NldZTzdURUw1ZWM1RTBVRkRDUld6UTNib3JlNUx0X1Q0TE1GRmVJZEZnRlpiNzZmX25QbElaX0tOaEtLLUdfNlFtejItbVRsOUhsdkQ5dXozOHdQWmZUbkh2czEwdTlUQVZMc3otMXZQRHJncDFhQTBFVldWbjlreFdVZWdVRmprdHd2X2hXUmhWNU54cENCODkzT3dBdHZjdnZzdU1iNWRpWGIyVnBFV01sWTdlbE1XSmVEbllFbGZPV2ZTNEhBYl9seGc?oc=5",
+          "published": "03 Sep 03:07",
+          "channel": "Google News"
+        },
+        {
+          "title": "ARB Corporation (ASX:ARB): Can International Expansion and Margin Recovery Drive the Next Growth Phase? - Kalkine",
+          "source": "Kalkine",
+          "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQaUtGcnNCT0VCSU1DbGExTHRibjI0RGl0Wk94NjI0T09TWDl2SDlCWElGSmRFaTUtS05KNUZwbFlBbWRmcENqSTNVUGt3THVobjJYX091OTVyVmdHV2p1WmRta3F4NEF6TVRlSG1jN1g1bmQ5VkpFZ2pXVGx1cnNwZ0s4Z2wtWUJOeW1vWGpCdUZwS3NWdXhyekFhM0c5MWJsRHZPOEZxRnNYZFZnUi1QVy01TnlEWjNYYjFsWUlHLS1hQTJXWVNaZXR1QWpGOEJFSHpXejVPX1gzTF9Lb3hEa0pR?oc=5",
+          "published": "02 Sep 07:01",
+          "channel": "Google News"
+        }
+      ]
+    },
+    {
+      "ticker": "COH",
+      "name": "Cochlear",
+      "list": "Portfolio",
+      "count": 3,
+      "items": [
+        {
+          "title": "Cochlear And 2 Other Australian Undervalued Stocks - simplywall.st",
+          "source": "simplywall.st",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOdjhSdG9FdEREVWdON0Iyb19GV3N1RUVQUjVMS2U2eF9raFJCekdJYmxwbTdSdHNQcE1zQkROX09WV3lzRjA0WjRXd3d0TU1VbXBsQUZQQklkREN3SE56OTJlY193TjR0M1JtWTlvLXI0bzRnNkY0ajFsd3hOeHdkbmRfRUx0RnZDY0laZ2tGb0tBamowX3R4Rmh6NDdxMFFuZXRNVktTODY0X2pyMUdLWXJSUWJoNXA2Z3VIUGI5TdIBxAFBVV95cUxNTGNuX3dYeWc3cFVmUFFrU0FmRWVONDhybGNJenlSTUdyVFJqTDVaT3ZDYjFmR04zeldPVWluQTE1RE9QM2lNcWdmUjNpVjByTmNuOXVUS245NGRhSDlqVHp5Y3NUeGRfUjAxeHRpa2ZEYUtFWFVYam9kSGo0MmoxUm5sWXhhdTg2eDdVRVlBWnBhT0N5U2FWbll2NC1GTkxkSjgxdlljNUNhU1NRLVRZM3FuaG14WXAtcDRaU0wxeUJ3V1V5?oc=5",
+          "published": "03 Sep 19:21",
+          "channel": "Google News"
+        },
+        {
+          "title": "ChartWatch ASX Scans: CSL, Cochlear, Avita Medical, Brazilian Critical Minerals, Select Harvests, Zip - Market Index",
+          "source": "Market Index",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNQnJnbGRVRlcxVk9qVjJuTGNSU2txYUExQ28xZXNNQklsN3R5MzJYUWdfeVRxcXNtRkJWZmVmVHU3WmRfcWJaYlBGUGFJbHk0UTA4bGV6ZkJOWDViTHoyQ09OTnpQNHZLdnlVRVZseFMtSGJiblVLOXRYQ0hoVjh4OW11eTFJVGt6UURqQ29jVnJjeUpGTEF3UF90WGdycGVoYUNuTWdkZGJNaUFkQ19xaFZjN1RXNjE5Sk1wTzBmSlVfMXFvZWpGWFJQbw?oc=5",
+          "published": "03 Sep 23:15",
+          "channel": "Google News"
+        },
+        {
+          "title": "Why Are CSL (ASX:CSL) and Cochlear Leading Today's ASX Uptrends? - Kalkine Media",
+          "source": "Kalkine Media",
+          "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxNOGM1SjNrV3ZyMEY3d0JxWUl1d3g3T3FWR1NiZi1OekhNQzZmQXZSRmJOWHUwOGNzMG1PYXdkN01sNlk4ejZwc0lTU3UzM3FOWUxZa3Q4ZGxFYUgwYmpBdFhwcjVENWVKN01nTHh0RENUSXNrNjc3TnI0ZlhMWjhIUjNFcnV4NzJtcUhlWGE2T0F6VmJLbFFCeEpDRmJPN3ZfdWtoTVJzZHhGNUU0N2VTTlF3LXA3SjZ3bVpkMHdwU1poaVNBc1JYSDFablVGWUJTTHhlQVRSRmpvTmdYTGlfRkdhSHZRcjRGNU5vbGk0SlVEYnR4enJGQ2pYN0V4VWhhNW9jQmdNYWxsbEZIY3c?oc=5",
+          "published": "03 Sep 23:47",
+          "channel": "Google News"
+        }
+      ]
+    },
+    {
+      "ticker": "WTC",
+      "name": "WiseTech Global",
+      "list": "Portfolio",
+      "count": 5,
+      "items": [
+        {
+          "title": "WiseTech shares are turning red again. Is the rally over? - The Motley Fool Australia",
+          "source": "The Motley Fool Australia",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPaE1abFRxTE9PUFo4MmxJdFRocWFyTEs0LVQzQXdZVl82Ui01TE8weEtzd2loTG15SUtGSGRUMXFEMFhDS0FweldaUmlFY2lOeWVZT2t5VkY0bjFGWkVKMGpZY2lHbzU2V29OREpNQXNfckVGWWpKTzJQNUE3Zk5TRERmMEpPX18wYW1vOXBjdTV3RmVOWEE?oc=5",
+          "published": "02 Sep 19:45",
+          "channel": "Google News"
+        },
+        {
+          "title": "What Does the Latest WiseTech Global Appoints New Finance Chief (ASX:WTC) Update Mean for Market participants? - Kalkine Media",
+          "source": "Kalkine Media",
+          "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPQmZGdGxMVDBQZWxBZlVxQnN3aExhdHpPYl82LVlvQ0w1VUIwbUFBeWhwb1dQS0FHVk53OF9BQllLN0lGdXNkN2FYcDl3RFJuS3RaeW1nS3lZMFRpTlNwMXZNNV9mUXc4aGlMZnlmUWRkaFR6UGxCdXl2RTBaeTJIWFZGaXdmZ0ZHU0V4MDJWbnhYNzM4UWlsNnRGSE9tMjBYc0tXWDBMLWxLeUI1aUw3UTlvdDNqYjNfeS1QOTdGcm5lTldjaFlFNFFIYUNGbVZhdi0tTkpyVy1PZzVDc0VDREYwZklWcWc?oc=5",
+          "published": "03 Sep 05:32",
+          "channel": "Google News"
+        },
+        {
+          "title": "XRO and WTC shares: 2 ASX shares to watch - raskmedia.com.au",
+          "source": "raskmedia.com.au",
+          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPcF9WWmo3eGJmS0VBWl95alJqc05JVzNNOXlWSTFaQkllQm5RdGRvSVZENWEyRlFLZEpzQ1g0VnhtNHFRRmE5cUNWa2FEWDYyQVBqUm81VjhfdDhLR3pQYWFONDYxcC02a0RPbllIQmJJTFZ6UjlXakhxVXRacVJRZzJDMkRKRWQzY0Nj?oc=5",
+          "published": "03 Sep 03:01",
+          "channel": "Google News"
+        },
+        {
+          "title": "WiseTech Global (ASX:WTC): Record Revenue, AI Cost Cuts and a 1,700-Role Reset \u2014 What Comes Next? - Kalkine",
+          "source": "Kalkine",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOU3NzbmxrLXh3eWktUW9UT3k1ZzhrTWExWEJQRTdsZ3kxZXV3bDRkTmk1QUhKczZPRjhvYWsxRVUwelZXSjJPU3daQnpvSElKQURnOVRVYUZtUXlFWDZZWmQzWWZ4VlZNMjFKd3g2MmlWVm9nSmttVk9GRGVMSGtXRUoyZklfcnBpeG9zdlhSNGhBbTU2aTdaeXFMcVZ2LUdySlppSzJBYXNlRU11RDhfQXpaUGMya20zWXZWR2p4dEtYVG9iOVE?oc=5",
+          "published": "02 Sep 06:09",
+          "channel": "Google News"
+        },
+        {
+          "title": "Where could the WiseTech share price be in 12 months? - The Motley Fool Australia",
+          "source": "The Motley Fool Australia",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPQVd1VTExU2s4YXNabWZITGU5NURQaXg3b0dzZWxlTjZhLWhhenpZbGxVMEpkWHIxZTYzaGhCOEhvTUtsNlNxajd3M1NSdHYzZGUxLU43Q1ZOQnFnTlNudHpXQlh3eGxWQWM3bGR2emtvWjdpNlRFS21EQ0p1SXd4ckxVamZCdkhtMU1sMEs3SlF4Zw?oc=5",
+          "published": "03 Sep 22:14",
+          "channel": "Google News"
+        }
+      ]
+    },
+    {
+      "ticker": "XRF",
+      "name": "XRF Scientific",
+      "list": "Portfolio",
+      "count": 2,
+      "items": [
+        {
+          "title": "XRF Scientific (ASX:XRF) Closes Higher\u2014Can Laboratory Demand Lift the Next Earnings Cycle? - Kalkine",
+          "source": "Kalkine",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQQVFzRFpCYTFzQm4xRnBYcjNGM2VjZzg4eUtyXzFGUmRYendJWkxJSzZDeHh6RlptUlI2Q2V6SVRGWnFDSUNxVVFtMmlIdUdTUmVJSk10Qk5vbWlBdEtyV0s4dmRLdHd1dnlKZFQwTUJxXzg5OEtNVHU5ZEN2aFRiS1U1Z0xUUjBoeFQxWkJZUUN5QXJ4dlduWWtwNWl5UVJWMDdGczRra01yclV1c2dndzBtX2dRWnFqQXBBLUZld20yUVk?oc=5",
+          "published": "03 Sep 09:42",
+          "channel": "Google News"
+        },
+        {
+          "title": "XRF Scientific Limited (ASX:XRF): Could Australia's Infrastructure and Capex Cycle Power the Next Re-Rating? - Kalkine",
+          "source": "Kalkine",
+          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQSllXZk5jNWU1UUc3VnZoUW41X2NFU2lDU0d1U05QYXFJRk1ybXd0Q0xWQ0FyOV9QS2pyQjZJajhXTGhDaFhIWWdQd3lpOFBkRUN3THNXWmNoZTloVUxLRjJFeHFVdDdEQUw3bVUtdWQxbnE1VElBUzN3Y1NkN2ZKVW56aUJvaGlCSnJkMGlEbGlqQnY2aFpTUUp6SC0wc2otNmlEQWpXaWdWWGhuamJ4cDVLVmd6QW5nVnVRaGZfSW0xTUJIUVB6OUVJWEZNLXF0YUVj?oc=5",
+          "published": "02 Sep 07:28",
+          "channel": "Google News"
+        }
+      ]
+    },
+    {
+      "ticker": "LOV",
+      "name": "Lovisa Holdings",
+      "list": "Portfolio",
+      "count": 3,
+      "items": [
+        {
+          "title": "What Does Lovisa Holdings\u2019 (ASX:LOV) FY26 Result Show About Its Global Strategy? - Kalkine",
+          "source": "Kalkine",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNOEp4S084VFJKNWpLVjFLd25DNlNLU3dDdW9IOWpXTkxaOUhmLWppZ3dUWVNpVXBxbGlSLXdDSVNMYWM5dkRKV21EVWI0NV9faTVQTXgtcmp1QlQ0QWk3QWxCZ3l3cFc3QjlxUTlROFJmbEI5R1g1TzlMdzA3bDM4M1Nyb0NfVV9BVmNqTjRyNEtjUW9NR1JKaTdOZVZvYUtVcEgxX01xYVVhUHRCZHpMQ1J3?oc=5",
+          "published": "03 Sep 02:49",
+          "channel": "Google News"
+        },
+        {
+          "title": "What Does Lovisa (ASX:LOV)'s Profit Lift and Global Store Rollout Mean for Market participants? - Kalkine Media",
+          "source": "Kalkine Media",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNM2N2S05icEplVDQxcDF5b3NPclJqeWFRMWgzbDU4MnhpUlFvRjdtR3hUaFlhVW1teXo5VGNnWlJ0RjZKX2pYRmxRM09CTFRHMnVxajJZWTMtVXRkNnk5LXhYZVVIWDNrZU1Ia1BNZ2FNMU56WTA3WXFKbmxlNG90LVZHU1pOaTN4OE81NnpVelFjNExfT012VHBOel9BcWo3QmZaNGFEUkgzV0ZxSEZ1aU4tR3ZsZXhOUWRhNEJJUU51VktQdTFBMGh2eVg?oc=5",
+          "published": "03 Sep 04:18",
+          "channel": "Google News"
+        },
+        {
+          "title": "Why Is Lovisa (ASX:LOV) in Focus? - Kalkine Media",
+          "source": "Kalkine Media",
+          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9fTmJaTmhfem9IZVBtbmMxd0F5RTdvUmxob2hTemhDdGlIRm9WcUlEa0wzSUlobXFaTTdjUFUyR2lWaGNLdjFYTG9kRVJaR2NmNlQ1OGhwUHV0ZlpXQmNNU0xTZUJLZFJFbUR6czJqNV9CZGxpTk15ME1oYw?oc=5",
+          "published": "02 Sep 04:42",
+          "channel": "Google News"
+        }
+      ]
+    },
+    {
+      "ticker": "REA",
+      "name": "REA Group",
+      "list": "Portfolio",
+      "count": 4,
+      "items": [
+        {
+          "title": "East Side Games Group Announces Cost Reduction Initiatives to Strengthen Financial Position",
+          "source": "CNW Group",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/east-side-games-group-announces-235800993.html",
+          "published": "03 Sep 23:58",
+          "channel": "Yahoo Finance"
+        },
+        {
+          "title": "Is REA Group (ASX:REA) Expensive After Property Prices Fell Across Australian Capitals? - simplywall.st",
+          "source": "simplywall.st",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQSzJhdDltdzM4Q3YxWXVGWi02QnlwOG94YlhZYm1zTDdiU3dPbUVLTXBZQ3JlenhfVFN2eE1MdDE2RkY0S0FfNUxQek1KMHpOTFN1REtpSXV3TGZ0WF9mUFdxOEc0LWVWMlhlTGlGb3NMWTFnby1wNGhocEJsZ2hzb0tST1hSSFdCUnJvQjZJQk5JSWFBdDBrOHAtTEpPVTRPMkJod2R2S2pzRXJvZTh5ZzZmdDlKT19XOW1nTXdaRUtSTnNCNXpV0gHMAUFVX3lxTE1VRlQ1d3pDeUpFQkxuMXAxQ3N4dTZMUkM3X1E5djMtVTlDVjdsTzVJWU41TTU0MjhRaVk5UThiSFotYkppaUVCd0FwcWR1aVhXTk53NklpVGlFUVJFd1VnWXZtMHlRTXFKUW03cEk5T2U0N0VQX0hTQWpJUWFWMWw2eHZyQnJYclNKUG1MM2dId205UVEwQ2RiN3lGdzZHRnlJRG1mLThyeE5uVFNKQ1Z0RWlyWjYweXVlc2p6T3diMzRWN1ZaeW9URUFxMA?oc=5",
+          "published": "03 Sep 08:34",
+          "channel": "Google News"
+        },
+        {
+          "title": "Are REA shares or DOW shares better value in 2026? - raskmedia.com.au",
+          "source": "raskmedia.com.au",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxObTluTFNKZ2laTkhqdjJINUVnVExjM3p6NTF2OXFqdVY4V3JFa1BKUHo4V3dlS1dxWWl3a1NlTy1XVXg4VGNYYTlSaFhQSTBPV1NVZkJhS3hhdGQ2bUlobjVlSkdmV1N2SmVlUG52UVdXWGktQkNtcGVOWGpieTJFZE5aRkdxOEpVbGw3RWtMdThsUFpJNndr?oc=5",
+          "published": "02 Sep 02:39",
+          "channel": "Google News"
+        },
+        {
+          "title": "REA Group (ASX:REA): Has the Market Made It Cheap? - Kalkine Media",
+          "source": "Kalkine Media",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNQl9VbjhOdGo0SzJOSjMyOFdUdE1zdzZ2a0RIVmNsSDVkUFYzbXJzTGNzLTJSbjFSN3ppdVUtR1VHX2lwc1pkd09pNHI4bEJrNDNBX3VmR2JWUzc2TEI3VW9hX1pzTTdRWU14RW5SX3NaMmY2ZG1mQ3J0aFR4RV9BY3VYaTZQT3RMYmVOZ09ET2hMcnlyVV9uOWV3?oc=5",
+          "published": "02 Sep 05:50",
+          "channel": "Google News"
+        }
+      ]
+    },
+    {
+      "ticker": "TNE",
+      "name": "TechnologyOne",
+      "list": "Portfolio",
+      "count": 2,
+      "items": [
+        {
+          "title": "Technology One Limited (ASX:TNE): Could the ASX Tech Rebound Put This Growth Stock Back in Focus? - Kalkine",
+          "source": "Kalkine",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOSGFudllfSWw3ZjB1Y2tfbmQtMWNtWlNMZUtuNUpDM0RGSmRNeUs0cHlqaWV2S3ZtdFZ2YmlWVGcxdXR4b3JjYno3Skk0ZFVfMDlwVFVOMGFGNU5YaEpURC1mZlF1TTFWVW4yYXhYZWU1QTZSeDA0S2ZObF9zRV81dnJZMjVRZHhoblNlRHQ3M2poLTBtTG1HSDRQUGVpV29TLTdzOWNFaFlEZGliQnVheU43SWpsczVrU1Fsa3prYjNkX01yN0JENnRVRQ?oc=5",
+          "published": "02 Sep 07:32",
+          "channel": "Google News"
+        },
+        {
+          "title": "Why Is Enterprise software group TechnologyOne (ASX:TNE) in Focus? - Kalkine Media",
+          "source": "Kalkine Media",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOX1RFSXZUNndvVkhrNmE5OXRHZVhhOG1SYjNvTldzbG1zbkdKLTlOTDlucVZkREw2MlFuWXJHODEzV3FTUVZya0ZuYWhjMXk5RlFjb0h3SEwtYnVQblhRb1FQRDhqWVlkTG5ESktrTzlRazBpOUJvVHNoZUw2Umc1QnQ2VHNmaEthWXdMSFEwN21UMG5scW5iN1NsVUdFcVBCYmJaQVpGblJpN2JBelpIQk5Qc2FmLUZPLWdxU1hn?oc=5",
+          "published": "02 Sep 04:07",
+          "channel": "Google News"
+        }
+      ]
+    },
+    {
+      "ticker": "SOL",
+      "name": "Washington H. Soul Pattinson",
+      "list": "Portfolio",
+      "count": 0,
+      "items": []
+    },
+    {
+      "ticker": "SDR",
+      "name": "SiteMinder",
+      "list": "Portfolio",
+      "count": 0,
+      "items": []
+    },
+    {
+      "ticker": "OCL",
+      "name": "Objective Corporation",
+      "list": "Portfolio",
+      "count": 2,
+      "items": [
+        {
+          "title": "Objective Corporation (ASX:OCL) Enters FY27 With SaaS Momentum, Product Investment and New Growth Priorities - Kalkine",
+          "source": "Kalkine",
+          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOTmcyNDZCelFCeHJVVVVnQS1sQTBmMHliV0diaVJxcklxTkkzdndXQTE5UTRhTWlDZ1RSNHZPbmJLT2JKeXFWQ3pzeGNrcXo4bWo3M0lHTnR4OFpBRWl2Y0dGQ1ZRSEpqeGhGblRMR2VTRkhzbzY0Q3ljSk5nRDRRUmY5aVR5QVotcTZ3ME9wellLVGx6U0pMNWstMXlTUG5DNHdsWS04dDd1b0xtdFdJQldPdHpraDVET0gwTHBpQ2tGcXktZnNQSE11YWtDaVJJYzg3aUFLM2FHMTg?oc=5",
+          "published": "03 Sep 08:15",
+          "channel": "Google News"
+        },
+        {
+          "title": "Objective Corporation (ASX:OCL): Could the ASX Tech Rebound Put This Growth Stock Back in Focus? - Kalkine",
+          "source": "Kalkine",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQVVh0RDNPTXV0NGVIeURCcWZPWVI2djY1QlNnd0cyTXU4NEtVMDFjYllEMWdNdkQ4T0tWQV9zQkl3ZEVnXzloQXJ6V2RGeV96MFYxa3c0SU1yempnNzFuajFubEdrZHlDamVRTS15WmFVV2dkN0dBQm4xbUcyNE5Sdl9xbHoyQThBWGhqbzNfZUoyYkw4RmJFZUVUTWZMM0hKc1dkc3RUaDdXb0lsRGJtd0lCMUVpQkY0MXFMc1V0Y0JwQnlKU3BMOGVB?oc=5",
+          "published": "02 Sep 06:09",
+          "channel": "Google News"
+        }
+      ]
+    },
+    {
+      "ticker": "SIG",
+      "name": "Sigma Healthcare",
+      "list": "Portfolio",
+      "count": 2,
+      "items": [
+        {
+          "title": "Sigma Healthcare And 2 Other Australian Defensive Stocks - simplywall.st",
+          "source": "simplywall.st",
+          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQVHNDMnJhblpZSkkxN2t0WURYcktxaVpYTXlLanBsalJ4SGJDNFcwMjJLbVMtZUpVdG1FNWQ0U1hVZkZjam1CcTlwVFNCZUVvVXNvRWtmU2Z4eDRVeFBIa3g0cjBnSUhwemhWMXBDUVRNbGdsTmZCc3N4OXFJcnNGeDUtMFlqbUszNFJRWFR4MWc2Y2Z0QzA5M0pMUHVjX0NESWVQYXdCN244S2ltNUl1V3hiWkVXclhoX0hOUUg3NEtCUHJLdW9HckhvbE1va1dlMjZTbHk3VdIB1wFBVV95cUxQVHNDMnJhblpZSkkxN2t0WURYcktxaVpYTXlLanBsalJ4SGJDNFcwMjJLbVMtZUpVdG1FNWQ0U1hVZkZjam1CcTlwVFNCZUVvVXNvRWtmU2Z4eDRVeFBIa3g0cjBnSUhwemhWMXBDUVRNbGdsTmZCc3N4OXFJcnNGeDUtMFlqbUszNFJRWFR4MWc2Y2Z0QzA5M0pMUHVjX0NESWVQYXdCN244S2ltNUl1V3hiWkVXclhoX0hOUUg3NEtCUHJLdW9HckhvbE1va1dlMjZTbHk3VQ?oc=5",
+          "published": "03 Sep 20:41",
+          "channel": "Google News"
+        },
+        {
+          "title": "Why Is Sigma Healthcare Limited (ASX:SIG) in Focus? - Kalkine Media",
+          "source": "Kalkine Media",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPZ3FybS1MYXhxWUpBSjQzeDZDbW1KX3h4amRCaHYwanFUeUloT2t1MUJDd0M3SHRSVjlReDd4Z29yb2p1cWNBWG50WXpGa093SUJCcEtJWm5sdlktamtvcld5VzRCWnpxaF9lcmNRWlhfZnA3enNnRnd6SVlZbktMVFUtTzEwa2NRUFpDVFRTM3RKTXF5OXlSOA?oc=5",
+          "published": "02 Sep 04:14",
+          "channel": "Google News"
+        }
+      ]
+    },
+    {
+      "ticker": "RMD",
+      "name": "ResMed",
+      "list": "Portfolio",
+      "count": 1,
+      "items": [
+        {
+          "title": "Why Is ResMed Inc (ASX:RMD) in Focus? - Kalkine Media",
+          "source": "Kalkine Media",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPbVJRMXhmUVltOGE0RVRxWDFZM1pQQlN6NG12dy1qbHh5TTk1WnpBdmFyblprMGpqVjJFM2dFa1NuZFc1T19PMElpakJ3X21qcEZ6aHRKOFlzUzZCY0FqVXVsMkFZWXd0Ung2c1pRakI3ZVFZMF9RUTFKS1BTbGx1MlNKVDBPZw?oc=5",
+          "published": "02 Sep 04:13",
+          "channel": "Google News"
+        }
+      ]
+    },
+    {
+      "ticker": "MFF",
+      "name": "MFF Capital",
+      "list": "Portfolio",
+      "count": 0,
+      "items": []
+    },
+    {
+      "ticker": "SHL",
+      "name": "Sonic Healthcare",
+      "list": "Watchlist",
+      "count": 2,
+      "items": [
+        {
+          "title": "Sonic Healthcare shares crash 21%: What on earth is going on? - The Motley Fool Australia",
+          "source": "The Motley Fool Australia",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQeVJHNWtWNThDNjZ6RXNtZnZrR20tbDFYMlJ5TXRHNHFkaW05OEw5SHdzWGRISUNTWjBGVTRUeHR2OS1qU2g2WHlpcUpXYjBpalpfQnAzVkwzcjNlQy1JYmgtdWdOaTNiR0RYUnMzXzVwNDVjb2I1bmhmMWhTVjBPTEtsV1Y2aEhzenNxLWRtOFduRGVYUjRPQmRR?oc=5",
+          "published": "03 Sep 01:12",
+          "channel": "Google News"
+        },
+        {
+          "title": "Why Could Sonic Healthcare (ASX:SHL) Enter the Healthcare Stocks Spotlight? - Kalkine Media",
+          "source": "Kalkine Media",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPUms3QWdpa2RoVG1sMll1bENFYjdxVmFnb1lLWlg1RVo3aHFteThCYnFVbXN2eHZWWWV6N2QzcG9JM0EtWmJkQkVicFYwdVJ3WF9meklFQ3VzLU1KR2N4RjFPaUlfTFRDTHNUZEVOb0w4aHJSanh4WC02dEZ2VGdLYnBLUkVTcHQ2cko3UXJILXdFU3Ntb2J3cnhlWjItSlBtTTRSdEtrc3YxZF84TzJnaXpRMG9PME1f?oc=5",
+          "published": "03 Sep 03:43",
+          "channel": "Google News"
+        }
+      ]
+    },
+    {
+      "ticker": "APA",
+      "name": "APA Group",
+      "list": "Watchlist",
+      "count": 4,
+      "items": [
+        {
+          "title": "APA Group (ASX:APA) Edges Lower\u2014Can Its Infrastructure Pipeline Sustain Growth? - Kalkine",
+          "source": "Kalkine",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPNVBRYlY5MVZXX0NlMFJpQ1dWRTBSZ3I2LXM2YUhoVHIxbXg3bTQyXzVidElkdjVaZG9DeldVbDNnTmpFWVNISVRTQXRxN0NUVFN3cXIzQVROODhPM05KVVhadTdMY3NiZFV5M2JENC1IY0RsdWFhWXI0U040czFjbXBhcWRoWkNuSEU5dmdPU1lOWWI3OWtTM1JhenNaS0xrRnR6UWMwWTlNYWI5ckFJNmhn?oc=5",
+          "published": "03 Sep 10:05",
+          "channel": "Google News"
+        },
+        {
+          "title": "APA Group (ASX:APA) Could Be 60% Below Fair Value Following Earnings And Dividend - simplywall.st",
+          "source": "simplywall.st",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOcGNWMlVHQnNQazhvV1FZcVFaUGpHRTBieGw1eFJ5LVNfTWdTYk9kdHZ2YS1oaWh2eGRseW5YOUtWWWZfaENBaTNtNE9EN3NPU2h5RnVNTU0zcGpsRU9SSThwRVdaM3hFZzJERkxmS25kWnd0cHFXaFdSWF9qaXBqZnRMby1lOU9DaWl1Zkh5WFhZVnVCc0pKdV8zM3ZmSU1paS1iV09BZzlqbnJUQkJhVFAteXVJSG1xZ3E3WjNRWnp2RkExNnhlMVJadTfSAdIBQVVfeXFMT2tsMTEybjFHRF8zQTdLLXBuLUhTb0tOUmR6Q0Z4M3IxTkhMeWktSnVHY0xtc3VVSWF2T3Zod2puZ0hTeURDQXhOeHp0bTRjbC0wQTRUUHdTSWw4OUIzblNFS05feXUyM0t5MlhoWEthZkhWa05yeHV5MUZ2V19PaGR4V2NHV0xVQjlTbXVmMDZ4ZmdaUnM5aDExLUZLRlcxT1BCbW1mQ19wYnhQTHpBdmdfaXVxa2oxM3lmRmZSOFJydUk4S1FUZmZXZllCeDZtbzN3?oc=5",
+          "published": "02 Sep 20:31",
+          "channel": "Google News"
+        },
+        {
+          "title": "APA Group Issues 644,858 Stapled Securities Following Performance Rights Conversion - Kalkine",
+          "source": "Kalkine",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNZk9mTmk3RE9tckRpSEI0TU1pbncwZ1RwcG1GdHREdmxZNjZWMnJFXzFiRDVYYWdfR1FCaG5DbTRSYWxFQVdBMUpOLUMzQ0lIaVRKR05ZR3NZYktybVpHLUV6V0M5RGl5bmlPcHBHSHNmYmdhNmQ2azFHYzRNZWxzSzg1UGdYX2J4NlVQd1pmTlpSejlIQ3g4SHZZdWpXZzV1QVRubncxSFhQbjktem5LVUJQUFlpT2w4RTd3SkFLbTlSZw?oc=5",
+          "published": "04 Sep 00:08",
+          "channel": "Google News"
+        },
+        {
+          "title": "Change Financial (ASX:CCA): Record results mark maiden full year profit",
+          "source": "The Stock Network",
+          "url": "https://www.youtube.com/watch?v=UtF323vRkKs",
+          "published": "02 Sep 03:51",
+          "channel": "YouTube - The Stock Network"
+        }
+      ]
+    },
+    {
+      "ticker": "NHC",
+      "name": "New Hope Corporation",
+      "list": "Watchlist",
+      "count": 1,
+      "items": [
+        {
+          "title": "Why Is New Hope Corporation Limited (ASX:NHC) in Focus? - Kalkine Media",
+          "source": "Kalkine Media",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQNGFCU1VnUUh0NlEwcXA0N290S3dwSkV0T0tBQ1FSbkFHV0ZNM1pKejFMMWdiNXVDS0hiZGszbG54QkpSdTRaNFQ2Ulc2ZXZhSmNaRnl5WlJXVkdhbmhCcUlRZ1RTX0hwSV9KSEdjaVFRalRjMkZ0RjNCMV9XbFRYVmJGdTdLQzNveXZSazNDTk1JU1I5VmFOemY5UQ?oc=5",
+          "published": "02 Sep 04:09",
+          "channel": "Google News"
+        }
+      ]
+    },
+    {
+      "ticker": "JBH",
+      "name": "JB Hi-Fi",
+      "list": "Watchlist",
+      "count": 2,
+      "items": [
+        {
+          "title": "JB Hi-Fi (ASX:JBH): Retail Execution Remains Key After FY26 Growth - Kalkine",
+          "source": "Kalkine",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPMDVMaTQxbTVLU1ZheERqVVV0QmhZMEQ3S1Iyb2ZuejRIbDRQQllyS1JYUllhR2k4eVRXSlVzX3d1TDFLSXI2TnNIeHh3aXQzemVUNC1LQWpzRU83OE9qRHAwTDdETnZXNFkzc1M1UHhmMTJEM2t3Zk9VckRpUmx0bWVrWTVXV1ZSSkxjSlVjZzhfdHBSQ2w2VU5ISXRyVzNh?oc=5",
+          "published": "03 Sep 02:47",
+          "channel": "Google News"
+        },
+        {
+          "title": "Can JB Hi-Fi (ASX:JBH) Stay on the Consumer Stocks Radar? - Kalkine Media",
+          "source": "Kalkine Media",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOT2xWZC1lbnk4QjdnczBCcXZ4c3hCajBjcmk2em9kS2NnVVFfOGp0aFRSUmd0cDl5S0FMbWIyQmZlbVRuSi05VHdSUWUyUWRtMl9rMEZjZEdYaTd2TWIyQTlTN2lHVWk1QU8xUFhDR0R4bW41SkU3eEV4NTZ0V3NVbE5JbzJ0X0NGZGxDMEtBZE10aGpPVE1YSmliWDBXUQ?oc=5",
+          "published": "02 Sep 02:28",
+          "channel": "Google News"
+        }
+      ]
+    },
+    {
+      "ticker": "4DX",
+      "name": "4DMedical",
+      "list": "Watchlist",
+      "count": 2,
+      "items": [
+        {
+          "title": "Can 4DMedical's (ASX:4DX) Rising Revenue Offset Its Deepening Net Losses? - simplywall.st",
+          "source": "simplywall.st",
+          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOdzVwb0pQaVpTaElOakRNVEU0Z0VzcTVCclRSY01pZEMzMGhxOVc2YldJUjY4ekFNY2ZnZ1pPSndycVV0RGQ5V3JQc25lUGVVMno3NkE3X1hRc29mc0xNYkVsOHBEMnlPNVNxUzBFMG04YnFFeVhKQ1FMWlJMY013aDhhWG90VVBuSzljaHNzb3VneGJmbWtkR1dZV2VYY24zOEVlRXdLcWpja182UWZmVEpEeEwtczZ5dmdGc2JuNUlOTUJMWFdjTFBVMFZZZ9IB0wFBVV95cUxNanJSbVBuNlU0a0RGc05UX0E2OVZVblpzd1Vfb0U5N29vLWppLURXNEdKRkVsbFJhYU5YUjNFZWxIbVlaU2h4Ym9mMTZvSWNvRHc5LURjOU9nUE1ueTJoSnRjcUlpTzRXTnhMSEtwZkVyQ2haZE1NdWpNNXFqRGZYNnRKRXU0dmZtYmg1VXNWbHI0RURtTndjMWpSalh6MDJ5R2xOeS1wcE9rS051SFFPeU9hU2IwaER1RWxJNHI4U3I2VVMtX1pOak02Z3lRUGlEWFNJ?oc=5",
+          "published": "03 Sep 02:41",
+          "channel": "Google News"
+        },
+        {
+          "title": "4DMEDICAL (ASX:4DX) Gains 4% as CT:VQ Expansion Keeps Stock in Focus - Kalkine",
+          "source": "Kalkine",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQUXh2bENFMVV1QzcyTkR2U0JIOVI3WXB1N0lZRkVqVlhSLXVqR0J2S1RsS1RIelNhVExOblZ1YXhBQ2xaRHR3QmZDLVJxeUZQbzNrR3BvWUlLM3pfbGdrQzZIMUF0N2hjUkNZY2Z0N0dZRUxYMl9wWXVPRzB4TzR0T2JuQUVaUEp2TjVWZXNlM2owc1czU2doTkcwVUViYkhJQzNJTQ?oc=5",
+          "published": "02 Sep 03:46",
+          "channel": "Google News"
+        }
+      ]
+    },
+    {
+      "ticker": "EIQ",
+      "name": "Echo IQ",
+      "list": "Watchlist",
+      "count": 1,
+      "items": [
+        {
+          "title": "EIQ:ASX Announcement - Initial Director's Interest Notice - Scott Wilkin - 01 Sep 2026 - Market Index",
+          "source": "Market Index",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOZVVRNmh3ZGxkT2JPTVc5dGNEeWItbFFmTnJ3aWg3OUNTamZVYXN3WDVOb3plOUtpVGJNcFlTLU9tTjNYZkkyX3ZtVUMxR0ZHZjhaNExiQ0hCM0QyTUd0U0xyUzlHVlRqM292TWdJSnVpQ21LVV9aWWVkZzN5WVUzRFNXSWxSR0NfZWJzYW9BMlhMUUFudWpPRHZXbG50LTFvWTNqcUJsTGU2RlNEY3c?oc=5",
+          "published": "02 Sep 06:37",
+          "channel": "Google News"
+        }
+      ]
+    }
+  ]
+}
