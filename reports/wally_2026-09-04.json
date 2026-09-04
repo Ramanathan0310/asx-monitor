@@ -1,0 +1,115 @@
+{
+  "date": "2026-09-04",
+  "threshold": 5.0,
+  "total": 31,
+  "flagged": [
+    {
+      "ticker": "JBH.AX",
+      "name": "JB Hi-Fi",
+      "list": "Watchlist",
+      "data": {
+        "price": 67.41,
+        "low": 65.66,
+        "high": 120.0
+      },
+      "dist": 2.67,
+      "pos": 3.2
+    },
+    {
+      "ticker": "SGH.AX",
+      "name": "SGH Limited",
+      "list": "Portfolio",
+      "data": {
+        "price": 38.67,
+        "low": 37.26,
+        "high": 52.0
+      },
+      "dist": 3.78,
+      "pos": 9.6
+    },
+    {
+      "ticker": "SIG.AX",
+      "name": "Sigma Healthcare",
+      "list": "Portfolio",
+      "data": {
+        "price": 2.71,
+        "low": 2.58,
+        "high": 3.2
+      },
+      "dist": 5.04,
+      "pos": 21.0
+    },
+    {
+      "ticker": "SHL.AX",
+      "name": "Sonic Healthcare",
+      "list": "Watchlist",
+      "data": {
+        "price": 19.305,
+        "low": 18.26,
+        "high": 24.27
+      },
+      "dist": 5.72,
+      "pos": 17.4
+    },
+    {
+      "ticker": "LBL.AX",
+      "name": "LaserBond",
+      "list": "Portfolio",
+      "data": {
+        "price": 0.52,
+        "low": 0.485,
+        "high": 0.67
+      },
+      "dist": 7.22,
+      "pos": 18.9
+    },
+    {
+      "ticker": "APE.AX",
+      "name": "Eagers Automotive",
+      "list": "Portfolio",
+      "data": {
+        "price": 20.89,
+        "low": 19.47,
+        "high": 35.64
+      },
+      "dist": 7.29,
+      "pos": 8.8
+    },
+    {
+      "ticker": "WES.AX",
+      "name": "Wesfarmers",
+      "list": "Portfolio",
+      "data": {
+        "price": 77.48,
+        "low": 70.8,
+        "high": 94.7
+      },
+      "dist": 9.44,
+      "pos": 27.9
+    },
+    {
+      "ticker": "SDR.AX",
+      "name": "SiteMinder",
+      "list": "Portfolio",
+      "data": {
+        "price": 2.86,
+        "low": 2.6,
+        "high": 7.96
+      },
+      "dist": 10.0,
+      "pos": 4.9
+    },
+    {
+      "ticker": "ARB.AX",
+      "name": "ARB Corporation",
+      "list": "Portfolio",
+      "data": {
+        "price": 19.25,
+        "low": 16.93,
+        "high": 40.7
+      },
+      "dist": 13.7,
+      "pos": 9.8
+    }
+  ]
+}
