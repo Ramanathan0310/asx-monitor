@@ -1,0 +1,254 @@
+{
+  "date": "2026-09-06",
+  "total": 31,
+  "results": [
+    {
+      "ticker": "MQG",
+      "name": "Macquarie Group",
+      "list": "Portfolio",
+      "count": 0,
+      "items": []
+    },
+    {
+      "ticker": "LBL",
+      "name": "LaserBond",
+      "list": "Portfolio",
+      "count": 0,
+      "items": []
+    },
+    {
+      "ticker": "WES",
+      "name": "Wesfarmers",
+      "list": "Portfolio",
+      "count": 0,
+      "items": []
+    },
+    {
+      "ticker": "APE",
+      "name": "Eagers Automotive",
+      "list": "Portfolio",
+      "count": 0,
+      "items": []
+    },
+    {
+      "ticker": "SGH",
+      "name": "SGH Limited",
+      "list": "Portfolio",
+      "count": 0,
+      "items": []
+    },
+    {
+      "ticker": "EOL",
+      "name": "Energy One",
+      "list": "Portfolio",
+      "count": 0,
+      "items": []
+    },
+    {
+      "ticker": "ALL",
+      "name": "Aristocrat Leisure",
+      "list": "Portfolio",
+      "count": 1,
+      "items": [
+        {
+          "title": "Bill Gates Says He Still Won't Invest in Crypto, Calls It a \"Pure Mania-Driven Asset.\" Here's Why He's Right.",
+          "source": "Motley Fool",
+          "url": "https://finance.yahoo.com/m/803f6c17-a8b9-3899-8720-2adca882347e/bill-gates-says-he-still.html",
+          "published": "05 Sep 23:50",
+          "channel": "Yahoo Finance"
+        }
+      ]
+    },
+    {
+      "ticker": "SNL",
+      "name": "Supply Network",
+      "list": "Portfolio",
+      "count": 0,
+      "items": []
+    },
+    {
+      "ticker": "CSL",
+      "name": "CSL Limited",
+      "list": "Portfolio",
+      "count": 0,
+      "items": []
+    },
+    {
+      "ticker": "C79",
+      "name": "Chrysos Corporation",
+      "list": "Portfolio",
+      "count": 0,
+      "items": []
+    },
+    {
+      "ticker": "CAT",
+      "name": "Catapult Group",
+      "list": "Portfolio",
+      "count": 0,
+      "items": []
+    },
+    {
+      "ticker": "PME",
+      "name": "Pro Medicus",
+      "list": "Portfolio",
+      "count": 0,
+      "items": []
+    },
+    {
+      "ticker": "ARB",
+      "name": "ARB Corporation",
+      "list": "Portfolio",
+      "count": 0,
+      "items": []
+    },
+    {
+      "ticker": "COH",
+      "name": "Cochlear",
+      "list": "Portfolio",
+      "count": 0,
+      "items": []
+    },
+    {
+      "ticker": "WTC",
+      "name": "WiseTech Global",
+      "list": "Portfolio",
+      "count": 0,
+      "items": []
+    },
+    {
+      "ticker": "XRF",
+      "name": "XRF Scientific",
+      "list": "Portfolio",
+      "count": 0,
+      "items": []
+    },
+    {
+      "ticker": "LOV",
+      "name": "Lovisa Holdings",
+      "list": "Portfolio",
+      "count": 0,
+      "items": []
+    },
+    {
+      "ticker": "REA",
+      "name": "REA Group",
+      "list": "Portfolio",
+      "count": 2,
+      "items": [
+        {
+          "title": "Zheng, Potapova pull off upsets to reach US Open last 16",
+          "source": "AFP",
+          "url": "https://finance.yahoo.com/m/344236ee-1ff4-3f3d-8ed0-9556bbd42b75/zheng%2C-potapova-pull-off.html",
+          "published": "05 Sep 23:36",
+          "channel": "Yahoo Finance"
+        },
+        {
+          "title": "Is the latest rebound in the Japanese yen real?",
+          "source": "Investing.com",
+          "url": "https://finance.yahoo.com/markets/currencies/articles/latest-rebound-japanese-yen-real-233237408.html",
+          "published": "05 Sep 23:32",
+          "channel": "Yahoo Finance"
+        }
+      ]
+    },
+    {
+      "ticker": "TNE",
+      "name": "TechnologyOne",
+      "list": "Portfolio",
+      "count": 0,
+      "items": []
+    },
+    {
+      "ticker": "SOL",
+      "name": "Washington H. Soul Pattinson",
+      "list": "Portfolio",
+      "count": 0,
+      "items": []
+    },
+    {
+      "ticker": "SDR",
+      "name": "SiteMinder",
+      "list": "Portfolio",
+      "count": 0,
+      "items": []
+    },
+    {
+      "ticker": "OCL",
+      "name": "Objective Corporation",
+      "list": "Portfolio",
+      "count": 0,
+      "items": []
+    },
+    {
+      "ticker": "SIG",
+      "name": "Sigma Healthcare",
+      "list": "Portfolio",
+      "count": 0,
+      "items": []
+    },
+    {
+      "ticker": "RMD",
+      "name": "ResMed",
+      "list": "Portfolio",
+      "count": 0,
+      "items": []
+    },
+    {
+      "ticker": "MFF",
+      "name": "MFF Capital",
+      "list": "Portfolio",
+      "count": 0,
+      "items": []
+    },
+    {
+      "ticker": "SHL",
+      "name": "Sonic Healthcare",
+      "list": "Watchlist",
+      "count": 0,
+      "items": []
+    },
+    {
+      "ticker": "APA",
+      "name": "APA Group",
+      "list": "Watchlist",
+      "count": 1,
+      "items": [
+        {
+          "title": "Is the latest rebound in the Japanese yen real?",
+          "source": "Investing.com",
+          "url": "https://finance.yahoo.com/markets/currencies/articles/latest-rebound-japanese-yen-real-233237408.html",
+          "published": "05 Sep 23:32",
+          "channel": "Yahoo Finance"
+        }
+      ]
+    },
+    {
+      "ticker": "NHC",
+      "name": "New Hope Corporation",
+      "list": "Watchlist",
+      "count": 0,
+      "items": []
+    },
+    {
+      "ticker": "JBH",
+      "name": "JB Hi-Fi",
+      "list": "Watchlist",
+      "count": 0,
+      "items": []
+    },
+    {
+      "ticker": "4DX",
+      "name": "4DMedical",
+      "list": "Watchlist",
+      "count": 0,
+      "items": []
+    },
+    {
+      "ticker": "EIQ",
+      "name": "Echo IQ",
+      "list": "Watchlist",
+      "count": 0,
+      "items": []
+    }
+  ]
+}
