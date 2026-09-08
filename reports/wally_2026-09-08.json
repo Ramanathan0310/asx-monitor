@@ -1,0 +1,127 @@
+{
+  "date": "2026-09-08",
+  "threshold": 5.0,
+  "total": 31,
+  "flagged": [
+    {
+      "ticker": "JBH.AX",
+      "name": "JB Hi-Fi",
+      "list": "Watchlist",
+      "data": {
+        "price": 67.29,
+        "low": 65.66,
+        "high": 120.0
+      },
+      "dist": 2.48,
+      "pos": 3.0
+    },
+    {
+      "ticker": "SIG.AX",
+      "name": "Sigma Healthcare",
+      "list": "Portfolio",
+      "data": {
+        "price": 2.685,
+        "low": 2.58,
+        "high": 3.2
+      },
+      "dist": 4.07,
+      "pos": 16.9
+    },
+    {
+      "ticker": "SGH.AX",
+      "name": "SGH Limited",
+      "list": "Portfolio",
+      "data": {
+        "price": 39.11,
+        "low": 37.26,
+        "high": 52.0
+      },
+      "dist": 4.97,
+      "pos": 12.6
+    },
+    {
+      "ticker": "SHL.AX",
+      "name": "Sonic Healthcare",
+      "list": "Watchlist",
+      "data": {
+        "price": 19.45,
+        "low": 18.26,
+        "high": 24.27
+      },
+      "dist": 6.52,
+      "pos": 19.8
+    },
+    {
+      "ticker": "APE.AX",
+      "name": "Eagers Automotive",
+      "list": "Portfolio",
+      "data": {
+        "price": 20.84,
+        "low": 19.47,
+        "high": 35.64
+      },
+      "dist": 7.04,
+      "pos": 8.5
+    },
+    {
+      "ticker": "WES.AX",
+      "name": "Wesfarmers",
+      "list": "Portfolio",
+      "data": {
+        "price": 76.63,
+        "low": 70.8,
+        "high": 94.7
+      },
+      "dist": 8.23,
+      "pos": 24.4
+    },
+    {
+      "ticker": "SDR.AX",
+      "name": "SiteMinder",
+      "list": "Portfolio",
+      "data": {
+        "price": 2.86,
+        "low": 2.6,
+        "high": 7.96
+      },
+      "dist": 10.0,
+      "pos": 4.9
+    },
+    {
+      "ticker": "ARB.AX",
+      "name": "ARB Corporation",
+      "list": "Portfolio",
+      "data": {
+        "price": 18.86,
+        "low": 16.93,
+        "high": 40.7
+      },
+      "dist": 11.4,
+      "pos": 8.1
+    },
+    {
+      "ticker": "LBL.AX",
+      "name": "LaserBond",
+      "list": "Portfolio",
+      "data": {
+        "price": 0.545,
+        "low": 0.485,
+        "high": 0.67
+      },
+      "dist": 12.37,
+      "pos": 32.4
+    },
+    {
+      "ticker": "XRF.AX",
+      "name": "XRF Scientific",
+      "list": "Portfolio",
+      "data": {
+        "price": 1.825,
+        "low": 1.6,
+        "high": 2.4
+      },
+      "dist": 14.06,
+      "pos": 28.1
+    }
+  ]
+}
