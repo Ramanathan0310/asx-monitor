@@ -1,0 +1,43 @@
+{
+  "date": "2026-09-11",
+  "total": 31,
+  "hot": [
+    {
+      "ticker": "APA.AX",
+      "name": "APA Group",
+      "list": "Watchlist",
+      "data": {
+        "price": 10.92,
+        "low": 8.445,
+        "high": 11.1
+      },
+      "dist_to_high": 1.62,
+      "pos": 93.2
+    },
+    {
+      "ticker": "NHC.AX",
+      "name": "New Hope Corporation",
+      "list": "Watchlist",
+      "data": {
+        "price": 6.33,
+        "low": 3.77,
+        "high": 6.49
+      },
+      "dist_to_high": 2.47,
+      "pos": 94.1
+    },
+    {
+      "ticker": "MFF.AX",
+      "name": "MFF Capital",
+      "list": "Portfolio",
+      "data": {
+        "price": 5.3,
+        "low": 4.4,
+        "high": 5.48
+      },
+      "dist_to_high": 3.28,
+      "pos": 83.3
+    }
+  ],
+  "warm": []
+}
