@@ -1,0 +1,384 @@
+{
+  "date": "2026-09-14",
+  "total": 31,
+  "results": [
+    {
+      "ticker": "MQG",
+      "name": "Macquarie Group",
+      "list": "Portfolio",
+      "count": 0,
+      "items": []
+    },
+    {
+      "ticker": "LBL",
+      "name": "LaserBond",
+      "list": "Portfolio",
+      "count": 0,
+      "items": []
+    },
+    {
+      "ticker": "WES",
+      "name": "Wesfarmers",
+      "list": "Portfolio",
+      "count": 3,
+      "items": [
+        {
+          "title": "Why are Wesfarmers shares the most oversold on the ASX? - thebull.com.au",
+          "source": "thebull.com.au",
+          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOZzlWYTJ5T294OUN6R3czZWJ1ZThqTEhacm1zU25PUmlFYkM3OVlaemZqdFJlbE5ERzF5R1hFb2kycjhoeEFKRmRPMmtua1BoUnNuZmJUQmcweFk1UkZGbFRFRDZZZFhaeWxRYlZSWHBlTXA4UFBPTVdhZTFOXzg5Qm5vV3pfV0ttWW9j?oc=5",
+          "published": "13 Sep 19:20",
+          "channel": "Google News"
+        },
+        {
+          "title": "By September 2027, Wesfarmers shares could turn $10,000 into\u2026 - The Motley Fool Australia",
+          "source": "The Motley Fool Australia",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPM2ZyZTFIVkUzeFctM0Q5LWtnaTNNSC05Y2M2Ry15d0hnaHZfS21hektpUmttSml0MzJBbUZqdG9XWkhLYkpUS2NhOU5wWmdUUmJmSVJCZTcyWk9BN2hNbHJYR3hMZzN5bzNGYm85dDluNFlxeVlBRDZxMjhLdFZUMFBsM1hRb1lGdy0yU05pTnEwTTIyV0FCVQ?oc=5",
+          "published": "13 Sep 23:30",
+          "channel": "Google News"
+        },
+        {
+          "title": "Why Is (ASX:WES) the Most Oversold ASX Bluechip Stock? - Kalkine Media",
+          "source": "Kalkine Media",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPbU9UOUN4Yk9PSFFEa1VEV2xXN1ZqMHJfRmxPdzhndW1VTlNPWDZqY2RONjlDSS1VS2loVjlDWDE2d1lhSlhrMUtYTUFhVUJOM3ppcEwyV19UZl8xVmFZOVpZU0gxYWZZdHBKc3lZQjdUUmJRN1NmVHhwNHlYNEJPMG8zWkEwcmVlc1JLVFhDMzRDWDhPcjNhNy1R?oc=5",
+          "published": "13 Sep 23:55",
+          "channel": "Google News"
+        }
+      ]
+    },
+    {
+      "ticker": "APE",
+      "name": "Eagers Automotive",
+      "list": "Portfolio",
+      "count": 1,
+      "items": [
+        {
+          "title": "APE:ASX Announcement - Update - Notification of buy-back - APE - 11 Sep 2026 - Market Index",
+          "source": "Market Index",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQNzI5aFBhN0FlTXlrT3BhNEpvTEZMZXRGN2prYUFDTlBJVmNZa2tKZjVLTy15T3pQdnVFamxaay1KTWpuWlU4T3hwQ1hrbUVkLVltSGpyLVhreThYVExEOWdlT2p3b2VhdVVSNW93UXpOMnA3eExNMWd2cFVtR3NVM2xVRDM0ay1YMWI2ZndMelRwdzIwZTFDOHpPYUE5MTQ?oc=5",
+          "published": "12 Sep 09:19",
+          "channel": "Google News"
+        }
+      ]
+    },
+    {
+      "ticker": "SGH",
+      "name": "SGH Limited",
+      "list": "Portfolio",
+      "count": 1,
+      "items": [
+        {
+          "title": "CITIWARRANTS 55.7163 SGH MINI SHORT (ASX:SGHKOR) - intelligentinvestor.com.au",
+          "source": "intelligentinvestor.com.au",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOVFFUdS1jQVNpMTRsWE5sVE1pbjkzb3Jtd0dvakpaQ1B0TEtoM2Q1SVQ4b180VHFtN0w0QUZvRDlPcDNpX3RvNUgyMF9OWU9XeWFUcWpsdVg3NkdLV1BhdXhQdHRURVhKS1VqWlNxZi1FWjRDTHFtdTN2RlU1RUdnckJ6MFFoWk1uMFhMNVY1QXJqeFp1WHc?oc=5",
+          "published": "13 Sep 09:56",
+          "channel": "Google News"
+        }
+      ]
+    },
+    {
+      "ticker": "EOL",
+      "name": "Energy One",
+      "list": "Portfolio",
+      "count": 0,
+      "items": []
+    },
+    {
+      "ticker": "ALL",
+      "name": "Aristocrat Leisure",
+      "list": "Portfolio",
+      "count": 1,
+      "items": [
+        {
+          "title": "The Social Security Fairness Act Sent 3 Million Public Retirees a Lump-Sum Check. A Little-Known IRS Election Spreads the Tax Back Over the Years It Was Actually Owed",
+          "source": "24/7 Wall St.",
+          "url": "https://finance.yahoo.com/m/097f89e9-1244-33c6-9bfe-2018db2a6150/the-social-security-fairness.html",
+          "published": "14 Sep 00:06",
+          "channel": "Yahoo Finance"
+        }
+      ]
+    },
+    {
+      "ticker": "SNL",
+      "name": "Supply Network",
+      "list": "Portfolio",
+      "count": 0,
+      "items": []
+    },
+    {
+      "ticker": "CSL",
+      "name": "CSL Limited",
+      "list": "Portfolio",
+      "count": 1,
+      "items": [
+        {
+          "title": "CSL shares just fell 5% after a strong rally. Is the recovery losing steam? - The Motley Fool Australia",
+          "source": "The Motley Fool Australia",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOaWtJOFRDdWpFV3MzVUN6Q1ItcjFZcjNtUkZaM2poUXV0a25VWndmUUpsS3N4OFY2cko3dnJJYmt5cEhJU25HLXJ2Y1d0Wi1DSGFaTGJ2eExTcmtLUGRIM2V3d0U5U1RGcWE0bndnd0ZTU3FZaG55ZkhwbDN6Vmx5QVpRM0lROHJYb2FMMmtqV2FRb0VkV2hLYXE0UnRQS0hGMHU5RG5KZ1JiZC1G?oc=5",
+          "published": "13 Sep 20:00",
+          "channel": "Google News"
+        }
+      ]
+    },
+    {
+      "ticker": "C79",
+      "name": "Chrysos Corporation",
+      "list": "Portfolio",
+      "count": 2,
+      "items": [
+        {
+          "title": "Philippine Seven Corporation Selects RELEX to Improve Forecasting",
+          "source": "PR Newswire",
+          "url": "https://finance.yahoo.com/small-business/articles/philippine-seven-corporation-selects-relex-000000726.html",
+          "published": "14 Sep 00:00",
+          "channel": "Yahoo Finance"
+        },
+        {
+          "title": "Why Is (ASX:C79) Drawing Fresh Attention Across the ASX? - Kalkine Media",
+          "source": "Kalkine Media",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNelUwZ0JhRlZaRzJYVTNLeEFMeHpkZGhKLVFtSEFzT1VLdDA3MUl3bS1UVVk2Ul8yZzE5YWktYlNCeU5jUG9yc3JnaFJCNDhaanlUT1hmbEhQLXA5SHFZaGEzR05hSEpIejBFWFdjeGs1cHZhd3JLdmg1Y3pFaXAzVUlYdDJuNFh5UFhCcTRrSkRPcy1lTUhzbmZ6VVBKSzA?oc=5",
+          "published": "14 Sep 00:12",
+          "channel": "Google News"
+        }
+      ]
+    },
+    {
+      "ticker": "CAT",
+      "name": "Catapult Group",
+      "list": "Portfolio",
+      "count": 1,
+      "items": [
+        {
+          "title": "Trey McBride's best catches from 95-yard, 1-TD game vs. Chargers Week 1",
+          "source": "NFL Highlights",
+          "url": "https://finance.yahoo.com/m/de44ae6c-bd3b-3cce-9dfa-d954d28504b0/trey-mcbride%27s-best-catches.html",
+          "published": "14 Sep 00:10",
+          "channel": "Yahoo Finance"
+        }
+      ]
+    },
+    {
+      "ticker": "PME",
+      "name": "Pro Medicus",
+      "list": "Portfolio",
+      "count": 1,
+      "items": [
+        {
+          "title": "6 key numbers to value PME shares - Rask Media",
+          "source": "Rask Media",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPeENmZU50QzAyNVJEZVZvdjFXNWljODN3WkNSUUhON0xCQ2tIOXVpdDdzd1gyRFZYOUhBNDMzX3VPZm41MXJOcFo2amc4RGNSTTk0MHpmTnI1cUUwb1NyRHpzWnZrc0I2bFVndVRQSXgwdXRfWllscUhqampaR215QTFzaw?oc=5",
+          "published": "12 Sep 10:08",
+          "channel": "Google News"
+        }
+      ]
+    },
+    {
+      "ticker": "ARB",
+      "name": "ARB Corporation",
+      "list": "Portfolio",
+      "count": 1,
+      "items": [
+        {
+          "title": "Philippine Seven Corporation Selects RELEX to Improve Forecasting",
+          "source": "PR Newswire",
+          "url": "https://finance.yahoo.com/small-business/articles/philippine-seven-corporation-selects-relex-000000726.html",
+          "published": "14 Sep 00:00",
+          "channel": "Yahoo Finance"
+        }
+      ]
+    },
+    {
+      "ticker": "COH",
+      "name": "Cochlear",
+      "list": "Portfolio",
+      "count": 0,
+      "items": []
+    },
+    {
+      "ticker": "WTC",
+      "name": "WiseTech Global",
+      "list": "Portfolio",
+      "count": 0,
+      "items": []
+    },
+    {
+      "ticker": "XRF",
+      "name": "XRF Scientific",
+      "list": "Portfolio",
+      "count": 0,
+      "items": []
+    },
+    {
+      "ticker": "LOV",
+      "name": "Lovisa Holdings",
+      "list": "Portfolio",
+      "count": 0,
+      "items": []
+    },
+    {
+      "ticker": "REA",
+      "name": "REA Group",
+      "list": "Portfolio",
+      "count": 3,
+      "items": [
+        {
+          "title": "The Social Security Fairness Act Sent 3 Million Public Retirees a Lump-Sum Check. A Little-Known IRS Election Spreads the Tax Back Over the Years It Was Actually Owed",
+          "source": "24/7 Wall St.",
+          "url": "https://finance.yahoo.com/m/097f89e9-1244-33c6-9bfe-2018db2a6150/the-social-security-fairness.html",
+          "published": "14 Sep 00:06",
+          "channel": "Yahoo Finance"
+        },
+        {
+          "title": "Realestate.com.au Lifts Agent Contract Limits Post-ACCC - Mirage News",
+          "source": "Mirage News",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNeGI2dUxhN2Q1Q2d4RmI0bDk0R3JNU21WdEtwbGhmQ2loRWQ4ZTItVjhzc1FqUDlnMWlMb1hFM0s3WEJISDRFNFBMWVNieHk5UndzUWlwQ0xQLXE2N2xTakgwTlJoTmpYUzRGYno2OHl5eno3NzBuSWpBdU9GdktfSWdsM3pnQQ?oc=5",
+          "published": "13 Sep 23:00",
+          "channel": "Google News"
+        },
+        {
+          "title": "REA to remove contract restrictions after ACCC raises competition concerns - Capital Brief",
+          "source": "Capital Brief",
+          "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPTklVSGY3SnMzTmh1QUhrYmV0TF9MWm9qaW9MVFh4SXB0SzVYamtoeUFHbkZWVk8xZHNFd0dzdDZJVzNDZFNrVVB2LUdGMjdiZ2d0VDRnVG4yR1k3OTVmSllTUm11a3VSSEp1ZlJDWlg4MGo0OUxjcl9HdnpWOGhLVWNyTi0wQlhvZ1hzU0JVUTBORXhyTTF2U1JHUDNlN0VIUFpGeU1iakoxS1ktMVVEMEhHOXJqOTRoZDZWc280MW5EbkJoZTE1UTJMbE1xNHNNVEV0SGJnS2JiUEpSM1RfdlE1Rk0?oc=5",
+          "published": "13 Sep 23:54",
+          "channel": "Google News"
+        }
+      ]
+    },
+    {
+      "ticker": "TNE",
+      "name": "TechnologyOne",
+      "list": "Portfolio",
+      "count": 2,
+      "items": [
+        {
+          "title": "TechnologyOne Shares Into Oversold Territory, As Pressure Continues - thebull.com.au",
+          "source": "thebull.com.au",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQMXJob1A2RF9OY1RMa3dwZy1FRFVMbDhOS0xoZ2ZmVVhWSkF3YUxrTzNPSEFJdWlTS3FQenFOZjlON2dvaEZib3piUy1PZVZVdlktZXVSNElxMFFBMFBWYXQ4alBEbWRUTFBWV0pIbUJTcVVSLTNkU1ZsQUFkTWdRcWpmWmJrcVRzdVVYSDkwSnB1LWFQS25QTjd3NA?oc=5",
+          "published": "13 Sep 19:35",
+          "channel": "Google News"
+        },
+        {
+          "title": "Why Is TechnologyOne (ASX:TNE) Under Fresh Pressure? - Kalkine Media",
+          "source": "Kalkine Media",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQSzIyMmVBcWFrWEw3Q3pzTlRFeXgyY0xpLW5xRkt6WS1vM0N4bk9xSDBiN3JHM0M5VEpXOTdLLUg0Y3RIdm05YTJybkF3dU5rekhGbTJKUi1xX1kweW16UXlRUUl0U1BIdFlYbjdDcDZXT2V4N0R0d2dPMnNaU1FseE1WNVhQSnVkeklRS1p2d0RrbHFPU1JFQy1B?oc=5",
+          "published": "14 Sep 00:09",
+          "channel": "Google News"
+        }
+      ]
+    },
+    {
+      "ticker": "SOL",
+      "name": "Washington H. Soul Pattinson",
+      "list": "Portfolio",
+      "count": 0,
+      "items": []
+    },
+    {
+      "ticker": "SDR",
+      "name": "SiteMinder",
+      "list": "Portfolio",
+      "count": 0,
+      "items": []
+    },
+    {
+      "ticker": "OCL",
+      "name": "Objective Corporation",
+      "list": "Portfolio",
+      "count": 1,
+      "items": [
+        {
+          "title": "Philippine Seven Corporation Selects RELEX to Improve Forecasting",
+          "source": "PR Newswire",
+          "url": "https://finance.yahoo.com/small-business/articles/philippine-seven-corporation-selects-relex-000000726.html",
+          "published": "14 Sep 00:00",
+          "channel": "Yahoo Finance"
+        }
+      ]
+    },
+    {
+      "ticker": "SIG",
+      "name": "Sigma Healthcare",
+      "list": "Portfolio",
+      "count": 0,
+      "items": []
+    },
+    {
+      "ticker": "RMD",
+      "name": "ResMed",
+      "list": "Portfolio",
+      "count": 0,
+      "items": []
+    },
+    {
+      "ticker": "MFF",
+      "name": "MFF Capital",
+      "list": "Portfolio",
+      "count": 0,
+      "items": []
+    },
+    {
+      "ticker": "SHL",
+      "name": "Sonic Healthcare",
+      "list": "Watchlist",
+      "count": 0,
+      "items": []
+    },
+    {
+      "ticker": "APA",
+      "name": "APA Group",
+      "list": "Watchlist",
+      "count": 0,
+      "items": []
+    },
+    {
+      "ticker": "NHC",
+      "name": "New Hope Corporation",
+      "list": "Watchlist",
+      "count": 1,
+      "items": [
+        {
+          "title": "Philippine Seven Corporation Selects RELEX to Improve Forecasting",
+          "source": "PR Newswire",
+          "url": "https://finance.yahoo.com/small-business/articles/philippine-seven-corporation-selects-relex-000000726.html",
+          "published": "14 Sep 00:00",
+          "channel": "Yahoo Finance"
+        }
+      ]
+    },
+    {
+      "ticker": "JBH",
+      "name": "JB Hi-Fi",
+      "list": "Watchlist",
+      "count": 0,
+      "items": []
+    },
+    {
+      "ticker": "4DX",
+      "name": "4DMedical",
+      "list": "Watchlist",
+      "count": 0,
+      "items": []
+    },
+    {
+      "ticker": "EIQ",
+      "name": "Echo IQ",
+      "list": "Watchlist",
+      "count": 2,
+      "items": [
+        {
+          "title": "Comment: The Failure of Echo IQ (ASX:EIQ) Shows AI Could Mean The Door for ASX MedTechs to Pursue Substantial Equivalence Is Slamming Shut - Stocks Down Under",
+          "source": "Stocks Down Under",
+          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBtdENhQ2FNZkU2d3phY09HQUs2c0NHZE83VzBJOGFoekJ4QW9yQXJqRFAtMXRJMkktaUhodVVpanhRYTBMU0wxdGpLaFFuT29JbklGMVJIaW55Mk45czlTNWQ4WjNRNjY0UnFLX2ZNbjBSVzZOY1B2VnlubFk?oc=5",
+          "published": "13 Sep 19:24",
+          "channel": "Google News"
+        },
+        {
+          "title": "Does Echo IQ's FDA Setback Signal a Wider AI Regulatory Problem? - Kalkine Media",
+          "source": "Kalkine Media",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPbmQwTk1idmpraXN3eExibVZpSi0ySmhzSmZLWDVCTTk3R1diTGJYc1V4OTd2UC1xYWlKNXFzSDJnNHFVel9TdkxNZW9LQTFXWGl3RFM2ZnpacTE3VUctdTZ0ZHJlb1RMMVdLRUwwbUxHeG5ZYXFkYlhwT2VENjFfT0NUamoyNk9ReHhFQ2tNS2FKdFdsM3prM1lHemxQRzhPakp0RUFQcDVKN1A5S005UFN4UFdSczJnMlRLcVBB?oc=5",
+          "published": "13 Sep 23:40",
+          "channel": "Google News"
+        }
+      ]
+    }
+  ]
+}
