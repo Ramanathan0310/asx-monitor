@@ -1,0 +1,55 @@
+{
+  "date": "2026-09-18",
+  "total": 31,
+  "hot": [
+    {
+      "ticker": "APA.AX",
+      "name": "APA Group",
+      "list": "Watchlist",
+      "data": {
+        "price": 10.93,
+        "low": 8.445,
+        "high": 11.1
+      },
+      "dist_to_high": 1.53,
+      "pos": 93.6
+    },
+    {
+      "ticker": "MFF.AX",
+      "name": "MFF Capital",
+      "list": "Portfolio",
+      "data": {
+        "price": 5.39,
+        "low": 4.4,
+        "high": 5.48
+      },
+      "dist_to_high": 1.64,
+      "pos": 91.7
+    },
+    {
+      "ticker": "NHC.AX",
+      "name": "New Hope Corporation",
+      "list": "Watchlist",
+      "data": {
+        "price": 6.38,
+        "low": 3.77,
+        "high": 6.61
+      },
+      "dist_to_high": 3.48,
+      "pos": 91.9
+    },
+    {
+      "ticker": "SOL.AX",
+      "name": "Washington H. Soul Pattinson",
+      "list": "Portfolio",
+      "data": {
+        "price": 45.08,
+        "low": 34.78,
+        "high": 47.16
+      },
+      "dist_to_high": 4.41,
+      "pos": 83.2
+    }
+  ],
+  "warm": []
+}
