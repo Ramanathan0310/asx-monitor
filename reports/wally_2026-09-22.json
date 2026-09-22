@@ -1,0 +1,127 @@
+{
+  "date": "2026-09-22",
+  "threshold": 5.0,
+  "total": 31,
+  "flagged": [
+    {
+      "ticker": "SGH.AX",
+      "name": "SGH Limited",
+      "list": "Portfolio",
+      "data": {
+        "price": 36.35,
+        "low": 36.26,
+        "high": 52.0
+      },
+      "dist": 0.25,
+      "pos": 0.6
+    },
+    {
+      "ticker": "APE.AX",
+      "name": "Eagers Automotive",
+      "list": "Portfolio",
+      "data": {
+        "price": 19.43,
+        "low": 19.24,
+        "high": 35.64
+      },
+      "dist": 0.99,
+      "pos": 1.2
+    },
+    {
+      "ticker": "SIG.AX",
+      "name": "Sigma Healthcare",
+      "list": "Portfolio",
+      "data": {
+        "price": 2.545,
+        "low": 2.47,
+        "high": 3.2
+      },
+      "dist": 3.04,
+      "pos": 10.3
+    },
+    {
+      "ticker": "WES.AX",
+      "name": "Wesfarmers",
+      "list": "Portfolio",
+      "data": {
+        "price": 73.12,
+        "low": 70.8,
+        "high": 94.7
+      },
+      "dist": 3.28,
+      "pos": 9.7
+    },
+    {
+      "ticker": "JBH.AX",
+      "name": "JB Hi-Fi",
+      "list": "Watchlist",
+      "data": {
+        "price": 66.58,
+        "low": 64.18,
+        "high": 120.0
+      },
+      "dist": 3.74,
+      "pos": 4.3
+    },
+    {
+      "ticker": "SHL.AX",
+      "name": "Sonic Healthcare",
+      "list": "Watchlist",
+      "data": {
+        "price": 19.15,
+        "low": 18.26,
+        "high": 24.27
+      },
+      "dist": 4.87,
+      "pos": 14.8
+    },
+    {
+      "ticker": "SDR.AX",
+      "name": "SiteMinder",
+      "list": "Portfolio",
+      "data": {
+        "price": 2.765,
+        "low": 2.6,
+        "high": 7.96
+      },
+      "dist": 6.35,
+      "pos": 3.1
+    },
+    {
+      "ticker": "ARB.AX",
+      "name": "ARB Corporation",
+      "list": "Portfolio",
+      "data": {
+        "price": 18.16,
+        "low": 16.93,
+        "high": 40.62
+      },
+      "dist": 7.27,
+      "pos": 5.2
+    },
+    {
+      "ticker": "XRF.AX",
+      "name": "XRF Scientific",
+      "list": "Portfolio",
+      "data": {
+        "price": 1.8,
+        "low": 1.6,
+        "high": 2.4
+      },
+      "dist": 12.5,
+      "pos": 25.0
+    },
+    {
+      "ticker": "WTC.AX",
+      "name": "WiseTech Global",
+      "list": "Portfolio",
+      "data": {
+        "price": 32.69,
+        "low": 28.76,
+        "high": 97.59
+      },
+      "dist": 13.66,
+      "pos": 5.7
+    }
+  ]
+}
