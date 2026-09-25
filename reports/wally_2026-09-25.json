@@ -1,0 +1,163 @@
+{
+  "date": "2026-09-25",
+  "threshold": 5.0,
+  "total": 31,
+  "flagged": [
+    {
+      "ticker": "SDR.AX",
+      "name": "SiteMinder",
+      "list": "Portfolio",
+      "data": {
+        "price": 2.605,
+        "low": 2.6,
+        "high": 7.96
+      },
+      "dist": 0.19,
+      "pos": 0.1
+    },
+    {
+      "ticker": "SGH.AX",
+      "name": "SGH Limited",
+      "list": "Portfolio",
+      "data": {
+        "price": 35.68,
+        "low": 35.51,
+        "high": 52.0
+      },
+      "dist": 0.48,
+      "pos": 1.0
+    },
+    {
+      "ticker": "APE.AX",
+      "name": "Eagers Automotive",
+      "list": "Portfolio",
+      "data": {
+        "price": 18.97,
+        "low": 18.69,
+        "high": 35.64
+      },
+      "dist": 1.5,
+      "pos": 1.7
+    },
+    {
+      "ticker": "SHL.AX",
+      "name": "Sonic Healthcare",
+      "list": "Watchlist",
+      "data": {
+        "price": 18.85,
+        "low": 18.26,
+        "high": 24.27
+      },
+      "dist": 3.23,
+      "pos": 9.8
+    },
+    {
+      "ticker": "JBH.AX",
+      "name": "JB Hi-Fi",
+      "list": "Watchlist",
+      "data": {
+        "price": 66.73,
+        "low": 64.18,
+        "high": 120.0
+      },
+      "dist": 3.97,
+      "pos": 4.6
+    },
+    {
+      "ticker": "SIG.AX",
+      "name": "Sigma Healthcare",
+      "list": "Portfolio",
+      "data": {
+        "price": 2.575,
+        "low": 2.47,
+        "high": 3.2
+      },
+      "dist": 4.25,
+      "pos": 14.4
+    },
+    {
+      "ticker": "WES.AX",
+      "name": "Wesfarmers",
+      "list": "Portfolio",
+      "data": {
+        "price": 74.03,
+        "low": 70.8,
+        "high": 94.7
+      },
+      "dist": 4.56,
+      "pos": 13.5
+    },
+    {
+      "ticker": "ARB.AX",
+      "name": "ARB Corporation",
+      "list": "Portfolio",
+      "data": {
+        "price": 17.76,
+        "low": 16.93,
+        "high": 40.26
+      },
+      "dist": 4.9,
+      "pos": 3.6
+    },
+    {
+      "ticker": "XRF.AX",
+      "name": "XRF Scientific",
+      "list": "Portfolio",
+      "data": {
+        "price": 1.74,
+        "low": 1.6,
+        "high": 2.4
+      },
+      "dist": 8.75,
+      "pos": 17.5
+    },
+    {
+      "ticker": "WTC.AX",
+      "name": "WiseTech Global",
+      "list": "Portfolio",
+      "data": {
+        "price": 31.35,
+        "low": 28.76,
+        "high": 96.16
+      },
+      "dist": 9.01,
+      "pos": 3.8
+    },
+    {
+      "ticker": "LBL.AX",
+      "name": "LaserBond",
+      "list": "Portfolio",
+      "data": {
+        "price": 0.53,
+        "low": 0.485,
+        "high": 0.67
+      },
+      "dist": 9.28,
+      "pos": 24.3
+    },
+    {
+      "ticker": "CAT.AX",
+      "name": "Catapult Group",
+      "list": "Portfolio",
+      "data": {
+        "price": 3.085,
+        "low": 2.74,
+        "high": 7.72
+      },
+      "dist": 12.59,
+      "pos": 6.9
+    },
+    {
+      "ticker": "REA.AX",
+      "name": "REA Group",
+      "list": "Portfolio",
+      "data": {
+        "price": 148.56,
+        "low": 131.07,
+        "high": 233.495
+      },
+      "dist": 13.34,
+      "pos": 17.1
+    }
+  ]
+}
