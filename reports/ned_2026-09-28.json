@@ -1,0 +1,341 @@
+{
+  "date": "2026-09-28",
+  "total": 31,
+  "results": [
+    {
+      "ticker": "MQG",
+      "name": "Macquarie Group",
+      "list": "Portfolio",
+      "count": 0,
+      "items": []
+    },
+    {
+      "ticker": "LBL",
+      "name": "LaserBond",
+      "list": "Portfolio",
+      "count": 0,
+      "items": []
+    },
+    {
+      "ticker": "WES",
+      "name": "Wesfarmers",
+      "list": "Portfolio",
+      "count": 0,
+      "items": []
+    },
+    {
+      "ticker": "APE",
+      "name": "Eagers Automotive",
+      "list": "Portfolio",
+      "count": 1,
+      "items": [
+        {
+          "title": "CITIWARRANTS 24.3919 APE MINI SHORT (ASX:APEKOP) - intelligentinvestor.com.au",
+          "source": "intelligentinvestor.com.au",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQWnpDNTZNdXNOeGN0aWpsbnJzdk9xcXp1THRTTWNsY19kZ0NCbEtoVHhudGhtRlY1SmRrNVVRSWlhWWFid2pHZWJibDlReUtvU0QwX2VLRkxyYkNuT0R4YzRnS1E3bXcwWUZZWWNCcnRwWjJuRWxzTm5uVnhBbWl6SkswRHd3OHZENTVpWW1TZFR0UnFZS2c?oc=5",
+          "published": "26 Sep 09:54",
+          "channel": "Google News"
+        }
+      ]
+    },
+    {
+      "ticker": "SGH",
+      "name": "SGH Limited",
+      "list": "Portfolio",
+      "count": 0,
+      "items": []
+    },
+    {
+      "ticker": "EOL",
+      "name": "Energy One",
+      "list": "Portfolio",
+      "count": 0,
+      "items": []
+    },
+    {
+      "ticker": "ALL",
+      "name": "Aristocrat Leisure",
+      "list": "Portfolio",
+      "count": 0,
+      "items": []
+    },
+    {
+      "ticker": "SNL",
+      "name": "Supply Network",
+      "list": "Portfolio",
+      "count": 0,
+      "items": []
+    },
+    {
+      "ticker": "CSL",
+      "name": "CSL Limited",
+      "list": "Portfolio",
+      "count": 2,
+      "items": [
+        {
+          "title": "Buy, hold, sell: CBA, BHP, CSL shares - The Motley Fool Australia",
+          "source": "The Motley Fool Australia",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9qSWZJUmVEVkg5SFl0clhISGtCbzlCMUFzM0xlSm5fakNEODlLMmdTbU9FQThhTW90WVgyVXFrQU9oblRjcW12bFR5M0xEd1NsZmNCLWQwcXVkdDI4aUtqSnZSdktXMXNYc0FGY2lNc3FnOEx3bHFr?oc=5",
+          "published": "27 Sep 21:45",
+          "channel": "Google News"
+        },
+        {
+          "title": "What Sets CBA, BHP and CSL Shares Apart? - Kalkine Media",
+          "source": "Kalkine Media",
+          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNeW9LUnQwMFZUemdjQzhHLUxKOE1LRWFKdVVUMUM1cTd0NWlnUFlNa1RvRU5pQUlHczUxNkllRzZzRnpmSEF1VmhQNnlYTV9SNjdEcWVza3kxSThBdy15cnExbGVMQXdmVUViMmI4a0J5R0ZvQXFoMjRnRFZsOUxnbXVuTjhCa2t2TktKTTMycw?oc=5",
+          "published": "28 Sep 00:10",
+          "channel": "Google News"
+        }
+      ]
+    },
+    {
+      "ticker": "C79",
+      "name": "Chrysos Corporation",
+      "list": "Portfolio",
+      "count": 0,
+      "items": []
+    },
+    {
+      "ticker": "CAT",
+      "name": "Catapult Group",
+      "list": "Portfolio",
+      "count": 0,
+      "items": []
+    },
+    {
+      "ticker": "PME",
+      "name": "Pro Medicus",
+      "list": "Portfolio",
+      "count": 0,
+      "items": []
+    },
+    {
+      "ticker": "ARB",
+      "name": "ARB Corporation",
+      "list": "Portfolio",
+      "count": 1,
+      "items": [
+        {
+          "title": "CITIWARRANTS 11.8302 ARB MINI LONG (ASX:ARBKOD) - intelligentinvestor.com.au",
+          "source": "intelligentinvestor.com.au",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQT1VycTNlTWxCd25fbDdpVFRSdXhGLWI3MUFja1UzNUJLVUg3RnNvWWlYbXgtczBCSHZjR2hldGxtdTQ5dW5CRG8wQlo2bmsySDE5TVZSRzZHWkVNMWNiXzV0MERlTm1sOWswX3owXzJmc3dqTUxfb1A2bjVFcmh2M0RwS3Axc2YzVkF0QW9YSXFzSllj?oc=5",
+          "published": "26 Sep 09:30",
+          "channel": "Google News"
+        }
+      ]
+    },
+    {
+      "ticker": "COH",
+      "name": "Cochlear",
+      "list": "Portfolio",
+      "count": 0,
+      "items": []
+    },
+    {
+      "ticker": "WTC",
+      "name": "WiseTech Global",
+      "list": "Portfolio",
+      "count": 0,
+      "items": []
+    },
+    {
+      "ticker": "XRF",
+      "name": "XRF Scientific",
+      "list": "Portfolio",
+      "count": 0,
+      "items": []
+    },
+    {
+      "ticker": "LOV",
+      "name": "Lovisa Holdings",
+      "list": "Portfolio",
+      "count": 1,
+      "items": [
+        {
+          "title": "CITIWARRANTS 17.1967 LOV MINI LONG (ASX:LOVKOD) - intelligentinvestor.com.au",
+          "source": "intelligentinvestor.com.au",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNMENqT1A5S2p1UWdDNHBXS2s5bl8xR1pJWkVZbnZYbk1pSlJqSFNtQ1pNcXVuQ0RDd2tOWm9CQTliaDhhcU1uRW5uWjBlR0JkRzE4UTFybzY2ekJnU1dvUS1DbzB3VHgxY3MwR0h2LW9hQVk2aUtjaU91V05kdF9XZlJQUVZiSGNwalZrUk1tZVNHeDFX?oc=5",
+          "published": "26 Sep 01:01",
+          "channel": "Google News"
+        }
+      ]
+    },
+    {
+      "ticker": "REA",
+      "name": "REA Group",
+      "list": "Portfolio",
+      "count": 1,
+      "items": [
+        {
+          "title": "Is the REA Group share price a strong contrarian buy? - The Motley Fool Australia",
+          "source": "The Motley Fool Australia",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQWHFTV3JkZERvdWdfMVh2aEo5RnpvMUdGWGhSVWIyTVlGaHlnUVFoTkFzOEh4LUFWQXRQR1E5RE4tck5KaW1LcVFYblhDSUwxQ2dpTzYzbC1SdVpaRC16S3ZfZTNCUlhZZVdTR3NnR0ptWS1adEY2SC1DSDFYODNBT1ItNVNPZ1k5VnFjaXdRUEg1Zw?oc=5",
+          "published": "27 Sep 21:00",
+          "channel": "Google News"
+        }
+      ]
+    },
+    {
+      "ticker": "TNE",
+      "name": "TechnologyOne",
+      "list": "Portfolio",
+      "count": 1,
+      "items": [
+        {
+          "title": "Which way for TechnologyOne as its year closes (ASX:TNE)? - Kalkine Media",
+          "source": "Kalkine Media",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNOFlCZkJxalNNc2lVOUxScEo1ZExJVnd4ZnhKdFBqdkU5X2xRMnl3R1pXREVrV0dDLTNEWHZfYjd2WjJpRl9XR092cHcxNk44bFJMSVQ5V21JMzJZbjdGTjE2ZXhqS2I3WUxuMnVJdUFwUzVrUFFzbUc3MXo5VDVHZXNOdlNBRk1tOXA4VTVHQktGOEpBWVZBRVhFVWRkcG0x?oc=5",
+          "published": "28 Sep 00:08",
+          "channel": "Google News"
+        }
+      ]
+    },
+    {
+      "ticker": "SOL",
+      "name": "Washington H. Soul Pattinson",
+      "list": "Portfolio",
+      "count": 1,
+      "items": [
+        {
+          "title": "Soul Patts vs Macquarie Group: Best ASX dividend stock for retirees? - The Motley Fool Australia",
+          "source": "The Motley Fool Australia",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOcGU0NERsNUR3Vkt6WkloNi1fTEVDNXMxT1FNT0ZSNE9nZDR5WmE0enlMMTFwN1NmYll5RUlwcUxDeTZlRE1tZW1FZEt5NVhFSVk4UUdMbzI3bWZ3MUlpUXNfRE91WG04Z202N01KQ28wR21lQWdvcktUYm5UVVo4M051bWptbXRsMXJfMWF6d1JMM1pKWVNWcmhyTnNVUmFiRXFUSg?oc=5",
+          "published": "26 Sep 01:00",
+          "channel": "Google News"
+        }
+      ]
+    },
+    {
+      "ticker": "SDR",
+      "name": "SiteMinder",
+      "list": "Portfolio",
+      "count": 1,
+      "items": [
+        {
+          "title": "Does a softer Aussie dollar help SiteMinder (ASX:SDR)? - Kalkine Media",
+          "source": "Kalkine Media",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQYklHNkxNMFdINHNvUF9qd3IxZ2xRQVVJeDk5T1AtOGo0SjN3QXdvU2xNcWdrMkl2QjhKYmpsZnFwQlZMbUV0M1IyTkNweXA2Mi1tTXlBQ3VtcjJXaHBoMnZWdWtRWUxUdVc5ZDc4eWRfdkdrTFZDelBaTEpTdzY4Wi1rNDBhZnFra3VNQ2g2THlXenJBRC1oREdITVc?oc=5",
+          "published": "28 Sep 00:08",
+          "channel": "Google News"
+        }
+      ]
+    },
+    {
+      "ticker": "OCL",
+      "name": "Objective Corporation",
+      "list": "Portfolio",
+      "count": 1,
+      "items": [
+        {
+          "title": "What Does Objective Corporation\u2019s (ASX:OCL) Buy-Back Update Mean? - Kalkine Media",
+          "source": "Kalkine Media",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPYU93V2U1dE1LQ3dnWXlaTmpuZ3dkRVpHQXo5V254WnhlelBZTnZmVmlRLVVSck9WUXI2ZnBHcE1UOERxNFd6ZFphZU81b0ljZy1OR3BzOS1ILVpxYVpvY0E3QlBWNjNFajVmV2Q5RkxsT3EwQmh3UWFBLXRSNWNzVl8xZXYtb3NxSW5PaEhlbjF1SWZzMS1DTTdCX2oxUkY1VFpjYmxrRDRaUQ?oc=5",
+          "published": "27 Sep 23:48",
+          "channel": "Google News"
+        }
+      ]
+    },
+    {
+      "ticker": "SIG",
+      "name": "Sigma Healthcare",
+      "list": "Portfolio",
+      "count": 1,
+      "items": [
+        {
+          "title": "CITIWARRANTS 1.6006 SIG 06-FEB-35 INSTAL MINI (ASX:SIGJOC) - intelligentinvestor.com.au",
+          "source": "intelligentinvestor.com.au",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQWnVEa2hMS3lVRUotOUFrVVplM0t1VzE3QlFvSFEyQjlGMVZkNmoxWlJLdXV3dTJpcVB2N0RmdzRoV3V4TkRmQUtlOGdyV1FTSGRDV2tkQnZKdzhaZW1YcG5lUEpaalktU3hoMS1LbEtYOTJETEpzdXBhaEtiV3MyRFdPS3NtV0RJTEJYYnVjanMzZnpVd0hBUWozWUtzMTBRbWJF?oc=5",
+          "published": "26 Sep 08:53",
+          "channel": "Google News"
+        }
+      ]
+    },
+    {
+      "ticker": "RMD",
+      "name": "ResMed",
+      "list": "Portfolio",
+      "count": 0,
+      "items": []
+    },
+    {
+      "ticker": "MFF",
+      "name": "MFF Capital",
+      "list": "Portfolio",
+      "count": 0,
+      "items": []
+    },
+    {
+      "ticker": "SHL",
+      "name": "Sonic Healthcare",
+      "list": "Watchlist",
+      "count": 1,
+      "items": [
+        {
+          "title": "CITIWARRANTS 32.6744 SHL MINI SHORT (ASX:SHLKOQ) - intelligentinvestor.com.au",
+          "source": "intelligentinvestor.com.au",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNbGJCN3YxZXZmSlpBWVZMeDE0ZmNLU2tmVWN1YndjcVljeTBzbE03alpydmdwZVYtX0tqUWZkWVdvZ2tOWE1Nd0hlLUJZbi1naXlLWVhuRG5ZTWRyQktGWUxTZUZ1d1lULTZ2UVpRRGZNNjM1WGdneHl6V252UHJSUVc4eTItbm9Gc1NQOU9NYlMtOFViQ1E?oc=5",
+          "published": "26 Sep 04:34",
+          "channel": "Google News"
+        }
+      ]
+    },
+    {
+      "ticker": "APA",
+      "name": "APA Group",
+      "list": "Watchlist",
+      "count": 0,
+      "items": []
+    },
+    {
+      "ticker": "NHC",
+      "name": "New Hope Corporation",
+      "list": "Watchlist",
+      "count": 0,
+      "items": []
+    },
+    {
+      "ticker": "JBH",
+      "name": "JB Hi-Fi",
+      "list": "Watchlist",
+      "count": 2,
+      "items": [
+        {
+          "title": "CITIWARRANTS 87.8292 JBH MINI SHORT (ASX:JBHKOP) - intelligentinvestor.com.au",
+          "source": "intelligentinvestor.com.au",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOZ1pTOE9CZHREd2NNb0lnd1pwR0l4V0FyazQybVVTS3ByZkxobUZ6bTc0VWt4Vllpa3g4cjh0d2VLam1mdU5IWWRnaXMtWTBzNXVEZ3M1MUxmZDZTTmdLVmpRcDEyQkhWVDFZTGZHNEhaTlZ0Mkt0aVFXbmhOQ3c1blRTaTh1STEwMVV4UFZLRHUzVWNwOWc?oc=5",
+          "published": "26 Sep 13:24",
+          "channel": "Google News"
+        },
+        {
+          "title": "CITIWARRANTS 55.2327 JBH MINI LONG (ASX:JBHKOB) - intelligentinvestor.com.au",
+          "source": "intelligentinvestor.com.au",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPOGowa0g1V3ZaeHJORkxWaFFJZFlJTzFhelNFWFZ1dm51SXdaR3ZZQkJhTlBJYkhDY0NuWU56ckcyd2g4V0ZEVzEtUS10SkY1OVRqTlFvVW54UElDZGNSOUFxd3ZKTVVRY2E5cm1Wa3pIRUhuQnE0N0JiRUNROVFySmF5Xy1WNTVhSm8xVjVPMmRVU2pp?oc=5",
+          "published": "26 Sep 06:46",
+          "channel": "Google News"
+        }
+      ]
+    },
+    {
+      "ticker": "4DX",
+      "name": "4DMedical",
+      "list": "Watchlist",
+      "count": 1,
+      "items": [
+        {
+          "title": "4DMedical And 2 Other Australian Growth Stocks To Watch - simplywall.st",
+          "source": "simplywall.st",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNTjBLRTdVLUFYVU1NVnFMUERZUVlVQ3VZNjFVLXRJVTdNVnB3M3lyZWpkZTU1UVVEVEttNlVnbmo4QzE1U1lGYUtvQkNEcVVGeXozckFPajBSd0lwYzlqbjNMRUtSQlhUb3VoWXZzdVZwWk12dWhXcVpydjRyZ2YzZXB5V0RGVUNJY2pCTEJ2N0NaTkhjYjdRTFBYd2Rrb3h0UGFyNjZGbDZfckJ0czRnMDJMNkI4N21MSnlUbGlfTUpYSl9rUWlr0gHMAUFVX3lxTE1IcjRFRWoxNEZtRVNrdXdnV1JYYlRhM3YyVkhGeFRKYlFlNEEycDhGTmlsMHhESVZ2VEZ1UnZfU2FsUnJPRlZPaHg1TVZ2TDVvV0VCbV91MmNsLXQ0WkwtVDNkOENPd1FfNkxuR3lzMmtjRk1iX0V4Z1hTRUF3R0RrOF9yam5Kdm5aR2ZLR2lzOW9KNlpmcXgyeFZCeDBsWlpZbmItUFJvTm5TYmlOaUFhcWF5ZGJ6NWdGblMxdF9OVlJia2E4ZWJfUUNRXw?oc=5",
+          "published": "27 Sep 05:47",
+          "channel": "Google News"
+        }
+      ]
+    },
+    {
+      "ticker": "EIQ",
+      "name": "Echo IQ",
+      "list": "Watchlist",
+      "count": 0,
+      "items": []
+    }
+  ]
+}
