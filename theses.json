@@ -1,0 +1,219 @@
+{
+  "ALL": {
+    "name": "Aristocrat Leisure",
+    "status": "holding",
+    "one_line_thesis": "",
+    "pillars": [],
+    "last_reviewed": ""
+  },
+  "WTC": {
+    "name": "WiseTech Global",
+    "status": "holding",
+    "one_line_thesis": "",
+    "pillars": [],
+    "last_reviewed": ""
+  },
+  "CSL": {
+    "name": "CSL Limited",
+    "status": "holding",
+    "one_line_thesis": "",
+    "pillars": [],
+    "last_reviewed": ""
+  },
+  "MQG": {
+    "name": "Macquarie Group",
+    "status": "holding",
+    "one_line_thesis": "",
+    "pillars": [],
+    "last_reviewed": ""
+  },
+  "LBL": {
+    "name": "LaserBond",
+    "status": "holding",
+    "one_line_thesis": "",
+    "pillars": [],
+    "last_reviewed": ""
+  },
+  "WES": {
+    "name": "Wesfarmers",
+    "status": "holding",
+    "one_line_thesis": "",
+    "pillars": [],
+    "last_reviewed": ""
+  },
+  "APE": {
+    "name": "Eagers Automotive",
+    "status": "holding",
+    "one_line_thesis": "",
+    "pillars": [],
+    "last_reviewed": ""
+  },
+  "SGH": {
+    "name": "SGH Limited",
+    "status": "holding",
+    "one_line_thesis": "",
+    "pillars": [],
+    "last_reviewed": ""
+  },
+  "EOL": {
+    "name": "Energy One",
+    "status": "holding",
+    "one_line_thesis": "",
+    "pillars": [],
+    "last_reviewed": ""
+  },
+  "SNL": {
+    "name": "Supply Network",
+    "status": "holding",
+    "one_line_thesis": "",
+    "pillars": [],
+    "last_reviewed": ""
+  },
+  "C79": {
+    "name": "Chrysos Corporation",
+    "status": "holding",
+    "one_line_thesis": "",
+    "pillars": [],
+    "last_reviewed": ""
+  },
+  "CAT": {
+    "name": "Catapult Group",
+    "status": "holding",
+    "one_line_thesis": "",
+    "pillars": [],
+    "last_reviewed": ""
+  },
+  "PME": {
+    "name": "Pro Medicus",
+    "status": "holding",
+    "one_line_thesis": "",
+    "pillars": [],
+    "last_reviewed": ""
+  },
+  "ARB": {
+    "name": "ARB Corporation",
+    "status": "holding",
+    "one_line_thesis": "",
+    "pillars": [],
+    "last_reviewed": ""
+  },
+  "COH": {
+    "name": "Cochlear",
+    "status": "holding",
+    "one_line_thesis": "",
+    "pillars": [],
+    "last_reviewed": ""
+  },
+  "XRF": {
+    "name": "XRF Scientific",
+    "status": "holding",
+    "one_line_thesis": "",
+    "pillars": [],
+    "last_reviewed": ""
+  },
+  "LOV": {
+    "name": "Lovisa Holdings",
+    "status": "holding",
+    "one_line_thesis": "",
+    "pillars": [],
+    "last_reviewed": ""
+  },
+  "REA": {
+    "name": "REA Group",
+    "status": "holding",
+    "one_line_thesis": "",
+    "pillars": [],
+    "last_reviewed": ""
+  },
+  "TNE": {
+    "name": "TechnologyOne",
+    "status": "holding",
+    "one_line_thesis": "",
+    "pillars": [],
+    "last_reviewed": ""
+  },
+  "SOL": {
+    "name": "Washington H. Soul Pattinson",
+    "status": "holding",
+    "one_line_thesis": "",
+    "pillars": [],
+    "last_reviewed": ""
+  },
+  "SDR": {
+    "name": "SiteMinder",
+    "status": "holding",
+    "one_line_thesis": "",
+    "pillars": [],
+    "last_reviewed": ""
+  },
+  "OCL": {
+    "name": "Objective Corporation",
+    "status": "holding",
+    "one_line_thesis": "",
+    "pillars": [],
+    "last_reviewed": ""
+  },
+  "SIG": {
+    "name": "Sigma Healthcare",
+    "status": "holding",
+    "one_line_thesis": "",
+    "pillars": [],
+    "last_reviewed": ""
+  },
+  "RMD": {
+    "name": "ResMed",
+    "status": "holding",
+    "one_line_thesis": "",
+    "pillars": [],
+    "last_reviewed": ""
+  },
+  "MFF": {
+    "name": "MFF Capital",
+    "status": "holding",
+    "one_line_thesis": "",
+    "pillars": [],
+    "last_reviewed": ""
+  },
+  "SHL": {
+    "name": "Sonic Healthcare",
+    "status": "watching",
+    "one_line_thesis": "",
+    "pillars": [],
+    "last_reviewed": ""
+  },
+  "APA": {
+    "name": "APA Group",
+    "status": "watching",
+    "one_line_thesis": "",
+    "pillars": [],
+    "last_reviewed": ""
+  },
+  "NHC": {
+    "name": "New Hope Corporation",
+    "status": "watching",
+    "one_line_thesis": "",
+    "pillars": [],
+    "last_reviewed": ""
+  },
+  "JBH": {
+    "name": "JB Hi-Fi",
+    "status": "watching",
+    "one_line_thesis": "",
+    "pillars": [],
+    "last_reviewed": ""
+  },
+  "4DX": {
+    "name": "4DMedical",
+    "status": "watching",
+    "one_line_thesis": "",
+    "pillars": [],
+    "last_reviewed": ""
+  },
+  "EIQ": {
+    "name": "Echo IQ",
+    "status": "watching",
+    "one_line_thesis": "",
+    "pillars": [],
+    "last_reviewed": ""
+  }
+}
