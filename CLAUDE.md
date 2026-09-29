@@ -1,6 +1,6 @@
 # ASX Monitor — project notes for Claude
 
-A daily agent that scrapes ASX announcements from marketindex.com.au for a configured list of companies, detects new items since the last run, summarises them with Claude Sonnet 4.6, and emails a markdown+HTML report.
+A daily agent that scrapes ASX announcements from marketindex.com.au for a configured list of companies, detects new items since the last run, summarises them with Claude Sonnet 5.5, and emails a markdown+HTML report.
 
 ## Key files
 
@@ -8,7 +8,7 @@ A daily agent that scrapes ASX announcements from marketindex.com.au for a confi
   - `_load_dotenv()` — reads `.env`; overwrites empty env vars (some shells/CI export `ANTHROPIC_API_KEY=""` and SDKs treat that as set-but-empty, which breaks them)
   - `fetch_announcements(page, ticker)` — Playwright scraping with `wait_until="domcontentloaded"` then a 3s timeout (this site never reaches `networkidle` due to long-running analytics connections)
   - `find_new()` / `ann_id()` — diff against `seen_announcements.json`. ID is md5(date|time|title) for robust dedup
-  - `summarize()` — Claude Sonnet 4.6 call. Prompt enforces exact structure: **Assessment** / **Notable items** / **Watch for**. Tells Claude NOT to restate the list (we render it separately) and NOT to emit `#` or `##` headings (we own the heading hierarchy)
+  - `summarize()` — Claude Sonnet 5.5 call. Prompt enforces exact structure: **Assessment** / **Notable items** / **Watch for**. Tells Claude NOT to restate the list (we render it separately) and NOT to emit `#` or `##` headings (we own the heading hierarchy)
   - `build_report()` — markdown layout: header + stats banner + overview table + per-company sections + quiet companies footer
   - `send_email()` — multipart text/plain (raw markdown) + text/html (rendered via python-markdown). Gmail renders the HTML version
   - `run(seed_only)` — main loop, fresh browser context per company
@@ -70,6 +70,6 @@ Both can coexist, but you'd then get duplicate emails. Pick one.
 
 ## Cost
 
-- Sonnet 4.6 daily run: ~$0.01–$0.05 depending on how many new announcements
+- Sonnet 5.5 daily run: ~$0.01–$0.05 depending on how many new announcements
 - Seed run: $0 (no Claude calls)
 - A "wipe state" full re-summarisation of 25 companies × 30 items: ~$0.15

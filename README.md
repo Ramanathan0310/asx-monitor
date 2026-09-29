@@ -1,6 +1,6 @@
 # ASX Monitor
 
-A daily agent that scrapes ASX company announcements from marketindex.com.au, detects new items, summarises them with Claude Sonnet 4.6, and emails a styled report.
+A daily agent that scrapes ASX company announcements from marketindex.com.au, detects new items, summarises them with Claude Sonnet 5.5, and emails a styled report.
 
 ## What you get
 
@@ -63,7 +63,7 @@ Edit `companies.json`. After adding a ticker, run a seed pass (or trigger the `s
 
 1. **Scrape** — Playwright + `playwright-stealth` fetches the announcements table for each ticker. Cloudflare bot protection is bypassed using a fresh browser context per company plus stealth fingerprinting.
 2. **Diff** — `seen_announcements.json` (committed to the repo on cloud runs) tracks announcement IDs. New items = items not in the seen set.
-3. **Summarise** — Claude Sonnet 4.6 writes a focused Assessment / Notable items / Watch for brief, told explicitly to skip routine items.
+3. **Summarise** — Claude Sonnet 5.5 writes a focused Assessment / Notable items / Watch for brief, told explicitly to skip routine items.
 4. **Deliver** — markdown report saved to `reports/`, then emailed as multipart text/HTML.
 
 ## Repo layout

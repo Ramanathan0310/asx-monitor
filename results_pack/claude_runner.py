@@ -9,7 +9,7 @@ from typing import Dict, List, Optional
 from .models import Announcement, ResultPack
 from .prompts import ARTIFACT_SUFFIX, PROMPT_REGISTRY
 
-CLAUDE_MODEL     = "claude-sonnet-4-6"
+CLAUDE_MODEL     = "claude-sonnet-5-5"
 CLAUDE_MAX_TOKENS = 4096  # Reduced to avoid overload errors
 MAX_PDF_BYTES    = 30 * 1024 * 1024  # 30MB per PDF
 
@@ -175,7 +175,7 @@ def _call_claude(system_prompt: str, text_context: str, pdf_items: List[Announce
             system=system_prompt,
             messages=[{"role": "user", "content": content}],
         )
-        return (resp.content[0].text or "").strip()
+        return "\n".join(b.text for b in resp.content if b.type == "text").strip()
     except Exception as e:
         err = str(e)
         print(f"  [claude] API call failed: {err[:200]}")
@@ -192,7 +192,7 @@ def _call_claude(system_prompt: str, text_context: str, pdf_items: List[Announce
                     system=system_prompt,
                     messages=[{"role": "user", "content": content}],
                 )
-                return (resp.content[0].text or "").strip()
+                return "\n".join(b.text for b in resp.content if b.type == "text").strip()
             except Exception as e2:
                 print(f"  [claude] Retry also failed: {e2}")
         return "__LLM_FAILED__"

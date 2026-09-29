@@ -57,6 +57,8 @@ REPORTS_DIR    = BASE_DIR / "reports"
 BASE_URL       = "https://www.marketindex.com.au/asx/{ticker}/announcements"
 
 # Safety caps (mirrors Bob's approach)
+CLAUDE_MODEL         = "claude-sonnet-5-5"
+
 MAX_PDFS_PER_RUN     = 10
 MAX_LLM_CALLS_PER_RUN = 15
 
@@ -329,6 +331,11 @@ def fetch_pdf_text(url: str) -> str | None:
 # Claude calls
 # ---------------------------------------------------------------------------
 
+def _response_text(response) -> str:
+    # Newer models can emit a thinking block first, so content[0].text is unsafe.
+    return "\n".join(b.text for b in response.content if b.type == "text").strip()
+
+
 def summarize_company(company_name: str, ticker: str, announcements: list[dict]) -> str:
     """Standard per-company summary (existing behaviour)."""
     global _llm_count
@@ -345,7 +352,7 @@ def summarize_company(company_name: str, ticker: str, announcements: list[dict])
     )
 
     response = client.messages.create(
-        model="claude-sonnet-4-6",
+        model=CLAUDE_MODEL,
         max_tokens=2048,
         messages=[{
             "role": "user",
@@ -367,7 +374,7 @@ Produce your response in EXACTLY this format (markdown, no top-level headings, u
 Under 250 words. Be factual, direct — no hype.""",
         }],
     )
-    return response.content[0].text
+    return _response_text(response)
 
 
 def deep_dive_pdf(company_name: str, ticker: str, ann: dict, pdf_text: str) -> str:
@@ -388,7 +395,7 @@ def deep_dive_pdf(company_name: str, ticker: str, ann: dict, pdf_text: str) -> s
     }.get(ann["tier"], "announcement")
 
     response = client.messages.create(
-        model="claude-sonnet-4-6",
+        model=CLAUDE_MODEL,
         max_tokens=1500,
         messages=[{
             "role": "user",
@@ -411,7 +418,7 @@ Write a focused investor brief with these sections (bold labels, no extra headin
 Keep under 300 words. Numbers and specifics only — no padding.""",
         }],
     )
-    return response.content[0].text
+    return _response_text(response)
 
 
 def summarize_substantial_holder(company_name: str, ticker: str, ann: dict, pdf_text: str) -> str:
@@ -425,7 +432,7 @@ def summarize_substantial_holder(company_name: str, ticker: str, ann: dict, pdf_
     client = anthropic.Anthropic()
 
     response = client.messages.create(
-        model="claude-sonnet-4-6",
+        model=CLAUDE_MODEL,
         max_tokens=600,
         messages=[{
             "role": "user",
@@ -445,7 +452,7 @@ Produce a brief 3-sentence summary covering:
 Be specific and use exact figures from the document.""",
         }],
     )
-    return response.content[0].text
+    return _response_text(response)
 
 
 # ---------------------------------------------------------------------------
