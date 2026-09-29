@@ -230,41 +230,72 @@ def ann_id(ann: dict) -> str:
 # Scraping
 # ---------------------------------------------------------------------------
 
-def fetch_announcements(page, ticker: str) -> list[dict]:
-    url = BASE_URL.format(ticker=ticker.lower())
-    announcements = []
-    try:
-        page.goto(url, wait_until="domcontentloaded", timeout=30_000)
-        page.wait_for_timeout(3000)
-    except Exception as e:
-        print(f"  Warning: page load failed for {ticker}: {e}")
-        return []
+class ScrapeError(Exception):
+    """Raised when a ticker's announcements could not be scraped reliably."""
 
-    rows = page.query_selector_all("table tbody tr")
-    for row in rows[:30]:
+
+DATE_RE = re.compile(r"^\d{1,2}/\d{1,2}/\d{2,4}$")
+MAX_ROWS = 30
+BACKFILL_MAX_ROWS = 300
+
+
+def parse_ann_date(text: str) -> date | None:
+    try:
+        d, m, y = (int(x) for x in text.strip().split("/"))
+        return date(2000 + y if y < 100 else y, m, d)
+    except (ValueError, TypeError):
+        return None
+
+
+def _parse_rows(page, ticker: str, max_rows: int) -> list[dict]:
+    """Parse only rows that link to this ticker's announcements (ignores other tables)."""
+    link_sel = f"a[href*='/asx/{ticker.lower()}/announcements/']"
+    announcements = []
+    for row in page.query_selector_all("table tbody tr"):
+        link = row.query_selector(link_sel)
         cells = row.query_selector_all("td")
-        if len(cells) < 3:
+        if not link or len(cells) < 3:
             continue
         date_text  = cells[0].inner_text().strip()
         time_text  = cells[1].inner_text().strip()
         title_text = cells[2].inner_text().strip()
-
-        link = row.query_selector("a[href*='announcement'], a[href*='pdf'], a[href*='.pdf']")
-        href = ""
-        if link:
-            raw = link.get_attribute("href") or ""
-            href = raw if raw.startswith("http") else f"https://www.marketindex.com.au{raw}"
-
-        if title_text and date_text:
-            tier = classify(title_text)
-            announcements.append({
-                "date":  date_text,
-                "time":  time_text,
-                "title": title_text,
-                "url":   href,
-                "tier":  tier,
-            })
+        if not (DATE_RE.match(date_text) and title_text):
+            continue
+        raw = link.get_attribute("href") or ""
+        href = raw if raw.startswith("http") else f"https://www.marketindex.com.au{raw}"
+        announcements.append({
+            "date":  date_text,
+            "time":  time_text,
+            "title": title_text,
+            "url":   href,
+            "tier":  classify(title_text),
+        })
+        if len(announcements) >= max_rows:
+            break
     return announcements
+
+
+def fetch_announcements(page, ticker: str, max_rows: int = MAX_ROWS, attempts: int = 3) -> list[dict]:
+    """
+    Scrape a ticker's announcements. Raises ScrapeError instead of returning an
+    empty list, so a broken page can never look like "no news".
+    """
+    url = BASE_URL.format(ticker=ticker.lower())
+    link_sel = f"table tbody tr a[href*='/asx/{ticker.lower()}/announcements/']"
+    last_err = "unknown"
+    for attempt in range(1, attempts + 1):
+        try:
+            page.goto(url, wait_until="domcontentloaded", timeout=45_000)
+            page.wait_for_selector(link_sel, timeout=20_000)
+            announcements = _parse_rows(page, ticker, max_rows)
+            if announcements:
+                return announcements
+            last_err = "table present but no valid announcement rows"
+        except Exception as e:
+            last_err = str(e).splitlines()[0][:200]
+        print(f"  Attempt {attempt}/{attempts} failed for {ticker}: {last_err}")
+        time.sleep(3 * attempt)
+    raise ScrapeError(last_err)
 
 
 def find_new(ticker: str, announcements: list[dict], state: dict) -> tuple[list[dict], list[str]]:
@@ -275,6 +306,26 @@ def find_new(ticker: str, announcements: list[dict], state: dict) -> tuple[list[
         if aid not in seen:
             new_anns.append(ann)
             new_ids.append(aid)
+    return new_anns, new_ids
+
+
+def already_reported_urls() -> set[str]:
+    """Announcement URLs that appear in any saved report (used to avoid re-sending in backfill)."""
+    urls: set[str] = set()
+    if REPORTS_DIR.exists():
+        for f in REPORTS_DIR.glob("report_*.md"):
+            urls.update(re.findall(r"\((https://www\.marketindex\.com\.au/[^)\s]+)\)", f.read_text()))
+    return urls
+
+
+def find_backfill(announcements: list[dict], since: date, reported: set[str]) -> tuple[list[dict], list[str]]:
+    """Announcements on/after `since` that no earlier report contains, regardless of seen-state."""
+    new_anns, new_ids = [], []
+    for ann in announcements:
+        d = parse_ann_date(ann["date"])
+        if d and d >= since and ann["url"] not in reported:
+            new_anns.append(ann)
+            new_ids.append(ann_id(ann))
     return new_anns, new_ids
 
 
@@ -655,12 +706,13 @@ def send_email(subject: str, body_markdown: str) -> bool:
 # Main pipeline
 # ---------------------------------------------------------------------------
 
-def run(seed_only: bool = False):
+def run(seed_only: bool = False, backfill_since: date | None = None) -> int:
     global _pdf_count, _llm_count
     _pdf_count = 0
     _llm_count = 0
 
-    mode = "SEED (silent baseline)" if seed_only else "REPORT"
+    mode = "SEED (silent baseline)" if seed_only else (
+        f"BACKFILL since {backfill_since.isoformat()}" if backfill_since else "REPORT")
     print(f"\nASX Monitor v2 — {date.today().isoformat()} [{mode}]")
     print("=" * 55)
 
@@ -669,9 +721,14 @@ def run(seed_only: bool = False):
     state     = load_state()
     results   = []
     stealth   = Stealth()
+    failures: list[tuple[str, str]] = []      # (ticker, reason)
+    pending_ids: dict[str, list[str]] = {}    # marked seen only once the email is out
+    reported  = already_reported_urls() if backfill_since else set()
+    max_rows  = BACKFILL_MAX_ROWS if backfill_since else MAX_ROWS
 
     with sync_playwright() as p:
-        browser = p.chromium.launch(headless=True)
+        # Headed (under xvfb in CI) is far less likely to be served an empty/blocked page.
+        browser = p.chromium.launch(headless=os.environ.get("MONITOR_HEADED") != "1")
 
         for i, company in enumerate(companies):
             ticker = company["ticker"].upper()
@@ -694,10 +751,13 @@ def run(seed_only: bool = False):
             new_anns, new_ids, summary = [], [], None
 
             try:
-                announcements = fetch_announcements(page, ticker)
+                announcements = fetch_announcements(page, ticker, max_rows)
                 print(f"  Fetched {len(announcements)} announcements")
 
-                new_anns, new_ids = find_new(ticker, announcements, state)
+                if backfill_since:
+                    new_anns, new_ids = find_backfill(announcements, backfill_since, reported)
+                else:
+                    new_anns, new_ids = find_new(ticker, announcements, state)
                 print(f"  New: {len(new_anns)}")
 
                 if new_anns and not seed_only:
@@ -751,12 +811,14 @@ def run(seed_only: bool = False):
                         print(f"  Summary failed: {e}")
                         summary = f"_(Summary unavailable: {e})_"
 
-                # Mark as seen
-                state.setdefault(ticker, [])
-                state[ticker] = (state[ticker] + new_ids)[-500:]
+                pending_ids[ticker] = new_ids
 
+            except ScrapeError as e:
+                print(f"  SCRAPE FAILED {ticker}: {e}")
+                failures.append((ticker, str(e)))
             except Exception as e:
-                print(f"  ERROR fetching {ticker}: {e}")
+                print(f"  ERROR processing {ticker}: {e}")
+                failures.append((ticker, f"unexpected error: {e}"))
             finally:
                 context.close()
 
@@ -767,44 +829,74 @@ def run(seed_only: bool = False):
 
         browser.close()
 
-    save_state(state)
+    def commit_seen() -> None:
+        for t, ids in pending_ids.items():
+            if ids:
+                state[t] = list(dict.fromkeys(state.get(t, []) + ids))[-500:]
+        save_state(state)
 
     if seed_only:
+        commit_seen()
         total_seeded = sum(len(anns) for _, _, anns, _ in results)
         print(f"\n✓ Seeded {total_seeded} existing announcements as 'seen'.")
         print("  Future runs will only report new ones.")
-        return
+        return 1 if failures else 0
 
     print(f"\n  LLM calls used: {_llm_count}/{MAX_LLM_CALLS_PER_RUN}")
     print(f"  PDFs fetched:   {_pdf_count}/{MAX_PDFS_PER_RUN}")
 
-    report      = build_report(results)
+    report = build_report(results)
+    if failures:
+        banner = ("> ⚠️ **Scrape failed for "
+                  f"{len(failures)} of {len(companies)} companies** — these were NOT checked "
+                  "and will be retried next run: "
+                  + ", ".join(f"{t} ({r[:60]})" for t, r in failures) + "\n\n")
+        head, _, rest = report.partition("\n\n")
+        report = head + "\n\n" + banner + rest
     report_path = REPORTS_DIR / f"report_{date.today().isoformat()}.md"
     report_path.write_text(report)
     print(f"\n✓ Report saved → {report_path}")
 
     total_new = sum(len(anns) for _, _, anns, _ in results)
+    email_ok = True
     if total_new > 0:
-        # Flag substantial holder alerts in subject line
         holder_alerts = sum(
             1 for _, _, anns, _ in results
             for a in anns
             if a.get("holder_alert")
         )
-        subject = f"ASX Update — {total_new} new announcement{'s' if total_new != 1 else ''}"
+        label = "Backfill" if backfill_since else "Update"
+        subject = f"ASX {label} — {total_new} new announcement{'s' if total_new != 1 else ''}"
         if holder_alerts:
             subject += f" · {holder_alerts} holder alert{'s' if holder_alerts > 1 else ''}"
+        if failures:
+            subject += f" · ⚠️ {len(failures)} scrape failure{'s' if len(failures) > 1 else ''}"
         subject += f" ({date.today().isoformat()})"
-        send_email(subject, report)
+        email_ok = send_email(subject, report)
+    elif failures:
+        email_ok = send_email(
+            f"ASX Monitor — ⚠️ {len(failures)} scrape failure{'s' if len(failures) > 1 else ''} "
+            f"({date.today().isoformat()})", report)
     else:
         if os.environ.get("EMAIL_EMPTY_REPORTS") == "1":
             send_email(f"ASX Update — no news ({date.today().isoformat()})", report)
         else:
             print("  (no new announcements — email skipped)")
 
+    # Only mark announcements seen once the email carrying them was delivered,
+    # so an SMTP outage re-sends them next run instead of losing them.
+    if email_ok:
+        commit_seen()
+    else:
+        print("  ⚠ Email not sent — announcements NOT marked seen; they will be re-reported next run.")
+
     print("\n" + report)
+    return 0 if (email_ok and not failures) else 1
 
 
 if __name__ == "__main__":
     seed = "--seed" in sys.argv
-    run(seed_only=seed)
+    since = None
+    if "--backfill-since" in sys.argv:
+        since = date.fromisoformat(sys.argv[sys.argv.index("--backfill-since") + 1])
+    sys.exit(run(seed_only=seed, backfill_since=since))

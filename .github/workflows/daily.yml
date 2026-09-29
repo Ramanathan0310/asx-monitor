@@ -19,6 +19,11 @@ on:
         options:
           - report
           - seed
+          - backfill
+      since:
+        description: "Backfill only: report announcements dated on/after this date (YYYY-MM-DD)"
+        required: false
+        default: "2026-05-16"
 
 # Allow the workflow to commit state + reports back to the repo
 permissions:
@@ -61,8 +66,12 @@ jobs:
         if: steps.pw-cache.outputs.cache-hit == 'true'
         run: python -m playwright install-deps chromium
 
+      - name: Install xvfb (headed browser is less likely to be blocked)
+        run: sudo apt-get install -y --no-install-recommends xvfb
+
       - name: Run ASX Monitor
         env:
+          MONITOR_HEADED: "1"
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           SMTP_HOST: ${{ secrets.SMTP_HOST }}
           SMTP_PORT: ${{ secrets.SMTP_PORT }}
@@ -73,12 +82,15 @@ jobs:
         run: |
           MODE="${{ inputs.mode || 'report' }}"
           if [ "$MODE" = "seed" ]; then
-            python monitor.py --seed
+            xvfb-run -a python monitor.py --seed
+          elif [ "$MODE" = "backfill" ]; then
+            xvfb-run -a python monitor.py --backfill-since "${{ inputs.since }}"
           else
-            python monitor.py
+            xvfb-run -a python monitor.py
           fi
 
       - name: Commit state + report back to repo
+        if: always()
         run: |
           git config user.name "asx-monitor-bot"
           git config user.email "asx-monitor-bot@users.noreply.github.com"
