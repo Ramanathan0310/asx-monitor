@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-02",
+  "total": 31,
+  "hot": [
+    {
+      "ticker": "MFF.AX",
+      "name": "MFF Capital",
+      "list": "Portfolio",
+      "data": {
+        "price": 5.4,
+        "low": 4.4,
+        "high": 5.5
+      },
+      "dist_to_high": 1.82,
+      "pos": 90.9
+    },
+    {
+      "ticker": "APA.AX",
+      "name": "APA Group",
+      "list": "Watchlist",
+      "data": {
+        "price": 10.67,
+        "low": 8.445,
+        "high": 11.1
+      },
+      "dist_to_high": 3.87,
+      "pos": 83.8
+    }
+  ],
+  "warm": []
+}
