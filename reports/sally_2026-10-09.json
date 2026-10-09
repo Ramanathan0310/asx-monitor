@@ -1,0 +1,19 @@
+{
+  "date": "2026-10-09",
+  "total": 31,
+  "hot": [
+    {
+      "ticker": "APA.AX",
+      "name": "APA Group",
+      "list": "Watchlist",
+      "data": {
+        "price": 10.97,
+        "low": 8.445,
+        "high": 11.1
+      },
+      "dist_to_high": 1.17,
+      "pos": 95.1
+    }
+  ],
+  "warm": []
+}
