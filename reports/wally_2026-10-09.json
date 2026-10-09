@@ -1,0 +1,127 @@
+{
+  "date": "2026-10-09",
+  "threshold": 5.0,
+  "total": 31,
+  "flagged": [
+    {
+      "ticker": "APE.AX",
+      "name": "Eagers Automotive",
+      "list": "Portfolio",
+      "data": {
+        "price": 18.145,
+        "low": 17.71,
+        "high": 35.01
+      },
+      "dist": 2.46,
+      "pos": 2.5
+    },
+    {
+      "ticker": "SHL.AX",
+      "name": "Sonic Healthcare",
+      "list": "Watchlist",
+      "data": {
+        "price": 18.71,
+        "low": 18.26,
+        "high": 24.27
+      },
+      "dist": 2.46,
+      "pos": 7.5
+    },
+    {
+      "ticker": "SDR.AX",
+      "name": "SiteMinder",
+      "list": "Portfolio",
+      "data": {
+        "price": 2.69,
+        "low": 2.56,
+        "high": 7.96
+      },
+      "dist": 5.08,
+      "pos": 2.4
+    },
+    {
+      "ticker": "LBL.AX",
+      "name": "LaserBond",
+      "list": "Portfolio",
+      "data": {
+        "price": 0.51,
+        "low": 0.485,
+        "high": 0.67
+      },
+      "dist": 5.15,
+      "pos": 13.5
+    },
+    {
+      "ticker": "XRF.AX",
+      "name": "XRF Scientific",
+      "list": "Portfolio",
+      "data": {
+        "price": 1.715,
+        "low": 1.6,
+        "high": 2.3
+      },
+      "dist": 7.19,
+      "pos": 16.4
+    },
+    {
+      "ticker": "SGH.AX",
+      "name": "SGH Limited",
+      "list": "Portfolio",
+      "data": {
+        "price": 37.96,
+        "low": 35.36,
+        "high": 52.0
+      },
+      "dist": 7.35,
+      "pos": 15.6
+    },
+    {
+      "ticker": "ARB.AX",
+      "name": "ARB Corporation",
+      "list": "Portfolio",
+      "data": {
+        "price": 17.78,
+        "low": 16.505,
+        "high": 40.26
+      },
+      "dist": 7.72,
+      "pos": 5.4
+    },
+    {
+      "ticker": "WES.AX",
+      "name": "Wesfarmers",
+      "list": "Portfolio",
+      "data": {
+        "price": 76.88,
+        "low": 70.8,
+        "high": 94.7
+      },
+      "dist": 8.59,
+      "pos": 25.4
+    },
+    {
+      "ticker": "SIG.AX",
+      "name": "Sigma Healthcare",
+      "list": "Portfolio",
+      "data": {
+        "price": 2.685,
+        "low": 2.47,
+        "high": 3.2
+      },
+      "dist": 8.7,
+      "pos": 29.5
+    },
+    {
+      "ticker": "JBH.AX",
+      "name": "JB Hi-Fi",
+      "list": "Watchlist",
+      "data": {
+        "price": 71.81,
+        "low": 64.18,
+        "high": 117.12
+      },
+      "dist": 11.89,
+      "pos": 14.4
+    }
+  ]
+}
