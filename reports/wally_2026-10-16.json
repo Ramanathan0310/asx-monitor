@@ -1,0 +1,115 @@
+{
+  "date": "2026-10-16",
+  "threshold": 5.0,
+  "total": 31,
+  "flagged": [
+    {
+      "ticker": "SHL.AX",
+      "name": "Sonic Healthcare",
+      "list": "Watchlist",
+      "data": {
+        "price": 18.65,
+        "low": 18.11,
+        "high": 24.27
+      },
+      "dist": 2.98,
+      "pos": 8.8
+    },
+    {
+      "ticker": "APE.AX",
+      "name": "Eagers Automotive",
+      "list": "Portfolio",
+      "data": {
+        "price": 18.27,
+        "low": 17.56,
+        "high": 35.01
+      },
+      "dist": 4.04,
+      "pos": 4.1
+    },
+    {
+      "ticker": "ARB.AX",
+      "name": "ARB Corporation",
+      "list": "Portfolio",
+      "data": {
+        "price": 17.06,
+        "low": 16.21,
+        "high": 38.63
+      },
+      "dist": 5.24,
+      "pos": 3.8
+    },
+    {
+      "ticker": "SDR.AX",
+      "name": "SiteMinder",
+      "list": "Portfolio",
+      "data": {
+        "price": 2.68,
+        "low": 2.47,
+        "high": 7.96
+      },
+      "dist": 8.5,
+      "pos": 3.8
+    },
+    {
+      "ticker": "SGH.AX",
+      "name": "SGH Limited",
+      "list": "Portfolio",
+      "data": {
+        "price": 38.595,
+        "low": 35.36,
+        "high": 52.0
+      },
+      "dist": 9.15,
+      "pos": 19.4
+    },
+    {
+      "ticker": "LBL.AX",
+      "name": "LaserBond",
+      "list": "Portfolio",
+      "data": {
+        "price": 0.54,
+        "low": 0.485,
+        "high": 0.67
+      },
+      "dist": 11.34,
+      "pos": 29.7
+    },
+    {
+      "ticker": "WES.AX",
+      "name": "Wesfarmers",
+      "list": "Portfolio",
+      "data": {
+        "price": 79.37,
+        "low": 70.8,
+        "high": 94.7
+      },
+      "dist": 12.1,
+      "pos": 35.9
+    },
+    {
+      "ticker": "JBH.AX",
+      "name": "JB Hi-Fi",
+      "list": "Watchlist",
+      "data": {
+        "price": 72.78,
+        "low": 64.18,
+        "high": 115.95
+      },
+      "dist": 13.4,
+      "pos": 16.6
+    },
+    {
+      "ticker": "SIG.AX",
+      "name": "Sigma Healthcare",
+      "list": "Portfolio",
+      "data": {
+        "price": 2.835,
+        "low": 2.47,
+        "high": 3.2
+      },
+      "dist": 14.78,
+      "pos": 50.0
+    }
+  ]
+}
