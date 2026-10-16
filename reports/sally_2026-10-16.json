@@ -1,0 +1,32 @@
+{
+  "date": "2026-10-16",
+  "total": 31,
+  "hot": [
+    {
+      "ticker": "APA.AX",
+      "name": "APA Group",
+      "list": "Watchlist",
+      "data": {
+        "price": 11.23,
+        "low": 8.445,
+        "high": 11.3
+      },
+      "dist_to_high": 0.62,
+      "pos": 97.5
+    }
+  ],
+  "warm": [
+    {
+      "ticker": "ALL.AX",
+      "name": "Aristocrat Leisure",
+      "list": "Portfolio",
+      "data": {
+        "price": 63.02,
+        "low": 44.18,
+        "high": 67.43
+      },
+      "dist_to_high": 6.54,
+      "pos": 81.0
+    }
+  ]
+}
