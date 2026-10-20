@@ -1,0 +1,127 @@
+{
+  "date": "2026-10-20",
+  "threshold": 5.0,
+  "total": 31,
+  "flagged": [
+    {
+      "ticker": "APE.AX",
+      "name": "Eagers Automotive",
+      "list": "Portfolio",
+      "data": {
+        "price": 18.17,
+        "low": 17.56,
+        "high": 35.01
+      },
+      "dist": 3.47,
+      "pos": 3.5
+    },
+    {
+      "ticker": "SHL.AX",
+      "name": "Sonic Healthcare",
+      "list": "Watchlist",
+      "data": {
+        "price": 18.8,
+        "low": 18.11,
+        "high": 24.27
+      },
+      "dist": 3.81,
+      "pos": 11.2
+    },
+    {
+      "ticker": "ARB.AX",
+      "name": "ARB Corporation",
+      "list": "Portfolio",
+      "data": {
+        "price": 17.03,
+        "low": 16.21,
+        "high": 37.49
+      },
+      "dist": 5.06,
+      "pos": 3.9
+    },
+    {
+      "ticker": "SDR.AX",
+      "name": "SiteMinder",
+      "list": "Portfolio",
+      "data": {
+        "price": 2.67,
+        "low": 2.47,
+        "high": 7.96
+      },
+      "dist": 8.1,
+      "pos": 3.6
+    },
+    {
+      "ticker": "SGH.AX",
+      "name": "SGH Limited",
+      "list": "Portfolio",
+      "data": {
+        "price": 39.12,
+        "low": 35.36,
+        "high": 52.0
+      },
+      "dist": 10.63,
+      "pos": 22.6
+    },
+    {
+      "ticker": "WES.AX",
+      "name": "Wesfarmers",
+      "list": "Portfolio",
+      "data": {
+        "price": 79.51,
+        "low": 70.8,
+        "high": 94.7
+      },
+      "dist": 12.3,
+      "pos": 36.4
+    },
+    {
+      "ticker": "LBL.AX",
+      "name": "LaserBond",
+      "list": "Portfolio",
+      "data": {
+        "price": 0.55,
+        "low": 0.485,
+        "high": 0.67
+      },
+      "dist": 13.4,
+      "pos": 35.1
+    },
+    {
+      "ticker": "JBH.AX",
+      "name": "JB Hi-Fi",
+      "list": "Watchlist",
+      "data": {
+        "price": 72.89,
+        "low": 64.18,
+        "high": 115.95
+      },
+      "dist": 13.57,
+      "pos": 16.8
+    },
+    {
+      "ticker": "CAT.AX",
+      "name": "Catapult Group",
+      "list": "Portfolio",
+      "data": {
+        "price": 3.125,
+        "low": 2.74,
+        "high": 7.49
+      },
+      "dist": 14.05,
+      "pos": 8.1
+    },
+    {
+      "ticker": "SIG.AX",
+      "name": "Sigma Healthcare",
+      "list": "Portfolio",
+      "data": {
+        "price": 2.83,
+        "low": 2.47,
+        "high": 3.2
+      },
+      "dist": 14.57,
+      "pos": 49.3
+    }
+  ]
+}
