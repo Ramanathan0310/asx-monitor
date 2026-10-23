@@ -1,0 +1,56 @@
+{
+  "date": "2026-10-23",
+  "total": 31,
+  "hot": [
+    {
+      "ticker": "APA.AX",
+      "name": "APA Group",
+      "list": "Watchlist",
+      "data": {
+        "price": 11.52,
+        "low": 8.445,
+        "high": 11.62
+      },
+      "dist_to_high": 0.86,
+      "pos": 96.9
+    }
+  ],
+  "warm": [
+    {
+      "ticker": "ALL.AX",
+      "name": "Aristocrat Leisure",
+      "list": "Portfolio",
+      "data": {
+        "price": 63.99,
+        "low": 44.18,
+        "high": 67.43
+      },
+      "dist_to_high": 5.1,
+      "pos": 85.2
+    },
+    {
+      "ticker": "CSL.AX",
+      "name": "CSL Limited",
+      "list": "Portfolio",
+      "data": {
+        "price": 196.7,
+        "low": 90.0,
+        "high": 218.14
+      },
+      "dist_to_high": 9.83,
+      "pos": 83.3
+    },
+    {
+      "ticker": "NHC.AX",
+      "name": "New Hope Corporation",
+      "list": "Watchlist",
+      "data": {
+        "price": 6.1,
+        "low": 3.77,
+        "high": 6.61
+      },
+      "dist_to_high": 7.72,
+      "pos": 82.0
+    }
+  ]
+}
