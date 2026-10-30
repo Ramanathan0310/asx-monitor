@@ -1,0 +1,68 @@
+{
+  "date": "2026-10-30",
+  "total": 31,
+  "hot": [
+    {
+      "ticker": "CSL.AX",
+      "name": "CSL Limited",
+      "list": "Portfolio",
+      "data": {
+        "price": 200.73,
+        "low": 90.0,
+        "high": 202.125
+      },
+      "dist_to_high": 0.69,
+      "pos": 98.8
+    },
+    {
+      "ticker": "APA.AX",
+      "name": "APA Group",
+      "list": "Watchlist",
+      "data": {
+        "price": 11.27,
+        "low": 8.445,
+        "high": 11.62
+      },
+      "dist_to_high": 3.01,
+      "pos": 89.0
+    },
+    {
+      "ticker": "ALL.AX",
+      "name": "Aristocrat Leisure",
+      "list": "Portfolio",
+      "data": {
+        "price": 64.39,
+        "low": 44.18,
+        "high": 66.92
+      },
+      "dist_to_high": 3.78,
+      "pos": 88.9
+    },
+    {
+      "ticker": "MFF.AX",
+      "name": "MFF Capital",
+      "list": "Portfolio",
+      "data": {
+        "price": 5.23,
+        "low": 4.4,
+        "high": 5.5
+      },
+      "dist_to_high": 4.91,
+      "pos": 75.5
+    }
+  ],
+  "warm": [
+    {
+      "ticker": "MQG.AX",
+      "name": "Macquarie Group",
+      "list": "Portfolio",
+      "data": {
+        "price": 252.44,
+        "low": 187.31,
+        "high": 267.905
+      },
+      "dist_to_high": 5.77,
+      "pos": 80.8
+    }
+  ]
+}
