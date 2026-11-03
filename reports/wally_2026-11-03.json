@@ -1,0 +1,79 @@
+{
+  "date": "2026-11-03",
+  "threshold": 5.0,
+  "total": 31,
+  "flagged": [
+    {
+      "ticker": "ARB.AX",
+      "name": "ARB Corporation",
+      "list": "Portfolio",
+      "data": {
+        "price": 16.83,
+        "low": 16.21,
+        "high": 36.39
+      },
+      "dist": 3.82,
+      "pos": 3.1
+    },
+    {
+      "ticker": "SHL.AX",
+      "name": "Sonic Healthcare",
+      "list": "Watchlist",
+      "data": {
+        "price": 19.575,
+        "low": 18.11,
+        "high": 24.27
+      },
+      "dist": 8.09,
+      "pos": 23.8
+    },
+    {
+      "ticker": "WES.AX",
+      "name": "Wesfarmers",
+      "list": "Portfolio",
+      "data": {
+        "price": 77.35,
+        "low": 70.8,
+        "high": 93.25
+      },
+      "dist": 9.25,
+      "pos": 29.2
+    },
+    {
+      "ticker": "APE.AX",
+      "name": "Eagers Automotive",
+      "list": "Portfolio",
+      "data": {
+        "price": 19.43,
+        "low": 17.56,
+        "high": 35.01
+      },
+      "dist": 10.65,
+      "pos": 10.7
+    },
+    {
+      "ticker": "SIG.AX",
+      "name": "Sigma Healthcare",
+      "list": "Portfolio",
+      "data": {
+        "price": 2.79,
+        "low": 2.47,
+        "high": 3.2
+      },
+      "dist": 12.96,
+      "pos": 43.8
+    },
+    {
+      "ticker": "JBH.AX",
+      "name": "JB Hi-Fi",
+      "list": "Watchlist",
+      "data": {
+        "price": 73.61,
+        "low": 64.18,
+        "high": 105.61
+      },
+      "dist": 14.69,
+      "pos": 22.8
+    }
+  ]
+}
