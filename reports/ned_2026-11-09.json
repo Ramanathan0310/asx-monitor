@@ -1,0 +1,277 @@
+{
+  "date": "2026-11-09",
+  "total": 31,
+  "results": [
+    {
+      "ticker": "MQG",
+      "name": "Macquarie Group",
+      "list": "Portfolio",
+      "count": 0,
+      "items": []
+    },
+    {
+      "ticker": "LBL",
+      "name": "LaserBond",
+      "list": "Portfolio",
+      "count": 0,
+      "items": []
+    },
+    {
+      "ticker": "WES",
+      "name": "Wesfarmers",
+      "list": "Portfolio",
+      "count": 0,
+      "items": []
+    },
+    {
+      "ticker": "APE",
+      "name": "Eagers Automotive",
+      "list": "Portfolio",
+      "count": 0,
+      "items": []
+    },
+    {
+      "ticker": "SGH",
+      "name": "SGH Limited",
+      "list": "Portfolio",
+      "count": 0,
+      "items": []
+    },
+    {
+      "ticker": "EOL",
+      "name": "Energy One",
+      "list": "Portfolio",
+      "count": 0,
+      "items": []
+    },
+    {
+      "ticker": "ALL",
+      "name": "Aristocrat Leisure",
+      "list": "Portfolio",
+      "count": 0,
+      "items": []
+    },
+    {
+      "ticker": "SNL",
+      "name": "Supply Network",
+      "list": "Portfolio",
+      "count": 0,
+      "items": []
+    },
+    {
+      "ticker": "CSL",
+      "name": "CSL Limited",
+      "list": "Portfolio",
+      "count": 0,
+      "items": []
+    },
+    {
+      "ticker": "C79",
+      "name": "Chrysos Corporation",
+      "list": "Portfolio",
+      "count": 0,
+      "items": []
+    },
+    {
+      "ticker": "CAT",
+      "name": "Catapult Group",
+      "list": "Portfolio",
+      "count": 0,
+      "items": []
+    },
+    {
+      "ticker": "PME",
+      "name": "Pro Medicus",
+      "list": "Portfolio",
+      "count": 0,
+      "items": []
+    },
+    {
+      "ticker": "ARB",
+      "name": "ARB Corporation",
+      "list": "Portfolio",
+      "count": 1,
+      "items": [
+        {
+          "title": "In the shadow of cheap Chinese EVs, ARB\u2019s off-road empire stumbles - AFR",
+          "source": "AFR",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPTGtEMnVuRnB3bkh2LW1MNEtweE9PT3podXl0VlpzdENSZWlMU2MzWkhTeTRQcEw1TE9taTFteV9rTVBxZDFQLXZaT3JyUU9PcVZvQ2V0dkhIU3J6cG8zeEVlQ21CNEVCd1JWX0FTdnVpYk45d1pXYkJBZkE4a3pZcjNINlBLVjVMRWVHemNTTm96VUlwWGdGNlZRcWI5VmVCVnZZX1hFSTZIYU1rbVJjSGZFVEdYU0F5QjBRTEpB?oc=5",
+          "published": "08 Nov 01:00",
+          "channel": "Google News"
+        }
+      ]
+    },
+    {
+      "ticker": "COH",
+      "name": "Cochlear",
+      "list": "Portfolio",
+      "count": 1,
+      "items": [
+        {
+          "title": "ChartWatch ASX Scans: Ampol, Cochlear, Develop Global, Global X India Nifty 50 ETF, QBE Insurance, Whitehaven Coal - Market Index",
+          "source": "Market Index",
+          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPdGczM1YzSjhWZWFIU0tGRjF2Y3VsbENXMHN1UGN1V3ZKd2hPdlEtOVFDQ1BjczZDQXg2MncwSURvOEVVOWQ2VVByakllUjZKOUVoLUppZjVEQURKWDNUSlJsUjdBZzFndWVBcXZCMkJsd0FuOGRqTVJKT3RQcWVEV0NEOFFlREtJaTNrdExtTHVzTDZLbXdneFlhZW4wM3c3aDBUX2RlVmZsR2kxV1NMaWhhWU9xVUVCUU1ULU9JbC01eFM5NlA2NEtiT1J4b2FTa0ZtTmk4aWVCcWV5?oc=5",
+          "published": "08 Nov 22:19",
+          "channel": "Google News"
+        }
+      ]
+    },
+    {
+      "ticker": "WTC",
+      "name": "WiseTech Global",
+      "list": "Portfolio",
+      "count": 3,
+      "items": [
+        {
+          "title": "WiseTech Global (ASX:WTC) Is the Governance Discount Finally Starting to Fade? - Stocks Down Under",
+          "source": "Stocks Down Under",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPdldIMmxhNzZydS1SVEt0cHlQNmRILU9uWTVWX1d3bnFEOUdtNjdrQWQwbFRRZEt1a1d0RVBJOExMMjNlVTRySXRwWV9xeTVpQ3B3ZUtDLXQtMm11ZHhyRWd4NDgzNlN5NmZnY1ZQcENmblc1N2VsZkI3OWJESkpVVFhn?oc=5",
+          "published": "08 Nov 23:25",
+          "channel": "Google News"
+        },
+        {
+          "title": "WiseTech makes 2 key corporate governance appointments - grafa.com",
+          "source": "grafa.com",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOcVlGbl9YZUtPREVmWjVfVXZNTXhVM2J5TG5kdzIydkVfdkRJbUlfQW5reUtNVVBDT0w1RFdwQUlXajlEYzc1MWJmZngtbXdQeDZkYUphTVNjTWVZakp3Tkloam5aYVBONktGelQzU3VsY1pfemsyNVVZQTlmS3VLNlBkekJJZFpGWHhkc3JBR3ZVWi1Z?oc=5",
+          "published": "09 Nov 01:07",
+          "channel": "Google News"
+        },
+        {
+          "title": "WiseTech shares: I've looked into the bull and the bear case, and come to my own conclusion - The Motley Fool Australia",
+          "source": "The Motley Fool Australia",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQdGc3YlFZMjVIb2I3ZHYzNTV0VEhxejdhSm5sbnkyVWotV3A2QnNMQjhwNllKeXJaNG04alhlNGFTZGdIUElSeGFIN3BHd1lTN0xKS1BCaGY3U3VVSWlZYmRDMElScmFYNS0teUNEZ2pTQ2QtVjVqRFBqYk9zamRrY2hfdUJyd0NEU2NXQnNHaVV4VjZwbjM3MVNSU3BFdGRvTGRtVjRrZDRpaEJObktwYnRJc0hERGlyQlhWUDUzMGRjZw?oc=5",
+          "published": "08 Nov 19:30",
+          "channel": "Google News"
+        }
+      ]
+    },
+    {
+      "ticker": "XRF",
+      "name": "XRF Scientific",
+      "list": "Portfolio",
+      "count": 0,
+      "items": []
+    },
+    {
+      "ticker": "LOV",
+      "name": "Lovisa Holdings",
+      "list": "Portfolio",
+      "count": 0,
+      "items": []
+    },
+    {
+      "ticker": "REA",
+      "name": "REA Group",
+      "list": "Portfolio",
+      "count": 0,
+      "items": []
+    },
+    {
+      "ticker": "TNE",
+      "name": "TechnologyOne",
+      "list": "Portfolio",
+      "count": 0,
+      "items": []
+    },
+    {
+      "ticker": "SOL",
+      "name": "Washington H. Soul Pattinson",
+      "list": "Portfolio",
+      "count": 0,
+      "items": []
+    },
+    {
+      "ticker": "SDR",
+      "name": "SiteMinder",
+      "list": "Portfolio",
+      "count": 0,
+      "items": []
+    },
+    {
+      "ticker": "OCL",
+      "name": "Objective Corporation",
+      "list": "Portfolio",
+      "count": 0,
+      "items": []
+    },
+    {
+      "ticker": "SIG",
+      "name": "Sigma Healthcare",
+      "list": "Portfolio",
+      "count": 0,
+      "items": []
+    },
+    {
+      "ticker": "RMD",
+      "name": "ResMed",
+      "list": "Portfolio",
+      "count": 1,
+      "items": [
+        {
+          "title": "ResMed (ASX:RMD): What Does Its December Dividend Mean for CDI Holders? - Kalkine",
+          "source": "Kalkine",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOVU5JT2x4a0tMYWU1S2VBQkRtQVlDZ0U4VW04cWd4M3JFS1psR1h5SnlZUEVSN01kUUNoWGJobzFnWm1GZUczenZodmVrdXJySUdibUhuMnU5ZWNBU1RRenBZSDdGaExnOEdic05BNWdRMVlKWDNLVFc4ZWdES3V3X1l2ZktsbGdyODNfUHZDVnpIWkNNNS1sSGt1a0ZzUUlxTWFENGhGZmJXQ29DY3lv?oc=5",
+          "published": "08 Nov 12:42",
+          "channel": "Google News"
+        }
+      ]
+    },
+    {
+      "ticker": "MFF",
+      "name": "MFF Capital",
+      "list": "Portfolio",
+      "count": 0,
+      "items": []
+    },
+    {
+      "ticker": "SHL",
+      "name": "Sonic Healthcare",
+      "list": "Watchlist",
+      "count": 0,
+      "items": []
+    },
+    {
+      "ticker": "APA",
+      "name": "APA Group",
+      "list": "Watchlist",
+      "count": 0,
+      "items": []
+    },
+    {
+      "ticker": "NHC",
+      "name": "New Hope Corporation",
+      "list": "Watchlist",
+      "count": 0,
+      "items": []
+    },
+    {
+      "ticker": "JBH",
+      "name": "JB Hi-Fi",
+      "list": "Watchlist",
+      "count": 0,
+      "items": []
+    },
+    {
+      "ticker": "4DX",
+      "name": "4DMedical",
+      "list": "Watchlist",
+      "count": 1,
+      "items": [
+        {
+          "title": "4DMedical Limited (4DX.AX) stock price, news, quote and history - Yahoo Finance Australia",
+          "source": "Yahoo Finance Australia",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5CbV9vUGVSUDBuSDBKRzdITW1ncko5VmhOVkd3SUpITmdkbG4xcHdjaDk5XzZJV0lkUkdKVVh4MXlSaFI3dzBOb2hTbUhYQTF3T1VpeQ?oc=5",
+          "published": "07 Nov 19:17",
+          "channel": "Google News"
+        }
+      ]
+    },
+    {
+      "ticker": "EIQ",
+      "name": "Echo IQ",
+      "list": "Watchlist",
+      "count": 0,
+      "items": []
+    }
+  ]
+}
