@@ -1,0 +1,92 @@
+{
+  "date": "2026-11-13",
+  "total": 31,
+  "hot": [
+    {
+      "ticker": "ALL.AX",
+      "name": "Aristocrat Leisure",
+      "list": "Portfolio",
+      "data": {
+        "price": 66.34,
+        "low": 44.18,
+        "high": 66.92
+      },
+      "dist_to_high": 0.87,
+      "pos": 97.4
+    },
+    {
+      "ticker": "CSL.AX",
+      "name": "CSL Limited",
+      "list": "Portfolio",
+      "data": {
+        "price": 202.92,
+        "low": 90.0,
+        "high": 205.48
+      },
+      "dist_to_high": 1.25,
+      "pos": 97.8
+    },
+    {
+      "ticker": "SOL.AX",
+      "name": "Washington H. Soul Pattinson",
+      "list": "Portfolio",
+      "data": {
+        "price": 48.29,
+        "low": 34.78,
+        "high": 49.43
+      },
+      "dist_to_high": 2.31,
+      "pos": 92.2
+    },
+    {
+      "ticker": "APA.AX",
+      "name": "APA Group",
+      "list": "Watchlist",
+      "data": {
+        "price": 11.33,
+        "low": 8.445,
+        "high": 11.62
+      },
+      "dist_to_high": 2.5,
+      "pos": 90.9
+    },
+    {
+      "ticker": "MFF.AX",
+      "name": "MFF Capital",
+      "list": "Portfolio",
+      "data": {
+        "price": 5.26,
+        "low": 4.4,
+        "high": 5.5
+      },
+      "dist_to_high": 4.36,
+      "pos": 78.2
+    }
+  ],
+  "warm": [
+    {
+      "ticker": "XRF.AX",
+      "name": "XRF Scientific",
+      "list": "Portfolio",
+      "data": {
+        "price": 2.14,
+        "low": 1.6,
+        "high": 2.26
+      },
+      "dist_to_high": 5.31,
+      "pos": 81.8
+    },
+    {
+      "ticker": "TNE.AX",
+      "name": "TechnologyOne",
+      "list": "Portfolio",
+      "data": {
+        "price": 32.45,
+        "low": 20.14,
+        "high": 35.34
+      },
+      "dist_to_high": 8.18,
+      "pos": 81.0
+    }
+  ]
+}
