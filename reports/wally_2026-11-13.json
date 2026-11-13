@@ -1,0 +1,55 @@
+{
+  "date": "2026-11-13",
+  "threshold": 5.0,
+  "total": 31,
+  "flagged": [
+    {
+      "ticker": "APE.AX",
+      "name": "Eagers Automotive",
+      "list": "Portfolio",
+      "data": {
+        "price": 15.34,
+        "low": 15.15,
+        "high": 31.21
+      },
+      "dist": 1.25,
+      "pos": 1.2
+    },
+    {
+      "ticker": "SHL.AX",
+      "name": "Sonic Healthcare",
+      "list": "Watchlist",
+      "data": {
+        "price": 19.85,
+        "low": 18.11,
+        "high": 24.27
+      },
+      "dist": 9.61,
+      "pos": 28.2
+    },
+    {
+      "ticker": "ARB.AX",
+      "name": "ARB Corporation",
+      "list": "Portfolio",
+      "data": {
+        "price": 18.33,
+        "low": 16.21,
+        "high": 34.745
+      },
+      "dist": 13.08,
+      "pos": 11.4
+    },
+    {
+      "ticker": "WES.AX",
+      "name": "Wesfarmers",
+      "list": "Portfolio",
+      "data": {
+        "price": 80.58,
+        "low": 70.8,
+        "high": 93.25
+      },
+      "dist": 13.81,
+      "pos": 43.6
+    }
+  ]
+}
