@@ -1,0 +1,67 @@
+{
+  "date": "2026-11-27",
+  "threshold": 5.0,
+  "total": 31,
+  "flagged": [
+    {
+      "ticker": "APE.AX",
+      "name": "Eagers Automotive",
+      "list": "Portfolio",
+      "data": {
+        "price": 14.22,
+        "low": 13.715,
+        "high": 30.53
+      },
+      "dist": 3.68,
+      "pos": 3.0
+    },
+    {
+      "ticker": "ARB.AX",
+      "name": "ARB Corporation",
+      "list": "Portfolio",
+      "data": {
+        "price": 17.3,
+        "low": 16.21,
+        "high": 34.745
+      },
+      "dist": 6.72,
+      "pos": 5.9
+    },
+    {
+      "ticker": "LBL.AX",
+      "name": "LaserBond",
+      "list": "Portfolio",
+      "data": {
+        "price": 0.52,
+        "low": 0.485,
+        "high": 0.67
+      },
+      "dist": 7.22,
+      "pos": 18.9
+    },
+    {
+      "ticker": "CAT.AX",
+      "name": "Catapult Group",
+      "list": "Portfolio",
+      "data": {
+        "price": 2.755,
+        "low": 2.56,
+        "high": 5.5
+      },
+      "dist": 7.62,
+      "pos": 6.6
+    },
+    {
+      "ticker": "WES.AX",
+      "name": "Wesfarmers",
+      "list": "Portfolio",
+      "data": {
+        "price": 78.14,
+        "low": 70.8,
+        "high": 93.25
+      },
+      "dist": 10.37,
+      "pos": 32.7
+    }
+  ]
+}
