@@ -1,0 +1,68 @@
+{
+  "date": "2026-11-27",
+  "total": 31,
+  "hot": [
+    {
+      "ticker": "CSL.AX",
+      "name": "CSL Limited",
+      "list": "Portfolio",
+      "data": {
+        "price": 206.88,
+        "low": 90.0,
+        "high": 210.65
+      },
+      "dist_to_high": 1.79,
+      "pos": 96.9
+    },
+    {
+      "ticker": "ALL.AX",
+      "name": "Aristocrat Leisure",
+      "list": "Portfolio",
+      "data": {
+        "price": 65.34,
+        "low": 44.18,
+        "high": 67.49
+      },
+      "dist_to_high": 3.19,
+      "pos": 90.8
+    },
+    {
+      "ticker": "APA.AX",
+      "name": "APA Group",
+      "list": "Watchlist",
+      "data": {
+        "price": 11.16,
+        "low": 8.445,
+        "high": 11.62
+      },
+      "dist_to_high": 3.96,
+      "pos": 85.5
+    }
+  ],
+  "warm": [
+    {
+      "ticker": "TNE.AX",
+      "name": "TechnologyOne",
+      "list": "Portfolio",
+      "data": {
+        "price": 32.35,
+        "low": 20.14,
+        "high": 35.15
+      },
+      "dist_to_high": 7.97,
+      "pos": 81.3
+    },
+    {
+      "ticker": "SOL.AX",
+      "name": "Washington H. Soul Pattinson",
+      "list": "Portfolio",
+      "data": {
+        "price": 46.57,
+        "low": 34.78,
+        "high": 49.43
+      },
+      "dist_to_high": 5.79,
+      "pos": 80.5
+    }
+  ]
+}
